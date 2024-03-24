@@ -1,0 +1,2761 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7ad6bc09-efbe-476e-83f0-a37c375fb717")
+	(paper "A1")
+	(title_block
+		(title "Librem 5 Mainboard")
+		(date "2024-03-21")
+		(rev "v1.0.6.1")
+		(company "Purism SPC")
+		(comment 1 "GNU GPLv3+")
+		(comment 2 "Copyright")
+	)
+	(lib_symbols)
+	(text "V09"
+		(exclude_from_sim no)
+		(at 130.81 176.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "03716f53-6ab5-431e-889f-8cf707f28526")
+	)
+	(text "12, R82 0402 0.1%"
+		(exclude_from_sim no)
+		(at 123.19 416.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04d97674-26c5-4379-8983-a0c0e8de6e31")
+	)
+	(text "R41(47K) changed to 0R"
+		(exclude_from_sim no)
+		(at 328.93 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05be52f8-4d44-46fe-bce9-6fd36c24f5bf")
+	)
+	(text "V091"
+		(exclude_from_sim no)
+		(at 129.54 218.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "069986d1-9dc9-4007-bf30-7eb652b0cd3b")
+	)
+	(text "5,red LED powered by VSYS"
+		(exclude_from_sim no)
+		(at 322.58 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e058d8-aaf9-4e47-8e0e-d6a0f7493841")
+	)
+	(text "6. Mainboard: Add T1,T2"
+		(exclude_from_sim no)
+		(at 327.66 449.58 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ea15512-11f5-42dc-8b85-a07a85fb5cc8")
+	)
+	(text "16, ADD R238 UART2_RXD PU USB_PD_LDO3V3"
+		(exclude_from_sim no)
+		(at 123.19 436.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ebf7795-d2dc-494a-8bfb-69e9a6ebd604")
+	)
+	(text "V1.06"
+		(exclude_from_sim no)
+		(at 326.39 425.45 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "1363f284-7c56-4e9a-b1a3-da1b78ec81eb")
+	)
+	(text "2, ADD L66 L67"
+		(exclude_from_sim no)
+		(at 127 306.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "199cd265-d43b-49e5-917d-7a353548e111")
+	)
+	(text "4, LED_G to 8M D3 pin. NFC_IRQ to 8M E1 pin, INT_M/A/G to 8M L4 pin."
+		(exclude_from_sim no)
+		(at 130.81 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bc04c8e-561f-4ed7-b278-2f4a04da3da1")
+	)
+	(text "4, TYPE-C U27 LSX no connect."
+		(exclude_from_sim no)
+		(at 133.35 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c502530-cbe4-4908-9272-fa4cc1684e1c")
+	)
+	(text "5, DEL F12, Modified IO U329 for L9 layer to GND."
+		(exclude_from_sim no)
+		(at 132.08 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dd2559f-34ae-40dd-a173-4d9dd1a0c277")
+	)
+	(text "4, PWM IO modify. MOTO E6, PMIC_5V T7, LED_B K6."
+		(exclude_from_sim no)
+		(at 129.54 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21bd1461-36be-4c1c-9ec9-35c490a04b2b")
+	)
+	(text "6, INT_M/A/G, NFC_EN, NFC_IRQ modified IO to E1 for L2 to GND"
+		(exclude_from_sim no)
+		(at 132.08 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "229d46a2-5a5e-4057-85f4-8f9cba4c058b")
+	)
+	(text "4. R136 = 22nH"
+		(exclude_from_sim no)
+		(at 547.37 72.39 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "234f7ec3-206c-4791-b473-53ccd35460e5")
+	)
+	(text "R63/ R64,/R100/ R103 NC."
+		(exclude_from_sim no)
+		(at 331.47 293.37 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "262a59bc-a5f4-4112-b7b2-1597b3b77218")
+	)
+	(text "(43)"
+		(exclude_from_sim no)
+		(at 323.85 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26fea5fe-902b-4f4c-ade9-df163e279f59")
+	)
+	(text "5. DEL R180, R184"
+		(exclude_from_sim no)
+		(at 327.66 369.57 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "29a6d4c2-ade3-461a-85f0-4e8b51a127c8")
+	)
+	(text "6, Add NET BT_WAKE"
+		(exclude_from_sim no)
+		(at 123.19 386.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29c06f13-a177-4d20-a265-7cbad64e9dc1")
+	)
+	(text "2, EMMC 32G."
+		(exclude_from_sim no)
+		(at 129.54 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bd719b5-6c80-4c22-bf28-d7cb7a1fbb53")
+	)
+	(text "2, ADD U7 for CAM_AFVDD, 2.8V 120mA¡£"
+		(exclude_from_sim no)
+		(at 129.54 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c294bfb-592c-45d4-a42a-1e1c605d702f")
+	)
+	(text "19, R42 1M ,"
+		(exclude_from_sim no)
+		(at 123.19 452.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d29a4c2-e43a-4432-92ec-070ee05c3b4a")
+	)
+	(text "(22)"
+		(exclude_from_sim no)
+		(at 322.58 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3047b16e-00a4-4450-a226-75314660f58f")
+	)
+	(text "ADD C339"
+		(exclude_from_sim no)
+		(at 330.2 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31baee4e-60b2-4ee3-af61-2d23f1c2247e")
+	)
+	(text "14, U2 USB2642 27,28 connect GND, 26 connect VDD."
+		(exclude_from_sim no)
+		(at 123.19 426.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31fbd5cf-ab27-4d1a-8fbd-4b38c36ffa04")
+	)
+	(text "2, U329 19PIN add Pull-up R229 ."
+		(exclude_from_sim no)
+		(at 132.08 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34bd8684-67dd-4230-b25d-a51f3ad5bc78")
+	)
+	(text "10. D6 changed to 0 ohm resistor (R261)"
+		(exclude_from_sim no)
+		(at 327.66 388.62 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a025d57-baf3-4e74-b79b-e15d14b03abb")
+	)
+	(text "(13) change J22 to P / N: OK-06F034-04"
+		(exclude_from_sim no)
+		(at 322.58 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ad4923d-6fbb-4661-90be-9d6e6aac4429")
+	)
+	(text "3. D10 change to PTVS16VS1UR (USB Board)"
+		(exclude_from_sim no)
+		(at 327.66 361.95 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dd3d4b4-b7e1-44a4-b0d3-70853f442c56")
+	)
+	(text "3, Del R153"
+		(exclude_from_sim no)
+		(at 130.81 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e6a9d44-91b6-4645-9732-a43c7385de49")
+	)
+	(text "Make R33=11.8k"
+		(exclude_from_sim no)
+		(at 328.93 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43afbbb2-b343-47db-8442-01d8d76f75ef")
+	)
+	(text "V098"
+		(exclude_from_sim no)
+		(at 326.39 52.07 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "444d4370-8499-4671-a68f-98e4bece0e16")
+	)
+	(text "(29) R209 R210 changed to 1.5K"
+		(exclude_from_sim no)
+		(at 323.85 252.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "475a0a07-a1ae-4733-8a9b-0427d964a301")
+	)
+	(text "V1.06.1"
+		(exclude_from_sim no)
+		(at 546.1 50.8 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "48c82330-fae7-4e77-924d-fdb8b8d2ea74")
+	)
+	(text "Make R70=9.09k"
+		(exclude_from_sim no)
+		(at 328.93 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c13be31-4fc2-4301-b1ff-4bd68d71ce96")
+	)
+	(text "6. ADD L9"
+		(exclude_from_sim no)
+		(at 327.66 373.38 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d21c8c4-20a1-46ce-a21f-95f151d5561d")
+	)
+	(text "14. C736 Change to 22uF"
+		(exclude_from_sim no)
+		(at 327.66 403.86 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d29e6d3-1e9e-4ac7-9e8b-8fc620ac598f")
+	)
+	(text "6, 4G used SAI6. ADD u5"
+		(exclude_from_sim no)
+		(at 130.81 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e534803-2a49-4246-bb93-e452503dba95")
+	)
+	(text "1, UART1 to LSX, UART2 to GNSS, UART4 to bt, SPI1 to CON24"
+		(exclude_from_sim no)
+		(at 132.08 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed302c7-db07-4482-95ad-13a5d79f9414")
+	)
+	(text "2. R5 CHANGE TO 10R"
+		(exclude_from_sim no)
+		(at 327.66 358.14 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "51451977-de45-4e64-a218-5fa938087aa8")
+	)
+	(text "18, Add TYPEC_HRESET,"
+		(exclude_from_sim no)
+		(at 123.19 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51716dc1-0883-4cd2-9963-287affb4427a")
+	)
+	(text "5, Correct Y2, Y3 Connect."
+		(exclude_from_sim no)
+		(at 133.35 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51df1bd9-9bb5-41b1-9cc3-0e13cbea4424")
+	)
+	(text "419/420/421/422/423/424/427/4287/429/430/431/432/433 1UF 6.3V 0201"
+		(exclude_from_sim no)
+		(at 327.66 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "535c7c38-40b2-4118-bb02-7c3036abd978")
+	)
+	(text "C379 and C380 = 100nF (0.1uF)"
+		(exclude_from_sim no)
+		(at 331.47 297.18 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "5528566f-793a-4373-8ec3-0d2177ebaa2c")
+	)
+	(text "2. R106 = NC"
+		(exclude_from_sim no)
+		(at 547.37 62.23 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e37d34-94a6-47a3-ae97-a092ba63ff98")
+	)
+	(text "ADD C351/352/356/388/396/397/398/399/400/406/407/408/409/410/411/412/413/414/415/416/417//418/"
+		(exclude_from_sim no)
+		(at 327.66 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56b8a43d-f710-458c-bd92-f8ee9b2653d8")
+	)
+	(text "V1.02 & V1.03"
+		(exclude_from_sim no)
+		(at 326.39 347.98 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "5738b400-360b-4813-a2f9-91ecaf63b10a")
+	)
+	(text "2, Modified LM36922 to I2C3, J10 to I2C4."
+		(exclude_from_sim no)
+		(at 124.46 340.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b62015f-d89e-4056-8e77-551f481af635")
+	)
+	(text "5, R122,R58 to 27K, R123 to 47K."
+		(exclude_from_sim no)
+		(at 130.81 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c664a7f-1636-4065-958c-0ac53d59af55")
+	)
+	(text "(16)"
+		(exclude_from_sim no)
+		(at 322.58 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5deafc1e-0ea3-422c-a16f-3057517a628c")
+	)
+	(text "3. USB_board is add CON4,CON5, CON9; delete fuse F1"
+		(exclude_from_sim no)
+		(at 327.66 438.15 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "61fed068-8f1d-4a03-bd8a-5fa39f11b19f")
+	)
+	(text "8, TP34 connect USB_VBUS for test"
+		(exclude_from_sim no)
+		(at 322.58 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62cbb9b4-6b44-48e2-a134-eca09d7557b0")
+	)
+	(text "(31) ADD: LNA BGA725L6 & SAW filter B39162B4327P810. etc"
+		(exclude_from_sim no)
+		(at 323.85 262.89 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "6314b30d-b748-4b32-8f7c-92e39ab6bcb5")
+	)
+	(text "9, TFT con Modify."
+		(exclude_from_sim no)
+		(at 133.35 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63c489d3-34fd-4483-a2af-e1cae64b8cbf")
+	)
+	(text "1, R830 NC, R811 10k."
+		(exclude_from_sim no)
+		(at 128.27 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "642c86b5-00e5-4f89-ac75-a92da28586ba")
+	)
+	(text "(17)"
+		(exclude_from_sim no)
+		(at 322.58 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "665d1988-58dd-4023-b740-5e1e3310114b")
+	)
+	(text "10, ADD u50,U51 , C335,C336"
+		(exclude_from_sim no)
+		(at 322.58 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6771e48c-d223-4c3f-914a-b281b6e6b294")
+	)
+	(text "(35)change the connection of PMIC(U1) Pin49"
+		(exclude_from_sim no)
+		(at 323.85 283.21 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "67d6034c-b128-4e59-b254-694771dfcc37")
+	)
+	(text "(38)"
+		(exclude_from_sim no)
+		(at 323.85 297.18 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "688dbcb2-3fc3-4191-9e22-f3559db41039")
+	)
+	(text "2. USB_board is add U1,U3,U4,U5,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,C6,C7,C8,C9,C10,C11,C12,C13,C18,C19,C23,C24"
+		(exclude_from_sim no)
+		(at 327.66 434.34 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "694f893e-9e3f-46b3-834c-7697e3cd27e9")
+	)
+	(text "(15)"
+		(exclude_from_sim no)
+		(at 322.58 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69b97763-3264-4cfa-89b5-39c0828418ac")
+	)
+	(text "9, SPI MISO ADD pull-up 10K"
+		(exclude_from_sim no)
+		(at 322.58 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cca5f1a-9ae3-4780-81af-4ebc6da9cf12")
+	)
+	(text "13, R934 100K"
+		(exclude_from_sim no)
+		(at 123.19 421.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d44114a-f4bf-4a97-ba29-ff6e814eea93")
+	)
+	(text "V07"
+		(exclude_from_sim no)
+		(at 130.81 113.03 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e78ce03-43ea-477e-9b88-7f00d866271a")
+	)
+	(text "17. The value of R118,R126 change to 18R, the value of R132 change to 100R"
+		(exclude_from_sim no)
+		(at 327.66 415.29 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "70725eaf-fbf2-4e84-a7d4-955cf1d6a6c6")
+	)
+	(text "4. Changed define of J11 (USB_board)"
+		(exclude_from_sim no)
+		(at 327.66 441.96 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "7111a59a-9d9a-4722-9db2-9d97640ca0f1")
+	)
+	(text "add inverter (Q12)"
+		(exclude_from_sim no)
+		(at 330.2 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7274d580-ffa6-4b06-82af-4a4fd737e9ba")
+	)
+	(text "2, C181 NC"
+		(exclude_from_sim no)
+		(at 322.58 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a807d6-aae2-4bfb-8a5b-7f16be4812bd")
+	)
+	(text "10, R176 PU to NVCC_SNVS_3V3"
+		(exclude_from_sim no)
+		(at 123.19 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74c95c8f-a1ad-4b5a-8a4d-96ddef89083d")
+	)
+	(text "(18)"
+		(exclude_from_sim no)
+		(at 322.58 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "751c0142-bb4b-4cf3-87bf-c0922590ecc3")
+	)
+	(text "1. Q12 CHANGE TO BSS138PW"
+		(exclude_from_sim no)
+		(at 327.66 354.33 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "752597ba-ce43-4218-9744-9f377ad029e1")
+	)
+	(text "20, U147 connect TPS65982"
+		(exclude_from_sim no)
+		(at 123.19 457.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75ea4281-cd1b-4991-bcc1-1f44185403ee")
+	)
+	(text "1, U5 8pin to SAI1_TXD5, 9pin to SAI1_RXD5."
+		(exclude_from_sim no)
+		(at 129.54 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75f2ead3-3f34-42f1-97bc-6a24880143b1")
+	)
+	(text "15. C740 Change to 10uF"
+		(exclude_from_sim no)
+		(at 327.66 407.67 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "79808915-7a77-41e4-aaec-0e0898742d96")
+	)
+	(text "4. ADD PTC FUSE :400CC1206LR-C (USB Board)"
+		(exclude_from_sim no)
+		(at 327.66 365.76 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b6088b9-5ae8-4f19-8686-e41949604045")
+	)
+	(text "4, VSYS_3V4_4V3 add 7x22uf C281...."
+		(exclude_from_sim no)
+		(at 123.19 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b63591a-a504-4cae-aaa3-b5ee447d20d4")
+	)
+	(text "3, U3 NC."
+		(exclude_from_sim no)
+		(at 129.54 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dc5f9be-ef0a-4169-a108-cfc2cc94a6a1")
+	)
+	(text "3,main board usb 2.0 connector"
+		(exclude_from_sim no)
+		(at 322.58 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8018ad11-17c7-481d-a165-667b381ebc53")
+	)
+	(text "SIM +TF Card changed to SA2101110135-103-01, TF_NCD and 4G_ SIM_ CD two port exchange"
+		(exclude_from_sim no)
+		(at 330.2 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "802e019c-7211-43ad-b92c-6abba4ffbe89")
+	)
+	(text "(41)"
+		(exclude_from_sim no)
+		(at 323.85 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80d7ec38-eb20-4fa9-97dc-dc87fd5f9ac9")
+	)
+	(text "ADD: C448 C449 C450 22UF 0603 6.3V"
+		(exclude_from_sim no)
+		(at 331.47 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82447f41-2029-4b13-8aa6-9f263228ab3a")
+	)
+	(text "(34) C343/C377 changed to 220PF"
+		(exclude_from_sim no)
+		(at 325.12 278.13 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "837cabb3-71fe-4a1e-9d93-b557a44b4fb3")
+	)
+	(text "23, J12 modifed"
+		(exclude_from_sim no)
+		(at 123.19 471.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "838d6a1e-9bda-4d6d-aae8-c1bcacb4d433")
+	)
+	(text "(21)"
+		(exclude_from_sim no)
+		(at 322.58 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "845beee3-c7e2-473c-a366-589828b28d68")
+	)
+	(text "8, ADD U68 NTSX2102"
+		(exclude_from_sim no)
+		(at 123.19 396.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85083382-2bb9-4d4e-9258-4fc7924116e6")
+	)
+	(text "(25)"
+		(exclude_from_sim no)
+		(at 321.31 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85a576ed-ff01-4740-aae4-3df64bf03b3f")
+	)
+	(text "Connect SMC_ Boot0 to D7 pin of imx8mq"
+		(exclude_from_sim no)
+		(at 328.93 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86775a49-f17d-4181-80e5-1835462797f9")
+	)
+	(text "1, BOOT Resistor Modified."
+		(exclude_from_sim no)
+		(at 129.54 252.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86e09356-b5ad-4e9f-9863-2fcf863323af")
+	)
+	(text "R166, R109 changed to 0R"
+		(exclude_from_sim no)
+		(at 328.93 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a7566be-72e9-409f-ba23-62483dc8f9b9")
+	)
+	(text "1, ADD R153 for TPS65983B Slave."
+		(exclude_from_sim no)
+		(at 124.46 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aa88941-d585-47fa-9113-6d5d67765cdc")
+	)
+	(text "22, J50 modified"
+		(exclude_from_sim no)
+		(at 123.19 467.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b61b8d8-9cb7-4810-9e46-46214e3da6e1")
+	)
+	(text "ADD CLOCK Crystal(Y1 )VALUE:32.768K 10pF +/-20ppm"
+		(exclude_from_sim no)
+		(at 328.93 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be1a519-3ea4-4c6c-bb3e-4af7805ee8c2")
+	)
+	(text "Change U101 MIPI_ VDDHA3 connection"
+		(exclude_from_sim no)
+		(at 330.2 288.29 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d5df98a-89a9-4a9e-a202-30d0532a35c0")
+	)
+	(text "10, STM32 PA10 NC. UART add Pull-up R108, R135"
+		(exclude_from_sim no)
+		(at 132.08 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "918bcb5e-7654-4c31-aea2-e546165f9ab2")
+	)
+	(text "2, HW state IO add resister. R48, R66, R145"
+		(exclude_from_sim no)
+		(at 132.08 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "929ef9d4-5cf1-4eb3-a842-033d35e0218f")
+	)
+	(text "(14) J9 smartcard (80500122) is changed to SA070112150-105"
+		(exclude_from_sim no)
+		(at 322.58 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "935cfa58-5697-48ee-9245-4bed1bd688a5")
+	)
+	(text "4,PFET pull up UART2_RX"
+		(exclude_from_sim no)
+		(at 322.58 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9414fe75-d9ae-4191-a0d4-1c90a0e96b37")
+	)
+	(text "V097"
+		(exclude_from_sim no)
+		(at 127 350.52 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "9488bfd7-0e2e-4249-aeed-d0b10a372243")
+	)
+	(text "(37)"
+		(exclude_from_sim no)
+		(at 323.85 293.37 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "95db88c5-ee24-4ff8-9747-326b26f3e2d9")
+	)
+	(text "V099"
+		(exclude_from_sim no)
+		(at 323.85 114.3 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "96ddb675-45fd-44fb-bdd5-41115686a96b")
+	)
+	(text "(33)Remove TVS11, TVS30, TVS31, and TVS32 on the main board:"
+		(exclude_from_sim no)
+		(at 323.85 273.05 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "97590be4-30c9-4a23-b598-e93ae8132230")
+	)
+	(text "(40)"
+		(exclude_from_sim no)
+		(at 323.85 306.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97a793cf-ce57-4b6e-bb42-c9ee02048603")
+	)
+	(text "ADD :Y2 (32.768K)/C332/C333(6.8Pf)"
+		(exclude_from_sim no)
+		(at 331.47 306.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98937d2c-73b8-40e0-8360-dffab02e75a8")
+	)
+	(text "1, 0 ohm jumpers SPI."
+		(exclude_from_sim no)
+		(at 322.58 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "993f6ec2-0422-40f5-a076-a9c2475fb5f8")
+	)
+	(text "11, R104 10 value."
+		(exclude_from_sim no)
+		(at 123.19 411.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99bd1222-7220-43be-9cc5-e0c370fa2615")
+	)
+	(text "7. USB-C Board: DEL U5,R12,R13,R14,C20,C23,C24,L1,C2"
+		(exclude_from_sim no)
+		(at 327.66 453.39 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "99dc1b43-c926-4b64-b2ad-fc2a5a346cec")
+	)
+	(text "11. R55 and R218 connect to VDD_ 1V8"
+		(exclude_from_sim no)
+		(at 327.66 392.43 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b2d89c0-63bc-4b33-a705-96271229dc2d")
+	)
+	(text "1, R115 Modified to 200."
+		(exclude_from_sim no)
+		(at 125.73 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cd508a6-91de-4446-94e9-e87929253984")
+	)
+	(text "ADD R251/R252 1M"
+		(exclude_from_sim no)
+		(at 332.74 300.99 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e23896d-2869-4903-bbde-560307bddbfa")
+	)
+	(text "3, 4G, WIFI ant CON add Debug L,C"
+		(exclude_from_sim no)
+		(at 132.08 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e66b2f5-cbc5-483e-80a7-afbdc5dac71d")
+	)
+	(text "8, CAMERA Modify. Add LDO for DVDD 1.2 and 1.05."
+		(exclude_from_sim no)
+		(at 133.35 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f48144b-353a-4001-bb85-246435723cf4")
+	)
+	(text "1, BAT CON Modified for 1000 times."
+		(exclude_from_sim no)
+		(at 127 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f6eb6e0-3ad2-4114-8e38-17a98592a6ee")
+	)
+	(text "add a test point to pin C2 of the TPS65982 (U27's GPIO1_CFG0)"
+		(exclude_from_sim no)
+		(at 328.93 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0ff520d-a070-4e19-a2a9-8539f54d7f72")
+	)
+	(text "(19)"
+		(exclude_from_sim no)
+		(at 322.58 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a191fe6f-189f-4f79-9d32-e9ebcf5004f3")
+	)
+	(text "2, Move SMC_BOOT0 to Page 22 , TP6."
+		(exclude_from_sim no)
+		(at 133.35 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a361e8ae-837d-4ead-80a5-b292cff2a8a5")
+	)
+	(text "(36)"
+		(exclude_from_sim no)
+		(at 323.85 288.29 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4d67f23-a1eb-4e59-82bf-d9f58cb81636")
+	)
+	(text "(30) DEL R1903"
+		(exclude_from_sim no)
+		(at 323.85 257.81 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5585893-831a-446a-b8d3-2b7bc9c75a5e")
+	)
+	(text "1, AUX_P , AUX_N swapped."
+		(exclude_from_sim no)
+		(at 130.81 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5fccdad-8cec-4f1e-a668-a7e7e1c4f2b0")
+	)
+	(text "1. Schematic of V2.0 mainboard is not add new part,only changed net and define of J3 &J12 ."
+		(exclude_from_sim no)
+		(at 327.66 430.53 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "a84e702b-7f72-4d8b-ac05-7c5cb9804886")
+	)
+	(text "(27)"
+		(exclude_from_sim no)
+		(at 322.58 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a928b914-93d3-4056-8776-5796b500a6fe")
+	)
+	(text "9. The 33 and 34pin of PMIC increase 0 ohm resistance (R259/R260)"
+		(exclude_from_sim no)
+		(at 327.66 384.81 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf8b7b9-87c6-429f-969e-7450d0396999")
+	)
+	(text "1, UART2 to LSX"
+		(exclude_from_sim no)
+		(at 132.08 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac428f0c-d095-4f4b-89fb-739314dc4b4f")
+	)
+	(text "17, ADD Q10, R239, R240,R241"
+		(exclude_from_sim no)
+		(at 123.19 441.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d4a523-93e2-4140-b210-48dba8b58759")
+	)
+	(text "(Change to plastic tray)"
+		(exclude_from_sim no)
+		(at 463.55 158.75 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "b40fc6b3-8db0-49d9-99eb-5671a222bd87")
+	)
+	(text "5. R100,R103 Change to 100K"
+		(exclude_from_sim no)
+		(at 327.66 445.77 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6027745-a0a8-4081-ae0b-30a2072d1810")
+	)
+	(text "7, Add SIM DET D6."
+		(exclude_from_sim no)
+		(at 133.35 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b648e51a-4608-4f99-9d8c-e9c71c5643d6")
+	)
+	(text "6, TPS65982 I2C2 10K pull-ups"
+		(exclude_from_sim no)
+		(at 322.58 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7ef1295-dc24-426f-a2c6-72441c68630b")
+	)
+	(text "7, TPS65982 remove_usb 2.0"
+		(exclude_from_sim no)
+		(at 322.58 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b90cfbdb-955d-4dba-a6f0-2ab947f87de1")
+	)
+	(text "1. R163 = 16k"
+		(exclude_from_sim no)
+		(at 547.37 57.15 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "b93899a2-aff2-4cb0-9299-c56c50be47d5")
+	)
+	(text "(26)"
+		(exclude_from_sim no)
+		(at 321.31 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b97776bd-2cd3-4671-af8e-a2d7d9bf2594")
+	)
+	(text "(24)"
+		(exclude_from_sim no)
+		(at 322.58 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b97a5070-2d11-43d9-b645-8029eb1f229d")
+	)
+	(text "1, Add N-mosfet Q8 on SD2_NCD."
+		(exclude_from_sim no)
+		(at 123.19 360.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9e47e10-507f-42b9-891f-c1f4723a4b14")
+	)
+	(text "3. R144 = 0"
+		(exclude_from_sim no)
+		(at 547.37 67.31 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb0f3492-87c5-47ae-acba-bd8deace8371")
+	)
+	(text "V095"
+		(exclude_from_sim no)
+		(at 128.27 314.96 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb4977ad-13e2-48cb-a741-7e1dc0d541ff")
+	)
+	(text "ADD R254/0 OHM"
+		(exclude_from_sim no)
+		(at 331.47 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be9c26cc-8fab-48a1-b275-134dce08410c")
+	)
+	(text "2, Add R236."
+		(exclude_from_sim no)
+		(at 130.81 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf5eb40c-fd56-4a4e-8a20-4c59165760b5")
+	)
+	(text "(20)"
+		(exclude_from_sim no)
+		(at 322.58 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0e3a026-3b83-4339-8944-be2f4716a10d")
+	)
+	(text "V093"
+		(exclude_from_sim no)
+		(at 129.54 278.13 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "c21f20f7-3a7f-45b2-bd4f-b8ab0cc29e05")
+	)
+	(text "(44) add R255/0 ohm"
+		(exclude_from_sim no)
+		(at 325.12 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a53568-596d-4143-baf1-c590f3996e1e")
+	)
+	(text "Headphone socket (J2) changed to JA-36A1-111"
+		(exclude_from_sim no)
+		(at 328.93 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c453a5ca-3ca0-4d4b-847f-0dbd923927c0")
+	)
+	(text "V06"
+		(exclude_from_sim no)
+		(at 133.35 50.8 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "c79bff07-b347-4fd9-beab-83883b68ada8")
+	)
+	(text "3, VDD_3V3 add 4x22uf C231...."
+		(exclude_from_sim no)
+		(at 123.19 370.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7f8d15a-90cc-41e0-ac2f-03d6a21547ff")
+	)
+	(text "ADD C436/437/439/440/441/442/443/444 0201/1UF"
+		(exclude_from_sim no)
+		(at 331.47 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c878956c-cbbc-4413-b84f-210a1d292708")
+	)
+	(text "5. Change U38 from AP2281-3FMG to AP2281-1FMG"
+		(exclude_from_sim no)
+		(at 547.37 77.47 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9cde47d-006c-45ab-936b-0a2d9f491735")
+	)
+	(text "7, AUDIO_POWER_KEY connect Q2 PIN1."
+		(exclude_from_sim no)
+		(at 123.19 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e261de-8705-492f-9e0a-8e2e1204ac02")
+	)
+	(text "3, HKs Add Pull-up Resistor , And add Read state GPIO."
+		(exclude_from_sim no)
+		(at 133.35 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caec4d6b-67cf-4080-ac97-c2bcde8c0a3e")
+	)
+	(text "(23)"
+		(exclude_from_sim no)
+		(at 322.58 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf003e91-1e60-422a-81ab-d0d54af3511c")
+	)
+	(text "7. ADD D25(NSR20F30NXT5G);"
+		(exclude_from_sim no)
+		(at 327.66 377.19 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "d207fd1a-8426-4009-8f22-3415ebdb066d")
+	)
+	(text "Use TLV75801PDBVR instead of LCDL015MR for U21 and U37"
+		(exclude_from_sim no)
+		(at 328.93 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2984652-cbe8-41ea-bb88-8d2c9b1c976b")
+	)
+	(text "9, BOOT_CFG PU to NVCC_SNVS_3V3"
+		(exclude_from_sim no)
+		(at 123.19 401.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d74e9df2-4af6-4fa3-8de8-df0c7877e9a4")
+	)
+	(text "3, U2 modified USB2642"
+		(exclude_from_sim no)
+		(at 129.54 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7edc80d-ac15-4300-95a1-80d2e6ef8b22")
+	)
+	(text "4, Add shielding Case Hold."
+		(exclude_from_sim no)
+		(at 132.08 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8b7ad60-d4ff-4cb5-b32f-b481d47f45a6")
+	)
+	(text "12. Add Q13, R263 and related networks"
+		(exclude_from_sim no)
+		(at 327.66 396.24 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "dafd3d41-8220-4374-9b57-2fd71372afc5")
+	)
+	(text "7, ADD R232"
+		(exclude_from_sim no)
+		(at 132.08 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc14a416-65c8-4613-ad49-f4cc09d04edd")
+	)
+	(text "ADD :R253/NC"
+		(exclude_from_sim no)
+		(at 331.47 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd9c4a0a-7070-4e16-ab3f-a048a90b2d1a")
+	)
+	(text "6, Add Voltage Test Point , >40 point"
+		(exclude_from_sim no)
+		(at 133.35 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd9da85a-47f9-4ad2-bd07-e2db56aabe7e")
+	)
+	(text "(42)"
+		(exclude_from_sim no)
+		(at 323.85 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dde6673a-9710-4be9-9dc9-bd759226e544")
+	)
+	(text "(45) C87/C256 changed to 56pF"
+		(exclude_from_sim no)
+		(at 325.12 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de75a64a-d0a9-4769-aed0-a842e72ad771")
+	)
+	(text "Add connection between J4's pin12 and U101's G6"
+		(exclude_from_sim no)
+		(at 331.47 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deafeae5-3f47-48eb-aee8-d656d0a5e8e3")
+	)
+	(text "Remove R234 (0)"
+		(exclude_from_sim no)
+		(at 328.93 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfc15c18-63af-46f7-bd95-5bd021a0a452")
+	)
+	(text "1, Del NFC PN7150, Add CON24, UART1 for GNSS or Debug, SPI2 to CON24, UART2 for BT"
+		(exclude_from_sim no)
+		(at 133.35 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e285ccf1-7f16-4278-92e1-035ea6c82e44")
+	)
+	(text "15, ADD Q9, Modified WIFI_REG_ON, BT_REG_ON."
+		(exclude_from_sim no)
+		(at 123.19 431.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2d01715-e14a-4004-ae45-82687ab78fcf")
+	)
+	(text "C434 C435 NC"
+		(exclude_from_sim no)
+		(at 331.47 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e32c598c-b16d-4c3d-b194-275f86ffa05a")
+	)
+	(text "V096"
+		(exclude_from_sim no)
+		(at 127 330.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "e558b28d-4df0-4ff9-943d-13c953090dcc")
+	)
+	(text "(32)Bring USB_PD_LDO3V3 to pin 23 of J12 on the main board:"
+		(exclude_from_sim no)
+		(at 323.85 267.97 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "e649fd80-7874-47bc-98ca-0bdf89171e84")
+	)
+	(text "(12) Cancel J50 (flash holder) and move the flash to the rear camera FPC"
+		(exclude_from_sim no)
+		(at 322.58 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9b375f1-cf1c-4405-ad33-036fce67e79a")
+	)
+	(text "8. The connection network of R2 and R3 is changed to nvcc_ SNVS_ 3V3"
+		(exclude_from_sim no)
+		(at 327.66 381 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb583ccb-1aae-431c-ae83-e022f92a7bd4")
+	)
+	(text "(46) ADD C451/C454 56pF"
+		(exclude_from_sim no)
+		(at 325.12 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0db93c1-abca-4b07-806e-9101d1448a7d")
+	)
+	(text "V092"
+		(exclude_from_sim no)
+		(at 129.54 246.38 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "f110b9fc-d3c9-4d7b-94d5-df11e3dadbdc")
+	)
+	(text "2, TPS65982 LDO_1V8D Connected BUSPOWERZ."
+		(exclude_from_sim no)
+		(at 123.19 365.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2b4ccd6-6da3-4724-8492-ac5ba7c044f4")
+	)
+	(text "16. J12 PIN define have changed."
+		(exclude_from_sim no)
+		(at 327.66 411.48 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "f51351e5-fdcd-4384-81d6-3cd866f3e170")
+	)
+	(text "13. J22pin of U101 is connected to TF_ NCD"
+		(exclude_from_sim no)
+		(at 327.66 400.05 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "f609ada3-204d-4914-97ab-2b8f14e9b5f9")
+	)
+	(text "V08"
+		(exclude_from_sim no)
+		(at 130.81 133.35 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6a77763-c48b-412e-aaaf-b634aecf1a45")
+	)
+	(text "(28)"
+		(exclude_from_sim no)
+		(at 322.58 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7f05e59-e218-4d5c-9695-b97a240d6999")
+	)
+	(text "(11) Battery connector (J20): changed to P / N: BA32-111203-01 3pin"
+		(exclude_from_sim no)
+		(at 322.58 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f942c7d3-768c-435b-af83-90d51793f3e8")
+	)
+	(text "V094"
+		(exclude_from_sim no)
+		(at 129.54 294.64 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "f97643eb-c470-4747-81c2-1038bc0f25b1")
+	)
+	(text "5, U27 TPS65982 F2 UART_RX 100k R223 connect GND."
+		(exclude_from_sim no)
+		(at 123.19 381 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa3ef801-3069-4b89-ab2f-7105aaf2f604")
+	)
+	(text "21, SW3,SW5,SW7 2-3PIN"
+		(exclude_from_sim no)
+		(at 123.19 462.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd62e319-48ab-4d90-a3ba-f1464cf50717")
+	)
+	(text "(39)"
+		(exclude_from_sim no)
+		(at 323.85 300.99 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe5cc552-669e-4a7d-a9ed-ce23f3673ce4")
+	)
+	(text "0, CHG_STATUS_B connect Red LED."
+		(exclude_from_sim no)
+		(at 123.19 355.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff92c3de-8fdc-4636-ab64-cf5e43bdb9da")
+	)
+	(sheet
+		(at 563.88 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "115a8a8a-d47c-48b2-b28f-d30f142ce1a9")
+		(property "Sheetname" "C-17_4G"
+			(at 563.88 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-17_4G.kicad_sch"
+			(at 563.88 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 495.3 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14e5b01a-66c5-474c-9cad-68033e54a445")
+		(property "Sheetname" "C-15_GNSS_EXT_CON"
+			(at 495.3 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-15_GNSS_EXT_CON.kicad_sch"
+			(at 495.3 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 287.02 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "159f2f9e-0615-47f0-a9de-c4fe4d9084b4")
+		(property "Sheetname" "C-09_EMMC"
+			(at 287.02 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-09_EMMC.kicad_sch"
+			(at 287.02 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "303380df-9db1-48cc-8368-698bedf49552")
+		(property "Sheetname" "C-08_CPU_PHY"
+			(at 255.27 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-08_CPU_PHY.kicad_sch"
+			(at 255.27 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "320530a2-a10a-4c91-a13f-cbaa90981e8b")
+		(property "Sheetname" "C-05_LPDDR4"
+			(at 157.48 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-05_LPDDR4.kicad_sch"
+			(at 157.48 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 589.28 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3258c66e-b059-455a-84c4-b92b355a3b77")
+		(property "Sheetname" "C-18_CAMERA"
+			(at 589.28 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-18_CAMERA.kicad_sch"
+			(at 589.28 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 728.98 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3406fcc0-6036-444e-9046-c4de03c763a9")
+		(property "Sheetname" "C-22_DEBUG_MFG"
+			(at 728.98 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-22_DEBUG_MFG.kicad_sch"
+			(at 728.98 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 452.12 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38f14772-5743-42ee-b41a-9ab2c1b9358d")
+		(property "Sheetname" "C-14_SENSOR_SMARTCARD"
+			(at 452.12 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-14_SENSOR_SMARTCARD.kicad_sch"
+			(at 452.12 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 690.88 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39cf0f8a-5588-4d21-b993-d62b6ce8484c")
+		(property "Sheetname" "C-21_AUDIO_WM8962"
+			(at 690.88 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-21_AUDIO_WM8962.kicad_sch"
+			(at 690.88 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 344.17 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f14ee0a-518b-4f0b-9cf6-9d0c176a69ad")
+		(property "Sheetname" "C-11_BOOT_CFG"
+			(at 344.17 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-11_BOOT_CFG.kicad_sch"
+			(at 344.17 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 412.75 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bad9d96-e562-462b-8cd4-61c3977a0816")
+		(property "Sheetname" "C-13_CHARGE_BAT_LED"
+			(at 412.75 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-13_CHARGE_BAT_LED.kicad_sch"
+			(at 412.75 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "841151ef-a8a1-45aa-a1b1-c56965e8bcc3")
+		(property "Sheetname" "C-07_CPU_MISC_RTC"
+			(at 218.44 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-07_CPU_MISC_RTC.kicad_sch"
+			(at 218.44 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 655.32 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "858757d7-a145-4844-b420-827f1680b246")
+		(property "Sheetname" "C-20_USB_HUB_SD"
+			(at 655.32 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-20_USB_HUB_SD.kicad_sch"
+			(at 655.32 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e92d5a9-8bdb-4af2-87fe-dd90e3fad73f")
+		(property "Sheetname" "C-03_POWER_TREE"
+			(at 90.17 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-03_POWER_TREE.kicad_sch"
+			(at 90.17 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 316.23 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a462afca-8ed7-4f36-99b8-36d07aac096b")
+		(property "Sheetname" "C-10_PMIC"
+			(at 316.23 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-10_PMIC.kicad_sch"
+			(at 316.23 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 533.4 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b243d4ab-c8af-40e9-956e-9db2e2753c6f")
+		(property "Sheetname" "C-16_WIFI_BT"
+			(at 533.4 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-16_WIFI_BT.kicad_sch"
+			(at 533.4 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 619.76 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee7fce98-67cd-45bb-bd85-7c028526726f")
+		(property "Sheetname" "C-19_TFT_TP_MOTO"
+			(at 619.76 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-19_TFT_TP_MOTO.kicad_sch"
+			(at 619.76 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 377.19 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f552c80d-4082-4dd6-a8e1-dcdef3d76357")
+		(property "Sheetname" "C-12_USB_TYPE-C"
+			(at 377.19 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-12_USB_TYPE-C.kicad_sch"
+			(at 377.19 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5c5ccf0-ee24-4452-8f4d-514da3aa0ff2")
+		(property "Sheetname" "C-04_CPU_PWR"
+			(at 125.73 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-04_CPU_PWR.kicad_sch"
+			(at 125.73 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 508)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb3ee888-6ec5-485f-92ba-fa3fa27a58e3")
+		(property "Sheetname" "C-06_CPU_IO"
+			(at 187.96 507.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C-06_CPU_IO.kicad_sch"
+			(at 187.96 512.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/7ad6bc09-efbe-476e-83f0-a37c375fb717"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

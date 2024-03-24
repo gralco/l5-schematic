@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Librem5_USB_V106_20210611")(type "KiCad")(uri "${KIPRJMOD}/Librem5_USB_V106_20210611.kicad_sym")(options "")(descr ""))
+)

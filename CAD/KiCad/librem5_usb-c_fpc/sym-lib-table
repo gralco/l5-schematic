@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "librem5_usb-c_fpc")(type "KiCad")(uri "${KIPRJMOD}/librem5_usb-c_fpc.kicad_sym")(options "")(descr ""))
+)
