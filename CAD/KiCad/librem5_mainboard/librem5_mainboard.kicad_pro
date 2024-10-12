@@ -69,10 +69,13 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -207,6 +210,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -401,10 +405,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -417,9 +426,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "error",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -446,6 +460,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -463,6 +478,7 @@
         "microvia_drill": 0.1,
         "name": "All Nets",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -480,6 +496,7 @@
         "microvia_drill": 0.1,
         "name": "ClearanceClass_2(RuleSet)",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -497,6 +514,7 @@
         "microvia_drill": 0.1,
         "name": "RoutingClass_22(RuleSet)",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -505,7 +523,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -7180,6 +7198,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -7233,6 +7252,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -7267,6 +7287,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -7283,83 +7304,83 @@
     ],
     [
       "8e92d5a9-8bdb-4af2-87fe-dd90e3fad73f",
-      "C-03_POWER_TREE"
+      "02_POWER_TREE"
     ],
     [
       "f5c5ccf0-ee24-4452-8f4d-514da3aa0ff2",
-      "C-04_CPU_PWR"
+      "03_CPU_PWR"
     ],
     [
       "320530a2-a10a-4c91-a13f-cbaa90981e8b",
-      "C-05_LPDDR4"
+      "04_LPDDR4"
     ],
     [
       "fb3ee888-6ec5-485f-92ba-fa3fa27a58e3",
-      "C-06_CPU_IO"
+      "05_CPU_IO"
     ],
     [
       "841151ef-a8a1-45aa-a1b1-c56965e8bcc3",
-      "C-07_CPU_MISC_RTC"
+      "06_CPU_MISC_RTC"
     ],
     [
       "303380df-9db1-48cc-8368-698bedf49552",
-      "C-08_CPU_PHY"
+      "07_CPU_PHY"
     ],
     [
       "159f2f9e-0615-47f0-a9de-c4fe4d9084b4",
-      "C-09_EMMC"
+      "08_EMMC"
     ],
     [
       "a462afca-8ed7-4f36-99b8-36d07aac096b",
-      "C-10_PMIC"
+      "09_PMIC"
     ],
     [
       "5f14ee0a-518b-4f0b-9cf6-9d0c176a69ad",
-      "C-11_BOOT_CFG"
+      "10_BOOT_CFG"
     ],
     [
       "f552c80d-4082-4dd6-a8e1-dcdef3d76357",
-      "C-12_USB_TYPE-C"
+      "11_USB_TYPE-C"
     ],
     [
       "6bad9d96-e562-462b-8cd4-61c3977a0816",
-      "C-13_CHARGE_BAT_LED"
+      "12_CHARGE_BAT_LED"
     ],
     [
       "38f14772-5743-42ee-b41a-9ab2c1b9358d",
-      "C-14_SENSOR_SMARTCARD"
+      "13_SENSOR_SMARTCARD"
     ],
     [
       "14e5b01a-66c5-474c-9cad-68033e54a445",
-      "C-15_GNSS_EXT_CON"
+      "14_GNSS_EXT_CON"
     ],
     [
       "b243d4ab-c8af-40e9-956e-9db2e2753c6f",
-      "C-16_WIFI_BT"
+      "15_WIFI_BT"
     ],
     [
       "115a8a8a-d47c-48b2-b28f-d30f142ce1a9",
-      "C-17_4G"
+      "16_4G"
     ],
     [
       "3258c66e-b059-455a-84c4-b92b355a3b77",
-      "C-18_CAMERA"
+      "17_CAMERA"
     ],
     [
       "ee7fce98-67cd-45bb-bd85-7c028526726f",
-      "C-19_TFT_TP_MOTO"
+      "18_TFT_TP_MOTO"
     ],
     [
       "858757d7-a145-4844-b420-827f1680b246",
-      "C-20_USB_HUB_SD"
+      "19_USB_HUB_SD"
     ],
     [
       "39cf0f8a-5588-4d21-b993-d62b6ce8484c",
-      "C-21_AUDIO_WM8962"
+      "20_AUDIO_WM8962"
     ],
     [
       "3406fcc0-6036-444e-9046-c4de03c763a9",
-      "C-22_DEBUG_MFG"
+      "21_DEBUG_MFG"
     ]
   ],
   "text_variables": {}
