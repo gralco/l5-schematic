@@ -13223,7 +13223,7 @@
 		)
 		(uuid "ff095f2c-e249-4d1a-9ff6-532481648c5e")
 	)
-	(hierarchical_label "NVCC_SNVS_3V3"
+	(global_label "NVCC_SNVS_3V3"
 		(shape passive)
 		(at 241.3 74.93 180)
 		(fields_autoplaced yes)
@@ -13235,7 +13235,7 @@
 		)
 		(uuid "0add07a9-58a3-478c-8c1f-e690aeb326bb")
 	)
-	(hierarchical_label "VDD_DRAM_0V9"
+	(global_label "VDD_DRAM_0V9"
 		(shape passive)
 		(at 125.73 208.28 180)
 		(fields_autoplaced yes)
@@ -13247,7 +13247,7 @@
 		)
 		(uuid "11f09844-b3a9-4bc9-a2e8-3b8afcd2980a")
 	)
-	(hierarchical_label "VDD_ARM_0V9"
+	(global_label "VDD_ARM_0V9"
 		(shape passive)
 		(at 430.53 208.28 0)
 		(fields_autoplaced yes)
@@ -13259,7 +13259,7 @@
 		)
 		(uuid "1aa11295-558f-4e0e-b1eb-c7d01fa28efe")
 	)
-	(hierarchical_label "VDD_GPU_0V9"
+	(global_label "VDD_GPU_0V9"
 		(shape passive)
 		(at 345.44 327.66 180)
 		(fields_autoplaced yes)
@@ -13271,7 +13271,7 @@
 		)
 		(uuid "1ca9d4f7-e3e7-465d-86ab-a04f42d3f945")
 	)
-	(hierarchical_label "NVCC_SNVS_3V3"
+	(global_label "NVCC_SNVS_3V3"
 		(shape passive)
 		(at 481.33 224.79 180)
 		(fields_autoplaced yes)
@@ -13283,7 +13283,7 @@
 		)
 		(uuid "2afcc44b-42cd-40f6-a8b2-133349dbadcf")
 	)
-	(hierarchical_label "NVCC_SNVS_3V3"
+	(global_label "NVCC_SNVS_3V3"
 		(shape input)
 		(at 337.82 140.97 0)
 		(fields_autoplaced yes)
@@ -13295,7 +13295,7 @@
 		)
 		(uuid "2c67090f-a317-4357-a022-8e795956952c")
 	)
-	(hierarchical_label "NVCC_DRAM_1V1"
+	(global_label "NVCC_DRAM_1V1"
 		(shape passive)
 		(at 351.79 66.04 180)
 		(fields_autoplaced yes)
@@ -13307,7 +13307,7 @@
 		)
 		(uuid "2d93fb60-347b-4c6f-98bb-0a23e294e8fd")
 	)
-	(hierarchical_label "VDD_SOC_0V9"
+	(global_label "VDD_SOC_0V9"
 		(shape passive)
 		(at 430.53 203.2 0)
 		(fields_autoplaced yes)
@@ -13319,7 +13319,7 @@
 		)
 		(uuid "2f44dd0e-9f90-4efd-a836-2956fdce7850")
 	)
-	(hierarchical_label "PMIC_ON_REQ"
+	(global_label "PMIC_ON_REQ"
 		(shape passive)
 		(at 521.97 118.11 0)
 		(fields_autoplaced yes)
@@ -13331,7 +13331,7 @@
 		)
 		(uuid "3c26de28-9d66-409f-a9c3-69cf2e086ee7")
 	)
-	(hierarchical_label "I2C1_SDA"
+	(global_label "I2C1_SDA"
 		(shape passive)
 		(at 387.35 162.56 0)
 		(fields_autoplaced yes)
@@ -13343,7 +13343,7 @@
 		)
 		(uuid "3c7e9cd4-bff1-4b60-b8e6-4f142af2f097")
 	)
-	(hierarchical_label "PMIC_ON_REQ"
+	(global_label "PMIC_ON_REQ"
 		(shape passive)
 		(at 387.35 172.72 0)
 		(fields_autoplaced yes)
@@ -13355,7 +13355,7 @@
 		)
 		(uuid "45556206-2d95-483e-90db-341f250307b1")
 	)
-	(hierarchical_label "VDD_PHY_3V3"
+	(global_label "VDD_PHY_3V3"
 		(shape input)
 		(at 303.53 312.42 270)
 		(fields_autoplaced yes)
@@ -13367,7 +13367,7 @@
 		)
 		(uuid "61d0c4e9-0468-48f0-a1e0-999b30ae66b4")
 	)
-	(hierarchical_label "POR_B"
+	(global_label "POR_B"
 		(shape passive)
 		(at 350.52 120.65 0)
 		(fields_autoplaced yes)
@@ -13379,7 +13379,7 @@
 		)
 		(uuid "6c242031-8381-4a3d-b18d-fd7b1021d12d")
 	)
-	(hierarchical_label "VDDA_0P9"
+	(global_label "VDDA_0P9"
 		(shape passive)
 		(at 351.79 58.42 180)
 		(fields_autoplaced yes)
@@ -13391,7 +13391,7 @@
 		)
 		(uuid "83c7a710-c2cf-4145-bdbd-d38e0b0f889e")
 	)
-	(hierarchical_label "VDD_SNVS_0V9"
+	(global_label "VDD_SNVS_0V9"
 		(shape passive)
 		(at 378.46 243.84 0)
 		(fields_autoplaced yes)
@@ -13403,7 +13403,7 @@
 		)
 		(uuid "86f2251e-0120-495a-bfdd-a9593b70e61f")
 	)
-	(hierarchical_label "PMIC_NINT"
+	(global_label "PMIC_NINT"
 		(shape passive)
 		(at 350.52 115.57 0)
 		(fields_autoplaced yes)
@@ -13415,7 +13415,7 @@
 		)
 		(uuid "889fe3e2-a683-4034-b9d7-bbc6ee9a34f0")
 	)
-	(hierarchical_label "VDD_3V3"
+	(global_label "VDD_3V3"
 		(shape passive)
 		(at 125.73 198.12 180)
 		(fields_autoplaced yes)
@@ -13427,7 +13427,7 @@
 		)
 		(uuid "89e0a905-6332-422b-9b88-b9f113561f49")
 	)
-	(hierarchical_label "VDD_SNVS_0V9"
+	(global_label "VDD_SNVS_0V9"
 		(shape passive)
 		(at 481.33 232.41 180)
 		(fields_autoplaced yes)
@@ -13439,7 +13439,7 @@
 		)
 		(uuid "8fd9f50c-c3c3-4383-9e3b-a5050d550e1d")
 	)
-	(hierarchical_label "PMIC_STBY_REQ"
+	(global_label "PMIC_STBY_REQ"
 		(shape passive)
 		(at 387.35 177.8 0)
 		(fields_autoplaced yes)
@@ -13451,7 +13451,7 @@
 		)
 		(uuid "9082e52a-eca1-464a-a0eb-7220d2d4e4dc")
 	)
-	(hierarchical_label "VDD_PHY_3V3"
+	(global_label "VDD_PHY_3V3"
 		(shape passive)
 		(at 345.44 335.28 180)
 		(fields_autoplaced yes)
@@ -13463,7 +13463,7 @@
 		)
 		(uuid "94efc448-2dd5-4169-ae95-6907022380a1")
 	)
-	(hierarchical_label "RTC_RESET_B"
+	(global_label "RTC_RESET_B"
 		(shape passive)
 		(at 226.06 95.25 180)
 		(fields_autoplaced yes)
@@ -13475,7 +13475,7 @@
 		)
 		(uuid "9d6e2e3c-a4c8-462f-be7e-9920c3f764c6")
 	)
-	(hierarchical_label "PMIC_PWRON_KEY"
+	(global_label "PMIC_PWRON_KEY"
 		(shape input)
 		(at 378.46 233.68 0)
 		(fields_autoplaced yes)
@@ -13487,7 +13487,7 @@
 		)
 		(uuid "9fab04fd-7c24-4588-9130-ab743ff0b8b2")
 	)
-	(hierarchical_label "VDD_SOC_0V9"
+	(global_label "VDD_SOC_0V9"
 		(shape passive)
 		(at 481.33 209.55 180)
 		(fields_autoplaced yes)
@@ -13499,7 +13499,7 @@
 		)
 		(uuid "a373d7be-e8f7-4082-b8ab-542831010710")
 	)
-	(hierarchical_label "NVCC_SNVS_3V3"
+	(global_label "NVCC_SNVS_3V3"
 		(shape passive)
 		(at 378.46 238.76 0)
 		(fields_autoplaced yes)
@@ -13511,7 +13511,7 @@
 		)
 		(uuid "a46adb62-d308-4ae8-92ef-a646c1f56ea3")
 	)
-	(hierarchical_label "VDD_VPU_0V9"
+	(global_label "VDD_VPU_0V9"
 		(shape passive)
 		(at 345.44 320.04 180)
 		(fields_autoplaced yes)
@@ -13523,7 +13523,7 @@
 		)
 		(uuid "abc570db-4d87-44b9-a180-df2131a3390b")
 	)
-	(hierarchical_label "NWDOG"
+	(global_label "NWDOG"
 		(shape passive)
 		(at 414.02 120.65 180)
 		(fields_autoplaced yes)
@@ -13535,7 +13535,7 @@
 		)
 		(uuid "af61ae5b-ef4c-43c6-805f-99c182a50c22")
 	)
-	(hierarchical_label "VDDA_1V8"
+	(global_label "VDDA_1V8"
 		(shape passive)
 		(at 345.44 342.9 180)
 		(fields_autoplaced yes)
@@ -13547,7 +13547,7 @@
 		)
 		(uuid "b533e2e1-9db6-4384-b1b3-2ab3c189f109")
 	)
-	(hierarchical_label "VDD_3V3"
+	(global_label "VDD_3V3"
 		(shape output)
 		(at 215.9 269.24 180)
 		(fields_autoplaced yes)
@@ -13559,7 +13559,7 @@
 		)
 		(uuid "bb3b7190-5e8b-4939-8316-4a1af46de737")
 	)
-	(hierarchical_label "VDD_ARM_0V9"
+	(global_label "VDD_ARM_0V9"
 		(shape passive)
 		(at 481.33 217.17 180)
 		(fields_autoplaced yes)
@@ -13571,7 +13571,7 @@
 		)
 		(uuid "c0a480c0-e969-4377-8fa1-6b1185460ec2")
 	)
-	(hierarchical_label "NVCC_SNVS_3V3"
+	(global_label "NVCC_SNVS_3V3"
 		(shape passive)
 		(at 334.01 95.25 90)
 		(fields_autoplaced yes)
@@ -13583,7 +13583,7 @@
 		)
 		(uuid "c240ee64-6ecf-4131-9a39-a5ddca20bcd3")
 	)
-	(hierarchical_label "VDD_PHY_1V8"
+	(global_label "VDD_PHY_1V8"
 		(shape input)
 		(at 181.61 243.84 180)
 		(fields_autoplaced yes)
@@ -13595,7 +13595,7 @@
 		)
 		(uuid "c2dc3a03-5598-41c7-9b5d-bcf77f88c037")
 	)
-	(hierarchical_label "SYS_NRST"
+	(global_label "SYS_NRST"
 		(shape passive)
 		(at 414.02 97.79 180)
 		(fields_autoplaced yes)
@@ -13607,7 +13607,7 @@
 		)
 		(uuid "c70794c5-a8cc-4f05-aa95-6f05c9499d83")
 	)
-	(hierarchical_label "VDD_DRAM_0V9"
+	(global_label "VDD_DRAM_0V9"
 		(shape passive)
 		(at 134.62 242.57 0)
 		(fields_autoplaced yes)
@@ -13619,7 +13619,7 @@
 		)
 		(uuid "c83535b8-537b-4cd1-9e0d-7a6d2920fa2e")
 	)
-	(hierarchical_label "RTC_CLK_32K768"
+	(global_label "RTC_CLK_32K768"
 		(shape passive)
 		(at 350.52 125.73 0)
 		(fields_autoplaced yes)
@@ -13631,7 +13631,7 @@
 		)
 		(uuid "cdfb2f8b-9f79-41cc-b87d-4e5b8ad9325d")
 	)
-	(hierarchical_label "NWDOG"
+	(global_label "NWDOG"
 		(shape passive)
 		(at 226.06 100.33 180)
 		(fields_autoplaced yes)
@@ -13643,7 +13643,7 @@
 		)
 		(uuid "d050218c-f880-499e-a7fb-5b21b662a988")
 	)
-	(hierarchical_label "VDDA_1V8"
+	(global_label "VDDA_1V8"
 		(shape input)
 		(at 247.65 299.72 270)
 		(fields_autoplaced yes)
@@ -13655,7 +13655,7 @@
 		)
 		(uuid "d2d7dc20-cad7-4db4-810a-9454908ed5da")
 	)
-	(hierarchical_label "I2C1_SCL"
+	(global_label "I2C1_SCL"
 		(shape passive)
 		(at 387.35 167.64 0)
 		(fields_autoplaced yes)
@@ -13667,7 +13667,7 @@
 		)
 		(uuid "d2d861ae-af7f-4fd2-aa61-c91de319f0c8")
 	)
-	(hierarchical_label "VDD_GPU_0V9"
+	(global_label "VDD_GPU_0V9"
 		(shape bidirectional)
 		(at 278.13 311.15 270)
 		(fields_autoplaced yes)
@@ -13679,7 +13679,7 @@
 		)
 		(uuid "dd0ce428-046a-436e-bd4f-cf908fdf8671")
 	)
-	(hierarchical_label "VDD_VPU_0V9"
+	(global_label "VDD_VPU_0V9"
 		(shape bidirectional)
 		(at 267.97 317.5 270)
 		(fields_autoplaced yes)
@@ -13691,7 +13691,7 @@
 		)
 		(uuid "ee742294-2332-434c-b355-3326f30f2384")
 	)
-	(hierarchical_label "VDD_PHY_0V9"
+	(global_label "VDD_PHY_0V9"
 		(shape passive)
 		(at 134.62 233.68 0)
 		(fields_autoplaced yes)
@@ -13703,7 +13703,7 @@
 		)
 		(uuid "efd4c206-87a8-41a7-a17f-1d33681f9ab4")
 	)
-	(hierarchical_label "VDDA_0P9"
+	(global_label "VDDA_0P9"
 		(shape passive)
 		(at 226.06 106.68 180)
 		(fields_autoplaced yes)
@@ -13715,7 +13715,7 @@
 		)
 		(uuid "f1b51cc4-005e-42cf-abb6-dae6e3b7060f")
 	)
-	(hierarchical_label "VDD_PHY_1V8"
+	(global_label "VDD_PHY_1V8"
 		(shape passive)
 		(at 134.62 251.46 0)
 		(fields_autoplaced yes)
@@ -13727,7 +13727,7 @@
 		)
 		(uuid "f51d4362-61da-4505-972f-04a690ec674c")
 	)
-	(hierarchical_label "VDD_PHY_0V9"
+	(global_label "VDD_PHY_0V9"
 		(shape passive)
 		(at 166.37 167.64 180)
 		(fields_autoplaced yes)

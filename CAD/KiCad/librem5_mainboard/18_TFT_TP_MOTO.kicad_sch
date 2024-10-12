@@ -13635,7 +13635,7 @@
 		)
 		(uuid "fb02e7d8-4085-4676-b0da-d5ba2119da4b")
 	)
-	(hierarchical_label "DSI_DN0"
+	(global_label "DSI_DN0"
 		(shape passive)
 		(at 360.68 175.26 0)
 		(fields_autoplaced yes)
@@ -13647,7 +13647,7 @@
 		)
 		(uuid "0022cfbb-9a66-451c-9577-7055158c08be")
 	)
-	(hierarchical_label "LCD_LED2-"
+	(global_label "LCD_LED2-"
 		(shape passive)
 		(at 228.6 168.91 180)
 		(fields_autoplaced yes)
@@ -13659,7 +13659,7 @@
 		)
 		(uuid "1cd05cfa-63f7-489c-8682-81c226e19ca1")
 	)
-	(hierarchical_label "DSI_RST"
+	(global_label "DSI_RST"
 		(shape output)
 		(at 146.05 161.29 180)
 		(fields_autoplaced yes)
@@ -13671,7 +13671,7 @@
 		)
 		(uuid "20623112-73a2-4e55-b554-431a9ea01da7")
 	)
-	(hierarchical_label "VDD_1V8"
+	(global_label "VDD_1V8"
 		(shape bidirectional)
 		(at 438.15 172.72 90)
 		(fields_autoplaced yes)
@@ -13683,7 +13683,7 @@
 		)
 		(uuid "27fe519c-1f0d-434d-a28b-3f95e0ee3aab")
 	)
-	(hierarchical_label "DSI_BAIS_EN"
+	(global_label "DSI_BAIS_EN"
 		(shape passive)
 		(at 292.1 264.16 180)
 		(fields_autoplaced yes)
@@ -13695,7 +13695,7 @@
 		)
 		(uuid "2c6d30d3-4b83-47fe-b307-43d6934c5728")
 	)
-	(hierarchical_label "I2C3_SCL"
+	(global_label "I2C3_SCL"
 		(shape passive)
 		(at 151.13 135.89 180)
 		(fields_autoplaced yes)
@@ -13707,7 +13707,7 @@
 		)
 		(uuid "39937046-70d3-453b-95ce-35ba0598bb86")
 	)
-	(hierarchical_label "I2C2_SCL"
+	(global_label "I2C2_SCL"
 		(shape passive)
 		(at 304.8 283.21 180)
 		(fields_autoplaced yes)
@@ -13719,7 +13719,7 @@
 		)
 		(uuid "425706fc-efc6-433b-b947-5ad3f8e1d998")
 	)
-	(hierarchical_label "DSI_DN1"
+	(global_label "DSI_DN1"
 		(shape passive)
 		(at 360.68 167.64 0)
 		(fields_autoplaced yes)
@@ -13731,7 +13731,7 @@
 		)
 		(uuid "4d206780-1ca8-4da2-865d-9bed1e3924d3")
 	)
-	(hierarchical_label "TP_NINT"
+	(global_label "TP_NINT"
 		(shape passive)
 		(at 151.13 133.35 180)
 		(fields_autoplaced yes)
@@ -13743,7 +13743,7 @@
 		)
 		(uuid "4ea5abfb-8ca9-4d92-8820-200b816afa8a")
 	)
-	(hierarchical_label "DSI_TE"
+	(global_label "DSI_TE"
 		(shape output)
 		(at 151.13 130.81 180)
 		(fields_autoplaced yes)
@@ -13755,7 +13755,7 @@
 		)
 		(uuid "52d7c369-1b14-4afe-993e-b09656a60490")
 	)
-	(hierarchical_label "LCD_LED1-"
+	(global_label "LCD_LED1-"
 		(shape passive)
 		(at 228.6 166.37 180)
 		(fields_autoplaced yes)
@@ -13767,7 +13767,7 @@
 		)
 		(uuid "557ef4ed-68a5-4ca6-bf33-4f14e6024285")
 	)
-	(hierarchical_label "LCD_LED+"
+	(global_label "LCD_LED+"
 		(shape passive)
 		(at 228.6 163.83 180)
 		(fields_autoplaced yes)
@@ -13779,7 +13779,7 @@
 		)
 		(uuid "55f02407-84e3-4dec-b1c0-258f20f1b9b1")
 	)
-	(hierarchical_label "DSI_EN_3V3"
+	(global_label "DSI_EN_3V3"
 		(shape output)
 		(at 435.61 189.23 180)
 		(fields_autoplaced yes)
@@ -13791,7 +13791,7 @@
 		)
 		(uuid "5850c98d-186f-4774-a54c-274bdeb3bf1e")
 	)
-	(hierarchical_label "DSI_DN3"
+	(global_label "DSI_DN3"
 		(shape passive)
 		(at 359.41 123.19 0)
 		(fields_autoplaced yes)
@@ -13803,7 +13803,7 @@
 		)
 		(uuid "59893f3c-8175-4e7d-9ee3-cec69b846b8e")
 	)
-	(hierarchical_label "I2C2_SDA"
+	(global_label "I2C2_SDA"
 		(shape passive)
 		(at 304.8 287.02 180)
 		(fields_autoplaced yes)
@@ -13815,7 +13815,7 @@
 		)
 		(uuid "63304652-9bcc-419a-9052-e6a694a607fa")
 	)
-	(hierarchical_label "DSI_CKN"
+	(global_label "DSI_CKN"
 		(shape passive)
 		(at 361.95 138.43 0)
 		(fields_autoplaced yes)
@@ -13827,7 +13827,7 @@
 		)
 		(uuid "64fdb853-83ab-4019-9df7-779824489479")
 	)
-	(hierarchical_label "I2C3_SDA"
+	(global_label "I2C3_SDA"
 		(shape passive)
 		(at 106.68 267.97 180)
 		(fields_autoplaced yes)
@@ -13839,7 +13839,7 @@
 		)
 		(uuid "739d700f-2856-4074-aae2-1e52f1299807")
 	)
-	(hierarchical_label "VSYS_3V4_4V3"
+	(global_label "VSYS_3V4_4V3"
 		(shape bidirectional)
 		(at 275.59 237.49 90)
 		(fields_autoplaced yes)
@@ -13851,7 +13851,7 @@
 		)
 		(uuid "7681d773-4848-4b79-bb2e-5db66553fa64")
 	)
-	(hierarchical_label "LCD_AVEE"
+	(global_label "LCD_AVEE"
 		(shape passive)
 		(at 228.6 161.29 180)
 		(fields_autoplaced yes)
@@ -13863,7 +13863,7 @@
 		)
 		(uuid "873226a4-a7c1-445b-9acf-c3e1a0988d1c")
 	)
-	(hierarchical_label "DSI_DP1"
+	(global_label "DSI_DP1"
 		(shape passive)
 		(at 360.68 170.18 0)
 		(fields_autoplaced yes)
@@ -13875,7 +13875,7 @@
 		)
 		(uuid "8a73e3a5-1650-432f-8736-5a2cf20519c0")
 	)
-	(hierarchical_label "DSI_DP0"
+	(global_label "DSI_DP0"
 		(shape passive)
 		(at 360.68 177.8 0)
 		(fields_autoplaced yes)
@@ -13887,7 +13887,7 @@
 		)
 		(uuid "95b2f717-5140-435e-be83-29ae04056ecc")
 	)
-	(hierarchical_label "I2C3_SDA"
+	(global_label "I2C3_SDA"
 		(shape passive)
 		(at 151.13 138.43 180)
 		(fields_autoplaced yes)
@@ -13899,7 +13899,7 @@
 		)
 		(uuid "ac364370-fdec-4b33-a5b3-e5192875dd19")
 	)
-	(hierarchical_label "I2C3_SCL"
+	(global_label "I2C3_SCL"
 		(shape passive)
 		(at 111.76 271.78 180)
 		(fields_autoplaced yes)
@@ -13911,7 +13911,7 @@
 		)
 		(uuid "ad67b982-220d-4e99-a05a-a51cf96d119f")
 	)
-	(hierarchical_label "DSI_CKP"
+	(global_label "DSI_CKP"
 		(shape passive)
 		(at 361.95 140.97 0)
 		(fields_autoplaced yes)
@@ -13923,7 +13923,7 @@
 		)
 		(uuid "af7ae0b2-38c8-4268-be2b-355c4ebec190")
 	)
-	(hierarchical_label "TP_RST"
+	(global_label "TP_RST"
 		(shape passive)
 		(at 175.26 114.3 180)
 		(fields_autoplaced yes)
@@ -13935,7 +13935,7 @@
 		)
 		(uuid "b06ae2e0-6d41-4257-9fa1-4218a2b4a0d6")
 	)
-	(hierarchical_label "BACKLINGE_EN"
+	(global_label "BACKLINGE_EN"
 		(shape passive)
 		(at 111.76 306.07 180)
 		(fields_autoplaced yes)
@@ -13947,7 +13947,7 @@
 		)
 		(uuid "cf695a27-59f9-4bf2-9e09-314d7856bcc5")
 	)
-	(hierarchical_label "DSI_DN2"
+	(global_label "DSI_DN2"
 		(shape passive)
 		(at 361.95 130.81 0)
 		(fields_autoplaced yes)
@@ -13959,7 +13959,7 @@
 		)
 		(uuid "d06ab943-a905-4267-bf43-023d352dc478")
 	)
-	(hierarchical_label "DSI_DP3"
+	(global_label "DSI_DP3"
 		(shape passive)
 		(at 359.41 125.73 0)
 		(fields_autoplaced yes)
@@ -13971,7 +13971,7 @@
 		)
 		(uuid "dbf80e48-c6fc-4df3-8007-a02fb9fe219a")
 	)
-	(hierarchical_label "LCD_AVDD"
+	(global_label "LCD_AVDD"
 		(shape passive)
 		(at 228.6 158.75 180)
 		(fields_autoplaced yes)
@@ -13983,7 +13983,7 @@
 		)
 		(uuid "e32d3349-cfec-4dfc-a5be-d5197bf3dab3")
 	)
-	(hierarchical_label "DSI_DP2"
+	(global_label "DSI_DP2"
 		(shape passive)
 		(at 361.95 133.35 0)
 		(fields_autoplaced yes)

@@ -10408,7 +10408,7 @@
 		)
 		(uuid "f889ab27-d8df-470b-bd3d-0a5a4d801175")
 	)
-	(hierarchical_label "GPS_RST"
+	(global_label "GPS_RST"
 		(shape passive)
 		(at 302.26 162.56 180)
 		(fields_autoplaced yes)
@@ -10420,7 +10420,7 @@
 		)
 		(uuid "0adea07d-100b-4a03-928b-5aa38a6c0cdc")
 	)
-	(hierarchical_label "FLASH_MOSI"
+	(global_label "FLASH_MOSI"
 		(shape passive)
 		(at 152.4 314.96 180)
 		(fields_autoplaced yes)
@@ -10432,7 +10432,7 @@
 		)
 		(uuid "0b73d0a0-b737-41cc-a675-e6204ffc5cc2")
 	)
-	(hierarchical_label "3SW_KILL"
+	(global_label "3SW_KILL"
 		(shape passive)
 		(at 111.76 121.92 180)
 		(fields_autoplaced yes)
@@ -10444,7 +10444,7 @@
 		)
 		(uuid "0c7c5105-2e4c-432e-835a-e40b98e4b3c4")
 	)
-	(hierarchical_label "NFC_EN"
+	(global_label "NFC_EN"
 		(shape passive)
 		(at 375.92 259.08 0)
 		(fields_autoplaced yes)
@@ -10456,7 +10456,7 @@
 		)
 		(uuid "12a5851f-b4cf-4c47-a57f-ae551a7a6365")
 	)
-	(hierarchical_label "ANTOFF"
+	(global_label "ANTOFF"
 		(shape passive)
 		(at 421.64 177.8 0)
 		(fields_autoplaced yes)
@@ -10468,7 +10468,7 @@
 		)
 		(uuid "245751cb-1c4c-4acc-860b-cfd1e0ebf9f0")
 	)
-	(hierarchical_label "I2C4_SCL"
+	(global_label "I2C4_SCL"
 		(shape passive)
 		(at 168.91 270.51 180)
 		(fields_autoplaced yes)
@@ -10480,7 +10480,7 @@
 		)
 		(uuid "26c47abf-eb3a-4efc-a68f-26c1cbc655bb")
 	)
-	(hierarchical_label "FLASH_SCK"
+	(global_label "FLASH_SCK"
 		(shape passive)
 		(at 152.4 312.42 180)
 		(fields_autoplaced yes)
@@ -10492,7 +10492,7 @@
 		)
 		(uuid "2a480693-1281-4283-8ae7-96754e904ae9")
 	)
-	(hierarchical_label "UART2_RXD"
+	(global_label "UART2_RXD"
 		(shape passive)
 		(at 289.56 198.12 180)
 		(fields_autoplaced yes)
@@ -10504,7 +10504,7 @@
 		)
 		(uuid "4a8691c7-94b6-4768-88d3-c1204761e55b")
 	)
-	(hierarchical_label "VCC_RF"
+	(global_label "VCC_RF"
 		(shape passive)
 		(at 401.32 130.81 180)
 		(fields_autoplaced yes)
@@ -10516,7 +10516,7 @@
 		)
 		(uuid "5fb0b90b-7116-4439-a34c-a0d63ea37b74")
 	)
-	(hierarchical_label "I2C4_SDA"
+	(global_label "I2C4_SDA"
 		(shape passive)
 		(at 168.91 267.97 180)
 		(fields_autoplaced yes)
@@ -10528,7 +10528,7 @@
 		)
 		(uuid "6c6e7bb2-62c0-4374-afae-d38277f78a16")
 	)
-	(hierarchical_label "UART1_RXD"
+	(global_label "UART1_RXD"
 		(shape passive)
 		(at 168.91 273.05 180)
 		(fields_autoplaced yes)
@@ -10540,7 +10540,7 @@
 		)
 		(uuid "9043b65f-3ddf-49a9-8587-22a0fabceeac")
 	)
-	(hierarchical_label "SPI_SS1"
+	(global_label "SPI_SS1"
 		(shape passive)
 		(at 152.4 309.88 180)
 		(fields_autoplaced yes)
@@ -10552,7 +10552,7 @@
 		)
 		(uuid "9a32d10b-7963-42df-9fb6-79bcafd22d1c")
 	)
-	(hierarchical_label "GPS3V3_EN"
+	(global_label "GPS3V3_EN"
 		(shape passive)
 		(at 101.6 135.89 180)
 		(fields_autoplaced yes)
@@ -10564,7 +10564,7 @@
 		)
 		(uuid "9eb3fb21-1e41-470c-a6b0-04e48c3de7de")
 	)
-	(hierarchical_label "UART1_TXD"
+	(global_label "UART1_TXD"
 		(shape passive)
 		(at 168.91 275.59 180)
 		(fields_autoplaced yes)
@@ -10576,7 +10576,7 @@
 		)
 		(uuid "9fbe7e65-5995-4d45-8226-4a4b83c958d7")
 	)
-	(hierarchical_label "VCC_RF"
+	(global_label "VCC_RF"
 		(shape passive)
 		(at 438.15 182.88 0)
 		(fields_autoplaced yes)
@@ -10588,7 +10588,7 @@
 		)
 		(uuid "a5c7bcd6-965d-4539-a908-bdaa6329b54c")
 	)
-	(hierarchical_label "FLASH_MISO"
+	(global_label "FLASH_MISO"
 		(shape passive)
 		(at 152.4 317.5 180)
 		(fields_autoplaced yes)
@@ -10600,7 +10600,7 @@
 		)
 		(uuid "a6a6a794-7bdd-4fc9-8bcd-3e55e6904585")
 	)
-	(hierarchical_label "NFC_IRQ"
+	(global_label "NFC_IRQ"
 		(shape passive)
 		(at 372.11 297.18 0)
 		(fields_autoplaced yes)
@@ -10612,7 +10612,7 @@
 		)
 		(uuid "a79e9728-29f8-40ea-8505-286fd47dfa3a")
 	)
-	(hierarchical_label "UART2_TXD"
+	(global_label "UART2_TXD"
 		(shape passive)
 		(at 289.56 193.04 180)
 		(fields_autoplaced yes)
@@ -10624,7 +10624,7 @@
 		)
 		(uuid "aaac2806-5df2-463c-8aab-920fd24f5321")
 	)
-	(hierarchical_label "ANTOFF"
+	(global_label "ANTOFF"
 		(shape passive)
 		(at 403.86 121.92 180)
 		(fields_autoplaced yes)

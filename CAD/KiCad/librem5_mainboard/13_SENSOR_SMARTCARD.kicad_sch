@@ -11665,7 +11665,7 @@
 		)
 		(uuid "f597f76a-35c9-43b4-bec6-cdc0de9814f1")
 	)
-	(hierarchical_label "I2C2_SDA"
+	(global_label "I2C2_SDA"
 		(shape passive)
 		(at 137.16 118.11 180)
 		(fields_autoplaced yes)
@@ -11677,7 +11677,7 @@
 		)
 		(uuid "0604626d-468b-492a-95d6-82cc27e745e7")
 	)
-	(hierarchical_label "VDD_3V3"
+	(global_label "VDD_3V3"
 		(shape bidirectional)
 		(at 228.6 207.01 90)
 		(fields_autoplaced yes)
@@ -11689,7 +11689,7 @@
 		)
 		(uuid "0d1a751e-a838-4303-87b5-d03fd78fb694")
 	)
-	(hierarchical_label "UART3_RXD"
+	(global_label "UART3_RXD"
 		(shape passive)
 		(at 360.68 350.52 180)
 		(fields_autoplaced yes)
@@ -11701,7 +11701,7 @@
 		)
 		(uuid "20644787-cdc0-49ab-b03b-38a745442ce1")
 	)
-	(hierarchical_label "SMC_STM_SWCLK"
+	(global_label "SMC_STM_SWCLK"
 		(shape passive)
 		(at 313.69 214.63 180)
 		(fields_autoplaced yes)
@@ -11713,7 +11713,7 @@
 		)
 		(uuid "22939d3b-26b0-4c33-80e1-18bd19a106f3")
 	)
-	(hierarchical_label "$$$8854"
+	(global_label "$$$8854"
 		(shape bidirectional)
 		(at 210.82 207.01 90)
 		(fields_autoplaced yes)
@@ -11725,7 +11725,7 @@
 		)
 		(uuid "27b8ed5d-2ae3-4447-9fa4-760ffd01fb18")
 	)
-	(hierarchical_label "SMC_STM_SWDIO"
+	(global_label "SMC_STM_SWDIO"
 		(shape passive)
 		(at 313.69 218.44 180)
 		(fields_autoplaced yes)
@@ -11737,7 +11737,7 @@
 		)
 		(uuid "2e90ad92-8419-4f56-b2d3-b52d9ad92524")
 	)
-	(hierarchical_label "INT_M/A/G"
+	(global_label "INT_M/A/G"
 		(shape bidirectional)
 		(at 495.3 144.78 0)
 		(fields_autoplaced yes)
@@ -11749,7 +11749,7 @@
 		)
 		(uuid "313f7c56-f048-44c2-974b-ce1b6b40fe4c")
 	)
-	(hierarchical_label "I2C2_SDA"
+	(global_label "I2C2_SDA"
 		(shape passive)
 		(at 336.55 152.4 180)
 		(fields_autoplaced yes)
@@ -11761,7 +11761,7 @@
 		)
 		(uuid "338f5a7a-743b-434f-89c3-20590aed0e52")
 	)
-	(hierarchical_label "INT_LIGHT"
+	(global_label "INT_LIGHT"
 		(shape bidirectional)
 		(at 137.16 128.27 180)
 		(fields_autoplaced yes)
@@ -11773,7 +11773,7 @@
 		)
 		(uuid "3ea607f3-89fc-423e-969e-865d544e9123")
 	)
-	(hierarchical_label "I2C2_SCL"
+	(global_label "I2C2_SCL"
 		(shape passive)
 		(at 331.47 144.78 180)
 		(fields_autoplaced yes)
@@ -11785,7 +11785,7 @@
 		)
 		(uuid "45796108-6e80-48e6-b9fb-da17b6aa0869")
 	)
-	(hierarchical_label "SMC_PWR_3V3_EN"
+	(global_label "SMC_PWR_3V3_EN"
 		(shape passive)
 		(at 500.38 252.73 0)
 		(fields_autoplaced yes)
@@ -11797,7 +11797,7 @@
 		)
 		(uuid "4858cc8f-243b-425a-8618-63a9037cd008")
 	)
-	(hierarchical_label "I2C2_SCL"
+	(global_label "I2C2_SCL"
 		(shape output)
 		(at 135.89 113.03 180)
 		(fields_autoplaced yes)
@@ -11809,7 +11809,7 @@
 		)
 		(uuid "559eba9d-70bc-4f5e-a8fc-ad294e115e73")
 	)
-	(hierarchical_label "SMC_PWR"
+	(global_label "SMC_PWR"
 		(shape passive)
 		(at 307.34 222.25 180)
 		(fields_autoplaced yes)
@@ -11821,7 +11821,7 @@
 		)
 		(uuid "98cef25c-f3ef-4492-b679-44535c8ff937")
 	)
-	(hierarchical_label "UART3_TXD"
+	(global_label "UART3_TXD"
 		(shape passive)
 		(at 360.68 345.44 180)
 		(fields_autoplaced yes)
@@ -11833,7 +11833,7 @@
 		)
 		(uuid "a79da0da-c810-415f-a5ba-d0d5299ee39a")
 	)
-	(hierarchical_label "3SW_KILL"
+	(global_label "3SW_KILL"
 		(shape passive)
 		(at 255.27 153.67 180)
 		(fields_autoplaced yes)
@@ -11845,7 +11845,7 @@
 		)
 		(uuid "d3fa372d-3e42-421f-a10a-74938667ebf8")
 	)
-	(hierarchical_label "HALL"
+	(global_label "HALL"
 		(shape passive)
 		(at 166.37 220.98 180)
 		(fields_autoplaced yes)
@@ -11857,7 +11857,7 @@
 		)
 		(uuid "e37319a0-b42d-4247-bf2c-d8126313eb9f")
 	)
-	(hierarchical_label "SMC_BOOT0"
+	(global_label "SMC_BOOT0"
 		(shape passive)
 		(at 313.69 210.82 180)
 		(fields_autoplaced yes)

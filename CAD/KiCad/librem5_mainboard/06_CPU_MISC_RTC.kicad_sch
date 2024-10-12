@@ -16561,7 +16561,7 @@
 		)
 		(uuid "fddcadcd-28ff-456d-932e-356aded1e63a")
 	)
-	(hierarchical_label "JTAG_TCK"
+	(global_label "JTAG_TCK"
 		(shape passive)
 		(at 429.26 232.41 0)
 		(fields_autoplaced yes)
@@ -16573,7 +16573,7 @@
 		)
 		(uuid "109343cc-7d73-415a-ba9c-6946eecee336")
 	)
-	(hierarchical_label "PMIC_STBY_REQ"
+	(global_label "PMIC_STBY_REQ"
 		(shape passive)
 		(at 295.91 229.87 180)
 		(fields_autoplaced yes)
@@ -16585,7 +16585,7 @@
 		)
 		(uuid "10a561a2-92f1-409f-9043-1793afabb17d")
 	)
-	(hierarchical_label "BATV"
+	(global_label "BATV"
 		(shape passive)
 		(at 314.96 121.92 0)
 		(fields_autoplaced yes)
@@ -16597,7 +16597,7 @@
 		)
 		(uuid "19d1a2fd-a8d8-45a7-880c-0087a7b72adf")
 	)
-	(hierarchical_label "PMIC_ON_REQ"
+	(global_label "PMIC_ON_REQ"
 		(shape passive)
 		(at 295.91 232.41 180)
 		(fields_autoplaced yes)
@@ -16609,7 +16609,7 @@
 		)
 		(uuid "1c74dcb9-209e-41a8-afd5-de3bb6a11a3a")
 	)
-	(hierarchical_label "JTAG_TDI"
+	(global_label "JTAG_TDI"
 		(shape passive)
 		(at 429.26 237.49 0)
 		(fields_autoplaced yes)
@@ -16621,7 +16621,7 @@
 		)
 		(uuid "3a70185b-fc81-4462-866c-cf2808c7b679")
 	)
-	(hierarchical_label "JTAG_NTRST"
+	(global_label "JTAG_NTRST"
 		(shape passive)
 		(at 429.26 242.57 0)
 		(fields_autoplaced yes)
@@ -16633,7 +16633,7 @@
 		)
 		(uuid "55509f0d-cc40-40e1-af1c-772c2edc654b")
 	)
-	(hierarchical_label "VSYS_3V4_4V3"
+	(global_label "VSYS_3V4_4V3"
 		(shape passive)
 		(at 314.96 132.08 0)
 		(fields_autoplaced yes)
@@ -16645,7 +16645,7 @@
 		)
 		(uuid "71d246dd-4d1a-48c2-89a1-cd58036a95dd")
 	)
-	(hierarchical_label "I2C1_SDA"
+	(global_label "I2C1_SDA"
 		(shape passive)
 		(at 203.2 100.33 180)
 		(fields_autoplaced yes)
@@ -16657,7 +16657,7 @@
 		)
 		(uuid "98a91e0b-9bff-4834-b5ee-658307552b31")
 	)
-	(hierarchical_label "I2C1_SCL"
+	(global_label "I2C1_SCL"
 		(shape passive)
 		(at 261.62 100.33 0)
 		(fields_autoplaced yes)
@@ -16669,7 +16669,7 @@
 		)
 		(uuid "a14c9b96-1da2-4589-996c-e42f0bdc2d48")
 	)
-	(hierarchical_label "JTAG_TDO"
+	(global_label "JTAG_TDO"
 		(shape passive)
 		(at 429.26 240.03 0)
 		(fields_autoplaced yes)
@@ -16681,7 +16681,7 @@
 		)
 		(uuid "acd74447-01d9-48cb-a108-8c0d5ae43492")
 	)
-	(hierarchical_label "BOOT_MODE1"
+	(global_label "BOOT_MODE1"
 		(shape passive)
 		(at 426.72 222.25 0)
 		(fields_autoplaced yes)
@@ -16693,7 +16693,7 @@
 		)
 		(uuid "aebeca9c-442d-4317-981b-eb478f21e07d")
 	)
-	(hierarchical_label "RTC_INT"
+	(global_label "RTC_INT"
 		(shape passive)
 		(at 308.61 110.49 0)
 		(fields_autoplaced yes)
@@ -16705,7 +16705,7 @@
 		)
 		(uuid "b15415ac-067f-4ed5-8459-abb32cf7f520")
 	)
-	(hierarchical_label "JTAG_TMS"
+	(global_label "JTAG_TMS"
 		(shape passive)
 		(at 429.26 234.95 0)
 		(fields_autoplaced yes)
@@ -16717,7 +16717,7 @@
 		)
 		(uuid "b1930836-64fc-481d-8e82-bb4bccf6e5ce")
 	)
-	(hierarchical_label "ONOFF"
+	(global_label "ONOFF"
 		(shape output)
 		(at 295.91 219.71 180)
 		(fields_autoplaced yes)
@@ -16729,7 +16729,7 @@
 		)
 		(uuid "bae22efd-876b-49ae-bbcf-4bff4e17b15a")
 	)
-	(hierarchical_label "POR_B"
+	(global_label "POR_B"
 		(shape output)
 		(at 173.99 199.39 180)
 		(fields_autoplaced yes)
@@ -16741,7 +16741,7 @@
 		)
 		(uuid "bb7477e5-a79a-4af5-a6be-d350fdbd2fb9")
 	)
-	(hierarchical_label "BOOT_MODE0"
+	(global_label "BOOT_MODE0"
 		(shape passive)
 		(at 425.45 219.71 0)
 		(fields_autoplaced yes)
@@ -16753,7 +16753,7 @@
 		)
 		(uuid "cbf52fdb-d045-4779-b4e7-ed0f3d18d59c")
 	)
-	(hierarchical_label "RTC_CLK_32K768"
+	(global_label "RTC_CLK_32K768"
 		(shape passive)
 		(at 278.13 242.57 180)
 		(fields_autoplaced yes)
@@ -16765,7 +16765,7 @@
 		)
 		(uuid "ce8f40d4-a55c-4f31-94c6-6d66300d8458")
 	)
-	(hierarchical_label "RTC_RESET_B"
+	(global_label "RTC_RESET_B"
 		(shape passive)
 		(at 278.13 245.11 180)
 		(fields_autoplaced yes)

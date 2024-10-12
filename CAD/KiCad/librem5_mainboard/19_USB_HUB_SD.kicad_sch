@@ -10682,7 +10682,7 @@
 		)
 		(uuid "f3b92b50-8e0c-4cdc-9c9b-43df5d62205c")
 	)
-	(hierarchical_label "HUB_PWR_3V3_EN"
+	(global_label "HUB_PWR_3V3_EN"
 		(shape passive)
 		(at 166.37 217.17 180)
 		(fields_autoplaced yes)
@@ -10694,7 +10694,7 @@
 		)
 		(uuid "07ee438a-e30e-40e7-8821-a9d42a6610d0")
 	)
-	(hierarchical_label "SIM_RESET"
+	(global_label "SIM_RESET"
 		(shape passive)
 		(at 459.74 162.56 0)
 		(fields_autoplaced yes)
@@ -10706,7 +10706,7 @@
 		)
 		(uuid "14dfe62f-a64d-41a8-9826-ad47509c962b")
 	)
-	(hierarchical_label "TF_DATA1"
+	(global_label "TF_DATA1"
 		(shape passive)
 		(at 346.71 280.67 0)
 		(fields_autoplaced yes)
@@ -10718,7 +10718,7 @@
 		)
 		(uuid "211375ae-4d32-4ebf-8bc4-268083711a4e")
 	)
-	(hierarchical_label "USB2_4G_DP"
+	(global_label "USB2_4G_DP"
 		(shape passive)
 		(at 233.68 339.09 180)
 		(fields_autoplaced yes)
@@ -10730,7 +10730,7 @@
 		)
 		(uuid "23b96b18-7e9f-4e30-a262-9530b589462f")
 	)
-	(hierarchical_label "USB2_DN"
+	(global_label "USB2_DN"
 		(shape passive)
 		(at 208.28 273.05 180)
 		(fields_autoplaced yes)
@@ -10742,7 +10742,7 @@
 		)
 		(uuid "2a443b1c-426b-4e90-b54a-daa54da6eb62")
 	)
-	(hierarchical_label "USB2_WIFI_DP"
+	(global_label "USB2_WIFI_DP"
 		(shape passive)
 		(at 252.73 350.52 180)
 		(fields_autoplaced yes)
@@ -10754,7 +10754,7 @@
 		)
 		(uuid "35a0d20f-1d17-46a1-bd6f-2fb890b9a32c")
 	)
-	(hierarchical_label "USB2_WIFI_DN"
+	(global_label "USB2_WIFI_DN"
 		(shape passive)
 		(at 251.46 345.44 180)
 		(fields_autoplaced yes)
@@ -10766,7 +10766,7 @@
 		)
 		(uuid "363be893-a778-4228-a036-b4f0d1573d76")
 	)
-	(hierarchical_label "TF_DATA3"
+	(global_label "TF_DATA3"
 		(shape passive)
 		(at 278.13 200.66 0)
 		(fields_autoplaced yes)
@@ -10778,7 +10778,7 @@
 		)
 		(uuid "36527125-c442-4211-b761-488ce6da63b8")
 	)
-	(hierarchical_label "SIM_DATA"
+	(global_label "SIM_DATA"
 		(shape passive)
 		(at 459.74 167.64 0)
 		(fields_autoplaced yes)
@@ -10790,7 +10790,7 @@
 		)
 		(uuid "39a08d09-ba56-4342-8a66-5cfd1b3271a5")
 	)
-	(hierarchical_label "TF_DATA0"
+	(global_label "TF_DATA0"
 		(shape passive)
 		(at 346.71 275.59 0)
 		(fields_autoplaced yes)
@@ -10802,7 +10802,7 @@
 		)
 		(uuid "45c5d60c-1858-40a7-b102-7566e27f321e")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 486.41 317.5 90)
 		(fields_autoplaced yes)
@@ -10814,7 +10814,7 @@
 		)
 		(uuid "586e29f9-3701-40ec-aa5d-35b7fcb1c0c5")
 	)
-	(hierarchical_label "4G_SIM_CD"
+	(global_label "4G_SIM_CD"
 		(shape passive)
 		(at 187.96 92.71 180)
 		(fields_autoplaced yes)
@@ -10826,7 +10826,7 @@
 		)
 		(uuid "5b7f03e3-d323-4e91-b0ef-da9fbe5c50eb")
 	)
-	(hierarchical_label "TF_NCD"
+	(global_label "TF_NCD"
 		(shape passive)
 		(at 257.81 80.01 0)
 		(fields_autoplaced yes)
@@ -10838,7 +10838,7 @@
 		)
 		(uuid "7023b1eb-6fea-4cae-9404-ff1c35483ec3")
 	)
-	(hierarchical_label "TF_NCD"
+	(global_label "TF_NCD"
 		(shape passive)
 		(at 400.05 337.82 0)
 		(fields_autoplaced yes)
@@ -10850,7 +10850,7 @@
 		)
 		(uuid "72f35bcf-077c-4799-8370-c70b676af0ef")
 	)
-	(hierarchical_label "USB2_4G_DN"
+	(global_label "USB2_4G_DN"
 		(shape passive)
 		(at 234.95 335.28 180)
 		(fields_autoplaced yes)
@@ -10862,7 +10862,7 @@
 		)
 		(uuid "74448689-353e-4b27-b21c-a1e118b3723e")
 	)
-	(hierarchical_label "TF_DATA2"
+	(global_label "TF_DATA2"
 		(shape passive)
 		(at 255.27 123.19 180)
 		(fields_autoplaced yes)
@@ -10874,7 +10874,7 @@
 		)
 		(uuid "763b36f2-7bc2-4ba9-be5c-285048624d88")
 	)
-	(hierarchical_label "HUB_3V3"
+	(global_label "HUB_3V3"
 		(shape bidirectional)
 		(at 486.41 309.88 270)
 		(fields_autoplaced yes)
@@ -10886,7 +10886,7 @@
 		)
 		(uuid "7a8f3c94-c642-4049-9e21-7a6fc4830528")
 	)
-	(hierarchical_label "HUB_RESET"
+	(global_label "HUB_RESET"
 		(shape passive)
 		(at 207.01 247.65 180)
 		(fields_autoplaced yes)
@@ -10898,7 +10898,7 @@
 		)
 		(uuid "83699753-f41c-4ce9-882d-39ea4c8f61ee")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 473.71 317.5 90)
 		(fields_autoplaced yes)
@@ -10910,7 +10910,7 @@
 		)
 		(uuid "846b19cb-6a01-4ab7-9899-6022fee15604")
 	)
-	(hierarchical_label "TF_CLK"
+	(global_label "TF_CLK"
 		(shape output)
 		(at 255.27 115.57 180)
 		(fields_autoplaced yes)
@@ -10922,7 +10922,7 @@
 		)
 		(uuid "894954a7-d026-46ea-bf62-ad8edaa1634d")
 	)
-	(hierarchical_label "TF_PWR_3V3_EN"
+	(global_label "TF_PWR_3V3_EN"
 		(shape passive)
 		(at 181.61 154.94 180)
 		(fields_autoplaced yes)
@@ -10934,7 +10934,7 @@
 		)
 		(uuid "8b37bd25-8d7d-4d62-9b42-bcac09c3a699")
 	)
-	(hierarchical_label "TF_DATA1"
+	(global_label "TF_DATA1"
 		(shape passive)
 		(at 255.27 120.65 180)
 		(fields_autoplaced yes)
@@ -10946,7 +10946,7 @@
 		)
 		(uuid "9226b8d3-6990-4665-b4ec-8ce1d3075e63")
 	)
-	(hierarchical_label "SIM_CLK"
+	(global_label "SIM_CLK"
 		(shape passive)
 		(at 459.74 165.1 0)
 		(fields_autoplaced yes)
@@ -10958,7 +10958,7 @@
 		)
 		(uuid "9bfb8002-35a0-4e95-97b5-d76a8a977ac6")
 	)
-	(hierarchical_label "TF_DATA2"
+	(global_label "TF_DATA2"
 		(shape passive)
 		(at 278.13 198.12 0)
 		(fields_autoplaced yes)
@@ -10970,7 +10970,7 @@
 		)
 		(uuid "a1734c54-5a37-4dad-86aa-64219b734cfa")
 	)
-	(hierarchical_label "TF_DATA3"
+	(global_label "TF_DATA3"
 		(shape passive)
 		(at 255.27 125.73 180)
 		(fields_autoplaced yes)
@@ -10982,7 +10982,7 @@
 		)
 		(uuid "a599e492-1bbb-4afd-8f3a-416676350607")
 	)
-	(hierarchical_label "HUB_3V3"
+	(global_label "HUB_3V3"
 		(shape bidirectional)
 		(at 473.71 309.88 270)
 		(fields_autoplaced yes)
@@ -10994,7 +10994,7 @@
 		)
 		(uuid "a8584ec1-c195-485e-8a76-3810c9960378")
 	)
-	(hierarchical_label "USB2_DP"
+	(global_label "USB2_DP"
 		(shape passive)
 		(at 208.28 267.97 180)
 		(fields_autoplaced yes)
@@ -11006,7 +11006,7 @@
 		)
 		(uuid "a947fff4-4006-4b71-96a7-9750e78bda70")
 	)
-	(hierarchical_label "HUB_3V3"
+	(global_label "HUB_3V3"
 		(shape bidirectional)
 		(at 499.11 309.88 270)
 		(fields_autoplaced yes)
@@ -11018,7 +11018,7 @@
 		)
 		(uuid "ab940fdc-b280-495e-93bb-3e22df0c06f2")
 	)
-	(hierarchical_label "TF_CLK"
+	(global_label "TF_CLK"
 		(shape passive)
 		(at 349.25 260.35 0)
 		(fields_autoplaced yes)
@@ -11030,7 +11030,7 @@
 		)
 		(uuid "b243237b-5095-4a11-975d-c2f69471a33a")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 499.11 317.5 90)
 		(fields_autoplaced yes)
@@ -11042,7 +11042,7 @@
 		)
 		(uuid "b805f5fc-396f-47ab-ae51-f85c48aab031")
 	)
-	(hierarchical_label "TF_CMD"
+	(global_label "TF_CMD"
 		(shape output)
 		(at 255.27 113.03 180)
 		(fields_autoplaced yes)
@@ -11054,7 +11054,7 @@
 		)
 		(uuid "b8d9d183-77d7-41e0-bdb8-bda1e9414b7d")
 	)
-	(hierarchical_label "TF_CMD"
+	(global_label "TF_CMD"
 		(shape passive)
 		(at 347.98 245.11 0)
 		(fields_autoplaced yes)
@@ -11066,7 +11066,7 @@
 		)
 		(uuid "bcd58753-d572-4e5a-90b5-fe29dd5e1511")
 	)
-	(hierarchical_label "TF_PWR"
+	(global_label "TF_PWR"
 		(shape passive)
 		(at 222.25 166.37 180)
 		(fields_autoplaced yes)
@@ -11078,7 +11078,7 @@
 		)
 		(uuid "d8f651d9-e968-4aed-9f58-c2ef00b16a45")
 	)
-	(hierarchical_label "TF_DATA0"
+	(global_label "TF_DATA0"
 		(shape passive)
 		(at 255.27 118.11 180)
 		(fields_autoplaced yes)

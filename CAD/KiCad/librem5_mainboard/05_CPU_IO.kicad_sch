@@ -20870,7 +20870,7 @@
 		)
 		(uuid "ff1bf33e-975f-4b4b-8125-45cfafea1f83")
 	)
-	(hierarchical_label "CHG_INT"
+	(global_label "CHG_INT"
 		(shape passive)
 		(at 162.56 83.82 0)
 		(fields_autoplaced yes)
@@ -20882,7 +20882,7 @@
 		)
 		(uuid "01f350f2-ddcb-4a04-9ebb-ccf6f89ae464")
 	)
-	(hierarchical_label "SAI2_TXFS"
+	(global_label "SAI2_TXFS"
 		(shape passive)
 		(at 463.55 147.32 0)
 		(fields_autoplaced yes)
@@ -20894,7 +20894,7 @@
 		)
 		(uuid "02a25ee0-5e4d-4d35-8c54-41045a065fb5")
 	)
-	(hierarchical_label "HALL"
+	(global_label "HALL"
 		(shape passive)
 		(at 165.1 198.12 0)
 		(fields_autoplaced yes)
@@ -20906,7 +20906,7 @@
 		)
 		(uuid "061700f6-bff2-4c7b-9fa4-33f57f98da82")
 	)
-	(hierarchical_label "SD2_NCD"
+	(global_label "SD2_NCD"
 		(shape bidirectional)
 		(at 222.25 289.56 90)
 		(fields_autoplaced yes)
@@ -20918,7 +20918,7 @@
 		)
 		(uuid "0628ced1-62c8-4aee-8223-4a43c4bd22be")
 	)
-	(hierarchical_label "I2C1_SCL_1V8"
+	(global_label "I2C1_SCL_1V8"
 		(shape passive)
 		(at 298.45 370.84 90)
 		(fields_autoplaced yes)
@@ -20930,7 +20930,7 @@
 		)
 		(uuid "06f3b6e1-b2cc-48c0-a711-7a97483cb668")
 	)
-	(hierarchical_label "I2C2_SCL"
+	(global_label "I2C2_SCL"
 		(shape passive)
 		(at 326.39 231.14 180)
 		(fields_autoplaced yes)
@@ -20942,7 +20942,7 @@
 		)
 		(uuid "08b35981-26a8-4a71-8ada-6c58692140d2")
 	)
-	(hierarchical_label "GPS_RST"
+	(global_label "GPS_RST"
 		(shape passive)
 		(at 422.91 238.76 0)
 		(fields_autoplaced yes)
@@ -20954,7 +20954,7 @@
 		)
 		(uuid "09053640-1662-440b-92c8-7d163743c2a5")
 	)
-	(hierarchical_label "BT_WAKE"
+	(global_label "BT_WAKE"
 		(shape passive)
 		(at 425.45 76.2 0)
 		(fields_autoplaced yes)
@@ -20966,7 +20966,7 @@
 		)
 		(uuid "095beca5-d4ed-47f3-9aaa-48febf5ef886")
 	)
-	(hierarchical_label "NWDOG"
+	(global_label "NWDOG"
 		(shape passive)
 		(at 425.45 223.52 0)
 		(fields_autoplaced yes)
@@ -20978,7 +20978,7 @@
 		)
 		(uuid "0c7c2db0-950c-4a3b-bd7d-46219ec8d612")
 	)
-	(hierarchical_label "I2C3_SCL"
+	(global_label "I2C3_SCL"
 		(shape passive)
 		(at 326.39 238.76 180)
 		(fields_autoplaced yes)
@@ -20990,7 +20990,7 @@
 		)
 		(uuid "0d83463e-7502-4e35-b864-04f7d3268ce5")
 	)
-	(hierarchical_label "SAI2_TXC"
+	(global_label "SAI2_TXC"
 		(shape passive)
 		(at 463.55 149.86 0)
 		(fields_autoplaced yes)
@@ -21002,7 +21002,7 @@
 		)
 		(uuid "0e399daf-cf21-4210-a666-372a3c820884")
 	)
-	(hierarchical_label "DSI_TE"
+	(global_label "DSI_TE"
 		(shape passive)
 		(at 163.83 213.36 0)
 		(fields_autoplaced yes)
@@ -21014,7 +21014,7 @@
 		)
 		(uuid "11f52270-7373-41a7-bf56-75047483497a")
 	)
-	(hierarchical_label "SAI2_TXD"
+	(global_label "SAI2_TXD"
 		(shape passive)
 		(at 463.55 152.4 0)
 		(fields_autoplaced yes)
@@ -21026,7 +21026,7 @@
 		)
 		(uuid "13ea4c84-60e0-41dc-8673-8b8f216a285d")
 	)
-	(hierarchical_label "SD2_DATA0"
+	(global_label "SD2_DATA0"
 		(shape passive)
 		(at 222.25 274.32 0)
 		(fields_autoplaced yes)
@@ -21038,7 +21038,7 @@
 		)
 		(uuid "1545327a-d896-4729-9b2a-3aa945d468e7")
 	)
-	(hierarchical_label "SAI1_RXD7"
+	(global_label "SAI1_RXD7"
 		(shape passive)
 		(at 463.55 137.16 0)
 		(fields_autoplaced yes)
@@ -21050,7 +21050,7 @@
 		)
 		(uuid "16c58ab3-01f9-474c-b4f1-d570c3f539a2")
 	)
-	(hierarchical_label "HSW_WIFI_STATE"
+	(global_label "HSW_WIFI_STATE"
 		(shape passive)
 		(at 425.45 81.28 0)
 		(fields_autoplaced yes)
@@ -21062,7 +21062,7 @@
 		)
 		(uuid "173017a7-d4cb-46f2-89c9-6a828598ec66")
 	)
-	(hierarchical_label "UART4_CTS"
+	(global_label "UART4_CTS"
 		(shape passive)
 		(at 415.29 210.82 0)
 		(fields_autoplaced yes)
@@ -21074,7 +21074,7 @@
 		)
 		(uuid "19d16e07-4920-48ed-b31d-3a38d8fca654")
 	)
-	(hierarchical_label "CAMERA_PWR_EN_3V3"
+	(global_label "CAMERA_PWR_EN_3V3"
 		(shape passive)
 		(at 412.75 218.44 0)
 		(fields_autoplaced yes)
@@ -21086,7 +21086,7 @@
 		)
 		(uuid "1bf89dee-5a98-48d5-bbec-43efde272ffb")
 	)
-	(hierarchical_label "TF_PWR_3V3_EN"
+	(global_label "TF_PWR_3V3_EN"
 		(shape passive)
 		(at 422.91 226.06 0)
 		(fields_autoplaced yes)
@@ -21098,7 +21098,7 @@
 		)
 		(uuid "2086f9f1-0f8d-49a0-aa5f-49e886e15dd8")
 	)
-	(hierarchical_label "FLASH_SCK"
+	(global_label "FLASH_SCK"
 		(shape passive)
 		(at 427.99 200.66 0)
 		(fields_autoplaced yes)
@@ -21110,7 +21110,7 @@
 		)
 		(uuid "235396db-2bba-4c92-968a-5a2936f5559b")
 	)
-	(hierarchical_label "4G_PWR_EN"
+	(global_label "4G_PWR_EN"
 		(shape passive)
 		(at 162.56 101.6 0)
 		(fields_autoplaced yes)
@@ -21122,7 +21122,7 @@
 		)
 		(uuid "27a7c7fb-b3a8-4b47-882d-373d0d737d97")
 	)
-	(hierarchical_label "SAI1_TXD7"
+	(global_label "SAI1_TXD7"
 		(shape passive)
 		(at 463.55 106.68 0)
 		(fields_autoplaced yes)
@@ -21134,7 +21134,7 @@
 		)
 		(uuid "289504da-b3ad-4ba9-8927-4063724334d8")
 	)
-	(hierarchical_label "NFC_EN"
+	(global_label "NFC_EN"
 		(shape passive)
 		(at 332.74 116.84 180)
 		(fields_autoplaced yes)
@@ -21146,7 +21146,7 @@
 		)
 		(uuid "2d08d02e-9178-4942-be6d-9b0226d2db64")
 	)
-	(hierarchical_label "SAI1_TXD1"
+	(global_label "SAI1_TXD1"
 		(shape passive)
 		(at 463.55 91.44 0)
 		(fields_autoplaced yes)
@@ -21158,7 +21158,7 @@
 		)
 		(uuid "2ec296f8-cc6c-4d32-8a1c-c07304c9ad67")
 	)
-	(hierarchical_label "DSI_BAIS_EN"
+	(global_label "DSI_BAIS_EN"
 		(shape passive)
 		(at 165.1 193.04 0)
 		(fields_autoplaced yes)
@@ -21170,7 +21170,7 @@
 		)
 		(uuid "317ce6e8-728b-45fb-86dd-2fdb8d146553")
 	)
-	(hierarchical_label "LED_G"
+	(global_label "LED_G"
 		(shape passive)
 		(at 327.66 101.6 180)
 		(fields_autoplaced yes)
@@ -21182,7 +21182,7 @@
 		)
 		(uuid "31fcd968-8573-4139-a97e-ac4ef55d5bba")
 	)
-	(hierarchical_label "SD1_DATA7"
+	(global_label "SD1_DATA7"
 		(shape passive)
 		(at 123.19 292.1 180)
 		(fields_autoplaced yes)
@@ -21194,7 +21194,7 @@
 		)
 		(uuid "320d370c-e60b-49bc-9c28-cd187580981b")
 	)
-	(hierarchical_label "FLASH_SS"
+	(global_label "FLASH_SS"
 		(shape passive)
 		(at 415.29 193.04 0)
 		(fields_autoplaced yes)
@@ -21206,7 +21206,7 @@
 		)
 		(uuid "32242020-4cc0-4ed1-ae8c-bd6a5090c710")
 	)
-	(hierarchical_label "I2C4_SDA"
+	(global_label "I2C4_SDA"
 		(shape passive)
 		(at 326.39 248.92 180)
 		(fields_autoplaced yes)
@@ -21218,7 +21218,7 @@
 		)
 		(uuid "342f8533-a927-4ab2-8bf1-59d098fddea9")
 	)
-	(hierarchical_label "SAI3_RXD"
+	(global_label "SAI3_RXD"
 		(shape passive)
 		(at 326.39 121.92 180)
 		(fields_autoplaced yes)
@@ -21230,7 +21230,7 @@
 		)
 		(uuid "346bbc46-e060-4145-9e41-ad17e9e2dbf2")
 	)
-	(hierarchical_label "GPS3V3_EN"
+	(global_label "GPS3V3_EN"
 		(shape passive)
 		(at 162.56 129.54 0)
 		(fields_autoplaced yes)
@@ -21242,7 +21242,7 @@
 		)
 		(uuid "3679070f-d1e1-47fe-8727-b561711c3bb6")
 	)
-	(hierarchical_label "SAI3_TXD"
+	(global_label "SAI3_TXD"
 		(shape input)
 		(at 326.39 111.76 180)
 		(fields_autoplaced yes)
@@ -21254,7 +21254,7 @@
 		)
 		(uuid "39174670-9b29-4567-836e-3f9432f7a3d0")
 	)
-	(hierarchical_label "I2C2_SDA"
+	(global_label "I2C2_SDA"
 		(shape bidirectional)
 		(at 453.39 292.1 0)
 		(fields_autoplaced yes)
@@ -21266,7 +21266,7 @@
 		)
 		(uuid "3919c1b7-19c8-4675-af95-de21957827e1")
 	)
-	(hierarchical_label "SD1_DATA5"
+	(global_label "SD1_DATA5"
 		(shape passive)
 		(at 123.19 287.02 180)
 		(fields_autoplaced yes)
@@ -21278,7 +21278,7 @@
 		)
 		(uuid "3b1ad9f4-d388-436e-bd5c-3107811cbd84")
 	)
-	(hierarchical_label "SD2_DATA3"
+	(global_label "SD2_DATA3"
 		(shape passive)
 		(at 222.25 281.94 0)
 		(fields_autoplaced yes)
@@ -21290,7 +21290,7 @@
 		)
 		(uuid "3ccd4b7f-cf23-425d-9994-8af99c80bda8")
 	)
-	(hierarchical_label "NFC_IRQ"
+	(global_label "NFC_IRQ"
 		(shape passive)
 		(at 425.45 83.82 0)
 		(fields_autoplaced yes)
@@ -21302,7 +21302,7 @@
 		)
 		(uuid "3e6ad7f0-53b2-461a-89f1-1eddcac8eb1b")
 	)
-	(hierarchical_label "I2C3_SDA"
+	(global_label "I2C3_SDA"
 		(shape passive)
 		(at 326.39 241.3 180)
 		(fields_autoplaced yes)
@@ -21314,7 +21314,7 @@
 		)
 		(uuid "4329c56b-a7ba-4999-8923-fe3841379ccf")
 	)
-	(hierarchical_label "CHG_EN"
+	(global_label "CHG_EN"
 		(shape passive)
 		(at 162.56 81.28 0)
 		(fields_autoplaced yes)
@@ -21326,7 +21326,7 @@
 		)
 		(uuid "4397e006-54f8-40e1-961e-2835e0e65c9d")
 	)
-	(hierarchical_label "DSI_EN_3V3"
+	(global_label "DSI_EN_3V3"
 		(shape passive)
 		(at 422.91 231.14 0)
 		(fields_autoplaced yes)
@@ -21338,7 +21338,7 @@
 		)
 		(uuid "43a1d5e0-e1b4-486f-aff0-47806062dd4f")
 	)
-	(hierarchical_label "4G_RESET"
+	(global_label "4G_RESET"
 		(shape passive)
 		(at 162.56 78.74 0)
 		(fields_autoplaced yes)
@@ -21350,7 +21350,7 @@
 		)
 		(uuid "48caea00-3b8f-481e-b613-708881f8acfd")
 	)
-	(hierarchical_label "TYPEC_MUX_EN"
+	(global_label "TYPEC_MUX_EN"
 		(shape passive)
 		(at 426.72 246.38 0)
 		(fields_autoplaced yes)
@@ -21362,7 +21362,7 @@
 		)
 		(uuid "4a4b017d-306a-4138-8b67-ed8e0eec0d56")
 	)
-	(hierarchical_label "SD1_DATA6"
+	(global_label "SD1_DATA6"
 		(shape passive)
 		(at 123.19 289.56 180)
 		(fields_autoplaced yes)
@@ -21374,7 +21374,7 @@
 		)
 		(uuid "4f6c6beb-a051-4bb6-90ba-4ff58a72ccd6")
 	)
-	(hierarchical_label "VOL+"
+	(global_label "VOL+"
 		(shape passive)
 		(at 165.1 177.8 0)
 		(fields_autoplaced yes)
@@ -21386,7 +21386,7 @@
 		)
 		(uuid "51d3f16e-acbe-43aa-8328-ec4a4e4eaa62")
 	)
-	(hierarchical_label "LED_R"
+	(global_label "LED_R"
 		(shape passive)
 		(at 328.93 127 180)
 		(fields_autoplaced yes)
@@ -21398,7 +21398,7 @@
 		)
 		(uuid "5361666a-c456-43d1-abe5-54f26d844bbf")
 	)
-	(hierarchical_label "LED_B"
+	(global_label "LED_B"
 		(shape passive)
 		(at 422.91 251.46 0)
 		(fields_autoplaced yes)
@@ -21410,7 +21410,7 @@
 		)
 		(uuid "54fa1c40-7c76-4e59-adcb-73e68cf6a1c9")
 	)
-	(hierarchical_label "UART4_RXD"
+	(global_label "UART4_RXD"
 		(shape passive)
 		(at 415.29 213.36 0)
 		(fields_autoplaced yes)
@@ -21422,7 +21422,7 @@
 		)
 		(uuid "55a5c0cb-3aa5-40ed-b62d-feb0d6fa20f3")
 	)
-	(hierarchical_label "SD1_STROBE"
+	(global_label "SD1_STROBE"
 		(shape bidirectional)
 		(at 123.19 299.72 180)
 		(fields_autoplaced yes)
@@ -21434,7 +21434,7 @@
 		)
 		(uuid "56a33efb-923c-4323-932c-49d8b448bd30")
 	)
-	(hierarchical_label "CHG_USB_DSEL"
+	(global_label "CHG_USB_DSEL"
 		(shape passive)
 		(at 332.74 81.28 180)
 		(fields_autoplaced yes)
@@ -21446,7 +21446,7 @@
 		)
 		(uuid "5854f176-8fcf-4d27-a10e-62950d006aee")
 	)
-	(hierarchical_label "SAI1_RXD6"
+	(global_label "SAI1_RXD6"
 		(shape passive)
 		(at 463.55 134.62 0)
 		(fields_autoplaced yes)
@@ -21458,7 +21458,7 @@
 		)
 		(uuid "58aac8a5-dbcf-45d0-a872-742aa5c73278")
 	)
-	(hierarchical_label "I2C1_SDA_1V8"
+	(global_label "I2C1_SDA_1V8"
 		(shape passive)
 		(at 297.18 290.83 180)
 		(fields_autoplaced yes)
@@ -21470,7 +21470,7 @@
 		)
 		(uuid "5efd1afc-d6f7-4e86-a23e-b19b1440a387")
 	)
-	(hierarchical_label "SD1_CLK"
+	(global_label "SD1_CLK"
 		(shape bidirectional)
 		(at 123.19 266.7 180)
 		(fields_autoplaced yes)
@@ -21482,7 +21482,7 @@
 		)
 		(uuid "5fe641d0-29fa-4271-915f-cc77b0b1ccec")
 	)
-	(hierarchical_label "UART1_TXD"
+	(global_label "UART1_TXD"
 		(shape passive)
 		(at 326.39 195.58 180)
 		(fields_autoplaced yes)
@@ -21494,7 +21494,7 @@
 		)
 		(uuid "604e8bae-baed-45ff-9025-4c6bccb2e85b")
 	)
-	(hierarchical_label "UART3_RXD"
+	(global_label "UART3_RXD"
 		(shape passive)
 		(at 326.39 208.28 180)
 		(fields_autoplaced yes)
@@ -21506,7 +21506,7 @@
 		)
 		(uuid "62617a99-c454-423e-a502-7baf4d644cc2")
 	)
-	(hierarchical_label "SAI1_RXD5"
+	(global_label "SAI1_RXD5"
 		(shape passive)
 		(at 463.55 132.08 0)
 		(fields_autoplaced yes)
@@ -21518,7 +21518,7 @@
 		)
 		(uuid "64183b12-9603-422c-b72f-51f33ec09d57")
 	)
-	(hierarchical_label "SD2_NRST"
+	(global_label "SD2_NRST"
 		(shape bidirectional)
 		(at 222.25 292.1 0)
 		(fields_autoplaced yes)
@@ -21530,7 +21530,7 @@
 		)
 		(uuid "655a1668-5cd4-4ebd-aa5b-3efaac3028f7")
 	)
-	(hierarchical_label "VOL-"
+	(global_label "VOL-"
 		(shape passive)
 		(at 165.1 180.34 0)
 		(fields_autoplaced yes)
@@ -21542,7 +21542,7 @@
 		)
 		(uuid "66068f28-4f81-4167-a220-73f0af45fe80")
 	)
-	(hierarchical_label "SD1_CMD"
+	(global_label "SD1_CMD"
 		(shape bidirectional)
 		(at 123.19 269.24 180)
 		(fields_autoplaced yes)
@@ -21554,7 +21554,7 @@
 		)
 		(uuid "6641f413-3074-461f-aaa4-de9b5f47ce5f")
 	)
-	(hierarchical_label "HUB_PWR_3V3_EN"
+	(global_label "HUB_PWR_3V3_EN"
 		(shape passive)
 		(at 422.91 254 0)
 		(fields_autoplaced yes)
@@ -21566,7 +21566,7 @@
 		)
 		(uuid "66bddcc9-8026-4bb7-9962-eedb39e4ad30")
 	)
-	(hierarchical_label "DSI_RST"
+	(global_label "DSI_RST"
 		(shape passive)
 		(at 163.83 215.9 0)
 		(fields_autoplaced yes)
@@ -21578,7 +21578,7 @@
 		)
 		(uuid "689ea20b-caa8-4509-bfd6-071177ccafab")
 	)
-	(hierarchical_label "SAI1_TXD6"
+	(global_label "SAI1_TXD6"
 		(shape passive)
 		(at 463.55 104.14 0)
 		(fields_autoplaced yes)
@@ -21590,7 +21590,7 @@
 		)
 		(uuid "6b7dba2a-f968-42a5-9573-008fb46dc22b")
 	)
-	(hierarchical_label "SMC_PWR_3V3_EN"
+	(global_label "SMC_PWR_3V3_EN"
 		(shape passive)
 		(at 422.91 233.68 0)
 		(fields_autoplaced yes)
@@ -21602,7 +21602,7 @@
 		)
 		(uuid "6c50b581-1cf4-4c06-b872-319e30b551ab")
 	)
-	(hierarchical_label "I2C2_SCL"
+	(global_label "I2C2_SCL"
 		(shape bidirectional)
 		(at 453.39 289.56 0)
 		(fields_autoplaced yes)
@@ -21614,7 +21614,7 @@
 		)
 		(uuid "6d6668f3-8427-4ef3-8cfa-6a69d3b5f3d2")
 	)
-	(hierarchical_label "SMC_BOOT0"
+	(global_label "SMC_BOOT0"
 		(shape input)
 		(at 326.39 218.44 180)
 		(fields_autoplaced yes)
@@ -21626,7 +21626,7 @@
 		)
 		(uuid "6d776f2a-7c8c-477a-b009-b767ad0f36c4")
 	)
-	(hierarchical_label "UART4_TXD"
+	(global_label "UART4_TXD"
 		(shape passive)
 		(at 415.29 208.28 0)
 		(fields_autoplaced yes)
@@ -21638,7 +21638,7 @@
 		)
 		(uuid "6e276716-0c6d-47db-9c80-3a8107b18535")
 	)
-	(hierarchical_label "TCPC_NINT"
+	(global_label "TCPC_NINT"
 		(shape passive)
 		(at 422.91 243.84 0)
 		(fields_autoplaced yes)
@@ -21650,7 +21650,7 @@
 		)
 		(uuid "6e32373f-6720-4733-a5bd-454e16db56db")
 	)
-	(hierarchical_label "HSW_CA_STATE"
+	(global_label "HSW_CA_STATE"
 		(shape passive)
 		(at 425.45 114.3 0)
 		(fields_autoplaced yes)
@@ -21662,7 +21662,7 @@
 		)
 		(uuid "774d10c5-bc91-41d5-a5cf-46d557b64009")
 	)
-	(hierarchical_label "FLASH_MISO"
+	(global_label "FLASH_MISO"
 		(shape passive)
 		(at 415.29 198.12 0)
 		(fields_autoplaced yes)
@@ -21674,7 +21674,7 @@
 		)
 		(uuid "793a5d9c-e5ff-4af8-b23e-a6062674ddc1")
 	)
-	(hierarchical_label "SD2_CMD"
+	(global_label "SD2_CMD"
 		(shape bidirectional)
 		(at 222.25 269.24 0)
 		(fields_autoplaced yes)
@@ -21686,7 +21686,7 @@
 		)
 		(uuid "7a0b8b4a-4728-44ad-9d4f-3eb1d28bb082")
 	)
-	(hierarchical_label "SAI3_TXFS"
+	(global_label "SAI3_TXFS"
 		(shape input)
 		(at 326.39 106.68 180)
 		(fields_autoplaced yes)
@@ -21698,7 +21698,7 @@
 		)
 		(uuid "7f083fdc-47b4-4fe4-a390-b4fdce5eda83")
 	)
-	(hierarchical_label "I2C4_SCL"
+	(global_label "I2C4_SCL"
 		(shape passive)
 		(at 326.39 246.38 180)
 		(fields_autoplaced yes)
@@ -21710,7 +21710,7 @@
 		)
 		(uuid "7f83610a-9609-4e4a-a002-7011c6d248b7")
 	)
-	(hierarchical_label "AUDIO_POWER_EN_3V3"
+	(global_label "AUDIO_POWER_EN_3V3"
 		(shape passive)
 		(at 422.91 228.6 0)
 		(fields_autoplaced yes)
@@ -21722,7 +21722,7 @@
 		)
 		(uuid "7f95ef77-0025-4b08-90ed-e49e478bb534")
 	)
-	(hierarchical_label "TP_RST"
+	(global_label "TP_RST"
 		(shape passive)
 		(at 163.83 203.2 0)
 		(fields_autoplaced yes)
@@ -21734,7 +21734,7 @@
 		)
 		(uuid "80276c57-ac28-4741-a5ba-f6a937bfb99d")
 	)
-	(hierarchical_label "SD2_DATA2"
+	(global_label "SD2_DATA2"
 		(shape passive)
 		(at 222.25 279.4 0)
 		(fields_autoplaced yes)
@@ -21746,7 +21746,7 @@
 		)
 		(uuid "8034a079-a56d-462a-8bbb-91e620846e01")
 	)
-	(hierarchical_label "SD1_DATA1"
+	(global_label "SD1_DATA1"
 		(shape passive)
 		(at 123.19 276.86 180)
 		(fields_autoplaced yes)
@@ -21758,7 +21758,7 @@
 		)
 		(uuid "84be142c-3d5c-41e0-829b-0a1a35339c58")
 	)
-	(hierarchical_label "SD2_DATA1"
+	(global_label "SD2_DATA1"
 		(shape passive)
 		(at 222.25 276.86 0)
 		(fields_autoplaced yes)
@@ -21770,7 +21770,7 @@
 		)
 		(uuid "85c956f6-b8a8-4139-8d96-568b237ef9a1")
 	)
-	(hierarchical_label "I2C2_SDA"
+	(global_label "I2C2_SDA"
 		(shape passive)
 		(at 326.39 233.68 180)
 		(fields_autoplaced yes)
@@ -21782,7 +21782,7 @@
 		)
 		(uuid "8702005f-bf6c-442b-9f9e-a1bfd3bc747b")
 	)
-	(hierarchical_label "RTC_INT"
+	(global_label "RTC_INT"
 		(shape passive)
 		(at 422.91 241.3 0)
 		(fields_autoplaced yes)
@@ -21794,7 +21794,7 @@
 		)
 		(uuid "8a164227-d48f-4683-bd0e-e12914e4d31a")
 	)
-	(hierarchical_label "SD1_DATA2"
+	(global_label "SD1_DATA2"
 		(shape passive)
 		(at 123.19 279.4 180)
 		(fields_autoplaced yes)
@@ -21806,7 +21806,7 @@
 		)
 		(uuid "90388ef6-77e4-43a1-806f-a4ddd5868d06")
 	)
-	(hierarchical_label "TYPEC_HRESET"
+	(global_label "TYPEC_HRESET"
 		(shape passive)
 		(at 328.93 96.52 180)
 		(fields_autoplaced yes)
@@ -21818,7 +21818,7 @@
 		)
 		(uuid "904dc328-09ba-43bb-8e4a-cfa92d7af69f")
 	)
-	(hierarchical_label "SD1_DATA0"
+	(global_label "SD1_DATA0"
 		(shape passive)
 		(at 123.19 274.32 180)
 		(fields_autoplaced yes)
@@ -21830,7 +21830,7 @@
 		)
 		(uuid "91098bfb-5dbe-4136-a076-49096867b3e9")
 	)
-	(hierarchical_label "HSW_4G_STATE"
+	(global_label "HSW_4G_STATE"
 		(shape passive)
 		(at 425.45 111.76 0)
 		(fields_autoplaced yes)
@@ -21842,7 +21842,7 @@
 		)
 		(uuid "95bbc792-3258-43b1-ac2a-c3fd2461cfec")
 	)
-	(hierarchical_label "UART1_RXD"
+	(global_label "UART1_RXD"
 		(shape passive)
 		(at 326.39 193.04 180)
 		(fields_autoplaced yes)
@@ -21854,7 +21854,7 @@
 		)
 		(uuid "978970c3-915c-4af7-ab32-d4f9fd544a6a")
 	)
-	(hierarchical_label "SAI2_RXD"
+	(global_label "SAI2_RXD"
 		(shape passive)
 		(at 435.61 162.56 0)
 		(fields_autoplaced yes)
@@ -21866,7 +21866,7 @@
 		)
 		(uuid "9818eb8f-2162-4166-b5a0-6347fa103c33")
 	)
-	(hierarchical_label "CSI1_NRST"
+	(global_label "CSI1_NRST"
 		(shape passive)
 		(at 163.83 205.74 0)
 		(fields_autoplaced yes)
@@ -21878,7 +21878,7 @@
 		)
 		(uuid "9860ea32-59f3-45c3-96f7-fde66324dc26")
 	)
-	(hierarchical_label "I2C1_SCL"
+	(global_label "I2C1_SCL"
 		(shape bidirectional)
 		(at 350.52 370.84 0)
 		(fields_autoplaced yes)
@@ -21890,7 +21890,7 @@
 		)
 		(uuid "995d41fb-da95-437b-9a6d-9b2bff0f3ef4")
 	)
-	(hierarchical_label "PMIC_5V"
+	(global_label "PMIC_5V"
 		(shape passive)
 		(at 496.57 220.98 0)
 		(fields_autoplaced yes)
@@ -21902,7 +21902,7 @@
 		)
 		(uuid "9b227f34-ddf4-496d-b604-ea5eeb2f2822")
 	)
-	(hierarchical_label "FLASH_MOSI"
+	(global_label "FLASH_MOSI"
 		(shape passive)
 		(at 415.29 195.58 0)
 		(fields_autoplaced yes)
@@ -21914,7 +21914,7 @@
 		)
 		(uuid "9e2cb135-7898-4e8c-b653-0a172f878b5c")
 	)
-	(hierarchical_label "INT_LIGHT"
+	(global_label "INT_LIGHT"
 		(shape passive)
 		(at 161.29 116.84 0)
 		(fields_autoplaced yes)
@@ -21926,7 +21926,7 @@
 		)
 		(uuid "9e62e539-139d-40ab-b718-e7c0104aeed2")
 	)
-	(hierarchical_label "SAI1_TXD2"
+	(global_label "SAI1_TXD2"
 		(shape passive)
 		(at 463.55 93.98 0)
 		(fields_autoplaced yes)
@@ -21938,7 +21938,7 @@
 		)
 		(uuid "9e88b1cb-147c-480f-9893-fd436bcb234c")
 	)
-	(hierarchical_label "SD2_CLK"
+	(global_label "SD2_CLK"
 		(shape bidirectional)
 		(at 222.25 266.7 0)
 		(fields_autoplaced yes)
@@ -21950,7 +21950,7 @@
 		)
 		(uuid "9f6d425b-fa52-4ed1-a4b1-1e3e4dba27fe")
 	)
-	(hierarchical_label "SAI1_RXD4"
+	(global_label "SAI1_RXD4"
 		(shape passive)
 		(at 463.55 129.54 0)
 		(fields_autoplaced yes)
@@ -21962,7 +21962,7 @@
 		)
 		(uuid "a0cd777c-6e8a-411a-a69b-be7359f1a09f")
 	)
-	(hierarchical_label "TP_NINT"
+	(global_label "TP_NINT"
 		(shape passive)
 		(at 163.83 210.82 0)
 		(fields_autoplaced yes)
@@ -21974,7 +21974,7 @@
 		)
 		(uuid "a12adf6c-a633-4baf-b62c-f1c7aafdb01f")
 	)
-	(hierarchical_label "SAI1_TXD5"
+	(global_label "SAI1_TXD5"
 		(shape passive)
 		(at 463.55 101.6 0)
 		(fields_autoplaced yes)
@@ -21986,7 +21986,7 @@
 		)
 		(uuid "a590b565-42c8-4f6f-8038-8eee16a3b514")
 	)
-	(hierarchical_label "WIFI3V3_EN"
+	(global_label "WIFI3V3_EN"
 		(shape passive)
 		(at 162.56 124.46 0)
 		(fields_autoplaced yes)
@@ -21998,7 +21998,7 @@
 		)
 		(uuid "a68eb9a7-6007-477f-9d43-74a6dd3ce828")
 	)
-	(hierarchical_label "SPI_SS1"
+	(global_label "SPI_SS1"
 		(shape passive)
 		(at 323.85 215.9 180)
 		(fields_autoplaced yes)
@@ -22010,7 +22010,7 @@
 		)
 		(uuid "a9773b60-4509-4320-9c5f-1a02af5238a6")
 	)
-	(hierarchical_label "SD1_NRST"
+	(global_label "SD1_NRST"
 		(shape bidirectional)
 		(at 123.19 297.18 180)
 		(fields_autoplaced yes)
@@ -22022,7 +22022,7 @@
 		)
 		(uuid "aba1d908-7188-4d0e-819a-bb0cabc31d5d")
 	)
-	(hierarchical_label "HUB_RESET"
+	(global_label "HUB_RESET"
 		(shape passive)
 		(at 424.18 248.92 0)
 		(fields_autoplaced yes)
@@ -22034,7 +22034,7 @@
 		)
 		(uuid "aca7b376-3169-4d5b-a362-1b8752801a05")
 	)
-	(hierarchical_label "SAI1_TXD3"
+	(global_label "SAI1_TXD3"
 		(shape passive)
 		(at 463.55 96.52 0)
 		(fields_autoplaced yes)
@@ -22046,7 +22046,7 @@
 		)
 		(uuid "ad216152-1768-40d6-8e51-8774d5b2a3b1")
 	)
-	(hierarchical_label "SDIO_WAKE"
+	(global_label "SDIO_WAKE"
 		(shape passive)
 		(at 222.25 287.02 0)
 		(fields_autoplaced yes)
@@ -22058,7 +22058,7 @@
 		)
 		(uuid "af64745a-f2b6-480e-9531-a637466f6b33")
 	)
-	(hierarchical_label "4G_WAKE"
+	(global_label "4G_WAKE"
 		(shape input)
 		(at 165.1 96.52 0)
 		(fields_autoplaced yes)
@@ -22070,7 +22070,7 @@
 		)
 		(uuid "b0655fe7-0321-4548-825c-85bd2759c39d")
 	)
-	(hierarchical_label "HEADPHONE_DET_1V8"
+	(global_label "HEADPHONE_DET_1V8"
 		(shape passive)
 		(at 162.56 121.92 0)
 		(fields_autoplaced yes)
@@ -22082,7 +22082,7 @@
 		)
 		(uuid "b73abe83-73e9-4454-9714-5e547623e0c2")
 	)
-	(hierarchical_label "SAI2_MCLK"
+	(global_label "SAI2_MCLK"
 		(shape passive)
 		(at 463.55 142.24 0)
 		(fields_autoplaced yes)
@@ -22094,7 +22094,7 @@
 		)
 		(uuid "b7c8069d-f9bb-4f18-8f32-b7c962a3a879")
 	)
-	(hierarchical_label "CLKO2"
+	(global_label "CLKO2"
 		(shape passive)
 		(at 433.07 256.54 0)
 		(fields_autoplaced yes)
@@ -22106,7 +22106,7 @@
 		)
 		(uuid "b93c581b-e837-4cfb-a767-c1e9898250f3")
 	)
-	(hierarchical_label "INT_M/A/G"
+	(global_label "INT_M/A/G"
 		(shape passive)
 		(at 328.93 91.44 180)
 		(fields_autoplaced yes)
@@ -22118,7 +22118,7 @@
 		)
 		(uuid "b9eed0bf-46be-4299-97bc-be061a2d183d")
 	)
-	(hierarchical_label "I2C3_SDA"
+	(global_label "I2C3_SDA"
 		(shape bidirectional)
 		(at 453.39 299.72 0)
 		(fields_autoplaced yes)
@@ -22130,7 +22130,7 @@
 		)
 		(uuid "bd408266-8c0f-4b8b-8c9b-237f96d46871")
 	)
-	(hierarchical_label "I2C3_SCL"
+	(global_label "I2C3_SCL"
 		(shape bidirectional)
 		(at 453.39 297.18 0)
 		(fields_autoplaced yes)
@@ -22142,7 +22142,7 @@
 		)
 		(uuid "bd8b48c3-c280-4875-8bc7-4c18b8af0e14")
 	)
-	(hierarchical_label "SD1_DATA3"
+	(global_label "SD1_DATA3"
 		(shape passive)
 		(at 123.19 281.94 180)
 		(fields_autoplaced yes)
@@ -22154,7 +22154,7 @@
 		)
 		(uuid "beaae20c-c02f-4764-953c-d1e37a6a4412")
 	)
-	(hierarchical_label "BAT_LOW"
+	(global_label "BAT_LOW"
 		(shape passive)
 		(at 332.74 83.82 180)
 		(fields_autoplaced yes)
@@ -22166,7 +22166,7 @@
 		)
 		(uuid "bf118292-de8e-4d25-82f3-a69fbf2ffc7b")
 	)
-	(hierarchical_label "TF_NCD"
+	(global_label "TF_NCD"
 		(shape passive)
 		(at 181.61 127 0)
 		(fields_autoplaced yes)
@@ -22178,7 +22178,7 @@
 		)
 		(uuid "c2e15809-4ab7-4678-b97d-1877b8afc7d3")
 	)
-	(hierarchical_label "BT_REG_ON"
+	(global_label "BT_REG_ON"
 		(shape passive)
 		(at 340.36 76.2 180)
 		(fields_autoplaced yes)
@@ -22190,7 +22190,7 @@
 		)
 		(uuid "c63eade8-c4db-4120-b400-63f03f0f0265")
 	)
-	(hierarchical_label "$$$2"
+	(global_label "$$$2"
 		(shape passive)
 		(at 309.88 129.54 180)
 		(fields_autoplaced yes)
@@ -22202,7 +22202,7 @@
 		)
 		(uuid "c8a38e5d-c011-4df1-8a5a-6f39c510a891")
 	)
-	(hierarchical_label "PWR_KEY"
+	(global_label "PWR_KEY"
 		(shape passive)
 		(at 162.56 93.98 0)
 		(fields_autoplaced yes)
@@ -22214,7 +22214,7 @@
 		)
 		(uuid "c9cef2c0-e11f-40ec-84b0-7a1260cb3ce2")
 	)
-	(hierarchical_label "CSI2_NRST"
+	(global_label "CSI2_NRST"
 		(shape passive)
 		(at 163.83 208.28 0)
 		(fields_autoplaced yes)
@@ -22226,7 +22226,7 @@
 		)
 		(uuid "cbd6599d-afbb-4601-8e98-bcfadd2a3221")
 	)
-	(hierarchical_label "I2C1_SCL_1V8"
+	(global_label "I2C1_SCL_1V8"
 		(shape passive)
 		(at 326.39 223.52 180)
 		(fields_autoplaced yes)
@@ -22238,7 +22238,7 @@
 		)
 		(uuid "cc723c3f-eee3-477b-a3e3-ce416cf9a7f8")
 	)
-	(hierarchical_label "I2C4_SDA"
+	(global_label "I2C4_SDA"
 		(shape bidirectional)
 		(at 453.39 307.34 0)
 		(fields_autoplaced yes)
@@ -22250,7 +22250,7 @@
 		)
 		(uuid "cde5b808-416e-4773-a20b-cb95df2dd526")
 	)
-	(hierarchical_label "I2C1_SDA"
+	(global_label "I2C1_SDA"
 		(shape output)
 		(at 350.52 290.83 0)
 		(fields_autoplaced yes)
@@ -22262,7 +22262,7 @@
 		)
 		(uuid "cee82cfa-6c25-4498-b9fd-4a331e3c5b02")
 	)
-	(hierarchical_label "UART2_RXD"
+	(global_label "UART2_RXD"
 		(shape passive)
 		(at 326.39 200.66 180)
 		(fields_autoplaced yes)
@@ -22274,7 +22274,7 @@
 		)
 		(uuid "d07c4ceb-cd77-4a06-a2cb-9805dd502b18")
 	)
-	(hierarchical_label "SAI1_RXD2"
+	(global_label "SAI1_RXD2"
 		(shape passive)
 		(at 463.55 124.46 0)
 		(fields_autoplaced yes)
@@ -22286,7 +22286,7 @@
 		)
 		(uuid "d3d31704-63da-48f8-ad4a-9354c121c5df")
 	)
-	(hierarchical_label "SAI1_RXD3"
+	(global_label "SAI1_RXD3"
 		(shape passive)
 		(at 463.55 127 0)
 		(fields_autoplaced yes)
@@ -22298,7 +22298,7 @@
 		)
 		(uuid "d4b61efb-9011-4e29-b4f4-44e0bdd621d1")
 	)
-	(hierarchical_label "UART2_TXD"
+	(global_label "UART2_TXD"
 		(shape passive)
 		(at 326.39 203.2 180)
 		(fields_autoplaced yes)
@@ -22310,7 +22310,7 @@
 		)
 		(uuid "d61cf580-5563-4daf-878d-907427fe7ef8")
 	)
-	(hierarchical_label "4G_W_DIS2"
+	(global_label "4G_W_DIS2"
 		(shape passive)
 		(at 162.56 132.08 0)
 		(fields_autoplaced yes)
@@ -22322,7 +22322,7 @@
 		)
 		(uuid "d6824fd7-8e51-447f-912a-3169b8b70b7a")
 	)
-	(hierarchical_label "I2C1_SDA_1V8"
+	(global_label "I2C1_SDA_1V8"
 		(shape passive)
 		(at 326.39 226.06 180)
 		(fields_autoplaced yes)
@@ -22334,7 +22334,7 @@
 		)
 		(uuid "d9a5cad4-0b03-408d-8d81-15d1a278f713")
 	)
-	(hierarchical_label "FLASH_STROBE"
+	(global_label "FLASH_STROBE"
 		(shape passive)
 		(at 165.1 190.5 0)
 		(fields_autoplaced yes)
@@ -22346,7 +22346,7 @@
 		)
 		(uuid "db1db87e-e2a6-4a8f-bec1-ff828990dc4b")
 	)
-	(hierarchical_label "CHG_OTG_OUT_EN"
+	(global_label "CHG_OTG_OUT_EN"
 		(shape passive)
 		(at 162.56 86.36 0)
 		(fields_autoplaced yes)
@@ -22358,7 +22358,7 @@
 		)
 		(uuid "e01d249b-71b4-418f-89dd-5e2bf67076f7")
 	)
-	(hierarchical_label "BACKLINGE_EN"
+	(global_label "BACKLINGE_EN"
 		(shape passive)
 		(at 162.56 109.22 0)
 		(fields_autoplaced yes)
@@ -22370,7 +22370,7 @@
 		)
 		(uuid "e28798f2-7fde-4329-bad3-229c7bbcf409")
 	)
-	(hierarchical_label "I2C4_SCL"
+	(global_label "I2C4_SCL"
 		(shape bidirectional)
 		(at 453.39 304.8 0)
 		(fields_autoplaced yes)
@@ -22382,7 +22382,7 @@
 		)
 		(uuid "e417d83a-fbae-425f-ae8b-eec3784f3932")
 	)
-	(hierarchical_label "SAI3_TXC"
+	(global_label "SAI3_TXC"
 		(shape input)
 		(at 326.39 109.22 180)
 		(fields_autoplaced yes)
@@ -22394,7 +22394,7 @@
 		)
 		(uuid "e464c670-826a-484e-81e0-764a5a64a194")
 	)
-	(hierarchical_label "4G_W_DISABLE"
+	(global_label "4G_W_DISABLE"
 		(shape passive)
 		(at 162.56 104.14 0)
 		(fields_autoplaced yes)
@@ -22406,7 +22406,7 @@
 		)
 		(uuid "e64fc232-c150-4b8d-9454-644a3fa556e3")
 	)
-	(hierarchical_label "MOTO"
+	(global_label "MOTO"
 		(shape passive)
 		(at 328.93 132.08 180)
 		(fields_autoplaced yes)
@@ -22418,7 +22418,7 @@
 		)
 		(uuid "e7e8510d-97a1-4b1b-8fae-1ee418285a87")
 	)
-	(hierarchical_label "SAI1_TXD4"
+	(global_label "SAI1_TXD4"
 		(shape passive)
 		(at 463.55 99.06 0)
 		(fields_autoplaced yes)
@@ -22430,7 +22430,7 @@
 		)
 		(uuid "ee33d794-f5ac-4f8e-9e6a-bb455c499ba4")
 	)
-	(hierarchical_label "SAI1_TXD0"
+	(global_label "SAI1_TXD0"
 		(shape passive)
 		(at 463.55 88.9 0)
 		(fields_autoplaced yes)
@@ -22442,7 +22442,7 @@
 		)
 		(uuid "efd94c2b-5a33-43df-a226-f5bdf87322b6")
 	)
-	(hierarchical_label "PMIC_NINT"
+	(global_label "PMIC_NINT"
 		(shape passive)
 		(at 425.45 236.22 0)
 		(fields_autoplaced yes)
@@ -22454,7 +22454,7 @@
 		)
 		(uuid "f0f98d23-7c8b-4baf-9ccf-2387e7d6535b")
 	)
-	(hierarchical_label "WIFI_REG_ON"
+	(global_label "WIFI_REG_ON"
 		(shape passive)
 		(at 326.39 119.38 180)
 		(fields_autoplaced yes)
@@ -22466,7 +22466,7 @@
 		)
 		(uuid "f2c772a1-90bf-47d4-8f18-4154ad16b095")
 	)
-	(hierarchical_label "SD1_DATA4"
+	(global_label "SD1_DATA4"
 		(shape passive)
 		(at 123.19 284.48 180)
 		(fields_autoplaced yes)
@@ -22478,7 +22478,7 @@
 		)
 		(uuid "f2d0d061-e33a-45b8-9216-57fc360159f8")
 	)
-	(hierarchical_label "SAI1_RXD0"
+	(global_label "SAI1_RXD0"
 		(shape passive)
 		(at 463.55 119.38 0)
 		(fields_autoplaced yes)
@@ -22490,7 +22490,7 @@
 		)
 		(uuid "f551e75d-f90e-4584-9d28-0bcc034ab75d")
 	)
-	(hierarchical_label "SAI1_RXD1"
+	(global_label "SAI1_RXD1"
 		(shape passive)
 		(at 463.55 121.92 0)
 		(fields_autoplaced yes)
@@ -22502,7 +22502,7 @@
 		)
 		(uuid "f55ffc0d-a6b7-495e-8317-bb68c3a47909")
 	)
-	(hierarchical_label "UART3_TXD"
+	(global_label "UART3_TXD"
 		(shape passive)
 		(at 326.39 210.82 180)
 		(fields_autoplaced yes)
@@ -22514,7 +22514,7 @@
 		)
 		(uuid "fb993d81-5c12-449a-9bc2-fe724ab66c6a")
 	)
-	(hierarchical_label "FLASH_EN"
+	(global_label "FLASH_EN"
 		(shape passive)
 		(at 165.1 187.96 0)
 		(fields_autoplaced yes)
@@ -22526,7 +22526,7 @@
 		)
 		(uuid "fc511722-64ca-412f-b8c8-1b942fa9fba9")
 	)
-	(hierarchical_label "UART4_RTS"
+	(global_label "UART4_RTS"
 		(shape passive)
 		(at 415.29 205.74 0)
 		(fields_autoplaced yes)

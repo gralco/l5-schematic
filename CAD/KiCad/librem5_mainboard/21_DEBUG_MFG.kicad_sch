@@ -7843,7 +7843,7 @@
 		)
 		(uuid "fd3aa79d-5571-4d4a-b157-3e61459eda4f")
 	)
-	(hierarchical_label "USB1_DN"
+	(global_label "USB1_DN"
 		(shape passive)
 		(at 176.53 121.92 180)
 		(fields_autoplaced yes)
@@ -7855,7 +7855,7 @@
 		)
 		(uuid "0472dd37-5bde-4369-a1ce-b95f43bce26a")
 	)
-	(hierarchical_label "JTAG_TDO"
+	(global_label "JTAG_TDO"
 		(shape bidirectional)
 		(at 349.25 85.09 180)
 		(fields_autoplaced yes)
@@ -7867,7 +7867,7 @@
 		)
 		(uuid "07de5e40-5eaf-4248-b8c4-57505a7ec2c5")
 	)
-	(hierarchical_label "USB_VBUS"
+	(global_label "USB_VBUS"
 		(shape passive)
 		(at 162.56 119.38 180)
 		(fields_autoplaced yes)
@@ -7879,7 +7879,7 @@
 		)
 		(uuid "0dd40ceb-e4a9-4f78-8c8a-ac8265f18a0e")
 	)
-	(hierarchical_label "UART1_RXD"
+	(global_label "UART1_RXD"
 		(shape passive)
 		(at 280.67 71.12 180)
 		(fields_autoplaced yes)
@@ -7891,7 +7891,7 @@
 		)
 		(uuid "0e985b6f-1327-4c2a-b61f-b09492c9b5ff")
 	)
-	(hierarchical_label "SMC_STM_SWCLK"
+	(global_label "SMC_STM_SWCLK"
 		(shape passive)
 		(at 287.02 120.65 180)
 		(fields_autoplaced yes)
@@ -7903,7 +7903,7 @@
 		)
 		(uuid "17cb651e-806a-49b0-872e-73d10064dc01")
 	)
-	(hierarchical_label "POR_B"
+	(global_label "POR_B"
 		(shape passive)
 		(at 415.29 104.14 0)
 		(fields_autoplaced yes)
@@ -7915,7 +7915,7 @@
 		)
 		(uuid "2057088a-7dad-459b-bfdc-d89691a4cef0")
 	)
-	(hierarchical_label "T_GND"
+	(global_label "T_GND"
 		(shape passive)
 		(at 176.53 142.24 180)
 		(fields_autoplaced yes)
@@ -7927,7 +7927,7 @@
 		)
 		(uuid "2851a2cc-ab7b-473d-96a4-61d475dd0af2")
 	)
-	(hierarchical_label "SMC_BOOT0"
+	(global_label "SMC_BOOT0"
 		(shape passive)
 		(at 287.02 118.11 180)
 		(fields_autoplaced yes)
@@ -7939,7 +7939,7 @@
 		)
 		(uuid "29039227-bd79-4be1-ba02-b842e13beecd")
 	)
-	(hierarchical_label "T_BAT"
+	(global_label "T_BAT"
 		(shape passive)
 		(at 176.53 134.62 180)
 		(fields_autoplaced yes)
@@ -7951,7 +7951,7 @@
 		)
 		(uuid "3b03f87f-c4f2-46b3-9e73-6dc448919d6c")
 	)
-	(hierarchical_label "UART2_TXD"
+	(global_label "UART2_TXD"
 		(shape passive)
 		(at 280.67 97.79 180)
 		(fields_autoplaced yes)
@@ -7963,7 +7963,7 @@
 		)
 		(uuid "43499743-5018-45d2-8848-8d1312ae725f")
 	)
-	(hierarchical_label "UART1_TXD"
+	(global_label "UART1_TXD"
 		(shape passive)
 		(at 280.67 73.66 180)
 		(fields_autoplaced yes)
@@ -7975,7 +7975,7 @@
 		)
 		(uuid "464edb6c-8be6-4747-a597-2f96afa2db35")
 	)
-	(hierarchical_label "JTAG_TCK"
+	(global_label "JTAG_TCK"
 		(shape bidirectional)
 		(at 349.25 77.47 180)
 		(fields_autoplaced yes)
@@ -7987,7 +7987,7 @@
 		)
 		(uuid "54d58ba6-c38e-4e54-8a11-b39f48ce4901")
 	)
-	(hierarchical_label "UART2_RXD"
+	(global_label "UART2_RXD"
 		(shape passive)
 		(at 280.67 95.25 180)
 		(fields_autoplaced yes)
@@ -7999,7 +7999,7 @@
 		)
 		(uuid "57d30b9f-d60a-473f-b0af-5fad130929ca")
 	)
-	(hierarchical_label "JTAG_TMS"
+	(global_label "JTAG_TMS"
 		(shape bidirectional)
 		(at 349.25 80.01 180)
 		(fields_autoplaced yes)
@@ -8011,7 +8011,7 @@
 		)
 		(uuid "581453c3-bd3d-4275-99cb-addc21bc4371")
 	)
-	(hierarchical_label "USB1_ID"
+	(global_label "USB1_ID"
 		(shape passive)
 		(at 176.53 116.84 180)
 		(fields_autoplaced yes)
@@ -8023,7 +8023,7 @@
 		)
 		(uuid "721092b0-452d-47f2-bb4b-d74c554a2415")
 	)
-	(hierarchical_label "T_NTC"
+	(global_label "T_NTC"
 		(shape passive)
 		(at 176.53 138.43 180)
 		(fields_autoplaced yes)
@@ -8035,7 +8035,7 @@
 		)
 		(uuid "74cbe986-886b-4c9b-8e7e-f10a3c334525")
 	)
-	(hierarchical_label "BOOT_MODE1"
+	(global_label "BOOT_MODE1"
 		(shape passive)
 		(at 170.18 97.79 180)
 		(fields_autoplaced yes)
@@ -8047,7 +8047,7 @@
 		)
 		(uuid "8976dc89-89d0-4f70-a301-f17d21e2c78f")
 	)
-	(hierarchical_label "SMC_STM_SWDIO"
+	(global_label "SMC_STM_SWDIO"
 		(shape passive)
 		(at 287.02 123.19 180)
 		(fields_autoplaced yes)
@@ -8059,7 +8059,7 @@
 		)
 		(uuid "8b3692b6-527f-4275-af80-875587ea36fc")
 	)
-	(hierarchical_label "PMIC_5V"
+	(global_label "PMIC_5V"
 		(shape passive)
 		(at 359.41 99.06 180)
 		(fields_autoplaced yes)
@@ -8071,7 +8071,7 @@
 		)
 		(uuid "90f37f94-5a84-4e72-99d3-09b1b436a846")
 	)
-	(hierarchical_label "UART1_TXD"
+	(global_label "UART1_TXD"
 		(shape bidirectional)
 		(at 294.64 73.66 0)
 		(fields_autoplaced yes)
@@ -8083,7 +8083,7 @@
 		)
 		(uuid "ad52aa2e-5efa-4895-bf89-32965bde8f7c")
 	)
-	(hierarchical_label "BOOT_MODE0"
+	(global_label "BOOT_MODE0"
 		(shape passive)
 		(at 170.18 95.25 180)
 		(fields_autoplaced yes)
@@ -8095,7 +8095,7 @@
 		)
 		(uuid "b1328485-a60c-40e6-8324-a813a706ae7d")
 	)
-	(hierarchical_label "USB1_DP"
+	(global_label "USB1_DP"
 		(shape passive)
 		(at 176.53 124.46 180)
 		(fields_autoplaced yes)
@@ -8107,7 +8107,7 @@
 		)
 		(uuid "b8040bc6-7217-485f-ba81-6eaf9d90bc58")
 	)
-	(hierarchical_label "SMC_PWR"
+	(global_label "SMC_PWR"
 		(shape passive)
 		(at 287.02 127 180)
 		(fields_autoplaced yes)
@@ -8119,7 +8119,7 @@
 		)
 		(uuid "cafdfe42-ba20-48d2-8e15-49cc5445b65c")
 	)
-	(hierarchical_label "JTAG_TDI"
+	(global_label "JTAG_TDI"
 		(shape bidirectional)
 		(at 349.25 82.55 180)
 		(fields_autoplaced yes)
@@ -8131,7 +8131,7 @@
 		)
 		(uuid "e3a3f5b3-3c2c-4f12-85f5-4caf6605199e")
 	)
-	(hierarchical_label "JTAG_NTRST"
+	(global_label "JTAG_NTRST"
 		(shape passive)
 		(at 359.41 91.44 180)
 		(fields_autoplaced yes)

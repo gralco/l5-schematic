@@ -13037,7 +13037,7 @@
 		)
 		(uuid "fa2d1813-6364-4815-8ff3-95c87ad46008")
 	)
-	(hierarchical_label "SAI2_TXC"
+	(global_label "SAI2_TXC"
 		(shape passive)
 		(at 254 256.54 180)
 		(fields_autoplaced yes)
@@ -13049,7 +13049,7 @@
 		)
 		(uuid "00809b39-1968-49e0-953b-7f8676e47dbf")
 	)
-	(hierarchical_label "DMIC_DAT"
+	(global_label "DMIC_DAT"
 		(shape bidirectional)
 		(at 203.2 284.48 0)
 		(fields_autoplaced yes)
@@ -13061,7 +13061,7 @@
 		)
 		(uuid "0b1ff960-9767-477a-b685-8745648f0078")
 	)
-	(hierarchical_label "MICBIAS"
+	(global_label "MICBIAS"
 		(shape input)
 		(at 441.96 214.63 180)
 		(fields_autoplaced yes)
@@ -13073,7 +13073,7 @@
 		)
 		(uuid "0d9298c1-e20a-4e0e-b35d-3dba0f7f884d")
 	)
-	(hierarchical_label "SPKOUTLN"
+	(global_label "SPKOUTLN"
 		(shape bidirectional)
 		(at 292.1 335.28 180)
 		(fields_autoplaced yes)
@@ -13085,7 +13085,7 @@
 		)
 		(uuid "17974d70-565c-4555-b16c-7f686f5e03e3")
 	)
-	(hierarchical_label "MIC2_DAT"
+	(global_label "MIC2_DAT"
 		(shape passive)
 		(at 109.22 284.48 180)
 		(fields_autoplaced yes)
@@ -13097,7 +13097,7 @@
 		)
 		(uuid "21fa3ca6-5419-4194-b128-83c24efe7afa")
 	)
-	(hierarchical_label "AUDIO_POWER_KEY"
+	(global_label "AUDIO_POWER_KEY"
 		(shape passive)
 		(at 102.87 128.27 180)
 		(fields_autoplaced yes)
@@ -13109,7 +13109,7 @@
 		)
 		(uuid "296194ed-12e7-44f9-9a88-877dd270e049")
 	)
-	(hierarchical_label "I2C3_SDA"
+	(global_label "I2C3_SDA"
 		(shape passive)
 		(at 271.78 241.3 180)
 		(fields_autoplaced yes)
@@ -13121,7 +13121,7 @@
 		)
 		(uuid "2d8c721c-bb79-471d-b21c-b34a2ad219d2")
 	)
-	(hierarchical_label "SPKOUTLP"
+	(global_label "SPKOUTLP"
 		(shape bidirectional)
 		(at 368.3 180.34 0)
 		(fields_autoplaced yes)
@@ -13133,7 +13133,7 @@
 		)
 		(uuid "2f2c0351-04b1-4f77-b94f-0620f281ce28")
 	)
-	(hierarchical_label "SAI2_RXD"
+	(global_label "SAI2_RXD"
 		(shape input)
 		(at 254 264.16 180)
 		(fields_autoplaced yes)
@@ -13145,7 +13145,7 @@
 		)
 		(uuid "31d96cb3-3725-4e98-b3fe-d442f663e797")
 	)
-	(hierarchical_label "SPKL_C"
+	(global_label "SPKL_C"
 		(shape output)
 		(at 369.57 330.2 0)
 		(fields_autoplaced yes)
@@ -13157,7 +13157,7 @@
 		)
 		(uuid "338c5c49-c970-47a4-9ec3-3e6c203d8532")
 	)
-	(hierarchical_label "SPKOUTRN"
+	(global_label "SPKOUTRN"
 		(shape bidirectional)
 		(at 368.3 195.58 0)
 		(fields_autoplaced yes)
@@ -13169,7 +13169,7 @@
 		)
 		(uuid "39237c7c-a101-4dae-84e2-73c3cfa05502")
 	)
-	(hierarchical_label "SPKOUTRP"
+	(global_label "SPKOUTRP"
 		(shape bidirectional)
 		(at 368.3 198.12 0)
 		(fields_autoplaced yes)
@@ -13181,7 +13181,7 @@
 		)
 		(uuid "41a2b294-35b8-4da0-9f95-4af42fe2eb4e")
 	)
-	(hierarchical_label "SAI2_MCLK"
+	(global_label "SAI2_MCLK"
 		(shape passive)
 		(at 254 271.78 180)
 		(fields_autoplaced yes)
@@ -13193,7 +13193,7 @@
 		)
 		(uuid "5bf7d55c-9a22-4391-be41-4857fa496b60")
 	)
-	(hierarchical_label "MIC_IN"
+	(global_label "MIC_IN"
 		(shape bidirectional)
 		(at 416.56 180.34 180)
 		(fields_autoplaced yes)
@@ -13205,7 +13205,7 @@
 		)
 		(uuid "643559cb-84c4-4acd-a0ef-f0cbfb93c0e1")
 	)
-	(hierarchical_label "MIC-"
+	(global_label "MIC-"
 		(shape passive)
 		(at 435.61 154.94 0)
 		(fields_autoplaced yes)
@@ -13217,7 +13217,7 @@
 		)
 		(uuid "69ce78de-2a5b-47ac-a642-a19145fa649c")
 	)
-	(hierarchical_label "SPKOUTLP"
+	(global_label "SPKOUTLP"
 		(shape bidirectional)
 		(at 292.1 330.2 180)
 		(fields_autoplaced yes)
@@ -13229,7 +13229,7 @@
 		)
 		(uuid "69fd3b15-73ad-47b7-9124-40d6e502839b")
 	)
-	(hierarchical_label "SPKR_C"
+	(global_label "SPKR_C"
 		(shape passive)
 		(at 372.11 335.28 0)
 		(fields_autoplaced yes)
@@ -13241,7 +13241,7 @@
 		)
 		(uuid "6fe68041-184d-43c6-8914-2575b4e264bd")
 	)
-	(hierarchical_label "VSYS_3V4_4V3"
+	(global_label "VSYS_3V4_4V3"
 		(shape bidirectional)
 		(at 261.62 71.12 90)
 		(fields_autoplaced yes)
@@ -13253,7 +13253,7 @@
 		)
 		(uuid "741881d8-21c2-4151-a178-9bc686dc7e11")
 	)
-	(hierarchical_label "DMIC_DAT"
+	(global_label "DMIC_DAT"
 		(shape bidirectional)
 		(at 368.3 251.46 0)
 		(fields_autoplaced yes)
@@ -13265,7 +13265,7 @@
 		)
 		(uuid "7430640b-9e23-4f72-a8b3-7174b1ec1d9e")
 	)
-	(hierarchical_label "SPKOUTLN"
+	(global_label "SPKOUTLN"
 		(shape bidirectional)
 		(at 368.3 177.8 0)
 		(fields_autoplaced yes)
@@ -13277,7 +13277,7 @@
 		)
 		(uuid "807311b6-a9cc-4c1b-acfb-3ba2647881a3")
 	)
-	(hierarchical_label "SAI2_TXFS"
+	(global_label "SAI2_TXFS"
 		(shape passive)
 		(at 254 259.08 180)
 		(fields_autoplaced yes)
@@ -13289,7 +13289,7 @@
 		)
 		(uuid "82c90cf8-14ed-474e-910c-32980f92cedc")
 	)
-	(hierarchical_label "SAI2_TXD"
+	(global_label "SAI2_TXD"
 		(shape passive)
 		(at 254 261.62 180)
 		(fields_autoplaced yes)
@@ -13301,7 +13301,7 @@
 		)
 		(uuid "95ee72be-7215-496d-a571-4cad3ff3d48e")
 	)
-	(hierarchical_label "DMICCLK"
+	(global_label "DMICCLK"
 		(shape bidirectional)
 		(at 204.47 238.76 0)
 		(fields_autoplaced yes)
@@ -13313,7 +13313,7 @@
 		)
 		(uuid "968c2b1a-a6aa-4b3c-91cc-1f772a3aff4e")
 	)
-	(hierarchical_label "VDD_1V8"
+	(global_label "VDD_1V8"
 		(shape bidirectional)
 		(at 133.35 63.5 90)
 		(fields_autoplaced yes)
@@ -13325,7 +13325,7 @@
 		)
 		(uuid "9d830cb1-7517-41c5-9ce3-011ce483be7b")
 	)
-	(hierarchical_label "MIC2_CLK"
+	(global_label "MIC2_CLK"
 		(shape passive)
 		(at 109.22 279.4 180)
 		(fields_autoplaced yes)
@@ -13337,7 +13337,7 @@
 		)
 		(uuid "a3243fb6-9dfb-460a-bb2f-6d6afdc9de97")
 	)
-	(hierarchical_label "MIC-"
+	(global_label "MIC-"
 		(shape passive)
 		(at 270.51 203.2 180)
 		(fields_autoplaced yes)
@@ -13349,7 +13349,7 @@
 		)
 		(uuid "a6022c5e-5819-41be-b963-5a2b5647f6be")
 	)
-	(hierarchical_label "MIC-"
+	(global_label "MIC-"
 		(shape passive)
 		(at 508 101.6 180)
 		(fields_autoplaced yes)
@@ -13361,7 +13361,7 @@
 		)
 		(uuid "b0c5a7db-8452-414f-8231-5c20d330afe6")
 	)
-	(hierarchical_label "HEADPHONE_DET_1V8"
+	(global_label "HEADPHONE_DET_1V8"
 		(shape passive)
 		(at 408.94 74.93 180)
 		(fields_autoplaced yes)
@@ -13373,7 +13373,7 @@
 		)
 		(uuid "b24bbeef-6aeb-4153-b9e5-e3cfe047d571")
 	)
-	(hierarchical_label "SPKOUTRP"
+	(global_label "SPKOUTRP"
 		(shape bidirectional)
 		(at 289.56 316.23 180)
 		(fields_autoplaced yes)
@@ -13385,7 +13385,7 @@
 		)
 		(uuid "ba3bb6cd-d45e-4819-8b52-42bb103296ba")
 	)
-	(hierarchical_label "AUDIO_POWER_EN_3V3"
+	(global_label "AUDIO_POWER_EN_3V3"
 		(shape passive)
 		(at 101.6 85.09 180)
 		(fields_autoplaced yes)
@@ -13397,7 +13397,7 @@
 		)
 		(uuid "bba9f2dd-35de-4e4b-b82d-999429e5d7dc")
 	)
-	(hierarchical_label "SPKOUTRN"
+	(global_label "SPKOUTRN"
 		(shape bidirectional)
 		(at 289.56 321.31 180)
 		(fields_autoplaced yes)
@@ -13409,7 +13409,7 @@
 		)
 		(uuid "cbd052c8-55e8-4be3-841a-f240271c483c")
 	)
-	(hierarchical_label "$$$26208"
+	(global_label "$$$26208"
 		(shape bidirectional)
 		(at 154.94 60.96 90)
 		(fields_autoplaced yes)
@@ -13421,7 +13421,7 @@
 		)
 		(uuid "de11faea-4d51-444a-be83-092e305d53a4")
 	)
-	(hierarchical_label "DMICCLK"
+	(global_label "DMICCLK"
 		(shape bidirectional)
 		(at 368.3 248.92 0)
 		(fields_autoplaced yes)
@@ -13433,7 +13433,7 @@
 		)
 		(uuid "fa18b635-b156-4091-b333-a309ded9a7af")
 	)
-	(hierarchical_label "I2C3_SCL"
+	(global_label "I2C3_SCL"
 		(shape passive)
 		(at 271.78 238.76 180)
 		(fields_autoplaced yes)

@@ -16901,7 +16901,7 @@
 		)
 		(uuid "f673dd4c-4859-4858-8657-2e297eafb5a5")
 	)
-	(hierarchical_label "DSI_DN2"
+	(global_label "DSI_DN2"
 		(shape passive)
 		(at 408.94 191.77 0)
 		(fields_autoplaced yes)
@@ -16913,7 +16913,7 @@
 		)
 		(uuid "05b9c364-36e7-43d9-a7aa-35a7957279a1")
 	)
-	(hierarchical_label "CSI_P2_DN3"
+	(global_label "CSI_P2_DN3"
 		(shape input)
 		(at 246.38 158.75 0)
 		(fields_autoplaced yes)
@@ -16925,7 +16925,7 @@
 		)
 		(uuid "066e0e71-b99a-4049-acd7-3d9885300bf4")
 	)
-	(hierarchical_label "USB1_RXN"
+	(global_label "USB1_RXN"
 		(shape input)
 		(at 401.32 262.89 0)
 		(fields_autoplaced yes)
@@ -16937,7 +16937,7 @@
 		)
 		(uuid "0d9ae7d9-0eff-40c3-b1e2-7369b733fc30")
 	)
-	(hierarchical_label "HDMI_TXP2"
+	(global_label "HDMI_TXP2"
 		(shape passive)
 		(at 254 245.11 0)
 		(fields_autoplaced yes)
@@ -16949,7 +16949,7 @@
 		)
 		(uuid "0de22701-e731-43cf-b300-4f5f4812da02")
 	)
-	(hierarchical_label "CSI_P2_CKP"
+	(global_label "CSI_P2_CKP"
 		(shape passive)
 		(at 246.38 125.73 0)
 		(fields_autoplaced yes)
@@ -16961,7 +16961,7 @@
 		)
 		(uuid "0e6a03b8-8fd6-481c-b39b-3e19c7b8300f")
 	)
-	(hierarchical_label "DSI_DN0"
+	(global_label "DSI_DN0"
 		(shape passive)
 		(at 408.94 176.53 0)
 		(fields_autoplaced yes)
@@ -16973,7 +16973,7 @@
 		)
 		(uuid "1a4f8e14-8a7e-4d7c-b3b3-79c3072eba5c")
 	)
-	(hierarchical_label "CSI_P1_DP1"
+	(global_label "CSI_P1_DP1"
 		(shape passive)
 		(at 246.38 97.79 0)
 		(fields_autoplaced yes)
@@ -16985,7 +16985,7 @@
 		)
 		(uuid "1bcf321a-8bf6-452b-9169-13723948e45d")
 	)
-	(hierarchical_label "DSI_CKN"
+	(global_label "DSI_CKN"
 		(shape passive)
 		(at 408.94 168.91 0)
 		(fields_autoplaced yes)
@@ -16997,7 +16997,7 @@
 		)
 		(uuid "2085f5e3-c732-4221-874d-30634aad0167")
 	)
-	(hierarchical_label "HDMI_DDC_SDA"
+	(global_label "HDMI_DDC_SDA"
 		(shape bidirectional)
 		(at 283.21 207.01 180)
 		(fields_autoplaced yes)
@@ -17009,7 +17009,7 @@
 		)
 		(uuid "20ecc4a1-4a01-4645-ad55-ee02e3894339")
 	)
-	(hierarchical_label "CSI_P2_DP2"
+	(global_label "CSI_P2_DP2"
 		(shape passive)
 		(at 246.38 148.59 0)
 		(fields_autoplaced yes)
@@ -17021,7 +17021,7 @@
 		)
 		(uuid "233e14b3-14d4-4f07-907b-bcad52bbe339")
 	)
-	(hierarchical_label "HDMI_TXN0"
+	(global_label "HDMI_TXN0"
 		(shape passive)
 		(at 254 227.33 0)
 		(fields_autoplaced yes)
@@ -17033,7 +17033,7 @@
 		)
 		(uuid "2b9a64bb-23f4-42e1-8910-5b1678793bc8")
 	)
-	(hierarchical_label "CSI_P2_DN1"
+	(global_label "CSI_P2_DN1"
 		(shape input)
 		(at 246.38 143.51 0)
 		(fields_autoplaced yes)
@@ -17045,7 +17045,7 @@
 		)
 		(uuid "2fd10bf9-a366-4ab1-8349-1162ea58ce11")
 	)
-	(hierarchical_label "USB2_DP"
+	(global_label "USB2_DP"
 		(shape bidirectional)
 		(at 401.32 288.29 0)
 		(fields_autoplaced yes)
@@ -17057,7 +17057,7 @@
 		)
 		(uuid "30efa421-e483-4d47-94c0-a0ea05746fcb")
 	)
-	(hierarchical_label "CSI_P2_CKN"
+	(global_label "CSI_P2_CKN"
 		(shape passive)
 		(at 246.38 128.27 0)
 		(fields_autoplaced yes)
@@ -17069,7 +17069,7 @@
 		)
 		(uuid "37433297-b52e-4339-8b9b-af3409590415")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 269.24 354.33 90)
 		(fields_autoplaced yes)
@@ -17081,7 +17081,7 @@
 		)
 		(uuid "37dda6c6-daa2-4b42-8020-e3c9251c3463")
 	)
-	(hierarchical_label "CSI_P1_CKP"
+	(global_label "CSI_P1_CKP"
 		(shape passive)
 		(at 246.38 82.55 0)
 		(fields_autoplaced yes)
@@ -17093,7 +17093,7 @@
 		)
 		(uuid "3990690b-85b8-4c73-a64a-b4e1b52be9c2")
 	)
-	(hierarchical_label "CSI_P1_DN3"
+	(global_label "CSI_P1_DN3"
 		(shape input)
 		(at 246.38 115.57 0)
 		(fields_autoplaced yes)
@@ -17105,7 +17105,7 @@
 		)
 		(uuid "3c0a0798-647a-45f5-ad96-8c4956801b59")
 	)
-	(hierarchical_label "USB1_VBUS"
+	(global_label "USB1_VBUS"
 		(shape input)
 		(at 401.32 237.49 0)
 		(fields_autoplaced yes)
@@ -17117,7 +17117,7 @@
 		)
 		(uuid "3ea38c1b-61a5-4a18-987a-0b7ccb5bf32e")
 	)
-	(hierarchical_label "HDMI_REFCLKN"
+	(global_label "HDMI_REFCLKN"
 		(shape bidirectional)
 		(at 269.24 357.886 90)
 		(fields_autoplaced yes)
@@ -17129,7 +17129,7 @@
 		)
 		(uuid "4a8b067d-8673-45ec-b456-c250ba61d48a")
 	)
-	(hierarchical_label "DSI_DP3"
+	(global_label "DSI_DP3"
 		(shape passive)
 		(at 396.24 196.85 0)
 		(fields_autoplaced yes)
@@ -17141,7 +17141,7 @@
 		)
 		(uuid "4eded5d9-c76e-406b-9d5d-7bd83f51f930")
 	)
-	(hierarchical_label "HDMI_TXN1"
+	(global_label "HDMI_TXN1"
 		(shape passive)
 		(at 254 234.95 0)
 		(fields_autoplaced yes)
@@ -17153,7 +17153,7 @@
 		)
 		(uuid "50894c0e-ef60-4a37-9d63-4282f3403666")
 	)
-	(hierarchical_label "HDMI_TXP1"
+	(global_label "HDMI_TXP1"
 		(shape passive)
 		(at 254 237.49 0)
 		(fields_autoplaced yes)
@@ -17165,7 +17165,7 @@
 		)
 		(uuid "545ef01b-2dab-4491-afb5-d80a6d6c4ca9")
 	)
-	(hierarchical_label "HDMI_REFCLKN"
+	(global_label "HDMI_REFCLKN"
 		(shape bidirectional)
 		(at 304.8 339.09 0)
 		(fields_autoplaced yes)
@@ -17177,7 +17177,7 @@
 		)
 		(uuid "56c8746d-e85a-4fc0-a669-044f58f01d75")
 	)
-	(hierarchical_label "DSI_DN3"
+	(global_label "DSI_DN3"
 		(shape passive)
 		(at 408.94 199.39 0)
 		(fields_autoplaced yes)
@@ -17189,7 +17189,7 @@
 		)
 		(uuid "574d4337-d1ab-4464-a8b7-1eebd1d76c8e")
 	)
-	(hierarchical_label "CSI_P2_DP1"
+	(global_label "CSI_P2_DP1"
 		(shape passive)
 		(at 246.38 140.97 0)
 		(fields_autoplaced yes)
@@ -17201,7 +17201,7 @@
 		)
 		(uuid "577f92c1-bac5-4261-9376-d92fbeedbd2d")
 	)
-	(hierarchical_label "CSI_P2_DP3"
+	(global_label "CSI_P2_DP3"
 		(shape passive)
 		(at 246.38 156.21 0)
 		(fields_autoplaced yes)
@@ -17213,7 +17213,7 @@
 		)
 		(uuid "58f0452d-f1b5-4848-a147-998b87de68d8")
 	)
-	(hierarchical_label "USB1_ID"
+	(global_label "USB1_ID"
 		(shape input)
 		(at 401.32 245.11 0)
 		(fields_autoplaced yes)
@@ -17225,7 +17225,7 @@
 		)
 		(uuid "5a5ae4ed-3a13-4e7b-8bbc-8c04a5b8b7ba")
 	)
-	(hierarchical_label "HDMI_AUXN"
+	(global_label "HDMI_AUXN"
 		(shape passive)
 		(at 256.54 260.35 0)
 		(fields_autoplaced yes)
@@ -17237,7 +17237,7 @@
 		)
 		(uuid "5b5724e2-c88d-432f-ac12-94cc3955e334")
 	)
-	(hierarchical_label "HDMI_AUXP"
+	(global_label "HDMI_AUXP"
 		(shape input)
 		(at 254 257.81 0)
 		(fields_autoplaced yes)
@@ -17249,7 +17249,7 @@
 		)
 		(uuid "5bdc5ee9-3cc6-4587-ae4c-1a7a82eae919")
 	)
-	(hierarchical_label "CSI_P1_DN2"
+	(global_label "CSI_P1_DN2"
 		(shape input)
 		(at 246.38 107.95 0)
 		(fields_autoplaced yes)
@@ -17261,7 +17261,7 @@
 		)
 		(uuid "61ebcfbb-faef-47f3-9a85-3bb60070f978")
 	)
-	(hierarchical_label "DSI_DP0"
+	(global_label "DSI_DP0"
 		(shape passive)
 		(at 396.24 173.99 0)
 		(fields_autoplaced yes)
@@ -17273,7 +17273,7 @@
 		)
 		(uuid "67ab99fc-a1de-4b3b-a960-dcaed6a34f5e")
 	)
-	(hierarchical_label "HDMI_DDC_SCL"
+	(global_label "HDMI_DDC_SCL"
 		(shape passive)
 		(at 283.21 204.47 180)
 		(fields_autoplaced yes)
@@ -17285,7 +17285,7 @@
 		)
 		(uuid "70dd04b7-5564-4e53-8d2c-bbbe5024e518")
 	)
-	(hierarchical_label "CSI_P2_DN0"
+	(global_label "CSI_P2_DN0"
 		(shape input)
 		(at 246.38 135.89 0)
 		(fields_autoplaced yes)
@@ -17297,7 +17297,7 @@
 		)
 		(uuid "7cb80701-8b6a-464a-8084-4f0e486efb6c")
 	)
-	(hierarchical_label "USB2_VBUS"
+	(global_label "USB2_VBUS"
 		(shape bidirectional)
 		(at 458.47 266.7 180)
 		(fields_autoplaced yes)
@@ -17309,7 +17309,7 @@
 		)
 		(uuid "7f844a7f-78b0-4499-87e3-4328d200aea8")
 	)
-	(hierarchical_label "CSI_P1_DN0"
+	(global_label "CSI_P1_DN0"
 		(shape input)
 		(at 246.38 92.71 0)
 		(fields_autoplaced yes)
@@ -17321,7 +17321,7 @@
 		)
 		(uuid "84834888-6865-4d13-8957-b53656edeae9")
 	)
-	(hierarchical_label "HDMI_REFCLKP"
+	(global_label "HDMI_REFCLKP"
 		(shape passive)
 		(at 252.73 219.71 0)
 		(fields_autoplaced yes)
@@ -17333,7 +17333,7 @@
 		)
 		(uuid "86483f27-f571-4ec4-9ef0-3d1062c2c286")
 	)
-	(hierarchical_label "HDMI_TXN2"
+	(global_label "HDMI_TXN2"
 		(shape passive)
 		(at 254 242.57 0)
 		(fields_autoplaced yes)
@@ -17345,7 +17345,7 @@
 		)
 		(uuid "91221dfe-70fb-43e1-ac86-6bd1607554b9")
 	)
-	(hierarchical_label "HDMI_CEC"
+	(global_label "HDMI_CEC"
 		(shape passive)
 		(at 281.94 199.39 180)
 		(fields_autoplaced yes)
@@ -17357,7 +17357,7 @@
 		)
 		(uuid "97655606-e3cd-4e81-b8c9-486d076698b3")
 	)
-	(hierarchical_label "DSI_DP1"
+	(global_label "DSI_DP1"
 		(shape passive)
 		(at 396.24 181.61 0)
 		(fields_autoplaced yes)
@@ -17369,7 +17369,7 @@
 		)
 		(uuid "9b8717ea-3b59-4ff2-ab46-99936657357e")
 	)
-	(hierarchical_label "USB2_DN"
+	(global_label "USB2_DN"
 		(shape passive)
 		(at 401.32 290.83 0)
 		(fields_autoplaced yes)
@@ -17381,7 +17381,7 @@
 		)
 		(uuid "9e33d1ec-35d1-4f27-84a9-e7f12b012f3e")
 	)
-	(hierarchical_label "DSI_CKP"
+	(global_label "DSI_CKP"
 		(shape passive)
 		(at 396.24 166.37 0)
 		(fields_autoplaced yes)
@@ -17393,7 +17393,7 @@
 		)
 		(uuid "9e72ac85-1e67-4453-b97f-3c3243bccf19")
 	)
-	(hierarchical_label "CSI_P1_DN1"
+	(global_label "CSI_P1_DN1"
 		(shape input)
 		(at 246.38 100.33 0)
 		(fields_autoplaced yes)
@@ -17405,7 +17405,7 @@
 		)
 		(uuid "9f2e0583-3d8f-4110-bde3-0a4963862944")
 	)
-	(hierarchical_label "USB1_TXP"
+	(global_label "USB1_TXP"
 		(shape passive)
 		(at 401.32 252.73 0)
 		(fields_autoplaced yes)
@@ -17417,7 +17417,7 @@
 		)
 		(uuid "a2822aaf-a6f5-4294-b596-40449335a918")
 	)
-	(hierarchical_label "HDMI_CEC"
+	(global_label "HDMI_CEC"
 		(shape bidirectional)
 		(at 254 212.09 0)
 		(fields_autoplaced yes)
@@ -17429,7 +17429,7 @@
 		)
 		(uuid "a96b2a07-4d0a-4f38-bc9a-f3a8fe5c08ff")
 	)
-	(hierarchical_label "HDMI_REFCLKP"
+	(global_label "HDMI_REFCLKP"
 		(shape bidirectional)
 		(at 304.8 334.01 0)
 		(fields_autoplaced yes)
@@ -17441,7 +17441,7 @@
 		)
 		(uuid "aa4560a4-4aa3-4f55-923e-ccb299d92599")
 	)
-	(hierarchical_label "HDMI_REFCLKP"
+	(global_label "HDMI_REFCLKP"
 		(shape bidirectional)
 		(at 279.4 357.886 90)
 		(fields_autoplaced yes)
@@ -17453,7 +17453,7 @@
 		)
 		(uuid "abbfa723-1cae-4547-b555-f424fbec5abe")
 	)
-	(hierarchical_label "CSI_P2_DN2"
+	(global_label "CSI_P2_DN2"
 		(shape input)
 		(at 246.38 151.13 0)
 		(fields_autoplaced yes)
@@ -17465,7 +17465,7 @@
 		)
 		(uuid "aeab8c9d-264e-4e58-af1c-a09cb1191533")
 	)
-	(hierarchical_label "USB2_VBUS"
+	(global_label "USB2_VBUS"
 		(shape input)
 		(at 401.32 285.75 0)
 		(fields_autoplaced yes)
@@ -17477,7 +17477,7 @@
 		)
 		(uuid "b1dcbe86-e8d5-41d7-adcc-abe1a54e0ee7")
 	)
-	(hierarchical_label "DSI_DP2"
+	(global_label "DSI_DP2"
 		(shape passive)
 		(at 396.24 189.23 0)
 		(fields_autoplaced yes)
@@ -17489,7 +17489,7 @@
 		)
 		(uuid "b28858e1-b1dc-47b3-a879-d2ca5e36dd0e")
 	)
-	(hierarchical_label "USB2_ID"
+	(global_label "USB2_ID"
 		(shape input)
 		(at 401.32 293.37 0)
 		(fields_autoplaced yes)
@@ -17501,7 +17501,7 @@
 		)
 		(uuid "b36b0157-3b3f-41b8-ae4d-42aa3dcc97e6")
 	)
-	(hierarchical_label "HDMI_DDC_SDA"
+	(global_label "HDMI_DDC_SDA"
 		(shape bidirectional)
 		(at 254 201.93 0)
 		(fields_autoplaced yes)
@@ -17513,7 +17513,7 @@
 		)
 		(uuid "b7a444d7-e85b-4d21-b2f0-420678d187cb")
 	)
-	(hierarchical_label "DSI_DN1"
+	(global_label "DSI_DN1"
 		(shape passive)
 		(at 408.94 184.15 0)
 		(fields_autoplaced yes)
@@ -17525,7 +17525,7 @@
 		)
 		(uuid "b7bd40d3-9d30-40ec-a011-01ec3e8f9392")
 	)
-	(hierarchical_label "HDMI_REFCLKN"
+	(global_label "HDMI_REFCLKN"
 		(shape passive)
 		(at 252.73 222.25 0)
 		(fields_autoplaced yes)
@@ -17537,7 +17537,7 @@
 		)
 		(uuid "baa30be5-f415-4f47-9178-6f21932bb8af")
 	)
-	(hierarchical_label "CSI_P1_DP3"
+	(global_label "CSI_P1_DP3"
 		(shape passive)
 		(at 246.38 113.03 0)
 		(fields_autoplaced yes)
@@ -17549,7 +17549,7 @@
 		)
 		(uuid "c2b351e8-506b-42d0-86be-89df73d9f702")
 	)
-	(hierarchical_label "CSI_P2_DP0"
+	(global_label "CSI_P2_DP0"
 		(shape passive)
 		(at 246.38 133.35 0)
 		(fields_autoplaced yes)
@@ -17561,7 +17561,7 @@
 		)
 		(uuid "c4765575-bade-4aaa-a1d3-396bc7de9e0f")
 	)
-	(hierarchical_label "HDMI_CLKP"
+	(global_label "HDMI_CLKP"
 		(shape passive)
 		(at 254 252.73 0)
 		(fields_autoplaced yes)
@@ -17573,7 +17573,7 @@
 		)
 		(uuid "c5e29048-95ab-401a-ad7a-07c18c1d97d6")
 	)
-	(hierarchical_label "CSI_P1_DP2"
+	(global_label "CSI_P1_DP2"
 		(shape passive)
 		(at 246.38 105.41 0)
 		(fields_autoplaced yes)
@@ -17585,7 +17585,7 @@
 		)
 		(uuid "cadfd41e-1a38-4183-9809-6736e5ad2188")
 	)
-	(hierarchical_label "HDMI_TXP0"
+	(global_label "HDMI_TXP0"
 		(shape passive)
 		(at 254 229.87 0)
 		(fields_autoplaced yes)
@@ -17597,7 +17597,7 @@
 		)
 		(uuid "d777be58-fef6-409c-8298-ca212ad7c653")
 	)
-	(hierarchical_label "CSI_P1_CKN"
+	(global_label "CSI_P1_CKN"
 		(shape passive)
 		(at 246.38 85.09 0)
 		(fields_autoplaced yes)
@@ -17609,7 +17609,7 @@
 		)
 		(uuid "d8f579da-6218-488c-8aa1-2ccefd809188")
 	)
-	(hierarchical_label "HDMI_DDC_SCL"
+	(global_label "HDMI_DDC_SCL"
 		(shape passive)
 		(at 254 199.39 0)
 		(fields_autoplaced yes)
@@ -17621,7 +17621,7 @@
 		)
 		(uuid "de85e454-f91c-4a20-b617-b659ab64755a")
 	)
-	(hierarchical_label "USB1_TXN"
+	(global_label "USB1_TXN"
 		(shape passive)
 		(at 401.32 255.27 0)
 		(fields_autoplaced yes)
@@ -17633,7 +17633,7 @@
 		)
 		(uuid "dfe440a5-f44c-4312-82c8-bb576d496cec")
 	)
-	(hierarchical_label "HDMI_CLKN"
+	(global_label "HDMI_CLKN"
 		(shape passive)
 		(at 254 250.19 0)
 		(fields_autoplaced yes)
@@ -17645,7 +17645,7 @@
 		)
 		(uuid "e1c9f6cc-b116-478e-be1a-1c69a405b6d3")
 	)
-	(hierarchical_label "USB1_RXP"
+	(global_label "USB1_RXP"
 		(shape input)
 		(at 401.32 260.35 0)
 		(fields_autoplaced yes)
@@ -17657,7 +17657,7 @@
 		)
 		(uuid "ea5f89fd-a9d6-4c80-b066-7863853f64ae")
 	)
-	(hierarchical_label "CSI_P1_DP0"
+	(global_label "CSI_P1_DP0"
 		(shape passive)
 		(at 246.38 90.17 0)
 		(fields_autoplaced yes)
@@ -17669,7 +17669,7 @@
 		)
 		(uuid "ec091096-fc47-4194-b820-2331a3bfbd8f")
 	)
-	(hierarchical_label "USB1_DN"
+	(global_label "USB1_DN"
 		(shape passive)
 		(at 401.32 242.57 0)
 		(fields_autoplaced yes)
@@ -17681,7 +17681,7 @@
 		)
 		(uuid "f7cb63f0-50ba-465d-b175-329b81c76889")
 	)
-	(hierarchical_label "USB2_ID"
+	(global_label "USB2_ID"
 		(shape bidirectional)
 		(at 439.42 293.37 180)
 		(fields_autoplaced yes)
@@ -17693,7 +17693,7 @@
 		)
 		(uuid "f80a8a1e-3a67-4936-8068-1b75098701e4")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 279.4 354.33 90)
 		(fields_autoplaced yes)
@@ -17705,7 +17705,7 @@
 		)
 		(uuid "f8e94adb-4226-44a8-8c06-4da16e67b5cb")
 	)
-	(hierarchical_label "HDMI_HPD"
+	(global_label "HDMI_HPD"
 		(shape input)
 		(at 254 207.01 0)
 		(fields_autoplaced yes)
@@ -17717,7 +17717,7 @@
 		)
 		(uuid "f91622e6-54c2-4a18-8bdf-e92b21c210f8")
 	)
-	(hierarchical_label "HDMI_HPD"
+	(global_label "HDMI_HPD"
 		(shape input)
 		(at 281.94 210.82 180)
 		(fields_autoplaced yes)
@@ -17729,7 +17729,7 @@
 		)
 		(uuid "fe4b9559-3d2d-4ec9-ad17-b6b239e39872")
 	)
-	(hierarchical_label "USB1_DP"
+	(global_label "USB1_DP"
 		(shape bidirectional)
 		(at 401.32 240.03 0)
 		(fields_autoplaced yes)

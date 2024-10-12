@@ -7960,7 +7960,7 @@
 		)
 		(uuid "fdb66928-c605-4587-8962-d2cd8a21c41c")
 	)
-	(hierarchical_label "CHG_EN"
+	(global_label "CHG_EN"
 		(shape passive)
 		(at 151.13 212.09 180)
 		(fields_autoplaced yes)
@@ -7972,7 +7972,7 @@
 		)
 		(uuid "08ba203e-4f61-4ff6-a820-56cea02f6320")
 	)
-	(hierarchical_label "USB1_DN"
+	(global_label "USB1_DN"
 		(shape passive)
 		(at 190.5 173.99 180)
 		(fields_autoplaced yes)
@@ -7984,7 +7984,7 @@
 		)
 		(uuid "0ea82e31-547b-47c1-9587-af8c2760b11a")
 	)
-	(hierarchical_label "CHG_INT"
+	(global_label "CHG_INT"
 		(shape output)
 		(at 153.67 209.55 180)
 		(fields_autoplaced yes)
@@ -7996,7 +7996,7 @@
 		)
 		(uuid "257e9695-1901-41fc-beef-7f4b1de28dc1")
 	)
-	(hierarchical_label "NTC"
+	(global_label "NTC"
 		(shape passive)
 		(at 223.52 317.5 180)
 		(fields_autoplaced yes)
@@ -8008,7 +8008,7 @@
 		)
 		(uuid "2c9073df-f7d5-4203-a955-6f612c77a2c5")
 	)
-	(hierarchical_label "I2C4_SCL"
+	(global_label "I2C4_SCL"
 		(shape passive)
 		(at 200.66 184.15 180)
 		(fields_autoplaced yes)
@@ -8020,7 +8020,7 @@
 		)
 		(uuid "3cc6fe5c-242e-46aa-9fbe-5fdb6e0e708d")
 	)
-	(hierarchical_label "NTC"
+	(global_label "NTC"
 		(shape passive)
 		(at 374.65 162.56 180)
 		(fields_autoplaced yes)
@@ -8032,7 +8032,7 @@
 		)
 		(uuid "58344f35-bedf-4171-bd2b-9cd1b7c962c5")
 	)
-	(hierarchical_label "BAT_LOW"
+	(global_label "BAT_LOW"
 		(shape passive)
 		(at 495.3 158.75 0)
 		(fields_autoplaced yes)
@@ -8044,7 +8044,7 @@
 		)
 		(uuid "615171a5-79a0-4bd1-857c-1ae1ee3dc3aa")
 	)
-	(hierarchical_label "CHG_QON"
+	(global_label "CHG_QON"
 		(shape passive)
 		(at 261.62 209.55 0)
 		(fields_autoplaced yes)
@@ -8056,7 +8056,7 @@
 		)
 		(uuid "64e8b91f-34c3-414a-8de1-10986312081d")
 	)
-	(hierarchical_label "I2C4_SDA"
+	(global_label "I2C4_SDA"
 		(shape bidirectional)
 		(at 439.42 168.91 180)
 		(fields_autoplaced yes)
@@ -8068,7 +8068,7 @@
 		)
 		(uuid "942eaea2-ddce-4998-a2cf-a72cc9b84859")
 	)
-	(hierarchical_label "VDD_1V8"
+	(global_label "VDD_1V8"
 		(shape passive)
 		(at 483.87 138.43 180)
 		(fields_autoplaced yes)
@@ -8080,7 +8080,7 @@
 		)
 		(uuid "aa760acf-89f4-418c-aea0-288fdf73eaa3")
 	)
-	(hierarchical_label "CHG_OTG_OUT_EN"
+	(global_label "CHG_OTG_OUT_EN"
 		(shape passive)
 		(at 203.2 217.17 180)
 		(fields_autoplaced yes)
@@ -8092,7 +8092,7 @@
 		)
 		(uuid "ac9b0f90-ea7a-4fa0-8faf-bbb74f71e094")
 	)
-	(hierarchical_label "I2C4_SCL"
+	(global_label "I2C4_SCL"
 		(shape passive)
 		(at 439.42 166.37 180)
 		(fields_autoplaced yes)
@@ -8104,7 +8104,7 @@
 		)
 		(uuid "b77fd543-1fab-45f8-8222-350265c02bb3")
 	)
-	(hierarchical_label "I2C4_SDA"
+	(global_label "I2C4_SDA"
 		(shape bidirectional)
 		(at 200.66 189.23 180)
 		(fields_autoplaced yes)
@@ -8116,7 +8116,7 @@
 		)
 		(uuid "c60a1424-a312-4bc5-97a4-e83b01b27a8b")
 	)
-	(hierarchical_label "CHG_STATUS_B"
+	(global_label "CHG_STATUS_B"
 		(shape output)
 		(at 184.15 179.07 180)
 		(fields_autoplaced yes)
@@ -8128,7 +8128,7 @@
 		)
 		(uuid "d5950ba6-cbf4-4cb7-a01b-38ed03f31b75")
 	)
-	(hierarchical_label "NTC"
+	(global_label "NTC"
 		(shape passive)
 		(at 316.23 215.9 0)
 		(fields_autoplaced yes)
@@ -8140,7 +8140,7 @@
 		)
 		(uuid "f44a7bb8-67d6-4a95-9df5-43f28e0ebf4a")
 	)
-	(hierarchical_label "USB1_DP"
+	(global_label "USB1_DP"
 		(shape passive)
 		(at 190.5 168.91 180)
 		(fields_autoplaced yes)
@@ -8152,7 +8152,7 @@
 		)
 		(uuid "f55a1c9f-8e0b-42e7-8034-8243f4cafeef")
 	)
-	(hierarchical_label "CHG_USB_DSEL"
+	(global_label "CHG_USB_DSEL"
 		(shape passive)
 		(at 212.09 140.97 180)
 		(fields_autoplaced yes)

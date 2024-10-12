@@ -30559,7 +30559,7 @@
 		)
 		(uuid "c92372cb-8c13-43ef-a15d-70ed85bb42d9")
 	)
-	(hierarchical_label "$$$16947"
+	(global_label "$$$16947"
 		(shape bidirectional)
 		(at 382.27 171.45 270)
 		(fields_autoplaced yes)
@@ -30571,7 +30571,7 @@
 		)
 		(uuid "30e5a894-64e7-435a-a0c4-8b5c4180b188")
 	)
-	(hierarchical_label "VDD_PHY_0V9"
+	(global_label "VDD_PHY_0V9"
 		(shape bidirectional)
 		(at 328.93 173.99 0)
 		(fields_autoplaced yes)
@@ -30583,7 +30583,7 @@
 		)
 		(uuid "40faef7d-01b8-4304-9770-d50d20e81ed2")
 	)
-	(hierarchical_label "$$$16947"
+	(global_label "$$$16947"
 		(shape bidirectional)
 		(at 384.81 167.64 90)
 		(fields_autoplaced yes)
@@ -30595,7 +30595,7 @@
 		)
 		(uuid "49c5443f-335e-4f3b-954b-78f14f8c8d71")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 306.07 184.15 90)
 		(fields_autoplaced yes)
@@ -30607,7 +30607,7 @@
 		)
 		(uuid "4b25a196-810f-4223-b789-01419990dd9e")
 	)
-	(hierarchical_label "VDD_PHY_3V3"
+	(global_label "VDD_PHY_3V3"
 		(shape bidirectional)
 		(at 400.05 167.64 90)
 		(fields_autoplaced yes)
@@ -30619,7 +30619,7 @@
 		)
 		(uuid "4b9e86b0-2058-4d86-ad89-621d3eac24ec")
 	)
-	(hierarchical_label "$$$16991"
+	(global_label "$$$16991"
 		(shape bidirectional)
 		(at 328.93 173.99 0)
 		(fields_autoplaced yes)
@@ -30631,7 +30631,7 @@
 		)
 		(uuid "564d9cfa-14fe-418a-9aa1-f48ef1da5a75")
 	)
-	(hierarchical_label "$$$16991"
+	(global_label "$$$16991"
 		(shape bidirectional)
 		(at 306.07 176.53 270)
 		(fields_autoplaced yes)
@@ -30643,7 +30643,7 @@
 		)
 		(uuid "85dca045-14fc-499c-96c6-29b4694adc30")
 	)
-	(hierarchical_label "NVCC_SAI1_BOOT"
+	(global_label "NVCC_SAI1_BOOT"
 		(shape passive)
 		(at 355.6 41.91 180)
 		(fields_autoplaced yes)
@@ -30655,7 +30655,7 @@
 		)
 		(uuid "9fec45a1-8b2a-4b35-b14b-20c3c1b75ddc")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 382.27 179.07 90)
 		(fields_autoplaced yes)
@@ -30667,7 +30667,7 @@
 		)
 		(uuid "a1b0f2ec-c723-4920-9ead-6df0b4d20256")
 	)
-	(hierarchical_label "$$$16991"
+	(global_label "$$$16991"
 		(shape bidirectional)
 		(at 318.77 176.53 270)
 		(fields_autoplaced yes)
@@ -30679,7 +30679,7 @@
 		)
 		(uuid "bd5c6993-5805-4878-885c-8dfc98001564")
 	)
-	(hierarchical_label "GND"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 318.77 184.15 90)
 		(fields_autoplaced yes)
@@ -30691,7 +30691,7 @@
 		)
 		(uuid "bd9f0498-f24a-4147-b5cf-2a9173306696")
 	)
-	(hierarchical_label "VDD_3V3"
+	(global_label "VDD_3V3"
 		(shape bidirectional)
 		(at 391.16 63.5 90)
 		(fields_autoplaced yes)
@@ -30703,7 +30703,7 @@
 		)
 		(uuid "de22c4ea-11ff-478b-a7d7-a8e7d0dd7f6d")
 	)
-	(hierarchical_label "VDDA_0P9"
+	(global_label "VDDA_0P9"
 		(shape passive)
 		(at 172.72 128.27 180)
 		(fields_autoplaced yes)

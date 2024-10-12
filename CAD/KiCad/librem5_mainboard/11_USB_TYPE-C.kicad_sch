@@ -20262,7 +20262,7 @@
 		)
 		(uuid "fbf5ed56-0af6-44be-a730-28709ccbd16b")
 	)
-	(hierarchical_label "SSTXN1"
+	(global_label "SSTXN1"
 		(shape passive)
 		(at 473.456 201.422 0)
 		(fields_autoplaced yes)
@@ -20274,7 +20274,7 @@
 		)
 		(uuid "0223ce76-c0cc-411c-ab65-ac7429cc430e")
 	)
-	(hierarchical_label "SPKL_C"
+	(global_label "SPKL_C"
 		(shape passive)
 		(at 383.286 196.342 180)
 		(fields_autoplaced yes)
@@ -20286,7 +20286,7 @@
 		)
 		(uuid "0961f9c3-9478-4932-90c0-e8b8d82b57cb")
 	)
-	(hierarchical_label "FLASH_MISO"
+	(global_label "FLASH_MISO"
 		(shape passive)
 		(at 328.676 324.612 180)
 		(fields_autoplaced yes)
@@ -20298,7 +20298,7 @@
 		)
 		(uuid "0a865ebb-5f11-4ff3-8a26-6824113e2edd")
 	)
-	(hierarchical_label "DP_AUXN"
+	(global_label "DP_AUXN"
 		(shape passive)
 		(at 214.376 299.212 180)
 		(fields_autoplaced yes)
@@ -20310,7 +20310,7 @@
 		)
 		(uuid "1095d1f8-eb6e-457e-a745-26ea4213af9e")
 	)
-	(hierarchical_label "VDD_3V3"
+	(global_label "VDD_3V3"
 		(shape bidirectional)
 		(at 238.506 209.042 90)
 		(fields_autoplaced yes)
@@ -20322,7 +20322,7 @@
 		)
 		(uuid "148a9c00-1337-4a02-aaca-ca740af61d8f")
 	)
-	(hierarchical_label "SBU2"
+	(global_label "SBU2"
 		(shape passive)
 		(at 368.046 191.262 180)
 		(fields_autoplaced yes)
@@ -20334,7 +20334,7 @@
 		)
 		(uuid "1806054d-644f-4609-9c93-626b0d427772")
 	)
-	(hierarchical_label "DP_TX0P"
+	(global_label "DP_TX0P"
 		(shape bidirectional)
 		(at 124.206 179.832 0)
 		(fields_autoplaced yes)
@@ -20346,7 +20346,7 @@
 		)
 		(uuid "1b3d8254-976e-4afa-8ab6-fbf1dac50d79")
 	)
-	(hierarchical_label "DP_TX2P"
+	(global_label "DP_TX2P"
 		(shape bidirectional)
 		(at 144.526 127.762 180)
 		(fields_autoplaced yes)
@@ -20358,7 +20358,7 @@
 		)
 		(uuid "1cd9afda-ca34-4065-9a49-f0c1adaa85a3")
 	)
-	(hierarchical_label "HDMI_HPD"
+	(global_label "HDMI_HPD"
 		(shape passive)
 		(at 173.736 370.332 0)
 		(fields_autoplaced yes)
@@ -20370,7 +20370,7 @@
 		)
 		(uuid "1d7e1d66-c854-4ef4-bc21-9963fd92b10b")
 	)
-	(hierarchical_label "HDMI_TXP1"
+	(global_label "HDMI_TXP1"
 		(shape passive)
 		(at 89.916 206.502 180)
 		(fields_autoplaced yes)
@@ -20382,7 +20382,7 @@
 		)
 		(uuid "1e48e118-651d-4be6-a603-257c85d2eb3e")
 	)
-	(hierarchical_label "DP_TX2N"
+	(global_label "DP_TX2N"
 		(shape bidirectional)
 		(at 144.526 136.652 180)
 		(fields_autoplaced yes)
@@ -20394,7 +20394,7 @@
 		)
 		(uuid "202b484b-6961-4866-95c7-e8f0fbcbaec8")
 	)
-	(hierarchical_label "UART2_TXD"
+	(global_label "UART2_TXD"
 		(shape passive)
 		(at 309.626 285.242 0)
 		(fields_autoplaced yes)
@@ -20406,7 +20406,7 @@
 		)
 		(uuid "20375b24-463c-40ae-bd8f-09dd28853d9d")
 	)
-	(hierarchical_label "FLASH_SS"
+	(global_label "FLASH_SS"
 		(shape passive)
 		(at 328.676 319.532 180)
 		(fields_autoplaced yes)
@@ -20418,7 +20418,7 @@
 		)
 		(uuid "21b9bf56-93b5-4732-85cc-461c50122202")
 	)
-	(hierarchical_label "UART2_RXD"
+	(global_label "UART2_RXD"
 		(shape passive)
 		(at 360.426 280.162 0)
 		(fields_autoplaced yes)
@@ -20430,7 +20430,7 @@
 		)
 		(uuid "2364a7eb-30b7-4364-a381-5541940808a0")
 	)
-	(hierarchical_label "SSRXP2"
+	(global_label "SSRXP2"
 		(shape passive)
 		(at 470.916 214.122 0)
 		(fields_autoplaced yes)
@@ -20442,7 +20442,7 @@
 		)
 		(uuid "253a779d-5c9f-40a3-a916-c2cc79df9dd7")
 	)
-	(hierarchical_label "SBU1"
+	(global_label "SBU1"
 		(shape passive)
 		(at 86.106 290.322 180)
 		(fields_autoplaced yes)
@@ -20454,7 +20454,7 @@
 		)
 		(uuid "2622205f-fc25-436f-8103-729074ef94ed")
 	)
-	(hierarchical_label "DP_AUXN"
+	(global_label "DP_AUXN"
 		(shape bidirectional)
 		(at 150.876 332.232 0)
 		(fields_autoplaced yes)
@@ -20466,7 +20466,7 @@
 		)
 		(uuid "26d7bf86-9128-4fad-be87-28a19cc64c85")
 	)
-	(hierarchical_label "HDMI_TXN1"
+	(global_label "HDMI_TXN1"
 		(shape passive)
 		(at 89.916 209.042 180)
 		(fields_autoplaced yes)
@@ -20478,7 +20478,7 @@
 		)
 		(uuid "2f91a56b-7798-4355-9f0d-a0f316319f2b")
 	)
-	(hierarchical_label "DP_TX0P"
+	(global_label "DP_TX0P"
 		(shape bidirectional)
 		(at 144.526 167.132 180)
 		(fields_autoplaced yes)
@@ -20490,7 +20490,7 @@
 		)
 		(uuid "3393e767-45f4-4387-ac12-b0a9a7795381")
 	)
-	(hierarchical_label "SSRXN1"
+	(global_label "SSRXN1"
 		(shape passive)
 		(at 469.646 193.802 0)
 		(fields_autoplaced yes)
@@ -20502,7 +20502,7 @@
 		)
 		(uuid "35ce0f3c-3a93-44a4-a24b-bae4c689095c")
 	)
-	(hierarchical_label "DP_TX3P"
+	(global_label "DP_TX3P"
 		(shape bidirectional)
 		(at 144.526 104.902 180)
 		(fields_autoplaced yes)
@@ -20514,7 +20514,7 @@
 		)
 		(uuid "36ca7ecf-737d-451f-886b-ae72a0571e49")
 	)
-	(hierarchical_label "TYPEC_SW_POL"
+	(global_label "TYPEC_SW_POL"
 		(shape passive)
 		(at 290.576 193.802 0)
 		(fields_autoplaced yes)
@@ -20526,7 +20526,7 @@
 		)
 		(uuid "391fd12c-9c21-421e-9821-73936cdcb3e4")
 	)
-	(hierarchical_label "SBU1"
+	(global_label "SBU1"
 		(shape passive)
 		(at 368.046 188.722 180)
 		(fields_autoplaced yes)
@@ -20538,7 +20538,7 @@
 		)
 		(uuid "3aaf880f-4b2e-41e4-8bdb-569cbfd776a6")
 	)
-	(hierarchical_label "SSRXP1"
+	(global_label "SSRXP1"
 		(shape passive)
 		(at 352.806 94.742 0)
 		(fields_autoplaced yes)
@@ -20550,7 +20550,7 @@
 		)
 		(uuid "3bfb6538-d86b-4b66-9ec3-65989c0df0fd")
 	)
-	(hierarchical_label "SSRXP1"
+	(global_label "SSRXP1"
 		(shape passive)
 		(at 469.646 191.262 0)
 		(fields_autoplaced yes)
@@ -20562,7 +20562,7 @@
 		)
 		(uuid "4573078d-4854-410a-84d8-95af1b33bc6e")
 	)
-	(hierarchical_label "USB1_DN"
+	(global_label "USB1_DN"
 		(shape passive)
 		(at 462.026 277.622 180)
 		(fields_autoplaced yes)
@@ -20574,7 +20574,7 @@
 		)
 		(uuid "475de43b-cd5b-4b8d-a566-88f131c01705")
 	)
-	(hierarchical_label "HDMI_TXN0"
+	(global_label "HDMI_TXN0"
 		(shape passive)
 		(at 89.916 201.422 180)
 		(fields_autoplaced yes)
@@ -20586,7 +20586,7 @@
 		)
 		(uuid "47808b5e-579d-4a4b-bccb-4c4a34fa5a01")
 	)
-	(hierarchical_label "HDMI_AUXP"
+	(global_label "HDMI_AUXP"
 		(shape input)
 		(at 94.996 329.692 180)
 		(fields_autoplaced yes)
@@ -20598,7 +20598,7 @@
 		)
 		(uuid "48dea6f8-42ed-4657-ac06-3db29dad9468")
 	)
-	(hierarchical_label "I2C1_SDA"
+	(global_label "I2C1_SDA"
 		(shape output)
 		(at 314.706 358.902 0)
 		(fields_autoplaced yes)
@@ -20610,7 +20610,7 @@
 		)
 		(uuid "4ad949cc-0166-478f-abea-d35502e38fb9")
 	)
-	(hierarchical_label "SBU2"
+	(global_label "SBU2"
 		(shape passive)
 		(at 86.106 292.862 180)
 		(fields_autoplaced yes)
@@ -20622,7 +20622,7 @@
 		)
 		(uuid "4da05436-963d-420c-90c2-e56a133e25e2")
 	)
-	(hierarchical_label "USB_PD_LDO3V3"
+	(global_label "USB_PD_LDO3V3"
 		(shape passive)
 		(at 357.886 181.102 180)
 		(fields_autoplaced yes)
@@ -20634,7 +20634,7 @@
 		)
 		(uuid "4f3e66c3-3e10-4c82-a426-4bc7db7fe094")
 	)
-	(hierarchical_label "SSRXN2"
+	(global_label "SSRXN2"
 		(shape passive)
 		(at 355.346 153.162 0)
 		(fields_autoplaced yes)
@@ -20646,7 +20646,7 @@
 		)
 		(uuid "518daf64-729c-4ce9-be04-ae3b832cf9b0")
 	)
-	(hierarchical_label "4G_MIPI_SDA"
+	(global_label "4G_MIPI_SDA"
 		(shape passive)
 		(at 469.646 183.642 0)
 		(fields_autoplaced yes)
@@ -20658,7 +20658,7 @@
 		)
 		(uuid "541d05d2-6ba3-4745-9478-5500b408616e")
 	)
-	(hierarchical_label "HDMI_TXP2"
+	(global_label "HDMI_TXP2"
 		(shape passive)
 		(at 89.916 179.832 180)
 		(fields_autoplaced yes)
@@ -20670,7 +20670,7 @@
 		)
 		(uuid "56503765-5386-4284-8000-cab705157838")
 	)
-	(hierarchical_label "SSTXP1"
+	(global_label "SSTXP1"
 		(shape passive)
 		(at 473.456 198.882 0)
 		(fields_autoplaced yes)
@@ -20682,7 +20682,7 @@
 		)
 		(uuid "56c4fc8d-95ae-425c-9acc-e813c2e029aa")
 	)
-	(hierarchical_label "CC2"
+	(global_label "CC2"
 		(shape passive)
 		(at 368.046 186.182 180)
 		(fields_autoplaced yes)
@@ -20694,7 +20694,7 @@
 		)
 		(uuid "5718ac95-5143-490a-8c68-6c6fc7ad2201")
 	)
-	(hierarchical_label "TYPEC_MUX_EN"
+	(global_label "TYPEC_MUX_EN"
 		(shape passive)
 		(at 206.756 319.532 180)
 		(fields_autoplaced yes)
@@ -20706,7 +20706,7 @@
 		)
 		(uuid "58190b84-981f-4fa2-ac4f-0b669bb63b13")
 	)
-	(hierarchical_label "VSYS_3V4_4V3"
+	(global_label "VSYS_3V4_4V3"
 		(shape passive)
 		(at 385.826 178.562 180)
 		(fields_autoplaced yes)
@@ -20718,7 +20718,7 @@
 		)
 		(uuid "5d1f47eb-5cbb-4112-936f-18a3976c121e")
 	)
-	(hierarchical_label "DP_TX2N"
+	(global_label "DP_TX2N"
 		(shape bidirectional)
 		(at 124.206 201.422 0)
 		(fields_autoplaced yes)
@@ -20730,7 +20730,7 @@
 		)
 		(uuid "5fdc3c5b-7213-4d76-9490-7e94c10b6668")
 	)
-	(hierarchical_label "DP_TX0N"
+	(global_label "DP_TX0N"
 		(shape bidirectional)
 		(at 124.206 182.372 0)
 		(fields_autoplaced yes)
@@ -20742,7 +20742,7 @@
 		)
 		(uuid "6475ef81-8164-4c23-87ce-b8b503476b76")
 	)
-	(hierarchical_label "CC1"
+	(global_label "CC1"
 		(shape output)
 		(at 187.706 256.032 180)
 		(fields_autoplaced yes)
@@ -20754,7 +20754,7 @@
 		)
 		(uuid "65a6abc6-cb27-4360-8606-b93883bc3617")
 	)
-	(hierarchical_label "FLASH_SCK"
+	(global_label "FLASH_SCK"
 		(shape passive)
 		(at 446.786 329.692 0)
 		(fields_autoplaced yes)
@@ -20766,7 +20766,7 @@
 		)
 		(uuid "687b08ef-6d5c-43cf-ba07-127cf133415f")
 	)
-	(hierarchical_label "SSTXP1"
+	(global_label "SSTXP1"
 		(shape passive)
 		(at 352.806 102.362 0)
 		(fields_autoplaced yes)
@@ -20778,7 +20778,7 @@
 		)
 		(uuid "6d40a471-246d-44ee-8e97-44db8311a1cf")
 	)
-	(hierarchical_label "SPKR_C"
+	(global_label "SPKR_C"
 		(shape passive)
 		(at 383.286 201.422 180)
 		(fields_autoplaced yes)
@@ -20790,7 +20790,7 @@
 		)
 		(uuid "72703321-3de9-4815-a1de-1c9cb1280833")
 	)
-	(hierarchical_label "DP_TX3N"
+	(global_label "DP_TX3N"
 		(shape bidirectional)
 		(at 143.256 112.522 180)
 		(fields_autoplaced yes)
@@ -20802,7 +20802,7 @@
 		)
 		(uuid "7514f375-b5d1-42ca-81b3-8566a77ec0ce")
 	)
-	(hierarchical_label "FLASH_MOSI"
+	(global_label "FLASH_MOSI"
 		(shape passive)
 		(at 446.786 334.772 0)
 		(fields_autoplaced yes)
@@ -20814,7 +20814,7 @@
 		)
 		(uuid "75a61692-5837-4d6f-b0cb-9dfe8ad450fb")
 	)
-	(hierarchical_label "DP_TX0N"
+	(global_label "DP_TX0N"
 		(shape bidirectional)
 		(at 144.526 173.482 180)
 		(fields_autoplaced yes)
@@ -20826,7 +20826,7 @@
 		)
 		(uuid "7cdb22e9-1346-4f29-ad38-c9a387bdf176")
 	)
-	(hierarchical_label "SSTXN2"
+	(global_label "SSTXN2"
 		(shape passive)
 		(at 343.916 145.542 0)
 		(fields_autoplaced yes)
@@ -20838,7 +20838,7 @@
 		)
 		(uuid "81e57b3c-177e-41c2-9cda-ddff95863fc7")
 	)
-	(hierarchical_label "SSTXP2"
+	(global_label "SSTXP2"
 		(shape passive)
 		(at 343.916 143.002 0)
 		(fields_autoplaced yes)
@@ -20850,7 +20850,7 @@
 		)
 		(uuid "8246b9cb-e7b1-47aa-b333-650c6aeec41b")
 	)
-	(hierarchical_label "HDMI_TXP0"
+	(global_label "HDMI_TXP0"
 		(shape passive)
 		(at 89.916 198.882 180)
 		(fields_autoplaced yes)
@@ -20862,7 +20862,7 @@
 		)
 		(uuid "847c676e-1833-4fdd-bb42-fb58490d6240")
 	)
-	(hierarchical_label "TYPEC_MUX_EN"
+	(global_label "TYPEC_MUX_EN"
 		(shape passive)
 		(at 136.906 159.512 180)
 		(fields_autoplaced yes)
@@ -20874,7 +20874,7 @@
 		)
 		(uuid "88392dfe-d442-4b67-b129-e274b2092c9d")
 	)
-	(hierarchical_label "MIC2_DAT"
+	(global_label "MIC2_DAT"
 		(shape passive)
 		(at 430.276 242.062 0)
 		(fields_autoplaced yes)
@@ -20886,7 +20886,7 @@
 		)
 		(uuid "891d0cdc-f10b-4be1-a196-c51636456b8d")
 	)
-	(hierarchical_label "USB1_DN_CN"
+	(global_label "USB1_DN_CN"
 		(shape passive)
 		(at 514.096 277.622 0)
 		(fields_autoplaced yes)
@@ -20898,7 +20898,7 @@
 		)
 		(uuid "8c8f551e-1693-44e4-b2f0-9337451bf5db")
 	)
-	(hierarchical_label "USB1_DP_CN"
+	(global_label "USB1_DP_CN"
 		(shape passive)
 		(at 514.096 280.162 0)
 		(fields_autoplaced yes)
@@ -20910,7 +20910,7 @@
 		)
 		(uuid "8ea6d753-33a3-4e8a-96c2-f7b5ac619e45")
 	)
-	(hierarchical_label "DP_TX1P"
+	(global_label "DP_TX1P"
 		(shape bidirectional)
 		(at 144.526 144.272 180)
 		(fields_autoplaced yes)
@@ -20922,7 +20922,7 @@
 		)
 		(uuid "90a47447-3d39-4ee4-99de-ed25379386e8")
 	)
-	(hierarchical_label "HDMI_CLKP"
+	(global_label "HDMI_CLKP"
 		(shape passive)
 		(at 89.916 187.452 180)
 		(fields_autoplaced yes)
@@ -20934,7 +20934,7 @@
 		)
 		(uuid "9753f519-9e70-425a-b3c1-80ec872d5e44")
 	)
-	(hierarchical_label "TYPEC_SW_AMSEL"
+	(global_label "TYPEC_SW_AMSEL"
 		(shape passive)
 		(at 201.676 311.912 180)
 		(fields_autoplaced yes)
@@ -20946,7 +20946,7 @@
 		)
 		(uuid "999ff237-fb4e-49c1-8e66-f34ce5b37b7e")
 	)
-	(hierarchical_label "TYPEC_SW_AMSEL"
+	(global_label "TYPEC_SW_AMSEL"
 		(shape passive)
 		(at 290.576 197.612 0)
 		(fields_autoplaced yes)
@@ -20958,7 +20958,7 @@
 		)
 		(uuid "9a44cea4-d2e1-45b2-9477-439e5207b171")
 	)
-	(hierarchical_label "DP_TX1N"
+	(global_label "DP_TX1N"
 		(shape bidirectional)
 		(at 124.206 209.042 0)
 		(fields_autoplaced yes)
@@ -20970,7 +20970,7 @@
 		)
 		(uuid "9a81b3b9-d50e-4b82-9213-edf0ce52383c")
 	)
-	(hierarchical_label "USB_PD_LDO1V8D"
+	(global_label "USB_PD_LDO1V8D"
 		(shape passive)
 		(at 202.946 337.312 180)
 		(fields_autoplaced yes)
@@ -20982,7 +20982,7 @@
 		)
 		(uuid "9abb293b-1cd5-4b08-94e3-c34fe73ef012")
 	)
-	(hierarchical_label "CC2"
+	(global_label "CC2"
 		(shape output)
 		(at 187.706 258.572 180)
 		(fields_autoplaced yes)
@@ -20994,7 +20994,7 @@
 		)
 		(uuid "a19f6c7b-f110-47cc-b81b-6687bab085d6")
 	)
-	(hierarchical_label "USB1_RXN"
+	(global_label "USB1_RXN"
 		(shape bidirectional)
 		(at 140.716 62.992 180)
 		(fields_autoplaced yes)
@@ -21006,7 +21006,7 @@
 		)
 		(uuid "aa8efc16-e754-45f5-bf6a-07547cb053b8")
 	)
-	(hierarchical_label "HDMI_CLKN"
+	(global_label "HDMI_CLKN"
 		(shape passive)
 		(at 89.916 189.992 180)
 		(fields_autoplaced yes)
@@ -21018,7 +21018,7 @@
 		)
 		(uuid "ab066f4d-859f-4551-8059-210d03d1aa39")
 	)
-	(hierarchical_label "DP_AUXP"
+	(global_label "DP_AUXP"
 		(shape passive)
 		(at 214.376 296.672 180)
 		(fields_autoplaced yes)
@@ -21030,7 +21030,7 @@
 		)
 		(uuid "ac16a840-da6e-420b-b1ee-bb475b05733c")
 	)
-	(hierarchical_label "USB1_TXP"
+	(global_label "USB1_TXP"
 		(shape passive)
 		(at 140.716 73.152 180)
 		(fields_autoplaced yes)
@@ -21042,7 +21042,7 @@
 		)
 		(uuid "ae339b48-0545-41c5-bc33-2114d14ac20f")
 	)
-	(hierarchical_label "SSTXN2"
+	(global_label "SSTXN2"
 		(shape passive)
 		(at 470.916 209.042 0)
 		(fields_autoplaced yes)
@@ -21054,7 +21054,7 @@
 		)
 		(uuid "aee5e3f8-07c7-481a-9f08-3df2f9f63e98")
 	)
-	(hierarchical_label "SSRXP2"
+	(global_label "SSRXP2"
 		(shape passive)
 		(at 355.346 150.622 0)
 		(fields_autoplaced yes)
@@ -21066,7 +21066,7 @@
 		)
 		(uuid "af8f4544-ee8c-4b7e-8f5b-5abf6d4bd20e")
 	)
-	(hierarchical_label "USB1_RXP"
+	(global_label "USB1_RXP"
 		(shape bidirectional)
 		(at 140.716 60.452 180)
 		(fields_autoplaced yes)
@@ -21078,7 +21078,7 @@
 		)
 		(uuid "b663e808-8b86-4d4d-86ed-0ba307c6db22")
 	)
-	(hierarchical_label "USB1_VBUS"
+	(global_label "USB1_VBUS"
 		(shape bidirectional)
 		(at 385.826 118.872 180)
 		(fields_autoplaced yes)
@@ -21090,7 +21090,7 @@
 		)
 		(uuid "b97b4257-366e-4805-b152-7a635a694770")
 	)
-	(hierarchical_label "USB1_DP"
+	(global_label "USB1_DP"
 		(shape passive)
 		(at 462.026 280.162 180)
 		(fields_autoplaced yes)
@@ -21102,7 +21102,7 @@
 		)
 		(uuid "bd26139f-1927-4de2-8aef-caddd76276a6")
 	)
-	(hierarchical_label "DP_TX1N"
+	(global_label "DP_TX1N"
 		(shape bidirectional)
 		(at 144.526 151.892 180)
 		(fields_autoplaced yes)
@@ -21114,7 +21114,7 @@
 		)
 		(uuid "c0a9ccf8-3874-424e-b163-71ff954e8a4b")
 	)
-	(hierarchical_label "MIC2_CLK"
+	(global_label "MIC2_CLK"
 		(shape passive)
 		(at 430.276 247.142 0)
 		(fields_autoplaced yes)
@@ -21126,7 +21126,7 @@
 		)
 		(uuid "c228f16c-1db7-4c76-806e-2c5c9ff6d9f8")
 	)
-	(hierarchical_label "SSTXP2"
+	(global_label "SSTXP2"
 		(shape passive)
 		(at 470.916 206.502 0)
 		(fields_autoplaced yes)
@@ -21138,7 +21138,7 @@
 		)
 		(uuid "c264e29a-c1c4-4b06-ab31-0bf859e0f85b")
 	)
-	(hierarchical_label "USB1_DP_CN"
+	(global_label "USB1_DP_CN"
 		(shape passive)
 		(at 469.646 176.022 0)
 		(fields_autoplaced yes)
@@ -21150,7 +21150,7 @@
 		)
 		(uuid "c617da00-41ef-45cf-a350-281fcd2dab8c")
 	)
-	(hierarchical_label "DP_TX3P"
+	(global_label "DP_TX3P"
 		(shape bidirectional)
 		(at 124.206 187.452 0)
 		(fields_autoplaced yes)
@@ -21162,7 +21162,7 @@
 		)
 		(uuid "c6c2fbb0-acff-481a-ac45-118d95f48838")
 	)
-	(hierarchical_label "SSRXN1"
+	(global_label "SSRXN1"
 		(shape passive)
 		(at 352.806 97.282 0)
 		(fields_autoplaced yes)
@@ -21174,7 +21174,7 @@
 		)
 		(uuid "c7e43841-94b5-4654-901b-24e1eef2fb4f")
 	)
-	(hierarchical_label "TYPEC_SW_POL"
+	(global_label "TYPEC_SW_POL"
 		(shape passive)
 		(at 200.406 347.472 180)
 		(fields_autoplaced yes)
@@ -21186,7 +21186,7 @@
 		)
 		(uuid "c9a3d510-07cf-4051-a116-881a05b1ed07")
 	)
-	(hierarchical_label "HDMI_TXN2"
+	(global_label "HDMI_TXN2"
 		(shape passive)
 		(at 89.916 182.372 180)
 		(fields_autoplaced yes)
@@ -21198,7 +21198,7 @@
 		)
 		(uuid "cda7ef79-e332-4898-b7c3-1e84a403f63b")
 	)
-	(hierarchical_label "USB1_DN_CN"
+	(global_label "USB1_DN_CN"
 		(shape passive)
 		(at 469.646 178.562 0)
 		(fields_autoplaced yes)
@@ -21210,7 +21210,7 @@
 		)
 		(uuid "d4544c5f-89d5-4bdd-b121-d198a6cf0d25")
 	)
-	(hierarchical_label "CC1"
+	(global_label "CC1"
 		(shape passive)
 		(at 368.046 183.642 180)
 		(fields_autoplaced yes)
@@ -21222,7 +21222,7 @@
 		)
 		(uuid "d797f722-dc63-4b6f-ac45-d61224cffc14")
 	)
-	(hierarchical_label "HDMI_AUXN"
+	(global_label "HDMI_AUXN"
 		(shape input)
 		(at 94.996 332.232 180)
 		(fields_autoplaced yes)
@@ -21234,7 +21234,7 @@
 		)
 		(uuid "d7b556f8-77df-4512-9c15-122d12cadf3f")
 	)
-	(hierarchical_label "TCPC_NINT"
+	(global_label "TCPC_NINT"
 		(shape passive)
 		(at 314.706 353.822 0)
 		(fields_autoplaced yes)
@@ -21246,7 +21246,7 @@
 		)
 		(uuid "d94a78f7-1700-4aea-8021-24a021dbc68b")
 	)
-	(hierarchical_label "I2C1_SCL"
+	(global_label "I2C1_SCL"
 		(shape passive)
 		(at 314.706 356.362 0)
 		(fields_autoplaced yes)
@@ -21258,7 +21258,7 @@
 		)
 		(uuid "da03cbcc-23b5-4299-9783-6e636456cc26")
 	)
-	(hierarchical_label "USB1_TXN"
+	(global_label "USB1_TXN"
 		(shape passive)
 		(at 140.716 75.692 180)
 		(fields_autoplaced yes)
@@ -21270,7 +21270,7 @@
 		)
 		(uuid "e23678e6-4db5-4142-abac-a0e43c7b1729")
 	)
-	(hierarchical_label "DP_TX3N"
+	(global_label "DP_TX3N"
 		(shape bidirectional)
 		(at 124.206 189.992 0)
 		(fields_autoplaced yes)
@@ -21282,7 +21282,7 @@
 		)
 		(uuid "e66fe4c0-3e9f-472e-9486-d4fa51c8b23c")
 	)
-	(hierarchical_label "SSRXN2"
+	(global_label "SSRXN2"
 		(shape passive)
 		(at 470.916 216.662 0)
 		(fields_autoplaced yes)
@@ -21294,7 +21294,7 @@
 		)
 		(uuid "ea0cc8ec-b260-43b7-a971-549c0625ca7d")
 	)
-	(hierarchical_label "DP_AUXP"
+	(global_label "DP_AUXP"
 		(shape bidirectional)
 		(at 150.876 329.692 0)
 		(fields_autoplaced yes)
@@ -21306,7 +21306,7 @@
 		)
 		(uuid "ec0c78f2-3951-4c2b-91a7-703afd543176")
 	)
-	(hierarchical_label "TYPEC_HRESET"
+	(global_label "TYPEC_HRESET"
 		(shape passive)
 		(at 200.406 371.602 180)
 		(fields_autoplaced yes)
@@ -21318,7 +21318,7 @@
 		)
 		(uuid "ed00ae09-020d-492f-9b69-31d7a89e8716")
 	)
-	(hierarchical_label "4G_RFSW_EN"
+	(global_label "4G_RFSW_EN"
 		(shape passive)
 		(at 385.826 176.022 180)
 		(fields_autoplaced yes)
@@ -21330,7 +21330,7 @@
 		)
 		(uuid "ed6df0b0-c81d-400c-bbfb-112311de4323")
 	)
-	(hierarchical_label "VDD_3V3"
+	(global_label "VDD_3V3"
 		(shape bidirectional)
 		(at 107.696 118.872 90)
 		(fields_autoplaced yes)
@@ -21342,7 +21342,7 @@
 		)
 		(uuid "f262785c-fe20-49c7-9e4c-4487c41b0460")
 	)
-	(hierarchical_label "DP_TX1P"
+	(global_label "DP_TX1P"
 		(shape bidirectional)
 		(at 124.206 206.502 0)
 		(fields_autoplaced yes)
@@ -21354,7 +21354,7 @@
 		)
 		(uuid "f5ff5f32-da20-40e7-b4b2-f5e2c7b262e2")
 	)
-	(hierarchical_label "SSTXN1"
+	(global_label "SSTXN1"
 		(shape passive)
 		(at 352.806 104.902 0)
 		(fields_autoplaced yes)
@@ -21366,7 +21366,7 @@
 		)
 		(uuid "f93a38f5-28df-43de-be5b-c99128b5695e")
 	)
-	(hierarchical_label "DP_TX2P"
+	(global_label "DP_TX2P"
 		(shape bidirectional)
 		(at 124.206 198.882 0)
 		(fields_autoplaced yes)
@@ -21378,7 +21378,7 @@
 		)
 		(uuid "fb55026d-fb1a-4660-825c-74b7e42db279")
 	)
-	(hierarchical_label "4G_MIPI_SCL"
+	(global_label "4G_MIPI_SCL"
 		(shape passive)
 		(at 469.646 186.182 0)
 		(fields_autoplaced yes)
