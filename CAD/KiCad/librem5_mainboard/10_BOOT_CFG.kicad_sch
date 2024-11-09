@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -877,7 +877,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 3.81) (xy 2.54 3.81)
+						(xy 10.16 3.81) (xy 10.16 0)
 					)
 					(stroke
 						(width 0)
@@ -900,7 +900,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 3.81) (xy 10.16 0)
+						(xy 10.16 3.81) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1169,7 +1169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 5.08)
+						(xy 5.08 2.54) (xy 5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1181,7 +1181,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.588 2.032)
+						(xy 5.08 2.54) (xy 5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -1333,12 +1333,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 2.54 3.81)
-					)
+				(circle
+					(center 10.16 3.81)
+					(radius 0.508)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -1357,11 +1356,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 10.16 3.81)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 2.54 3.81)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type solid)
 					)
 					(fill
@@ -1912,6 +1912,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -10.16 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -10.16 3.81)
 					(radius 0.508)
@@ -1926,18 +1938,6 @@
 				(polyline
 					(pts
 						(xy -10.16 3.81) (xy -10.16 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -2266,6 +2266,18 @@
 				)
 				(polyline
 					(pts
+						(xy -5.08 4.318) (xy -5.08 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -5.08 4.318) (xy -6.35 4.318)
 					)
 					(stroke
@@ -2278,7 +2290,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -5.08 0.762)
+						(xy -5.08 2.54) (xy -7.62 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2298,18 +2310,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -2680,7 +2680,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.826 1.27) (xy -4.826 3.81)
+						(xy -4.826 1.27) (xy -5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2692,7 +2692,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.826 1.27) (xy -5.842 0.254)
+						(xy -4.826 1.27) (xy -4.826 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3051,18 +3051,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.334) (xy -3.81 5.334)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 5.334) (xy -0.254 5.842)
 					)
 					(stroke
@@ -3075,7 +3063,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.826) (xy -0.254 5.842)
+						(xy -1.27 5.334) (xy -3.81 5.334)
 					)
 					(stroke
 						(width 0)
@@ -3088,6 +3076,18 @@
 				(polyline
 					(pts
 						(xy -1.27 4.826) (xy -3.81 4.826)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.826) (xy -0.254 5.842)
 					)
 					(stroke
 						(width 0)
@@ -3207,6 +3207,18 @@
 				)
 				(polyline
 					(pts
+						(xy -4.318 5.08) (xy -0.762 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -4.318 5.08) (xy -4.318 6.35)
 					)
 					(stroke
@@ -3219,7 +3231,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 5.08) (xy -0.762 5.08)
+						(xy -2.54 5.08) (xy -2.54 7.62)
 					)
 					(stroke
 						(width 0)
@@ -3239,18 +3251,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -3387,7 +3387,7 @@
 			(symbol "root_1_mirrored_TVS_0402_882_1_0"
 				(polyline
 					(pts
-						(xy 1.27 5.334) (xy 0.254 5.842)
+						(xy 1.27 5.334) (xy 3.81 5.334)
 					)
 					(stroke
 						(width 0)
@@ -3399,7 +3399,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.334) (xy 3.81 5.334)
+						(xy 1.27 5.334) (xy 0.254 5.842)
 					)
 					(stroke
 						(width 0)
@@ -4381,7 +4381,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 8.89) (xy 5.08 10.16)
+						(xy 6.35 8.89) (xy 6.35 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -4393,7 +4393,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 8.89) (xy 6.35 5.08)
+						(xy 6.35 8.89) (xy 5.08 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -4746,18 +4746,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy -2.54 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -5.08) (xy -2.54 -5.08) (xy -0.762 -2.54) (xy -4.318 -2.54) (xy -2.54 -5.08) (xy -2.54 -5.08)
 					)
 					(stroke
@@ -4766,6 +4754,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -8587,6 +8587,15 @@
 			(justify left)
 		)
 		(uuid "1100cd49-3864-4520-8c8d-fce7ea46a378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.37 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD4"
 		(shape passive)
@@ -8599,6 +8608,15 @@
 			(justify left)
 		)
 		(uuid "174abf60-b333-43da-8713-94cdff1f8cee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD1"
 		(shape passive)
@@ -8611,6 +8629,15 @@
 			(justify left)
 		)
 		(uuid "17f7ae67-5cd4-4c1e-bba9-560143e6dc66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ONOFF"
 		(shape passive)
@@ -8623,6 +8650,15 @@
 			(justify left)
 		)
 		(uuid "26534522-753c-416f-a17c-11859622ffde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD1"
 		(shape bidirectional)
@@ -8635,6 +8671,15 @@
 			(justify left)
 		)
 		(uuid "27ef817f-b12f-41f7-836a-d429a42deee4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD0"
 		(shape output)
@@ -8647,6 +8692,15 @@
 			(justify left)
 		)
 		(uuid "3cf30a82-a4ee-45bd-9a3a-3c1e736f4b87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD2"
 		(shape passive)
@@ -8659,6 +8713,15 @@
 			(justify left)
 		)
 		(uuid "4cd016e9-c58f-40af-84d4-8e20b3d1fa75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD4"
 		(shape output)
@@ -8671,6 +8734,15 @@
 			(justify left)
 		)
 		(uuid "4e0e53bf-f169-41eb-b526-debccd312f5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "AUDIO_POWER_KEY"
 		(shape passive)
@@ -8683,6 +8755,15 @@
 			(justify left)
 		)
 		(uuid "57ffc072-31f7-45ce-ad0a-e2281f743c9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.61 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_QON"
 		(shape input)
@@ -8695,6 +8776,15 @@
 			(justify left)
 		)
 		(uuid "59dc604b-4a6c-4109-9d50-95f0d0db9ded")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD6"
 		(shape output)
@@ -8707,6 +8797,15 @@
 			(justify left)
 		)
 		(uuid "64fcc6f1-14de-4d25-b2cc-b564e7e99459")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VOL-"
 		(shape passive)
@@ -8719,6 +8818,15 @@
 			(justify left)
 		)
 		(uuid "67bbaefb-9654-45c2-a8d5-cb4cc7fedacc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VOL+"
 		(shape passive)
@@ -8731,6 +8839,15 @@
 			(justify left)
 		)
 		(uuid "6b777b32-e3ce-430e-91f2-4773e46c959b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD5"
 		(shape passive)
@@ -8743,6 +8860,15 @@
 			(justify left)
 		)
 		(uuid "6f8bbdf4-3ab8-4517-b65f-f77bdd6dce52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD7"
 		(shape passive)
@@ -8755,6 +8881,15 @@
 			(justify left)
 		)
 		(uuid "6fe4746c-c42b-4a55-9325-907e35eeac07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape bidirectional)
@@ -8767,6 +8902,15 @@
 			(justify left)
 		)
 		(uuid "790bbc46-f42a-4e83-b17f-4aa0f89dd596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NVCC_SAI1_BOOT"
 		(shape passive)
@@ -8779,6 +8923,15 @@
 			(justify right)
 		)
 		(uuid "7d32f719-f83f-4c49-8d9e-9f46f502cccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HSW_CA_STATE"
 		(shape passive)
@@ -8791,6 +8944,15 @@
 			(justify left)
 		)
 		(uuid "7d40dcb5-b25b-45a4-b849-22bd7bef90bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.07 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT_MODE1"
 		(shape passive)
@@ -8803,6 +8965,15 @@
 			(justify left)
 		)
 		(uuid "89942212-e84a-47c3-95e1-427772d27a29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD3"
 		(shape output)
@@ -8815,6 +8986,15 @@
 			(justify left)
 		)
 		(uuid "8f1449ae-3bb0-4967-97b7-5c64bc8fef43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_POWER_KEY"
 		(shape passive)
@@ -8827,6 +9007,15 @@
 			(justify left)
 		)
 		(uuid "9a6943a6-2ea9-415a-838f-6345ac9a503b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.37 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT_MODE0"
 		(shape passive)
@@ -8839,6 +9028,15 @@
 			(justify left)
 		)
 		(uuid "a89fffb2-abde-4aeb-99f8-e9475ded00ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD2"
 		(shape output)
@@ -8851,6 +9049,15 @@
 			(justify left)
 		)
 		(uuid "a9b41485-0c09-40c9-8f22-3c014d7f89d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD6"
 		(shape passive)
@@ -8863,6 +9070,15 @@
 			(justify left)
 		)
 		(uuid "acc3cdc3-e92b-4f55-b87d-6f622987860f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PMIC_PWRON_KEY"
 		(shape input)
@@ -8875,6 +9091,15 @@
 			(justify left)
 		)
 		(uuid "b1234d73-052a-4795-ae65-45c869c84282")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD7"
 		(shape output)
@@ -8887,6 +9112,15 @@
 			(justify left)
 		)
 		(uuid "c3798813-c099-43c2-9eaf-a0064b569f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NVCC_SNVS_3V3"
 		(shape passive)
@@ -8899,6 +9133,15 @@
 			(justify right)
 		)
 		(uuid "c5fb41d3-fc6b-4f1e-a986-5af357ba5ee0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 416.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "WIFI_POWER_KEY"
 		(shape passive)
@@ -8911,6 +9154,15 @@
 			(justify left)
 		)
 		(uuid "ca7b8f00-72d8-4750-a0d0-cf893513297d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.61 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_STATUS_B"
 		(shape passive)
@@ -8923,6 +9175,15 @@
 			(justify left)
 		)
 		(uuid "cfd5d353-0e8b-4703-9ad9-0e72a2b8dafe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 464.82 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CAMERA_POWER_KEY"
 		(shape passive)
@@ -8935,6 +9196,15 @@
 			(justify left)
 		)
 		(uuid "d3704eb4-e977-4561-8add-6c4c6aa6c9b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.61 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LED_R"
 		(shape passive)
@@ -8947,6 +9217,15 @@
 			(justify right)
 		)
 		(uuid "d5f0d36f-b5e9-4a4b-9762-20d0a2cfe109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HSW_WIFI_STATE"
 		(shape passive)
@@ -8959,6 +9238,15 @@
 			(justify left)
 		)
 		(uuid "d783070c-cf7f-46d7-8c25-a2644500748f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.34 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PWR_KEY"
 		(shape passive)
@@ -8971,6 +9259,15 @@
 			(justify left)
 		)
 		(uuid "daeb3a21-c3f8-4511-b20b-d3731c24c898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD0"
 		(shape passive)
@@ -8983,6 +9280,15 @@
 			(justify left)
 		)
 		(uuid "dbd4601d-032a-44b3-b51d-88f22f8dbaf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD3"
 		(shape passive)
@@ -8995,6 +9301,15 @@
 			(justify left)
 		)
 		(uuid "dc9aa458-76c5-4d50-87c1-151e87498185")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "MOTO"
 		(shape passive)
@@ -9007,6 +9322,15 @@
 			(justify right)
 		)
 		(uuid "e3e050b7-d10d-477d-abef-60fafe31f01f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3SW_KILL"
 		(shape passive)
@@ -9019,6 +9343,15 @@
 			(justify left)
 		)
 		(uuid "e555bba2-375c-4f19-990d-66a3354cfd60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD5"
 		(shape output)
@@ -9031,6 +9364,15 @@
 			(justify left)
 		)
 		(uuid "e67be8d5-787d-44c1-9960-214a94bd7acc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD1"
 		(shape output)
@@ -9043,6 +9385,15 @@
 			(justify left)
 		)
 		(uuid "f4872e19-fc43-4dbd-9d26-940036311e72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 504.19 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LED_G"
 		(shape passive)
@@ -9055,6 +9406,15 @@
 			(justify right)
 		)
 		(uuid "f58bce7a-38e3-43e6-8115-fdc0e51f454e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LED_B"
 		(shape passive)
@@ -9067,6 +9427,15 @@
 			(justify right)
 		)
 		(uuid "ff546fa7-6d65-4e87-a765-b279c854c055")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.17 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-11_BOOT_CFG:root_2_RES_2")

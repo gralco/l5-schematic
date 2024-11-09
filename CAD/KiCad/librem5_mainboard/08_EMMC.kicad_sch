@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -5486,6 +5486,15 @@
 			(justify right)
 		)
 		(uuid "0118f2a7-f6eb-41e6-8e9c-3532edc17377")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA6"
 		(shape output)
@@ -5498,6 +5507,15 @@
 			(justify right)
 		)
 		(uuid "340ecddb-2221-48d2-8ab5-da832ff5a7fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA1"
 		(shape output)
@@ -5510,6 +5528,15 @@
 			(justify right)
 		)
 		(uuid "70bf1cc5-019f-4db2-8e46-02368a13eb01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA5"
 		(shape output)
@@ -5522,6 +5549,15 @@
 			(justify right)
 		)
 		(uuid "9af48c8d-5a4c-4e38-9312-9eeb537f2aff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_STROBE"
 		(shape passive)
@@ -5534,6 +5570,15 @@
 			(justify left)
 		)
 		(uuid "ac3cb820-f4bc-4797-adc7-ec92ed2f8ff7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 389.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_NRST"
 		(shape passive)
@@ -5546,6 +5591,15 @@
 			(justify right)
 		)
 		(uuid "b37e436a-afb5-4c1b-bce4-5fc5cee53a47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA3"
 		(shape output)
@@ -5558,6 +5612,15 @@
 			(justify right)
 		)
 		(uuid "b399ddaa-1e3d-4d6e-b418-4afda13e24b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA4"
 		(shape output)
@@ -5570,6 +5633,15 @@
 			(justify right)
 		)
 		(uuid "baf4604b-41de-4aac-88ac-6330d6281186")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA7"
 		(shape output)
@@ -5582,6 +5654,15 @@
 			(justify right)
 		)
 		(uuid "d523251d-f63d-40ec-a9ef-e7eb3f426bcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA2"
 		(shape output)
@@ -5594,6 +5675,15 @@
 			(justify right)
 		)
 		(uuid "ddae1868-a944-43fd-b53e-1a50b589b0bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_DATA0"
 		(shape output)
@@ -5606,6 +5696,15 @@
 			(justify right)
 		)
 		(uuid "e1eaf7c6-befc-4494-a0cb-2d05df25c724")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD1_CLK"
 		(shape passive)
@@ -5618,6 +5717,15 @@
 			(justify right)
 		)
 		(uuid "e9a490f1-6efa-4aca-8832-02ba6e659007")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-09_EMMC:GND")

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -6909,7 +6909,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 17.78 10.16)
+						(xy 17.78 40.64) (xy 15.24 40.64)
 					)
 					(stroke
 						(width 0)
@@ -6921,7 +6921,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 15.24 40.64)
+						(xy 17.78 40.64) (xy 17.78 10.16)
 					)
 					(stroke
 						(width 0)
@@ -14378,7 +14378,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 7.62) (xy 2.54 7.62)
+						(xy 5.08 7.62) (xy 5.08 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14390,7 +14390,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 7.62) (xy 5.08 7.62)
+						(xy 5.08 7.62) (xy 2.54 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14462,7 +14462,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 7.62) (xy 10.16 7.62)
+						(xy 10.16 7.62) (xy 12.7 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14474,7 +14474,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 7.62) (xy 12.7 7.62)
+						(xy 10.16 7.62) (xy 10.16 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14893,7 +14893,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -4.318) (xy -6.35 -4.318)
+						(xy -5.08 -4.318) (xy -5.08 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -14905,7 +14905,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -4.318) (xy -5.08 -0.762)
+						(xy -5.08 -4.318) (xy -6.35 -4.318)
 					)
 					(stroke
 						(width 0)
@@ -16572,6 +16572,15 @@
 			(justify left)
 		)
 		(uuid "109343cc-7d73-415a-ba9c-6946eecee336")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.26 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PMIC_STBY_REQ"
 		(shape passive)
@@ -16584,6 +16593,15 @@
 			(justify right)
 		)
 		(uuid "10a561a2-92f1-409f-9043-1793afabb17d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.91 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BATV"
 		(shape passive)
@@ -16596,6 +16614,15 @@
 			(justify left)
 		)
 		(uuid "19d1a2fd-a8d8-45a7-880c-0087a7b72adf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PMIC_ON_REQ"
 		(shape passive)
@@ -16608,6 +16635,15 @@
 			(justify right)
 		)
 		(uuid "1c74dcb9-209e-41a8-afd5-de3bb6a11a3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.91 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TDI"
 		(shape passive)
@@ -16620,6 +16656,15 @@
 			(justify left)
 		)
 		(uuid "3a70185b-fc81-4462-866c-cf2808c7b679")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.26 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_NTRST"
 		(shape passive)
@@ -16632,6 +16677,15 @@
 			(justify left)
 		)
 		(uuid "55509f0d-cc40-40e1-af1c-772c2edc654b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VSYS_3V4_4V3"
 		(shape passive)
@@ -16644,6 +16698,15 @@
 			(justify left)
 		)
 		(uuid "71d246dd-4d1a-48c2-89a1-cd58036a95dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C1_SDA"
 		(shape passive)
@@ -16656,6 +16719,15 @@
 			(justify right)
 		)
 		(uuid "98a91e0b-9bff-4834-b5ee-658307552b31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C1_SCL"
 		(shape passive)
@@ -16668,6 +16740,15 @@
 			(justify left)
 		)
 		(uuid "a14c9b96-1da2-4589-996c-e42f0bdc2d48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TDO"
 		(shape passive)
@@ -16680,6 +16761,15 @@
 			(justify left)
 		)
 		(uuid "acd74447-01d9-48cb-a108-8c0d5ae43492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT_MODE1"
 		(shape passive)
@@ -16692,6 +16782,15 @@
 			(justify left)
 		)
 		(uuid "aebeca9c-442d-4317-981b-eb478f21e07d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.72 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RTC_INT"
 		(shape passive)
@@ -16704,6 +16803,15 @@
 			(justify left)
 		)
 		(uuid "b15415ac-067f-4ed5-8459-abb32cf7f520")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TMS"
 		(shape passive)
@@ -16716,6 +16824,15 @@
 			(justify left)
 		)
 		(uuid "b1930836-64fc-481d-8e82-bb4bccf6e5ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.26 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ONOFF"
 		(shape output)
@@ -16728,6 +16845,15 @@
 			(justify right)
 		)
 		(uuid "bae22efd-876b-49ae-bbcf-4bff4e17b15a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "POR_B"
 		(shape output)
@@ -16740,6 +16866,15 @@
 			(justify right)
 		)
 		(uuid "bb7477e5-a79a-4af5-a6be-d350fdbd2fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT_MODE0"
 		(shape passive)
@@ -16752,6 +16887,15 @@
 			(justify left)
 		)
 		(uuid "cbf52fdb-d045-4779-b4e7-ed0f3d18d59c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 425.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RTC_CLK_32K768"
 		(shape passive)
@@ -16764,6 +16908,15 @@
 			(justify right)
 		)
 		(uuid "ce8f40d4-a55c-4f31-94c6-6d66300d8458")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.13 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RTC_RESET_B"
 		(shape passive)
@@ -16776,6 +16929,15 @@
 			(justify right)
 		)
 		(uuid "ff321a0c-f477-4f66-909a-474e3ac68de2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.13 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-07_CPU_MISC_RTC:root_0_RES_2")

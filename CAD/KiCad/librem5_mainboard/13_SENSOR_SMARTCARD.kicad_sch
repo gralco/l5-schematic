@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -3806,7 +3806,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -6.35 4.318)
+						(xy -5.08 4.318) (xy -5.08 0.762)
 					)
 					(stroke
 						(width 0)
@@ -3818,7 +3818,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -5.08 0.762)
+						(xy -5.08 4.318) (xy -6.35 4.318)
 					)
 					(stroke
 						(width 0)
@@ -5584,18 +5584,6 @@
 					)
 				)
 				(arc
-					(start 3.81 3.81)
-					(mid 4.708 3.438)
-					(end 5.08 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 2.54 2.54)
 					(mid 2.912 3.438)
 					(end 3.81 3.81)
@@ -5608,9 +5596,9 @@
 					)
 				)
 				(arc
-					(start 6.35 3.81)
-					(mid 7.248 3.438)
-					(end 7.62 2.54)
+					(start 3.81 3.81)
+					(mid 4.708 3.438)
+					(end 5.08 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5632,9 +5620,9 @@
 					)
 				)
 				(arc
-					(start 8.89 3.81)
-					(mid 9.788 3.438)
-					(end 10.16 2.54)
+					(start 6.35 3.81)
+					(mid 7.248 3.438)
+					(end 7.62 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5647,6 +5635,18 @@
 					(start 7.62 2.54)
 					(mid 7.992 3.438)
 					(end 8.89 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 3.81)
+					(mid 9.788 3.438)
+					(end 10.16 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -11676,6 +11676,15 @@
 			(justify right)
 		)
 		(uuid "0604626d-468b-492a-95d6-82cc27e745e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_3V3"
 		(shape bidirectional)
@@ -11688,6 +11697,15 @@
 			(justify left)
 		)
 		(uuid "0d1a751e-a838-4303-87b5-d03fd78fb694")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART3_RXD"
 		(shape passive)
@@ -11700,6 +11718,15 @@
 			(justify right)
 		)
 		(uuid "20644787-cdc0-49ab-b03b-38a745442ce1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_STM_SWCLK"
 		(shape passive)
@@ -11712,6 +11739,15 @@
 			(justify right)
 		)
 		(uuid "22939d3b-26b0-4c33-80e1-18bd19a106f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "$$$8854"
 		(shape bidirectional)
@@ -11724,6 +11760,15 @@
 			(justify left)
 		)
 		(uuid "27b8ed5d-2ae3-4447-9fa4-760ffd01fb18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_STM_SWDIO"
 		(shape passive)
@@ -11736,6 +11781,15 @@
 			(justify right)
 		)
 		(uuid "2e90ad92-8419-4f56-b2d3-b52d9ad92524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "INT_M/A/G"
 		(shape bidirectional)
@@ -11748,6 +11802,15 @@
 			(justify left)
 		)
 		(uuid "313f7c56-f048-44c2-974b-ce1b6b40fe4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 495.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C2_SDA"
 		(shape passive)
@@ -11760,6 +11823,15 @@
 			(justify right)
 		)
 		(uuid "338f5a7a-743b-434f-89c3-20590aed0e52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "INT_LIGHT"
 		(shape bidirectional)
@@ -11772,6 +11844,15 @@
 			(justify right)
 		)
 		(uuid "3ea607f3-89fc-423e-969e-865d544e9123")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C2_SCL"
 		(shape passive)
@@ -11784,6 +11865,15 @@
 			(justify right)
 		)
 		(uuid "45796108-6e80-48e6-b9fb-da17b6aa0869")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_PWR_3V3_EN"
 		(shape passive)
@@ -11796,6 +11886,15 @@
 			(justify left)
 		)
 		(uuid "4858cc8f-243b-425a-8618-63a9037cd008")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 500.38 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C2_SCL"
 		(shape output)
@@ -11808,6 +11907,15 @@
 			(justify right)
 		)
 		(uuid "559eba9d-70bc-4f5e-a8fc-ad294e115e73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_PWR"
 		(shape passive)
@@ -11820,6 +11928,15 @@
 			(justify right)
 		)
 		(uuid "98cef25c-f3ef-4492-b679-44535c8ff937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART3_TXD"
 		(shape passive)
@@ -11832,6 +11949,15 @@
 			(justify right)
 		)
 		(uuid "a79da0da-c810-415f-a5ba-d0d5299ee39a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3SW_KILL"
 		(shape passive)
@@ -11844,6 +11970,15 @@
 			(justify right)
 		)
 		(uuid "d3fa372d-3e42-421f-a10a-74938667ebf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HALL"
 		(shape passive)
@@ -11856,6 +11991,15 @@
 			(justify right)
 		)
 		(uuid "e37319a0-b42d-4247-bf2c-d8126313eb9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_BOOT0"
 		(shape passive)
@@ -11868,6 +12012,15 @@
 			(justify right)
 		)
 		(uuid "e8f0ec88-3a57-4a54-af48-582c8b2ccf48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-14_SENSOR_SMARTCARD:root_0_C0201")

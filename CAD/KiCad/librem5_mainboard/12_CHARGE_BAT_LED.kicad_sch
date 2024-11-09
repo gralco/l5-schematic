@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -2934,18 +2934,6 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -5.08 2.54) (xy -5.08 2.54) (xy -2.54 0.762) (xy -2.54 4.318) (xy -5.08 2.54) (xy -5.08 2.54)
 					)
 					(stroke
@@ -2954,6 +2942,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -4085,7 +4085,7 @@
 			(symbol "root_1_mirrored_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4096,7 +4096,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -7971,6 +7971,15 @@
 			(justify right)
 		)
 		(uuid "08ba203e-4f61-4ff6-a820-56cea02f6320")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB1_DN"
 		(shape passive)
@@ -7983,6 +7992,15 @@
 			(justify right)
 		)
 		(uuid "0ea82e31-547b-47c1-9587-af8c2760b11a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_INT"
 		(shape output)
@@ -7995,6 +8013,15 @@
 			(justify right)
 		)
 		(uuid "257e9695-1901-41fc-beef-7f4b1de28dc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NTC"
 		(shape passive)
@@ -8007,6 +8034,15 @@
 			(justify right)
 		)
 		(uuid "2c9073df-f7d5-4203-a955-6f612c77a2c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C4_SCL"
 		(shape passive)
@@ -8019,6 +8055,15 @@
 			(justify right)
 		)
 		(uuid "3cc6fe5c-242e-46aa-9fbe-5fdb6e0e708d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NTC"
 		(shape passive)
@@ -8031,6 +8076,15 @@
 			(justify right)
 		)
 		(uuid "58344f35-bedf-4171-bd2b-9cd1b7c962c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.65 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BAT_LOW"
 		(shape passive)
@@ -8043,6 +8097,15 @@
 			(justify left)
 		)
 		(uuid "615171a5-79a0-4bd1-857c-1ae1ee3dc3aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 495.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_QON"
 		(shape passive)
@@ -8055,6 +8118,15 @@
 			(justify left)
 		)
 		(uuid "64e8b91f-34c3-414a-8de1-10986312081d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C4_SDA"
 		(shape bidirectional)
@@ -8067,6 +8139,15 @@
 			(justify right)
 		)
 		(uuid "942eaea2-ddce-4998-a2cf-a72cc9b84859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 439.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_1V8"
 		(shape passive)
@@ -8079,6 +8160,15 @@
 			(justify right)
 		)
 		(uuid "aa760acf-89f4-418c-aea0-288fdf73eaa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 483.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_OTG_OUT_EN"
 		(shape passive)
@@ -8091,6 +8181,15 @@
 			(justify right)
 		)
 		(uuid "ac9b0f90-ea7a-4fa0-8faf-bbb74f71e094")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C4_SCL"
 		(shape passive)
@@ -8103,6 +8202,15 @@
 			(justify right)
 		)
 		(uuid "b77fd543-1fab-45f8-8222-350265c02bb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 439.42 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C4_SDA"
 		(shape bidirectional)
@@ -8115,6 +8223,15 @@
 			(justify right)
 		)
 		(uuid "c60a1424-a312-4bc5-97a4-e83b01b27a8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_STATUS_B"
 		(shape output)
@@ -8127,6 +8244,15 @@
 			(justify right)
 		)
 		(uuid "d5950ba6-cbf4-4cb7-a01b-38ed03f31b75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NTC"
 		(shape passive)
@@ -8139,6 +8265,15 @@
 			(justify left)
 		)
 		(uuid "f44a7bb8-67d6-4a95-9df5-43f28e0ebf4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.23 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB1_DP"
 		(shape passive)
@@ -8151,6 +8286,15 @@
 			(justify right)
 		)
 		(uuid "f55a1c9f-8e0b-42e7-8034-8243f4cafeef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CHG_USB_DSEL"
 		(shape passive)
@@ -8163,6 +8307,15 @@
 			(justify right)
 		)
 		(uuid "f991bf5a-86d2-408a-a9d3-e2aec243cd24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-13_CHARGE_BAT_LED:root_0_CON-3PIN")

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -524,7 +524,7 @@
 			(symbol "root_0_ANT_CON1_1_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 2.54 2.54)
+						(xy 0 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -536,7 +536,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 7.62 0)
+						(xy 0 0) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1547,7 +1547,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 1.27 6.35)
+						(xy 2.54 7.62) (xy 2.54 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -1559,7 +1559,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 2.54 10.16)
+						(xy 2.54 7.62) (xy 1.27 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -2165,7 +2165,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.4 25.4) (xy 25.4 20.32)
+						(xy 25.4 25.4) (xy 27.94 25.4)
 					)
 					(stroke
 						(width 0)
@@ -2177,7 +2177,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.4 25.4) (xy 27.94 25.4)
+						(xy 25.4 25.4) (xy 25.4 20.32)
 					)
 					(stroke
 						(width 0)
@@ -2201,7 +2201,7 @@
 				)
 				(polyline
 					(pts
-						(xy 45.72 88.9) (xy 48.26 88.9)
+						(xy 45.72 88.9) (xy 45.72 78.74)
 					)
 					(stroke
 						(width 0)
@@ -2213,7 +2213,7 @@
 				)
 				(polyline
 					(pts
-						(xy 45.72 88.9) (xy 45.72 78.74)
+						(xy 45.72 88.9) (xy 48.26 88.9)
 					)
 					(stroke
 						(width 0)
@@ -4025,23 +4025,23 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -10.16 3.81)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -10.16 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 3.81)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -4158,7 +4158,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.588 2.032)
+						(xy -5.08 2.54) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -4170,7 +4170,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 5.08)
+						(xy -5.08 2.54) (xy -5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -4595,7 +4595,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 12.7) (xy -11.176 10.16)
+						(xy -12.7 12.7) (xy -12.7 12.7)
 					)
 					(stroke
 						(width 0)
@@ -4607,7 +4607,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 12.7) (xy -12.7 12.7)
+						(xy -12.7 12.7) (xy -11.176 10.16)
 					)
 					(stroke
 						(width 0)
@@ -4715,18 +4715,6 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 12.7) (xy -7.62 12.7)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 12.7) (xy -6.096 10.16)
 					)
 					(stroke
@@ -4739,7 +4727,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 6.096) (xy -7.62 20.32)
+						(xy -7.62 12.7) (xy -7.62 12.7)
 					)
 					(stroke
 						(width 0)
@@ -4752,6 +4740,18 @@
 				(polyline
 					(pts
 						(xy -7.62 6.096) (xy -17.78 6.096)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 6.096) (xy -7.62 20.32)
 					)
 					(stroke
 						(width 0)
@@ -5149,9 +5149,9 @@
 			)
 			(symbol "root_1_mirrored_BEAD-0201_1_0"
 				(arc
-					(start 0 2.54)
-					(mid 0.372 3.438)
-					(end 1.27 3.81)
+					(start 1.27 3.81)
+					(mid 2.168 3.438)
+					(end 2.54 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5161,9 +5161,9 @@
 					)
 				)
 				(arc
-					(start 1.27 3.81)
-					(mid 2.168 3.438)
-					(end 2.54 2.54)
+					(start 0 2.54)
+					(mid 0.372 3.438)
+					(end 1.27 3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5197,9 +5197,9 @@
 					)
 				)
 				(arc
-					(start 5.08 2.54)
-					(mid 5.452 3.438)
-					(end 6.35 3.81)
+					(start 6.35 3.81)
+					(mid 7.248 3.438)
+					(end 7.62 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5209,9 +5209,9 @@
 					)
 				)
 				(arc
-					(start 6.35 3.81)
-					(mid 7.248 3.438)
-					(end 7.62 2.54)
+					(start 5.08 2.54)
+					(mid 5.452 3.438)
+					(end 6.35 3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5836,7 +5836,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 1.27 -6.35)
+						(xy 2.54 -7.62) (xy 2.54 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -5848,7 +5848,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 2.54 -10.16)
+						(xy 2.54 -7.62) (xy 1.27 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -6705,18 +6705,6 @@
 			)
 			(symbol "root_3_BEAD-0402_1_0"
 				(arc
-					(start 1.27 -3.81)
-					(mid 0.372 -3.438)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 2.54 -2.54)
 					(mid 2.168 -3.438)
 					(end 1.27 -3.81)
@@ -6729,9 +6717,9 @@
 					)
 				)
 				(arc
-					(start 3.81 -3.81)
-					(mid 2.912 -3.438)
-					(end 2.54 -2.54)
+					(start 1.27 -3.81)
+					(mid 0.372 -3.438)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6744,6 +6732,18 @@
 					(start 5.08 -2.54)
 					(mid 4.708 -3.438)
 					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -3.81)
+					(mid 2.912 -3.438)
+					(end 2.54 -2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -10022,6 +10022,15 @@
 			(justify left)
 		)
 		(uuid "200de898-9f61-44b8-b1a1-d2a0a687a41d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_CLK"
 		(shape passive)
@@ -10034,6 +10043,15 @@
 			(justify right)
 		)
 		(uuid "2e950f9c-3751-4f82-9496-076ee7eba60a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BT_REG_ON"
 		(shape passive)
@@ -10046,6 +10064,15 @@
 			(justify left)
 		)
 		(uuid "347d8fe5-1382-4d3a-a17c-0144d644b685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 443.23 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "WIFI3V3_EN"
 		(shape passive)
@@ -10058,6 +10085,15 @@
 			(justify right)
 		)
 		(uuid "3cad3fc9-039a-4068-8de5-62ec881d6be8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI3_TXD"
 		(shape bidirectional)
@@ -10070,6 +10106,15 @@
 			(justify left)
 		)
 		(uuid "41133d16-c963-4829-804b-767577aec83d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI3_RXD"
 		(shape passive)
@@ -10082,6 +10127,15 @@
 			(justify left)
 		)
 		(uuid "431c3d7c-160c-4f03-b656-aeda9e52b47a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_DATA1"
 		(shape passive)
@@ -10094,6 +10148,15 @@
 			(justify right)
 		)
 		(uuid "43c7ad1a-f2d3-4985-937a-0afca2b6c04a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI3_TXFS"
 		(shape bidirectional)
@@ -10106,6 +10169,15 @@
 			(justify left)
 		)
 		(uuid "4929438a-94f1-458a-b71b-a3056131b125")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART4_RTS"
 		(shape passive)
@@ -10118,6 +10190,15 @@
 			(justify left)
 		)
 		(uuid "50095099-7c66-4032-87c5-718009e2d932")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 477.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART4_TXD"
 		(shape passive)
@@ -10130,6 +10211,15 @@
 			(justify left)
 		)
 		(uuid "7ad60ee2-5bf2-4f5f-bc7b-b86fb59498c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 477.52 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_DATA2"
 		(shape passive)
@@ -10142,6 +10232,15 @@
 			(justify right)
 		)
 		(uuid "7d1db23a-1cbd-4ef9-b58f-83d4aa572c14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3V3_WIFI"
 		(shape bidirectional)
@@ -10154,6 +10253,15 @@
 			(justify left)
 		)
 		(uuid "80526bb6-8a86-46d2-bcd0-d485972b7844")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "WIFI_POWER_KEY"
 		(shape passive)
@@ -10166,6 +10274,15 @@
 			(justify right)
 		)
 		(uuid "81b610b5-b8c7-4f69-ac29-30207a5cdd55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART4_RXD"
 		(shape passive)
@@ -10178,6 +10295,15 @@
 			(justify left)
 		)
 		(uuid "83cc3aa1-0711-447b-9646-f4477f354115")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 477.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BT_WAKE"
 		(shape passive)
@@ -10190,6 +10316,15 @@
 			(justify left)
 		)
 		(uuid "b08f0a80-b9e6-4698-a9e0-e0c534d92e44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB2_WIFI_DP"
 		(shape passive)
@@ -10202,6 +10337,15 @@
 			(justify right)
 		)
 		(uuid "c25d311b-98c5-4ba8-80d5-c57fcefad98a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SDIO_WAKE"
 		(shape passive)
@@ -10214,6 +10358,15 @@
 			(justify right)
 		)
 		(uuid "c402816d-17b9-4b5c-be64-e909d97b584c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_NRST"
 		(shape passive)
@@ -10226,6 +10379,15 @@
 			(justify right)
 		)
 		(uuid "c4d1e416-a28e-4864-993d-020c50af2e6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART4_CTS"
 		(shape passive)
@@ -10238,6 +10400,15 @@
 			(justify left)
 		)
 		(uuid "ccec30ae-23e5-4a8b-b061-1bc70919c37a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 477.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB2_WIFI_DN"
 		(shape passive)
@@ -10250,6 +10421,15 @@
 			(justify right)
 		)
 		(uuid "dd0c1a00-4f74-4097-97ec-9e2456313290")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_DATA0"
 		(shape passive)
@@ -10262,6 +10442,15 @@
 			(justify right)
 		)
 		(uuid "e7aceff6-e6db-406c-8f07-c1f4712f6bbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "WIFI_REG_ON"
 		(shape passive)
@@ -10274,6 +10463,15 @@
 			(justify left)
 		)
 		(uuid "eec42943-75f5-41a5-89bf-ebe2013fca65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 407.67 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_CMD"
 		(shape passive)
@@ -10286,6 +10484,15 @@
 			(justify right)
 		)
 		(uuid "fa0db1d2-1ebb-49c6-adff-f235e9c27af0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_DATA3"
 		(shape passive)
@@ -10298,6 +10505,15 @@
 			(justify right)
 		)
 		(uuid "fbd8ca6d-f865-4f6f-9e9d-a5783836ebc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-16_WIFI_BT:root_0_C0402")

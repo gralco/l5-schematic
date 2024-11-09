@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -1483,7 +1483,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 2.54 10.16)
+						(xy 2.54 7.62) (xy 1.27 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -1495,7 +1495,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 1.27 6.35)
+						(xy 2.54 7.62) (xy 2.54 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -4833,9 +4833,9 @@
 					)
 				)
 				(arc
-					(start 7.62 2.54)
-					(mid 7.992 3.438)
-					(end 8.89 3.81)
+					(start 8.89 3.81)
+					(mid 9.788 3.438)
+					(end 10.16 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4845,9 +4845,9 @@
 					)
 				)
 				(arc
-					(start 8.89 3.81)
-					(mid 9.788 3.438)
-					(end 10.16 2.54)
+					(start 7.62 2.54)
+					(mid 7.992 3.438)
+					(end 8.89 3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5133,7 +5133,7 @@
 			(symbol "root_1_mirrored_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -5144,7 +5144,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -10419,6 +10419,15 @@
 			(justify right)
 		)
 		(uuid "0adea07d-100b-4a03-928b-5aa38a6c0cdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "FLASH_MOSI"
 		(shape passive)
@@ -10431,6 +10440,15 @@
 			(justify right)
 		)
 		(uuid "0b73d0a0-b737-41cc-a675-e6204ffc5cc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3SW_KILL"
 		(shape passive)
@@ -10443,6 +10461,15 @@
 			(justify right)
 		)
 		(uuid "0c7c5105-2e4c-432e-835a-e40b98e4b3c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NFC_EN"
 		(shape passive)
@@ -10455,6 +10482,15 @@
 			(justify left)
 		)
 		(uuid "12a5851f-b4cf-4c47-a57f-ae551a7a6365")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ANTOFF"
 		(shape passive)
@@ -10467,6 +10503,15 @@
 			(justify left)
 		)
 		(uuid "245751cb-1c4c-4acc-860b-cfd1e0ebf9f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 421.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C4_SCL"
 		(shape passive)
@@ -10479,6 +10524,15 @@
 			(justify right)
 		)
 		(uuid "26c47abf-eb3a-4efc-a68f-26c1cbc655bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "FLASH_SCK"
 		(shape passive)
@@ -10491,6 +10545,15 @@
 			(justify right)
 		)
 		(uuid "2a480693-1281-4283-8ae7-96754e904ae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART2_RXD"
 		(shape passive)
@@ -10503,6 +10566,15 @@
 			(justify right)
 		)
 		(uuid "4a8691c7-94b6-4768-88d3-c1204761e55b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.56 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VCC_RF"
 		(shape passive)
@@ -10515,6 +10587,15 @@
 			(justify right)
 		)
 		(uuid "5fb0b90b-7116-4439-a34c-a0d63ea37b74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C4_SDA"
 		(shape passive)
@@ -10527,6 +10608,15 @@
 			(justify right)
 		)
 		(uuid "6c6e7bb2-62c0-4374-afae-d38277f78a16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART1_RXD"
 		(shape passive)
@@ -10539,6 +10629,15 @@
 			(justify right)
 		)
 		(uuid "9043b65f-3ddf-49a9-8587-22a0fabceeac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SPI_SS1"
 		(shape passive)
@@ -10551,6 +10650,15 @@
 			(justify right)
 		)
 		(uuid "9a32d10b-7963-42df-9fb6-79bcafd22d1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GPS3V3_EN"
 		(shape passive)
@@ -10563,6 +10671,15 @@
 			(justify right)
 		)
 		(uuid "9eb3fb21-1e41-470c-a6b0-04e48c3de7de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART1_TXD"
 		(shape passive)
@@ -10575,6 +10692,15 @@
 			(justify right)
 		)
 		(uuid "9fbe7e65-5995-4d45-8226-4a4b83c958d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VCC_RF"
 		(shape passive)
@@ -10587,6 +10713,15 @@
 			(justify left)
 		)
 		(uuid "a5c7bcd6-965d-4539-a908-bdaa6329b54c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 438.15 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "FLASH_MISO"
 		(shape passive)
@@ -10599,6 +10734,15 @@
 			(justify right)
 		)
 		(uuid "a6a6a794-7bdd-4fc9-8bcd-3e55e6904585")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NFC_IRQ"
 		(shape passive)
@@ -10611,6 +10755,15 @@
 			(justify left)
 		)
 		(uuid "a79e9728-29f8-40ea-8505-286fd47dfa3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART2_TXD"
 		(shape passive)
@@ -10623,6 +10776,15 @@
 			(justify right)
 		)
 		(uuid "aaac2806-5df2-463c-8aab-920fd24f5321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ANTOFF"
 		(shape passive)
@@ -10635,6 +10797,15 @@
 			(justify right)
 		)
 		(uuid "fc52f4cf-c96c-483f-8021-187809da06d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-15_GNSS_EXT_CON:root_3_mirrored_C0201")

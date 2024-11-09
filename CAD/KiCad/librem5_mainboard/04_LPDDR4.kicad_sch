@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -7168,7 +7168,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 17.78 10.16)
+						(xy 17.78 40.64) (xy 15.24 40.64)
 					)
 					(stroke
 						(width 0)
@@ -7180,7 +7180,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 15.24 40.64)
+						(xy 17.78 40.64) (xy 17.78 10.16)
 					)
 					(stroke
 						(width 0)
@@ -8202,7 +8202,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40.64 27.94) (xy 43.18 27.94)
+						(xy 40.64 27.94) (xy 40.64 5.08)
 					)
 					(stroke
 						(width 0)
@@ -8214,7 +8214,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40.64 27.94) (xy 40.64 5.08)
+						(xy 40.64 27.94) (xy 43.18 27.94)
 					)
 					(stroke
 						(width 0)
@@ -27449,6 +27449,15 @@
 			(justify left)
 		)
 		(uuid "03cc6945-9927-40ea-8285-5b66a143fca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA8_B"
 		(shape bidirectional)
@@ -27461,6 +27470,15 @@
 			(justify left)
 		)
 		(uuid "06968885-034b-4f13-82a0-3de3c20cd3aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA3_A"
 		(shape bidirectional)
@@ -27473,6 +27491,15 @@
 			(justify right)
 		)
 		(uuid "07f1ae6f-e3eb-48ac-95a4-6cf947a80268")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA2_A"
 		(shape bidirectional)
@@ -27485,6 +27512,15 @@
 			(justify right)
 		)
 		(uuid "08615e9d-b775-438f-9814-4b30a6ebef5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA14_B"
 		(shape bidirectional)
@@ -27497,6 +27533,15 @@
 			(justify left)
 		)
 		(uuid "09111a79-6f10-4aae-bcfe-c4dc1f687db4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA1_B"
 		(shape bidirectional)
@@ -27509,6 +27554,15 @@
 			(justify right)
 		)
 		(uuid "09886def-bdf4-485a-94fa-78ffaf38cc05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_T_B"
 		(shape bidirectional)
@@ -27521,6 +27575,15 @@
 			(justify left)
 		)
 		(uuid "09ed5e76-a753-4baf-acd8-038a0d14055a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA4_A"
 		(shape bidirectional)
@@ -27533,6 +27596,15 @@
 			(justify left)
 		)
 		(uuid "0be98ff3-5abf-4d33-9855-508e6a565533")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_T_A"
 		(shape bidirectional)
@@ -27545,6 +27617,15 @@
 			(justify left)
 		)
 		(uuid "0c930039-8527-42f9-b238-68311d03b64d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_C_B"
 		(shape bidirectional)
@@ -27557,6 +27638,15 @@
 			(justify right)
 		)
 		(uuid "0e8403a9-4eae-4a1c-9a91-5aa5dad09e74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA4_B"
 		(shape bidirectional)
@@ -27569,6 +27659,15 @@
 			(justify left)
 		)
 		(uuid "0f130b58-1df1-4ca6-a769-41f3b03a9df1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA7_B"
 		(shape bidirectional)
@@ -27581,6 +27680,15 @@
 			(justify left)
 		)
 		(uuid "0f77806d-f477-4d0b-a753-62d693bbcb88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA9_A"
 		(shape bidirectional)
@@ -27593,6 +27701,15 @@
 			(justify left)
 		)
 		(uuid "144ab44e-9234-4114-a57e-3423a6bd6a3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI1_B"
 		(shape bidirectional)
@@ -27605,6 +27722,15 @@
 			(justify left)
 		)
 		(uuid "147ab30c-6c93-472c-ad29-a5cb5b0cf906")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA10_B"
 		(shape bidirectional)
@@ -27617,6 +27743,15 @@
 			(justify left)
 		)
 		(uuid "14fdf475-12fb-49a5-8cf0-f7f5c377d15f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS0_A"
 		(shape bidirectional)
@@ -27629,6 +27764,15 @@
 			(justify right)
 		)
 		(uuid "16af4f8e-50ee-4e97-86d6-b13f2dbd7d32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA4_A"
 		(shape bidirectional)
@@ -27641,6 +27785,15 @@
 			(justify right)
 		)
 		(uuid "1f8ceb72-20d5-4b7c-b5b8-abeb1e5b559c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE1_B"
 		(shape bidirectional)
@@ -27653,6 +27806,15 @@
 			(justify right)
 		)
 		(uuid "240c1fb0-69f1-4921-ae4d-3e72e90b707e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE1_A"
 		(shape bidirectional)
@@ -27665,6 +27827,15 @@
 			(justify right)
 		)
 		(uuid "279be61f-3aec-482a-b391-62391d768795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE0_B"
 		(shape bidirectional)
@@ -27677,6 +27848,15 @@
 			(justify right)
 		)
 		(uuid "2800523f-7c0c-4f59-9d08-4188c08bcb42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA11_A"
 		(shape bidirectional)
@@ -27689,6 +27869,15 @@
 			(justify left)
 		)
 		(uuid "2985e4c0-d3f9-4411-b3e8-d241d31ede07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_T_B"
 		(shape bidirectional)
@@ -27701,6 +27890,15 @@
 			(justify left)
 		)
 		(uuid "2abc07c8-9fb5-4773-9dad-ba19f9b0d12c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_C_B"
 		(shape bidirectional)
@@ -27713,6 +27911,15 @@
 			(justify left)
 		)
 		(uuid "2ac9cbec-be4e-40e2-8dea-f4a880087a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA14_A"
 		(shape bidirectional)
@@ -27725,6 +27932,15 @@
 			(justify left)
 		)
 		(uuid "2bcfae31-e2dc-43be-b141-56104786982a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA5_B"
 		(shape bidirectional)
@@ -27737,6 +27953,15 @@
 			(justify left)
 		)
 		(uuid "2d648ce2-16df-4c52-b200-9c0f27344804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_T_B"
 		(shape bidirectional)
@@ -27749,6 +27974,15 @@
 			(justify left)
 		)
 		(uuid "2d9db2db-ea16-4cd2-9dff-1661936fc643")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA5_B"
 		(shape bidirectional)
@@ -27761,6 +27995,15 @@
 			(justify right)
 		)
 		(uuid "2df224b7-18cc-441c-ac2f-af27472dd5b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE1_A"
 		(shape bidirectional)
@@ -27773,6 +28016,15 @@
 			(justify right)
 		)
 		(uuid "30153ab8-8563-4705-9db0-5361acb9a4a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA2_B"
 		(shape bidirectional)
@@ -27785,6 +28037,15 @@
 			(justify left)
 		)
 		(uuid "30bfa1f3-3cba-4d47-b3ee-7d4e93e43553")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA15_A"
 		(shape bidirectional)
@@ -27797,6 +28058,15 @@
 			(justify left)
 		)
 		(uuid "34909cc3-5546-493f-8d55-c0f1c40fef08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA11_A"
 		(shape bidirectional)
@@ -27809,6 +28079,15 @@
 			(justify left)
 		)
 		(uuid "386e0ad9-e1a7-4f82-820a-ebe51199d7a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_C_A"
 		(shape bidirectional)
@@ -27821,6 +28100,15 @@
 			(justify right)
 		)
 		(uuid "38e88a8b-447b-4e75-9877-f9ff83323ff1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA0_B"
 		(shape bidirectional)
@@ -27833,6 +28121,15 @@
 			(justify right)
 		)
 		(uuid "3a7141f2-46fa-4f42-beaf-44f1562b3401")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA7_A"
 		(shape bidirectional)
@@ -27845,6 +28142,15 @@
 			(justify left)
 		)
 		(uuid "3ceff02b-a81d-4b78-9950-9e89f7ed2de6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA11_B"
 		(shape bidirectional)
@@ -27857,6 +28163,15 @@
 			(justify left)
 		)
 		(uuid "3da62b1f-d1b6-42fa-86cf-80a7fc5ce260")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI1_A"
 		(shape bidirectional)
@@ -27869,6 +28184,15 @@
 			(justify left)
 		)
 		(uuid "42eb4494-44cb-4866-b29b-41eb2840bffb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_C_A"
 		(shape bidirectional)
@@ -27881,6 +28205,15 @@
 			(justify left)
 		)
 		(uuid "45f7414f-8307-4dd4-9c0d-6e473353a124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA13_A"
 		(shape bidirectional)
@@ -27893,6 +28226,15 @@
 			(justify left)
 		)
 		(uuid "527c6060-5c8f-42a0-b175-c6b862855483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA14_B"
 		(shape bidirectional)
@@ -27905,6 +28247,15 @@
 			(justify left)
 		)
 		(uuid "57647e7d-ba9c-4e21-9447-84035e20de4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA2_A"
 		(shape bidirectional)
@@ -27917,6 +28268,15 @@
 			(justify left)
 		)
 		(uuid "5903e836-1c65-4632-b5d0-52cb9640bf9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA6_B"
 		(shape bidirectional)
@@ -27929,6 +28289,15 @@
 			(justify left)
 		)
 		(uuid "598b7e96-c2d6-48ec-a69f-914c3b938453")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_C_A"
 		(shape bidirectional)
@@ -27941,6 +28310,15 @@
 			(justify left)
 		)
 		(uuid "59d8f972-b5c7-49b1-bc0f-c98f6e7df82d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA6_A"
 		(shape bidirectional)
@@ -27953,6 +28331,15 @@
 			(justify left)
 		)
 		(uuid "5a116daa-2546-41ba-b1da-296d2857d07d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA9_A"
 		(shape bidirectional)
@@ -27965,6 +28352,15 @@
 			(justify left)
 		)
 		(uuid "5baeba8e-e8ec-4637-bceb-a8c6c6de4cd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA4_A"
 		(shape bidirectional)
@@ -27977,6 +28373,15 @@
 			(justify left)
 		)
 		(uuid "5c44f34c-92fc-4ee1-b7b7-e97ef2321c3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA3_B"
 		(shape bidirectional)
@@ -27989,6 +28394,15 @@
 			(justify right)
 		)
 		(uuid "5e1ab390-341c-4116-8b03-184c147617ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA5_B"
 		(shape bidirectional)
@@ -28001,6 +28415,15 @@
 			(justify left)
 		)
 		(uuid "5eac86f2-ff34-413f-a264-32fcc566dc25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA0_A"
 		(shape bidirectional)
@@ -28013,6 +28436,15 @@
 			(justify left)
 		)
 		(uuid "5ee1d745-ffc8-4e39-b72a-6554f3b6def2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA1_B"
 		(shape bidirectional)
@@ -28025,6 +28457,15 @@
 			(justify left)
 		)
 		(uuid "616f6383-df79-45ef-819c-efaf1d718309")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA6_A"
 		(shape bidirectional)
@@ -28037,6 +28478,15 @@
 			(justify left)
 		)
 		(uuid "6178be14-810a-40a1-9179-624dcd282189")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_C_A"
 		(shape bidirectional)
@@ -28049,6 +28499,15 @@
 			(justify left)
 		)
 		(uuid "6220e8a8-24bb-4bfa-9a60-b6be2b2f3291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA3_A"
 		(shape bidirectional)
@@ -28061,6 +28520,15 @@
 			(justify right)
 		)
 		(uuid "64e1bde5-cae0-4502-b089-db9dc61b9f9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA5_A"
 		(shape bidirectional)
@@ -28073,6 +28541,15 @@
 			(justify right)
 		)
 		(uuid "66bcfe44-67e8-4abb-89e4-fd7371806cf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_C_B"
 		(shape bidirectional)
@@ -28085,6 +28562,15 @@
 			(justify right)
 		)
 		(uuid "679ea489-62f0-420f-95a4-86f85a829651")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI1_B"
 		(shape bidirectional)
@@ -28097,6 +28583,15 @@
 			(justify left)
 		)
 		(uuid "69dfb26b-0234-4dc3-8be9-f80e764fd4ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_C_B"
 		(shape bidirectional)
@@ -28109,6 +28604,15 @@
 			(justify left)
 		)
 		(uuid "69e8bbf8-55b7-41b1-a7ca-55d06a372bfe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA7_B"
 		(shape bidirectional)
@@ -28121,6 +28625,15 @@
 			(justify left)
 		)
 		(uuid "6a772345-d7b0-4c2e-886d-5aeb120ddbed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA4_B"
 		(shape bidirectional)
@@ -28133,6 +28646,15 @@
 			(justify right)
 		)
 		(uuid "6b2b4e67-b5f0-461b-bfce-0a936b088113")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA12_A"
 		(shape bidirectional)
@@ -28145,6 +28667,15 @@
 			(justify left)
 		)
 		(uuid "6c3ca2e0-0fca-441f-b048-6b1d574cd220")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA1_A"
 		(shape bidirectional)
@@ -28157,6 +28688,15 @@
 			(justify left)
 		)
 		(uuid "6d55ef28-2525-4368-82b9-7bb84cce08d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA15_B"
 		(shape bidirectional)
@@ -28169,6 +28709,15 @@
 			(justify left)
 		)
 		(uuid "6f4cd453-114c-48af-95d3-5c624de218c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NRESET"
 		(shape bidirectional)
@@ -28181,6 +28730,15 @@
 			(justify right)
 		)
 		(uuid "713bfee0-c82a-4bdd-a66f-2c02c72d15d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI1_A"
 		(shape bidirectional)
@@ -28193,6 +28751,15 @@
 			(justify left)
 		)
 		(uuid "74d5e34f-b021-450f-b6ec-6e63232ba916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS1_A"
 		(shape bidirectional)
@@ -28205,6 +28772,15 @@
 			(justify right)
 		)
 		(uuid "78e229b4-8864-452f-b270-907ca4f84d9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA12_B"
 		(shape bidirectional)
@@ -28217,6 +28793,15 @@
 			(justify left)
 		)
 		(uuid "7ce17c53-d395-44f3-b488-3dcc979e2df9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS1_A"
 		(shape bidirectional)
@@ -28229,6 +28814,15 @@
 			(justify right)
 		)
 		(uuid "7d475686-3cb6-4e01-a28d-fd291ef9b0d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_T_A"
 		(shape bidirectional)
@@ -28241,6 +28835,15 @@
 			(justify right)
 		)
 		(uuid "809ab8b1-4d4b-42ca-97eb-18f6f4370d77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA9_B"
 		(shape bidirectional)
@@ -28253,6 +28856,15 @@
 			(justify left)
 		)
 		(uuid "80b4087a-ebba-432e-9c6f-88f6b26ee6a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA5_A"
 		(shape bidirectional)
@@ -28265,6 +28877,15 @@
 			(justify left)
 		)
 		(uuid "824f9b20-08d1-4382-b13c-4e387da258a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE0_B"
 		(shape bidirectional)
@@ -28277,6 +28898,15 @@
 			(justify right)
 		)
 		(uuid "82531b23-3347-476e-bbd9-050a6612923c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA0_B"
 		(shape bidirectional)
@@ -28289,6 +28919,15 @@
 			(justify left)
 		)
 		(uuid "839eeef2-6679-4560-b5d7-bed99efbfe79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS0_B"
 		(shape bidirectional)
@@ -28301,6 +28940,15 @@
 			(justify right)
 		)
 		(uuid "84422b32-4c9e-45d4-977e-0096bbd7b497")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA12_A"
 		(shape bidirectional)
@@ -28313,6 +28961,15 @@
 			(justify left)
 		)
 		(uuid "84501577-9bb9-4a4b-bf06-faeff969b7ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA3_A"
 		(shape bidirectional)
@@ -28325,6 +28982,15 @@
 			(justify left)
 		)
 		(uuid "858ae9d9-efa8-4210-acf4-89c96dc7ff27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI0_A"
 		(shape bidirectional)
@@ -28337,6 +29003,15 @@
 			(justify left)
 		)
 		(uuid "87cc3540-0e35-4131-a503-50961a3ba70e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA1_B"
 		(shape bidirectional)
@@ -28349,6 +29024,15 @@
 			(justify right)
 		)
 		(uuid "88403c3b-a27b-4511-ba6d-45fc6604bdb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA2_B"
 		(shape bidirectional)
@@ -28361,6 +29045,15 @@
 			(justify right)
 		)
 		(uuid "8fb8eddd-fec8-4a93-809d-cfbd4b7466a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS0_B"
 		(shape bidirectional)
@@ -28373,6 +29066,15 @@
 			(justify right)
 		)
 		(uuid "9140bcc2-cfa5-4957-95ff-9eee67691ead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE0_A"
 		(shape bidirectional)
@@ -28385,6 +29087,15 @@
 			(justify right)
 		)
 		(uuid "94423e66-19de-4cad-8c9f-031e69ae019c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_C_B"
 		(shape bidirectional)
@@ -28397,6 +29108,15 @@
 			(justify left)
 		)
 		(uuid "946cf96e-5cbd-4032-afbd-8a381c9bc393")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA2_A"
 		(shape bidirectional)
@@ -28409,6 +29129,15 @@
 			(justify left)
 		)
 		(uuid "96299792-9408-42dd-9cfb-9accbf8b2704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS0_A"
 		(shape bidirectional)
@@ -28421,6 +29150,15 @@
 			(justify right)
 		)
 		(uuid "99625b95-4da4-46a9-9ab1-091edb7d1543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA1_B"
 		(shape bidirectional)
@@ -28433,6 +29171,15 @@
 			(justify left)
 		)
 		(uuid "9a88a4e0-a657-481d-b9cc-2a1d6300996f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA13_B"
 		(shape bidirectional)
@@ -28445,6 +29192,15 @@
 			(justify left)
 		)
 		(uuid "9bb1eb06-6ec2-4ba0-b6a4-4676339b5c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_T_A"
 		(shape bidirectional)
@@ -28457,6 +29213,15 @@
 			(justify left)
 		)
 		(uuid "9df62ade-47a5-4c4c-8d31-166aa876ceab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_C_B"
 		(shape bidirectional)
@@ -28469,6 +29234,15 @@
 			(justify left)
 		)
 		(uuid "9f1acfae-6746-47ef-8112-ca19917f9e8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI0_B"
 		(shape bidirectional)
@@ -28481,6 +29255,15 @@
 			(justify left)
 		)
 		(uuid "a0f5cb1f-20ba-44ab-a102-694782117271")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_C_A"
 		(shape bidirectional)
@@ -28493,6 +29276,15 @@
 			(justify left)
 		)
 		(uuid "a172c182-e089-45cd-a93e-22e4a12cb124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA1_A"
 		(shape bidirectional)
@@ -28505,6 +29297,15 @@
 			(justify left)
 		)
 		(uuid "a17e17bb-b7ea-4cfa-8419-a4cd99bec051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA2_B"
 		(shape bidirectional)
@@ -28517,6 +29318,15 @@
 			(justify left)
 		)
 		(uuid "a1d3fcb0-68cb-4701-bd6f-7d0f37cd0535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA8_B"
 		(shape bidirectional)
@@ -28529,6 +29339,15 @@
 			(justify left)
 		)
 		(uuid "a20e2110-8118-4b2e-86db-79d0ac269d37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA9_B"
 		(shape bidirectional)
@@ -28541,6 +29360,15 @@
 			(justify left)
 		)
 		(uuid "a6c14059-d9d8-49b9-ae1f-7fe79e891255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_T_A"
 		(shape bidirectional)
@@ -28553,6 +29381,15 @@
 			(justify left)
 		)
 		(uuid "a7fa3ed3-d112-4de5-b1e4-3fc0b6c76ce9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_T_A"
 		(shape bidirectional)
@@ -28565,6 +29402,15 @@
 			(justify right)
 		)
 		(uuid "aa7a31b6-a935-4fd8-b990-00a6cfe9ac4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_T_B"
 		(shape bidirectional)
@@ -28577,6 +29423,15 @@
 			(justify right)
 		)
 		(uuid "ab9e825c-76fc-4b9c-9c26-34e0f65ab036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA13_A"
 		(shape bidirectional)
@@ -28589,6 +29444,15 @@
 			(justify left)
 		)
 		(uuid "ac55539f-d45d-4101-a27c-e6d7d4c53a7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA13_B"
 		(shape bidirectional)
@@ -28601,6 +29465,15 @@
 			(justify left)
 		)
 		(uuid "addc56ea-b9e8-4669-911c-64bf35c12d28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_C_A"
 		(shape bidirectional)
@@ -28613,6 +29486,15 @@
 			(justify left)
 		)
 		(uuid "b2689a03-dffe-4bd0-a686-f01db8d72ca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE0_A"
 		(shape bidirectional)
@@ -28625,6 +29507,15 @@
 			(justify right)
 		)
 		(uuid "b3f9dd2a-3b89-4393-9fb0-148a14b05a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA5_A"
 		(shape bidirectional)
@@ -28637,6 +29528,15 @@
 			(justify left)
 		)
 		(uuid "b4d5519f-89bc-4b17-b203-fb9c7713756a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA4_B"
 		(shape bidirectional)
@@ -28649,6 +29549,15 @@
 			(justify right)
 		)
 		(uuid "b704a37f-4f92-4379-aa25-b08dcb567868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NVCC_DRAM_1V1"
 		(shape bidirectional)
@@ -28661,6 +29570,15 @@
 			(justify left)
 		)
 		(uuid "b7935e5b-e73f-4114-a76a-dca7563b822f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 303.53 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA10_A"
 		(shape bidirectional)
@@ -28673,6 +29591,15 @@
 			(justify left)
 		)
 		(uuid "b8e015bd-8bd3-4d5f-b980-d52ff7ae4dab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA10_A"
 		(shape bidirectional)
@@ -28685,6 +29612,15 @@
 			(justify left)
 		)
 		(uuid "b956fe57-d93e-4116-ab09-abc8d49394c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA2_B"
 		(shape bidirectional)
@@ -28697,6 +29633,15 @@
 			(justify right)
 		)
 		(uuid "bb179437-e7ba-436e-9e50-0c503a901b7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA0_B"
 		(shape bidirectional)
@@ -28709,6 +29654,15 @@
 			(justify left)
 		)
 		(uuid "bca0edc1-2e60-470d-9dcf-cf0e0d78a273")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA7_A"
 		(shape bidirectional)
@@ -28721,6 +29675,15 @@
 			(justify left)
 		)
 		(uuid "bddf5e31-7063-44eb-8285-c20b4ab190af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA0_A"
 		(shape bidirectional)
@@ -28733,6 +29696,15 @@
 			(justify left)
 		)
 		(uuid "c4a1225a-1bfc-4115-92b7-97ef5197a3a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA14_A"
 		(shape bidirectional)
@@ -28745,6 +29717,15 @@
 			(justify left)
 		)
 		(uuid "c6912683-50fd-4d1a-974a-1d5c25211ce4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA3_B"
 		(shape bidirectional)
@@ -28757,6 +29738,15 @@
 			(justify right)
 		)
 		(uuid "cb9b4d86-bb3c-472c-bb9e-2bc81e932187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA10_B"
 		(shape bidirectional)
@@ -28769,6 +29759,15 @@
 			(justify left)
 		)
 		(uuid "cd367e99-a43b-4641-a06c-daa1abf1c865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA3_B"
 		(shape bidirectional)
@@ -28781,6 +29780,15 @@
 			(justify left)
 		)
 		(uuid "ceba2430-7075-46a3-8f87-267671efb9be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_C_B"
 		(shape bidirectional)
@@ -28793,6 +29801,15 @@
 			(justify left)
 		)
 		(uuid "d109ac85-4839-4e99-88d5-f5b1fe0bc97c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA3_B"
 		(shape bidirectional)
@@ -28805,6 +29822,15 @@
 			(justify left)
 		)
 		(uuid "d2fa32d8-1380-43e8-9a4e-0058946e9d7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS1_B"
 		(shape bidirectional)
@@ -28817,6 +29843,15 @@
 			(justify right)
 		)
 		(uuid "d3718146-c732-4459-894e-7e38be18e600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA1_A"
 		(shape bidirectional)
@@ -28829,6 +29864,15 @@
 			(justify right)
 		)
 		(uuid "d5a8cc2f-66bd-4c3a-beff-477de7d382de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA5_A"
 		(shape bidirectional)
@@ -28841,6 +29885,15 @@
 			(justify right)
 		)
 		(uuid "d63224da-b808-4a62-bde9-b369b691c3a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA12_B"
 		(shape bidirectional)
@@ -28853,6 +29906,15 @@
 			(justify left)
 		)
 		(uuid "d89b22bb-dbf3-42b5-a0d0-edac7631a26a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_T_B"
 		(shape bidirectional)
@@ -28865,6 +29927,15 @@
 			(justify right)
 		)
 		(uuid "d8a5fa9d-1598-44f1-9689-3952ab55053e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA5_B"
 		(shape bidirectional)
@@ -28877,6 +29948,15 @@
 			(justify right)
 		)
 		(uuid "dc5837cf-0ad4-4bb1-a7ec-99acc2cdb735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA15_A"
 		(shape bidirectional)
@@ -28889,6 +29969,15 @@
 			(justify left)
 		)
 		(uuid "dd90311a-af01-4b38-9b29-fb93eaaa50d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA0_A"
 		(shape bidirectional)
@@ -28901,6 +29990,15 @@
 			(justify right)
 		)
 		(uuid "de0378bf-8595-45eb-8ea0-4983a541edcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA4_A"
 		(shape bidirectional)
@@ -28913,6 +30011,15 @@
 			(justify right)
 		)
 		(uuid "e221f587-fc2b-46f6-832b-b2d47e108f65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI0_A"
 		(shape bidirectional)
@@ -28925,6 +30032,15 @@
 			(justify left)
 		)
 		(uuid "e54b49a9-8dc9-4684-8b7c-2c6b79a52668")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_C_A"
 		(shape bidirectional)
@@ -28937,6 +30053,15 @@
 			(justify right)
 		)
 		(uuid "e6f1869a-3cc0-4017-9801-23542e55b6e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_NCS1_B"
 		(shape bidirectional)
@@ -28949,6 +30074,15 @@
 			(justify right)
 		)
 		(uuid "e7a41d57-1040-46fb-8397-239f7f7cfbf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA4_B"
 		(shape bidirectional)
@@ -28961,6 +30095,15 @@
 			(justify left)
 		)
 		(uuid "e81268d1-082b-48a1-b62e-62bc3fb4a417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA0_A"
 		(shape bidirectional)
@@ -28973,6 +30116,15 @@
 			(justify right)
 		)
 		(uuid "e847e7b8-58bf-4c38-9b8a-227417f7c23e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA3_A"
 		(shape bidirectional)
@@ -28985,6 +30137,15 @@
 			(justify left)
 		)
 		(uuid "e875a866-18fb-428b-8d30-b86ede6a8374")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA0_B"
 		(shape bidirectional)
@@ -28997,6 +30158,15 @@
 			(justify right)
 		)
 		(uuid "eaa83995-efce-4693-990f-2b3a14a87ce3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA15_B"
 		(shape bidirectional)
@@ -29009,6 +30179,15 @@
 			(justify left)
 		)
 		(uuid "ed919790-24bf-4651-aba1-30ca658621aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA2_A"
 		(shape bidirectional)
@@ -29021,6 +30200,15 @@
 			(justify right)
 		)
 		(uuid "edee98cd-4984-4bee-83e0-965c4e73bf46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_T_A"
 		(shape bidirectional)
@@ -29033,6 +30221,15 @@
 			(justify left)
 		)
 		(uuid "ee309da7-bab2-4df0-b522-66a6703c37ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS0_T_B"
 		(shape bidirectional)
@@ -29045,6 +30242,15 @@
 			(justify left)
 		)
 		(uuid "ee813dfa-204b-47ab-a534-ee0920462588")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_SDQS1_T_A"
 		(shape bidirectional)
@@ -29057,6 +30263,15 @@
 			(justify left)
 		)
 		(uuid "ee957f27-981f-46d1-a22b-a8b90b89e0c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA6_B"
 		(shape bidirectional)
@@ -29069,6 +30284,15 @@
 			(justify left)
 		)
 		(uuid "eecac1c2-5d96-42e5-849c-4f4707967587")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CKE1_B"
 		(shape bidirectional)
@@ -29081,6 +30305,15 @@
 			(justify right)
 		)
 		(uuid "f0ccf2d6-0bfe-494a-813f-e873b0c47e77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA8_A"
 		(shape bidirectional)
@@ -29093,6 +30326,15 @@
 			(justify left)
 		)
 		(uuid "f3385b44-f6d0-491e-9e8a-ddddd0685bf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DATA11_B"
 		(shape bidirectional)
@@ -29105,6 +30347,15 @@
 			(justify left)
 		)
 		(uuid "f6e932c1-4906-454e-85f8-c5c4f9e354f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CK_T_B"
 		(shape bidirectional)
@@ -29117,6 +30368,15 @@
 			(justify left)
 		)
 		(uuid "f8df7c80-082a-4c04-a121-e8414613111e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_CA1_A"
 		(shape bidirectional)
@@ -29129,6 +30389,15 @@
 			(justify right)
 		)
 		(uuid "ff31b277-9af5-4ecb-a125-9a8bf377a282")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DRAM_DMI0_B"
 		(shape bidirectional)
@@ -29141,6 +30410,15 @@
 			(justify left)
 		)
 		(uuid "ff3233c9-1435-4d29-a152-83038a89bf04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-05_LPDDR4:root_0_C0201")

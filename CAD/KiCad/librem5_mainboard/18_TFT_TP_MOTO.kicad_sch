@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -1773,7 +1773,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 1.27 6.35)
+						(xy 2.54 7.62) (xy 2.54 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -1785,7 +1785,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 2.54 10.16)
+						(xy 2.54 7.62) (xy 1.27 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -2728,7 +2728,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 6.096) (xy 7.62 20.32)
+						(xy 7.62 6.096) (xy 17.78 6.096)
 					)
 					(stroke
 						(width 0)
@@ -2740,7 +2740,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 6.096) (xy 17.78 6.096)
+						(xy 7.62 6.096) (xy 7.62 20.32)
 					)
 					(stroke
 						(width 0)
@@ -3531,7 +3531,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 12.7) (xy 12.7 12.7)
+						(xy 12.7 12.7) (xy 11.176 10.16)
 					)
 					(stroke
 						(width 0)
@@ -3543,7 +3543,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 12.7) (xy 11.176 10.16)
+						(xy 12.7 12.7) (xy 12.7 12.7)
 					)
 					(stroke
 						(width 0)
@@ -4226,18 +4226,6 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 4.318) (xy 5.08 0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 4.318) (xy 6.35 4.318)
 					)
 					(stroke
@@ -4250,7 +4238,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 7.62 2.54)
+						(xy 5.08 4.318) (xy 5.08 0.762)
 					)
 					(stroke
 						(width 0)
@@ -4270,6 +4258,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -5179,7 +5179,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 4.318) (xy 5.08 0.762)
+						(xy 5.08 4.318) (xy 6.35 4.318)
 					)
 					(stroke
 						(width 0)
@@ -5191,7 +5191,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 4.318) (xy 6.35 4.318)
+						(xy 5.08 4.318) (xy 5.08 0.762)
 					)
 					(stroke
 						(width 0)
@@ -6358,7 +6358,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.334 1.27) (xy -5.334 3.81)
+						(xy -5.334 1.27) (xy -5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -6370,7 +6370,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.334 1.27) (xy -5.842 0.254)
+						(xy -5.334 1.27) (xy -5.334 3.81)
 					)
 					(stroke
 						(width 0)
@@ -6418,7 +6418,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.826 1.27) (xy -4.826 3.81)
+						(xy -4.826 1.27) (xy -5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -6430,7 +6430,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.826 1.27) (xy -5.842 0.254)
+						(xy -4.826 1.27) (xy -4.826 3.81)
 					)
 					(stroke
 						(width 0)
@@ -7460,7 +7460,7 @@
 			(symbol "root_1_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -7471,7 +7471,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -7788,7 +7788,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.826) (xy 3.81 4.826)
+						(xy 1.27 4.826) (xy 0.254 5.842)
 					)
 					(stroke
 						(width 0)
@@ -7800,7 +7800,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.826) (xy 0.254 5.842)
+						(xy 1.27 4.826) (xy 3.81 4.826)
 					)
 					(stroke
 						(width 0)
@@ -8147,7 +8147,7 @@
 			(symbol "root_2_TVS_0402_882_1_0"
 				(polyline
 					(pts
-						(xy -5.334 -1.27) (xy -5.334 -3.81)
+						(xy -5.334 -1.27) (xy -5.842 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -8159,7 +8159,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.334 -1.27) (xy -5.842 -0.254)
+						(xy -5.334 -1.27) (xy -5.334 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -8351,7 +8351,7 @@
 			(symbol "root_2_mirrored_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -8362,7 +8362,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -8463,7 +8463,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.826 -1.27) (xy 4.826 -3.81)
+						(xy 4.826 -1.27) (xy 5.842 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -8475,7 +8475,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.826 -1.27) (xy 5.842 -0.254)
+						(xy 4.826 -1.27) (xy 4.826 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -8523,7 +8523,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.334 -1.27) (xy 5.334 -3.81)
+						(xy 5.334 -1.27) (xy 5.842 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -8535,7 +8535,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.334 -1.27) (xy 5.842 -0.254)
+						(xy 5.334 -1.27) (xy 5.334 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -8702,9 +8702,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -2.54)
-					(mid 7.248 -3.438)
-					(end 6.35 -3.81)
+					(start 6.35 -3.81)
+					(mid 5.452 -3.438)
+					(end 5.08 -2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -8714,9 +8714,9 @@
 					)
 				)
 				(arc
-					(start 6.35 -3.81)
-					(mid 5.452 -3.438)
-					(end 5.08 -2.54)
+					(start 7.62 -2.54)
+					(mid 7.248 -3.438)
+					(end 6.35 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -13646,6 +13646,15 @@
 			(justify left)
 		)
 		(uuid "0022cfbb-9a66-451c-9577-7055158c08be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LCD_LED2-"
 		(shape passive)
@@ -13658,6 +13667,15 @@
 			(justify right)
 		)
 		(uuid "1cd05cfa-63f7-489c-8682-81c226e19ca1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_RST"
 		(shape output)
@@ -13670,6 +13688,15 @@
 			(justify right)
 		)
 		(uuid "20623112-73a2-4e55-b554-431a9ea01da7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_1V8"
 		(shape bidirectional)
@@ -13682,6 +13709,15 @@
 			(justify left)
 		)
 		(uuid "27fe519c-1f0d-434d-a28b-3f95e0ee3aab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 438.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_BAIS_EN"
 		(shape passive)
@@ -13694,6 +13730,15 @@
 			(justify right)
 		)
 		(uuid "2c6d30d3-4b83-47fe-b307-43d6934c5728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C3_SCL"
 		(shape passive)
@@ -13706,6 +13751,15 @@
 			(justify right)
 		)
 		(uuid "39937046-70d3-453b-95ce-35ba0598bb86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C2_SCL"
 		(shape passive)
@@ -13718,6 +13772,15 @@
 			(justify right)
 		)
 		(uuid "425706fc-efc6-433b-b947-5ad3f8e1d998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DN1"
 		(shape passive)
@@ -13730,6 +13793,15 @@
 			(justify left)
 		)
 		(uuid "4d206780-1ca8-4da2-865d-9bed1e3924d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "TP_NINT"
 		(shape passive)
@@ -13742,6 +13814,15 @@
 			(justify right)
 		)
 		(uuid "4ea5abfb-8ca9-4d92-8820-200b816afa8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_TE"
 		(shape output)
@@ -13754,6 +13835,15 @@
 			(justify right)
 		)
 		(uuid "52d7c369-1b14-4afe-993e-b09656a60490")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LCD_LED1-"
 		(shape passive)
@@ -13766,6 +13856,15 @@
 			(justify right)
 		)
 		(uuid "557ef4ed-68a5-4ca6-bf33-4f14e6024285")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LCD_LED+"
 		(shape passive)
@@ -13778,6 +13877,15 @@
 			(justify right)
 		)
 		(uuid "55f02407-84e3-4dec-b1c0-258f20f1b9b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_EN_3V3"
 		(shape output)
@@ -13790,6 +13898,15 @@
 			(justify right)
 		)
 		(uuid "5850c98d-186f-4774-a54c-274bdeb3bf1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 435.61 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DN3"
 		(shape passive)
@@ -13802,6 +13919,15 @@
 			(justify left)
 		)
 		(uuid "59893f3c-8175-4e7d-9ee3-cec69b846b8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C2_SDA"
 		(shape passive)
@@ -13814,6 +13940,15 @@
 			(justify right)
 		)
 		(uuid "63304652-9bcc-419a-9052-e6a694a607fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_CKN"
 		(shape passive)
@@ -13826,6 +13961,15 @@
 			(justify left)
 		)
 		(uuid "64fdb853-83ab-4019-9df7-779824489479")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C3_SDA"
 		(shape passive)
@@ -13838,6 +13982,15 @@
 			(justify right)
 		)
 		(uuid "739d700f-2856-4074-aae2-1e52f1299807")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VSYS_3V4_4V3"
 		(shape bidirectional)
@@ -13850,6 +14003,15 @@
 			(justify left)
 		)
 		(uuid "7681d773-4848-4b79-bb2e-5db66553fa64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.59 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LCD_AVEE"
 		(shape passive)
@@ -13862,6 +14024,15 @@
 			(justify right)
 		)
 		(uuid "873226a4-a7c1-445b-9acf-c3e1a0988d1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DP1"
 		(shape passive)
@@ -13874,6 +14045,15 @@
 			(justify left)
 		)
 		(uuid "8a73e3a5-1650-432f-8736-5a2cf20519c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DP0"
 		(shape passive)
@@ -13886,6 +14066,15 @@
 			(justify left)
 		)
 		(uuid "95b2f717-5140-435e-be83-29ae04056ecc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C3_SDA"
 		(shape passive)
@@ -13898,6 +14087,15 @@
 			(justify right)
 		)
 		(uuid "ac364370-fdec-4b33-a5b3-e5192875dd19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2C3_SCL"
 		(shape passive)
@@ -13910,6 +14108,15 @@
 			(justify right)
 		)
 		(uuid "ad67b982-220d-4e99-a05a-a51cf96d119f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_CKP"
 		(shape passive)
@@ -13922,6 +14129,15 @@
 			(justify left)
 		)
 		(uuid "af7ae0b2-38c8-4268-be2b-355c4ebec190")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "TP_RST"
 		(shape passive)
@@ -13934,6 +14150,15 @@
 			(justify right)
 		)
 		(uuid "b06ae2e0-6d41-4257-9fa1-4218a2b4a0d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BACKLINGE_EN"
 		(shape passive)
@@ -13946,6 +14171,15 @@
 			(justify right)
 		)
 		(uuid "cf695a27-59f9-4bf2-9e09-314d7856bcc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DN2"
 		(shape passive)
@@ -13958,6 +14192,15 @@
 			(justify left)
 		)
 		(uuid "d06ab943-a905-4267-bf43-023d352dc478")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DP3"
 		(shape passive)
@@ -13970,6 +14213,15 @@
 			(justify left)
 		)
 		(uuid "dbf80e48-c6fc-4df3-8007-a02fb9fe219a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LCD_AVDD"
 		(shape passive)
@@ -13982,6 +14234,15 @@
 			(justify right)
 		)
 		(uuid "e32d3349-cfec-4dfc-a5be-d5197bf3dab3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DSI_DP2"
 		(shape passive)
@@ -13994,6 +14255,15 @@
 			(justify left)
 		)
 		(uuid "ef4d2ab5-487a-42ef-acad-51ab995ca226")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-19_TFT_TP_MOTO:root_2_mirrored_TEST-POINT")

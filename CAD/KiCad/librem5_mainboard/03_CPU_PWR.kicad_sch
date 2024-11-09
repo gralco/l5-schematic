@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -8312,7 +8312,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 17.78 10.16)
+						(xy 17.78 40.64) (xy 15.24 40.64)
 					)
 					(stroke
 						(width 0)
@@ -8324,7 +8324,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 15.24 40.64)
+						(xy 17.78 40.64) (xy 17.78 10.16)
 					)
 					(stroke
 						(width 0)
@@ -9346,7 +9346,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40.64 27.94) (xy 40.64 5.08)
+						(xy 40.64 27.94) (xy 43.18 27.94)
 					)
 					(stroke
 						(width 0)
@@ -9358,7 +9358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40.64 27.94) (xy 43.18 27.94)
+						(xy 40.64 27.94) (xy 40.64 5.08)
 					)
 					(stroke
 						(width 0)
@@ -30570,6 +30570,15 @@
 			(justify right)
 		)
 		(uuid "30e5a894-64e7-435a-a0c4-8b5c4180b188")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_PHY_0V9"
 		(shape bidirectional)
@@ -30582,6 +30591,15 @@
 			(justify left)
 		)
 		(uuid "40faef7d-01b8-4304-9770-d50d20e81ed2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "$$$16947"
 		(shape bidirectional)
@@ -30594,6 +30612,15 @@
 			(justify left)
 		)
 		(uuid "49c5443f-335e-4f3b-954b-78f14f8c8d71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 384.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape bidirectional)
@@ -30606,6 +30633,15 @@
 			(justify left)
 		)
 		(uuid "4b25a196-810f-4223-b789-01419990dd9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.07 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_PHY_3V3"
 		(shape bidirectional)
@@ -30618,6 +30654,15 @@
 			(justify left)
 		)
 		(uuid "4b9e86b0-2058-4d86-ad89-621d3eac24ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "$$$16991"
 		(shape bidirectional)
@@ -30630,6 +30675,15 @@
 			(justify left)
 		)
 		(uuid "564d9cfa-14fe-418a-9aa1-f48ef1da5a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "$$$16991"
 		(shape bidirectional)
@@ -30642,6 +30696,15 @@
 			(justify right)
 		)
 		(uuid "85dca045-14fc-499c-96c6-29b4694adc30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.07 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NVCC_SAI1_BOOT"
 		(shape passive)
@@ -30654,6 +30717,15 @@
 			(justify right)
 		)
 		(uuid "9fec45a1-8b2a-4b35-b14b-20c3c1b75ddc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape bidirectional)
@@ -30666,6 +30738,15 @@
 			(justify left)
 		)
 		(uuid "a1b0f2ec-c723-4920-9ead-6df0b4d20256")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "$$$16991"
 		(shape bidirectional)
@@ -30678,6 +30759,15 @@
 			(justify right)
 		)
 		(uuid "bd5c6993-5805-4878-885c-8dfc98001564")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 318.77 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape bidirectional)
@@ -30690,6 +30780,15 @@
 			(justify left)
 		)
 		(uuid "bd9f0498-f24a-4147-b5cf-2a9173306696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 318.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_3V3"
 		(shape bidirectional)
@@ -30702,6 +30801,15 @@
 			(justify left)
 		)
 		(uuid "de22c4ea-11ff-478b-a7d7-a8e7d0dd7f6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDDA_0P9"
 		(shape passive)
@@ -30714,6 +30822,15 @@
 			(justify right)
 		)
 		(uuid "e06b944a-32ae-422a-bdb1-d7e4c3cd4404")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-04_CPU_PWR:VDD_1V8")

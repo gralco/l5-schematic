@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -3576,23 +3576,23 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -10.16 3.81)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -10.16 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 3.81)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -3721,7 +3721,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.588 2.032)
+						(xy -5.08 2.54) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -3733,7 +3733,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 5.08)
+						(xy -5.08 2.54) (xy -5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -4278,18 +4278,6 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 12.7) (xy -6.096 10.16)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 12.7) (xy -7.62 12.7)
 					)
 					(stroke
@@ -4302,7 +4290,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 6.096) (xy -17.78 6.096)
+						(xy -7.62 12.7) (xy -6.096 10.16)
 					)
 					(stroke
 						(width 0)
@@ -4315,6 +4303,18 @@
 				(polyline
 					(pts
 						(xy -7.62 6.096) (xy -7.62 20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 6.096) (xy -17.78 6.096)
 					)
 					(stroke
 						(width 0)
@@ -5013,7 +5013,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.826) (xy -0.254 5.842)
+						(xy -1.27 4.826) (xy -3.81 4.826)
 					)
 					(stroke
 						(width 0)
@@ -5025,7 +5025,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.826) (xy -3.81 4.826)
+						(xy -1.27 4.826) (xy -0.254 5.842)
 					)
 					(stroke
 						(width 0)
@@ -5132,9 +5132,9 @@
 			)
 			(symbol "root_1_mirrored_BEAD-0201_1_0"
 				(arc
-					(start 0 2.54)
-					(mid 0.372 3.438)
-					(end 1.27 3.81)
+					(start 1.27 3.81)
+					(mid 2.168 3.438)
+					(end 2.54 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5144,9 +5144,9 @@
 					)
 				)
 				(arc
-					(start 1.27 3.81)
-					(mid 2.168 3.438)
-					(end 2.54 2.54)
+					(start 0 2.54)
+					(mid 0.372 3.438)
+					(end 1.27 3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6022,18 +6022,6 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 3.438 -0.372)
-					(end 3.81 -1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 3.81 -1.27)
 					(mid 3.438 -2.168)
 					(end 2.54 -2.54)
@@ -6046,9 +6034,9 @@
 					)
 				)
 				(arc
-					(start 2.54 -2.54)
-					(mid 3.438 -2.912)
-					(end 3.81 -3.81)
+					(start 2.54 0)
+					(mid 3.438 -0.372)
+					(end 3.81 -1.27)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6070,9 +6058,9 @@
 					)
 				)
 				(arc
-					(start 2.54 -5.08)
-					(mid 3.438 -5.452)
-					(end 3.81 -6.35)
+					(start 2.54 -2.54)
+					(mid 3.438 -2.912)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6085,6 +6073,18 @@
 					(start 3.81 -6.35)
 					(mid 3.438 -7.248)
 					(end 2.54 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.08)
+					(mid 3.438 -5.452)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6299,7 +6299,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 2.54 -10.16)
+						(xy 2.54 -7.62) (xy 1.27 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -6311,7 +6311,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 1.27 -6.35)
+						(xy 2.54 -7.62) (xy 2.54 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -7587,18 +7587,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -4.826) (xy -0.254 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 -4.826) (xy -3.81 -4.826)
 					)
 					(stroke
@@ -7611,7 +7599,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.334) (xy -0.254 -5.842)
+						(xy -1.27 -4.826) (xy -0.254 -5.842)
 					)
 					(stroke
 						(width 0)
@@ -7624,6 +7612,18 @@
 				(polyline
 					(pts
 						(xy -1.27 -5.334) (xy -3.81 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.334) (xy -0.254 -5.842)
 					)
 					(stroke
 						(width 0)
@@ -12361,6 +12361,15 @@
 			(justify right)
 		)
 		(uuid "0462bd42-caef-40a0-9e87-163e8075d625")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD4"
 		(shape passive)
@@ -12373,6 +12382,15 @@
 			(justify left)
 		)
 		(uuid "0691762b-6c3d-4337-b013-223290fdb75f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 453.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_MIPI_SDA"
 		(shape passive)
@@ -12385,6 +12403,15 @@
 			(justify right)
 		)
 		(uuid "0db7af35-854e-444b-b5f3-0d56793a4f04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NVCC_SAI1_BOOT"
 		(shape passive)
@@ -12397,6 +12424,15 @@
 			(justify left)
 		)
 		(uuid "117f2711-e51f-4119-8771-799f1421d43d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI6_RXD"
 		(shape passive)
@@ -12409,6 +12445,15 @@
 			(justify right)
 		)
 		(uuid "1209fa24-f787-45c2-a4a6-655a60a4d0d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VSYS_3V4_4V3"
 		(shape bidirectional)
@@ -12421,6 +12466,15 @@
 			(justify left)
 		)
 		(uuid "1d4bb57d-f9c6-406a-b1a4-cb5e9c3c5a97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_MIPI_SCL"
 		(shape passive)
@@ -12433,6 +12487,15 @@
 			(justify right)
 		)
 		(uuid "37c1d16c-1018-4769-80af-8623de1d2886")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_W_DISABLE"
 		(shape passive)
@@ -12445,6 +12508,15 @@
 			(justify left)
 		)
 		(uuid "3be66f7d-7107-4d1b-963e-f5e3347c2aba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 511.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_PCM_SYNC"
 		(shape passive)
@@ -12457,6 +12529,15 @@
 			(justify left)
 		)
 		(uuid "69fcd929-fbe6-4ab9-abf5-f01a4d14c049")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD5"
 		(shape passive)
@@ -12469,6 +12550,15 @@
 			(justify left)
 		)
 		(uuid "6a152500-56ee-4ead-9c7e-1864e97099ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 453.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_W_DIS2"
 		(shape passive)
@@ -12481,6 +12571,15 @@
 			(justify left)
 		)
 		(uuid "6c0509af-cdf7-4536-ad32-d6bf47c91b05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_PCM_OUT"
 		(shape passive)
@@ -12493,6 +12592,15 @@
 			(justify left)
 		)
 		(uuid "78aac7ff-6da9-4e88-bee7-80b02a92ac91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SIM_DATA"
 		(shape passive)
@@ -12505,6 +12613,15 @@
 			(justify left)
 		)
 		(uuid "80007817-ace6-45ee-a7da-8ef3d42b7986")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SIM_RESET"
 		(shape passive)
@@ -12517,6 +12634,15 @@
 			(justify left)
 		)
 		(uuid "858d0172-0477-49b1-af8f-e32be6f88dc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI6_TXD"
 		(shape passive)
@@ -12529,6 +12655,15 @@
 			(justify right)
 		)
 		(uuid "8603f034-0278-4402-bb28-d9ce8b2c68f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_PCM_IN"
 		(shape passive)
@@ -12541,6 +12676,15 @@
 			(justify left)
 		)
 		(uuid "89443d21-8df3-40f8-8d43-c755232e90e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI6_TXC"
 		(shape passive)
@@ -12553,6 +12697,15 @@
 			(justify right)
 		)
 		(uuid "9679ff87-f01b-49d2-804d-3c7a90e99596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB2_4G_DN"
 		(shape passive)
@@ -12565,6 +12718,15 @@
 			(justify right)
 		)
 		(uuid "96a7dd92-ab18-469a-b1cb-5c1b41cbd178")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB2_4G_DP"
 		(shape passive)
@@ -12577,6 +12739,15 @@
 			(justify right)
 		)
 		(uuid "9f6896f5-2d5e-4b5b-802f-8a5c7e92d76d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_PCM_CLK"
 		(shape passive)
@@ -12589,6 +12760,15 @@
 			(justify left)
 		)
 		(uuid "9fce018c-4d66-479c-b172-9ce43269b763")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_RFSW_EN"
 		(shape passive)
@@ -12601,6 +12781,15 @@
 			(justify right)
 		)
 		(uuid "a0f207d3-f0c0-4066-a504-464f2af16fa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SIM_CLK"
 		(shape passive)
@@ -12613,6 +12802,15 @@
 			(justify left)
 		)
 		(uuid "a8e3d95a-018b-417c-8cb2-f44b1912b372")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_TXD5"
 		(shape passive)
@@ -12625,6 +12823,15 @@
 			(justify left)
 		)
 		(uuid "b115cec0-380f-41de-ba65-f126a4220644")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 453.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI1_RXD6"
 		(shape passive)
@@ -12637,6 +12844,15 @@
 			(justify left)
 		)
 		(uuid "bd994af5-ad7d-4a84-b5bb-0e5d31841b0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 453.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_PWR_EN"
 		(shape passive)
@@ -12649,6 +12865,15 @@
 			(justify left)
 		)
 		(uuid "ce26dd59-6fe5-45e6-8fdf-4d1da770388a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_SIM_CD"
 		(shape passive)
@@ -12661,6 +12886,15 @@
 			(justify left)
 		)
 		(uuid "e1dc115d-7d08-4829-9187-9f08257aabcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_POWER_KEY"
 		(shape passive)
@@ -12673,6 +12907,15 @@
 			(justify right)
 		)
 		(uuid "e7e3a29e-9422-4d92-b35b-2719eabb2691")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_RESET"
 		(shape passive)
@@ -12685,6 +12928,15 @@
 			(justify right)
 		)
 		(uuid "edbdb1bc-efbb-445e-8395-ab173790217b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "4G_WAKE"
 		(shape input)
@@ -12697,6 +12949,15 @@
 			(justify right)
 		)
 		(uuid "f3701372-e828-45b8-8a8e-c4a156502d32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SAI6_TXFS"
 		(shape passive)
@@ -12709,6 +12970,15 @@
 			(justify right)
 		)
 		(uuid "f6cbc63b-d87d-4e06-9838-c11ac3587b72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-17_4G:root_2_RES_2")

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Librem 5 Mainboard")
 		(date "2024-03-21")
-		(rev "v1.0.6")
+		(rev "v1.0.6.1")
 		(company "Purism SPC")
 		(comment 1 "GNU GPLv3+")
 		(comment 2 "Copyright")
@@ -1080,18 +1080,6 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -5.08 2.54) (xy -5.08 2.54) (xy -2.54 0.762) (xy -2.54 4.318) (xy -5.08 2.54) (xy -5.08 2.54)
 					)
 					(stroke
@@ -1100,6 +1088,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -7854,6 +7854,15 @@
 			(justify right)
 		)
 		(uuid "0472dd37-5bde-4369-a1ce-b95f43bce26a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TDO"
 		(shape bidirectional)
@@ -7866,6 +7875,15 @@
 			(justify right)
 		)
 		(uuid "07de5e40-5eaf-4248-b8c4-57505a7ec2c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB_VBUS"
 		(shape passive)
@@ -7878,6 +7896,15 @@
 			(justify right)
 		)
 		(uuid "0dd40ceb-e4a9-4f78-8c8a-ac8265f18a0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART1_RXD"
 		(shape passive)
@@ -7890,6 +7917,15 @@
 			(justify right)
 		)
 		(uuid "0e985b6f-1327-4c2a-b61f-b09492c9b5ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_STM_SWCLK"
 		(shape passive)
@@ -7902,6 +7938,15 @@
 			(justify right)
 		)
 		(uuid "17cb651e-806a-49b0-872e-73d10064dc01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "POR_B"
 		(shape passive)
@@ -7914,6 +7959,15 @@
 			(justify left)
 		)
 		(uuid "2057088a-7dad-459b-bfdc-d89691a4cef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 415.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "T_GND"
 		(shape passive)
@@ -7926,6 +7980,15 @@
 			(justify right)
 		)
 		(uuid "2851a2cc-ab7b-473d-96a4-61d475dd0af2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_BOOT0"
 		(shape passive)
@@ -7938,6 +8001,15 @@
 			(justify right)
 		)
 		(uuid "29039227-bd79-4be1-ba02-b842e13beecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "T_BAT"
 		(shape passive)
@@ -7950,6 +8022,15 @@
 			(justify right)
 		)
 		(uuid "3b03f87f-c4f2-46b3-9e73-6dc448919d6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART2_TXD"
 		(shape passive)
@@ -7962,6 +8043,15 @@
 			(justify right)
 		)
 		(uuid "43499743-5018-45d2-8848-8d1312ae725f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART1_TXD"
 		(shape passive)
@@ -7974,6 +8064,15 @@
 			(justify right)
 		)
 		(uuid "464edb6c-8be6-4747-a597-2f96afa2db35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TCK"
 		(shape bidirectional)
@@ -7986,6 +8085,15 @@
 			(justify right)
 		)
 		(uuid "54d58ba6-c38e-4e54-8a11-b39f48ce4901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART2_RXD"
 		(shape passive)
@@ -7998,6 +8106,15 @@
 			(justify right)
 		)
 		(uuid "57d30b9f-d60a-473f-b0af-5fad130929ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TMS"
 		(shape bidirectional)
@@ -8010,6 +8127,15 @@
 			(justify right)
 		)
 		(uuid "581453c3-bd3d-4275-99cb-addc21bc4371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB1_ID"
 		(shape passive)
@@ -8022,6 +8148,15 @@
 			(justify right)
 		)
 		(uuid "721092b0-452d-47f2-bb4b-d74c554a2415")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "T_NTC"
 		(shape passive)
@@ -8034,6 +8169,15 @@
 			(justify right)
 		)
 		(uuid "74cbe986-886b-4c9b-8e7e-f10a3c334525")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT_MODE1"
 		(shape passive)
@@ -8046,6 +8190,15 @@
 			(justify right)
 		)
 		(uuid "8976dc89-89d0-4f70-a301-f17d21e2c78f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_STM_SWDIO"
 		(shape passive)
@@ -8058,6 +8211,15 @@
 			(justify right)
 		)
 		(uuid "8b3692b6-527f-4275-af80-875587ea36fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PMIC_5V"
 		(shape passive)
@@ -8070,6 +8232,15 @@
 			(justify right)
 		)
 		(uuid "90f37f94-5a84-4e72-99d3-09b1b436a846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART1_TXD"
 		(shape bidirectional)
@@ -8082,6 +8253,15 @@
 			(justify left)
 		)
 		(uuid "ad52aa2e-5efa-4895-bf89-32965bde8f7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT_MODE0"
 		(shape passive)
@@ -8094,6 +8274,15 @@
 			(justify right)
 		)
 		(uuid "b1328485-a60c-40e6-8324-a813a706ae7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB1_DP"
 		(shape passive)
@@ -8106,6 +8295,15 @@
 			(justify right)
 		)
 		(uuid "b8040bc6-7217-485f-ba81-6eaf9d90bc58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SMC_PWR"
 		(shape passive)
@@ -8118,6 +8316,15 @@
 			(justify right)
 		)
 		(uuid "cafdfe42-ba20-48d2-8e15-49cc5445b65c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_TDI"
 		(shape bidirectional)
@@ -8130,6 +8337,15 @@
 			(justify right)
 		)
 		(uuid "e3a3f5b3-3c2c-4f12-85f5-4caf6605199e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "JTAG_NTRST"
 		(shape passive)
@@ -8142,6 +8358,15 @@
 			(justify right)
 		)
 		(uuid "efc52f41-57ac-4020-ae8e-eec15979e6fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "C-22_DEBUG_MFG:root_0_PTC3121N")
