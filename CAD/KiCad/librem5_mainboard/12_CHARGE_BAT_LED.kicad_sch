@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "a92490c4-6153-419e-a0ba-7b8ba0570d7d")
 	(paper "A2")
 	(title_block
@@ -2910,6 +2910,18 @@
 				)
 				(polyline
 					(pts
+						(xy -5.08 4.318) (xy -6.35 4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -5.08 4.318) (xy -5.08 0.762)
 					)
 					(stroke
@@ -2922,7 +2934,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -6.35 4.318)
+						(xy -5.08 2.54) (xy -7.62 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2942,18 +2954,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -3806,7 +3806,7 @@
 			(symbol "root_1_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -3817,7 +3817,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4085,7 +4085,7 @@
 			(symbol "root_1_mirrored_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4096,7 +4096,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4517,7 +4517,7 @@
 			(symbol "root_2_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4528,7 +4528,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4706,7 +4706,7 @@
 			(symbol "root_2_mirrored_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4717,7 +4717,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -7665,7 +7665,6 @@
 	)
 	(label "NTC"
 		(at 375.92 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7676,7 +7675,6 @@
 	)
 	(label "CHG_STATUS_B"
 		(at 198.12 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7687,7 +7685,6 @@
 	)
 	(label "I2C4_SDA"
 		(at 207.01 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7698,7 +7695,6 @@
 	)
 	(label "T_GND"
 		(at 265.43 325.12 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7709,7 +7705,6 @@
 	)
 	(label "CHG_USB_DSEL"
 		(at 226.06 146.05 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7720,7 +7715,6 @@
 	)
 	(label "CHG_EN"
 		(at 200.66 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7731,7 +7725,6 @@
 	)
 	(label "N47847848"
 		(at 241.3 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7742,7 +7735,6 @@
 	)
 	(label "T_BAT"
 		(at 273.05 314.96 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7753,7 +7745,6 @@
 	)
 	(label "CHG_QON"
 		(at 256.54 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7764,7 +7755,6 @@
 	)
 	(label "N47847863"
 		(at 261.62 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7775,7 +7765,6 @@
 	)
 	(label "N47770321"
 		(at 477.52 151.13 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7786,7 +7775,6 @@
 	)
 	(label "NTC"
 		(at 314.96 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7797,7 +7785,6 @@
 	)
 	(label "VDD_1V8"
 		(at 485.14 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7808,7 +7795,6 @@
 	)
 	(label "I2C4_SDA"
 		(at 445.77 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7819,7 +7805,6 @@
 	)
 	(label "BATT_TEMP"
 		(at 422.91 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7830,7 +7815,6 @@
 	)
 	(label "CHG_OTG_OUT_EN"
 		(at 207.01 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7841,7 +7825,6 @@
 	)
 	(label "CHG_INT"
 		(at 193.04 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7852,7 +7835,6 @@
 	)
 	(label "NTC"
 		(at 229.87 311.15 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7863,7 +7845,6 @@
 	)
 	(label "N47770282"
 		(at 478.79 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7874,7 +7855,6 @@
 	)
 	(label "N47852429"
 		(at 231.14 209.55 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7885,7 +7865,6 @@
 	)
 	(label "I2C4_SCL"
 		(at 207.01 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7896,7 +7875,6 @@
 	)
 	(label "USB1_DP"
 		(at 193.04 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7907,7 +7885,6 @@
 	)
 	(label "USB1_DN"
 		(at 193.04 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7918,7 +7895,6 @@
 	)
 	(label "N47851587"
 		(at 241.3 210.82 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7929,7 +7905,6 @@
 	)
 	(label "BAT_LOW"
 		(at 490.22 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7940,7 +7915,6 @@
 	)
 	(label "T_NTC"
 		(at 269.24 320.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7951,7 +7925,6 @@
 	)
 	(label "I2C4_SCL"
 		(at 445.77 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

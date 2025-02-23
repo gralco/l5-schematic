@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "4e53df79-0d2f-4494-a506-ea48fafd35f9")
 	(paper "A2")
 	(title_block
@@ -1291,18 +1291,6 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 2.54) (xy 2.54 0.762) (xy 2.54 4.318) (xy 5.08 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 2.54) (xy 7.62 2.54)
 					)
 					(stroke
@@ -1311,6 +1299,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 2.54) (xy 2.54 0.762) (xy 2.54 4.318) (xy 5.08 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -2432,7 +2432,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -2.54 2.54)
+						(xy 0 0) (xy -7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -2444,7 +2444,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -7.62 0)
+						(xy 0 0) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -4785,18 +4785,6 @@
 					)
 				)
 				(arc
-					(start 3.81 3.81)
-					(mid 4.708 3.438)
-					(end 5.08 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 2.54 2.54)
 					(mid 2.912 3.438)
 					(end 3.81 3.81)
@@ -4809,9 +4797,9 @@
 					)
 				)
 				(arc
-					(start 6.35 3.81)
-					(mid 7.248 3.438)
-					(end 7.62 2.54)
+					(start 3.81 3.81)
+					(mid 4.708 3.438)
+					(end 5.08 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4833,9 +4821,9 @@
 					)
 				)
 				(arc
-					(start 8.89 3.81)
-					(mid 9.788 3.438)
-					(end 10.16 2.54)
+					(start 6.35 3.81)
+					(mid 7.248 3.438)
+					(end 7.62 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4848,6 +4836,18 @@
 					(start 7.62 2.54)
 					(mid 7.992 3.438)
 					(end 8.89 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 3.81)
+					(mid 9.788 3.438)
+					(end 10.16 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5737,7 +5737,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -7.62) (xy -1.27 -6.35)
+						(xy -2.54 -7.62) (xy -2.54 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -5749,7 +5749,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -7.62) (xy -2.54 -10.16)
+						(xy -2.54 -7.62) (xy -1.27 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -10146,7 +10146,6 @@
 	)
 	(label "UART2_TXD"
 		(at 294.64 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10157,7 +10156,6 @@
 	)
 	(label "ANTOFF"
 		(at 408.94 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10168,7 +10166,6 @@
 	)
 	(label "UART2_RXD"
 		(at 294.64 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10179,7 +10176,6 @@
 	)
 	(label "VCC_RF"
 		(at 406.4 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10190,7 +10186,6 @@
 	)
 	(label "ANTOFF"
 		(at 403.86 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10201,7 +10196,6 @@
 	)
 	(label "I2C4_SCL"
 		(at 175.26 270.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10212,7 +10206,6 @@
 	)
 	(label "GPS_RST"
 		(at 304.8 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10223,7 +10216,6 @@
 	)
 	(label "SPI_SS1"
 		(at 167.64 309.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10234,7 +10226,6 @@
 	)
 	(label "NFC_EN"
 		(at 368.3 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10245,7 +10236,6 @@
 	)
 	(label "N47935389"
 		(at 331.47 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10256,7 +10246,6 @@
 	)
 	(label "N47944239"
 		(at 187.96 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10267,7 +10256,6 @@
 	)
 	(label "UART1_TXD"
 		(at 175.26 275.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10278,7 +10266,6 @@
 	)
 	(label "GPS_ANT"
 		(at 458.47 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10289,7 +10276,6 @@
 	)
 	(label "I2C4_SDA"
 		(at 175.26 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10300,7 +10286,6 @@
 	)
 	(label "N47935425"
 		(at 487.68 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10311,7 +10296,6 @@
 	)
 	(label "VCC_RF"
 		(at 411.48 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10322,7 +10306,6 @@
 	)
 	(label "3SW_KILL"
 		(at 121.92 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10333,7 +10316,6 @@
 	)
 	(label "GPS3V3_EN"
 		(at 109.22 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10344,7 +10326,6 @@
 	)
 	(label "N47920716"
 		(at 487.68 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10355,7 +10336,6 @@
 	)
 	(label "UART1_RXD"
 		(at 175.26 273.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10366,7 +10346,6 @@
 	)
 	(label "NFC_IRQ"
 		(at 361.95 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10377,7 +10356,6 @@
 	)
 	(label "FLASH_SCK"
 		(at 167.64 312.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10388,7 +10366,6 @@
 	)
 	(label "FLASH_MISO"
 		(at 167.64 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10399,7 +10376,6 @@
 	)
 	(label "FLASH_MOSI"
 		(at 167.64 314.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11251,7 +11227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ff5149f-b421-41ad-9c59-98115bbdb56e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0379"
 			(at 106.68 149.86 0)
 			(effects
 				(font
@@ -11515,7 +11491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12c21d6c-a18f-41f9-9984-7444024fdb11")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0377"
 			(at 201.93 256.54 0)
 			(effects
 				(font
@@ -11586,7 +11562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1428c735-bb59-4107-bd66-47c9581ca41c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0391"
 			(at 441.96 143.51 0)
 			(effects
 				(font
@@ -11802,7 +11778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "223a7901-7821-4a24-ba65-4ac784ecca75")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0405"
 			(at 350.52 321.31 0)
 			(effects
 				(font
@@ -12519,7 +12495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a957426-3ad6-4962-9e70-c7a907536e10")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0380"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -12880,7 +12856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3de96192-d57e-4061-b544-781910a11969")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0396"
 			(at 335.28 210.82 0)
 			(effects
 				(font
@@ -12951,7 +12927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f5465c9-7cf5-4427-bd8f-c9a270e73f02")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0381"
 			(at 246.38 327.66 0)
 			(effects
 				(font
@@ -13022,7 +12998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "407ed5ad-43a3-443f-9afd-b67367657bc3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0390"
 			(at 410.21 143.51 0)
 			(effects
 				(font
@@ -13237,7 +13213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44ecf22c-c96e-4506-9d38-a97a67adc624")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0376"
 			(at 256.54 154.94 0)
 			(effects
 				(font
@@ -14139,7 +14115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cb24883-f122-4b79-93de-a6fc7fb3d641")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0385"
 			(at 430.53 204.47 0)
 			(effects
 				(font
@@ -14210,7 +14186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb699ef-c794-408d-93a8-7b1729d1f425")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0383"
 			(at 401.32 173.99 0)
 			(effects
 				(font
@@ -14281,7 +14257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "614589e3-ffcc-46ac-b4b4-7cc29771350c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0400"
 			(at 359.41 273.05 0)
 			(effects
 				(font
@@ -14518,7 +14494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67405b16-0bb0-40eb-8914-a1b172ee4c82")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0375"
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -14879,7 +14855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73d1a637-f032-442c-9f3f-5d1b5d7445e4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0382"
 			(at 198.12 334.01 0)
 			(effects
 				(font
@@ -14950,7 +14926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7642ff6d-809a-4529-bb67-520a4af8d29b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0389"
 			(at 436.88 85.09 0)
 			(effects
 				(font
@@ -15022,7 +14998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77404446-305a-4261-823b-ef6493954661")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0386"
 			(at 497.84 90.17 0)
 			(effects
 				(font
@@ -15094,7 +15070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7afbb4c1-e713-4586-b8ad-c3d7b420b089")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0387"
 			(at 508 143.51 0)
 			(effects
 				(font
@@ -15165,7 +15141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bc01b40-3ebe-44c3-8a64-07a38973cfa2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0403"
 			(at 302.26 144.78 0)
 			(effects
 				(font
@@ -15381,7 +15357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88ae1b13-2f99-43aa-b011-30c10091f9bc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0397"
 			(at 316.23 219.71 0)
 			(effects
 				(font
@@ -15957,7 +15933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "971c0792-1e8b-4173-beed-b28e5c36b30b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0399"
 			(at 367.03 279.4 0)
 			(effects
 				(font
@@ -16485,7 +16461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6323055-6027-46d8-a666-887d4b35794f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0384"
 			(at 412.75 204.47 0)
 			(effects
 				(font
@@ -17453,7 +17429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd9170e8-2879-4c96-8590-6adad0b8c5f5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0393"
 			(at 483.87 209.55 0)
 			(effects
 				(font
@@ -17524,7 +17500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfda8907-4598-4c0d-91fd-d09ac9e15e7b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0392"
 			(at 436.88 167.64 0)
 			(effects
 				(font
@@ -17749,7 +17725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c31aa7e8-d68d-49d1-b032-e94a5ee841d6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0374"
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -18255,7 +18231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd763648-b5cc-4eb2-a7c7-eaf98d3ab677")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0401"
 			(at 349.25 292.1 0)
 			(effects
 				(font
@@ -18573,7 +18549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25d1607-12e6-4f74-ac4e-bb250042661f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0395"
 			(at 339.09 119.38 0)
 			(effects
 				(font
@@ -18789,7 +18765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d28d6e4b-e23e-45d4-a74e-0fa625714aa2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0398"
 			(at 325.12 219.71 0)
 			(effects
 				(font
@@ -19150,7 +19126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db378f56-b2f0-48bb-813f-b36563f63fe2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0388"
 			(at 471.17 85.09 0)
 			(effects
 				(font
@@ -19802,7 +19778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e63865f7-8740-47b2-a27a-776e1351b66a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0378"
 			(at 190.5 163.83 0)
 			(effects
 				(font
@@ -20308,7 +20284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f13c3ec3-5f6b-4719-9527-ddb56ce2c783")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0402"
 			(at 321.31 157.48 0)
 			(effects
 				(font
@@ -20524,7 +20500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f229e7f5-11f6-4f3a-acfd-ef5fa1ca745e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0394"
 			(at 325.12 189.23 0)
 			(effects
 				(font
@@ -20595,7 +20571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f48cd4-3e92-4f00-8844-1c50bf6c4a73")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0404"
 			(at 281.94 176.53 0)
 			(effects
 				(font

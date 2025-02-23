@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "f1aca847-b5f4-4133-8ed0-ff750e87989f")
 	(paper "A2")
 	(title_block
@@ -3700,7 +3700,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 5.08)
+						(xy -5.08 2.54) (xy -5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -3712,7 +3712,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.588 2.032)
+						(xy -5.08 2.54) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -4759,7 +4759,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 14.732) (xy -3.556 14.732)
+						(xy -4.318 14.732) (xy -4.826 15.494)
 					)
 					(stroke
 						(width 0)
@@ -4771,7 +4771,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 14.732) (xy -4.826 15.494)
+						(xy -4.318 14.732) (xy -3.556 14.732)
 					)
 					(stroke
 						(width 0)
@@ -4891,7 +4891,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 7.62) (xy -2.54 2.54)
+						(xy -2.54 7.62) (xy -7.62 5.08)
 					)
 					(stroke
 						(width 0)
@@ -4903,7 +4903,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 7.62) (xy -7.62 5.08)
+						(xy -2.54 7.62) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -5493,7 +5493,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -2.032 5.588)
+						(xy -2.54 5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -5505,7 +5505,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -5.08 5.08)
+						(xy -2.54 5.08) (xy -2.032 5.588)
 					)
 					(stroke
 						(width 0)
@@ -6672,7 +6672,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.826) (xy -0.254 5.842)
+						(xy -1.27 4.826) (xy -3.81 4.826)
 					)
 					(stroke
 						(width 0)
@@ -6684,7 +6684,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.826) (xy -3.81 4.826)
+						(xy -1.27 4.826) (xy -0.254 5.842)
 					)
 					(stroke
 						(width 0)
@@ -12357,7 +12357,6 @@
 	)
 	(label "CPCB"
 		(at 361.95 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12368,7 +12367,6 @@
 	)
 	(label "CPVOUTP"
 		(at 381 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12379,7 +12377,6 @@
 	)
 	(label "BCLK1"
 		(at 288.29 256.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12390,7 +12387,6 @@
 	)
 	(label "MIC_IN"
 		(at 281.94 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12401,7 +12397,6 @@
 	)
 	(label "I2C3_SDA"
 		(at 275.59 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12412,7 +12407,6 @@
 	)
 	(label "HPOUTL"
 		(at 383.54 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12423,7 +12417,6 @@
 	)
 	(label "HPOUTR_CAP"
 		(at 372.11 135.89 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12434,7 +12427,6 @@
 	)
 	(label "CPCA"
 		(at 361.95 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12445,7 +12437,6 @@
 	)
 	(label "SPKOUTLN"
 		(at 360.68 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12456,7 +12447,6 @@
 	)
 	(label "AUDIO_POWER_EN_3V3"
 		(at 104.14 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12467,7 +12457,6 @@
 	)
 	(label "CPVOUTN"
 		(at 392.43 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12478,7 +12467,6 @@
 	)
 	(label "DMIC_DAT"
 		(at 179.07 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12489,7 +12477,6 @@
 	)
 	(label "CLKOUT2"
 		(at 364.49 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12500,7 +12487,6 @@
 	)
 	(label "SPKOUTLP"
 		(at 303.53 330.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12511,7 +12497,6 @@
 	)
 	(label "N47955537"
 		(at 455.93 177.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12522,7 +12507,6 @@
 	)
 	(label "SPKOUTRN"
 		(at 360.68 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12533,7 +12517,6 @@
 	)
 	(label "N47807093"
 		(at 289.56 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12544,7 +12527,6 @@
 	)
 	(label "LRCLK1"
 		(at 288.29 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12555,7 +12537,6 @@
 	)
 	(label "MIC_IN"
 		(at 424.18 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12566,7 +12547,6 @@
 	)
 	(label "SAI2_TXC"
 		(at 259.08 256.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12577,7 +12557,6 @@
 	)
 	(label "AUDIO_CLK"
 		(at 288.29 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12588,7 +12567,6 @@
 	)
 	(label "AVDD"
 		(at 292.1 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12599,7 +12577,6 @@
 	)
 	(label "N47954246"
 		(at 415.29 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12610,7 +12587,6 @@
 	)
 	(label "DMICCLK"
 		(at 360.68 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12621,7 +12597,6 @@
 	)
 	(label "N47954670"
 		(at 513.08 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12632,7 +12607,6 @@
 	)
 	(label "SAI2_RXD"
 		(at 259.08 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12643,7 +12617,6 @@
 	)
 	(label "SPKOUTLN"
 		(at 303.53 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12654,7 +12627,6 @@
 	)
 	(label "DMICCLK"
 		(at 196.85 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12665,7 +12637,6 @@
 	)
 	(label "SPKOUTRP"
 		(at 360.68 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12676,7 +12647,6 @@
 	)
 	(label "CLKOUT5"
 		(at 364.49 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12687,7 +12657,6 @@
 	)
 	(label "HPOUTR"
 		(at 411.48 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12698,7 +12667,6 @@
 	)
 	(label "MIC-"
 		(at 434.34 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12709,7 +12677,6 @@
 	)
 	(label "DACDAT1"
 		(at 288.29 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12720,7 +12687,6 @@
 	)
 	(label "MIC-"
 		(at 520.7 110.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12731,7 +12697,6 @@
 	)
 	(label "SPKL_C"
 		(at 355.6 330.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12742,7 +12707,6 @@
 	)
 	(label "SPKOUTLP"
 		(at 360.68 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12753,7 +12717,6 @@
 	)
 	(label "MIC2_DAT"
 		(at 123.19 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12764,7 +12727,6 @@
 	)
 	(label "AUDIO_POWER_KEY"
 		(at 120.65 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12775,7 +12737,6 @@
 	)
 	(label "N47953196"
 		(at 364.49 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12786,7 +12747,6 @@
 	)
 	(label "N47952026"
 		(at 295.91 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12797,7 +12757,6 @@
 	)
 	(label "I2C3_SCL"
 		(at 275.59 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12808,7 +12767,6 @@
 	)
 	(label "SAI2_TXFS"
 		(at 259.08 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12819,7 +12777,6 @@
 	)
 	(label "SAI2_MCLK"
 		(at 259.08 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12830,7 +12787,6 @@
 	)
 	(label "VMIDC"
 		(at 360.68 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12841,7 +12797,6 @@
 	)
 	(label "MICBIAS"
 		(at 445.77 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12852,7 +12807,6 @@
 	)
 	(label "IN1R"
 		(at 278.13 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12863,7 +12817,6 @@
 	)
 	(label "SPKOUTRP"
 		(at 302.26 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12874,7 +12827,6 @@
 	)
 	(label "SAI2_TXD"
 		(at 259.08 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12885,7 +12837,6 @@
 	)
 	(label "SPKR_C"
 		(at 353.06 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12896,7 +12847,6 @@
 	)
 	(label "N47953114"
 		(at 295.91 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12907,7 +12857,6 @@
 	)
 	(label "MICBIAS"
 		(at 355.6 278.13 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12918,7 +12867,6 @@
 	)
 	(label "MIC2_CLK"
 		(at 144.78 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12929,7 +12877,6 @@
 	)
 	(label "DMIC_DAT1"
 		(at 116.84 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12940,7 +12887,6 @@
 	)
 	(label "ADCDAT1"
 		(at 288.29 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12951,7 +12897,6 @@
 	)
 	(label "HP_R"
 		(at 497.84 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12962,7 +12907,6 @@
 	)
 	(label "HEADPHONE_DET_1V8"
 		(at 429.26 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12973,7 +12917,6 @@
 	)
 	(label "DMIC_DAT"
 		(at 360.68 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12984,7 +12927,6 @@
 	)
 	(label "SPKOUTRN"
 		(at 302.26 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12995,7 +12937,6 @@
 	)
 	(label "MIC-"
 		(at 271.78 200.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13006,7 +12947,6 @@
 	)
 	(label "N47953111"
 		(at 295.91 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13017,7 +12957,6 @@
 	)
 	(label "HPOUTL_CAP"
 		(at 401.32 138.43 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13028,7 +12967,6 @@
 	)
 	(label "HP_L"
 		(at 502.92 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

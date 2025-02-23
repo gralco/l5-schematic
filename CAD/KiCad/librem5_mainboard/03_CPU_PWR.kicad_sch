@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "e8227645-7925-4206-aaf7-cd6f968e47cb")
 	(paper "A2")
 	(title_block
@@ -9346,7 +9346,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40.64 27.94) (xy 43.18 27.94)
+						(xy 40.64 27.94) (xy 40.64 5.08)
 					)
 					(stroke
 						(width 0)
@@ -9358,7 +9358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40.64 27.94) (xy 40.64 5.08)
+						(xy 40.64 27.94) (xy 43.18 27.94)
 					)
 					(stroke
 						(width 0)
@@ -30528,7 +30528,6 @@
 	)
 	(label "N102189491"
 		(at 289.56 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30539,7 +30538,6 @@
 	)
 	(label "VDDA_0P9"
 		(at 198.12 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30550,7 +30548,6 @@
 	)
 	(label "NVCC_SAI1_BOOT"
 		(at 328.93 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

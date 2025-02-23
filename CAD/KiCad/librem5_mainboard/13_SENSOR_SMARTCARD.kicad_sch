@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "8217ebd6-b28b-447a-9be5-7165987de49a")
 	(paper "A2")
 	(title_block
@@ -619,7 +619,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 12.7) (xy 15.24 5.08)
+						(xy 15.24 12.7) (xy 5.08 17.78)
 					)
 					(stroke
 						(width 0.254)
@@ -631,7 +631,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 12.7) (xy 5.08 17.78)
+						(xy 15.24 12.7) (xy 15.24 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -2727,7 +2727,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.334 1.27) (xy 5.842 0.254)
+						(xy 5.334 1.27) (xy 5.334 3.81)
 					)
 					(stroke
 						(width 0)
@@ -2739,7 +2739,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.334 1.27) (xy 5.334 3.81)
+						(xy 5.334 1.27) (xy 5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -3806,6 +3806,18 @@
 				)
 				(polyline
 					(pts
+						(xy -5.08 4.318) (xy -6.35 4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -5.08 4.318) (xy -5.08 0.762)
 					)
 					(stroke
@@ -3818,7 +3830,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -6.35 4.318)
+						(xy -5.08 2.54) (xy -7.62 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3838,18 +3850,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -11502,7 +11502,6 @@
 	)
 	(label "SMC_PWR"
 		(at 370.84 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11513,7 +11512,6 @@
 	)
 	(label "INT_LIGHT"
 		(at 156.21 116.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11524,7 +11522,6 @@
 	)
 	(label "INT_M/A/G"
 		(at 485.14 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11535,7 +11532,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 336.55 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11546,7 +11542,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 339.09 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11557,7 +11552,6 @@
 	)
 	(label "3SW_KILL"
 		(at 266.7 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11568,7 +11562,6 @@
 	)
 	(label "UART3_RXD"
 		(at 361.95 350.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11579,7 +11572,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 148.59 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11590,7 +11582,6 @@
 	)
 	(label "SMC_PWR_3V3_EN"
 		(at 490.22 248.92 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11601,7 +11592,6 @@
 	)
 	(label "HALL"
 		(at 172.72 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11612,7 +11602,6 @@
 	)
 	(label "UART3_TXD"
 		(at 361.95 345.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11623,7 +11612,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 149.86 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11634,7 +11622,6 @@
 	)
 	(label "SMC_STM_SWCLK"
 		(at 322.58 236.22 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11645,7 +11632,6 @@
 	)
 	(label "SMC_STM_SWDIO"
 		(at 320.04 241.3 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11656,7 +11642,6 @@
 	)
 	(label "SMC_BOOT0"
 		(at 347.98 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

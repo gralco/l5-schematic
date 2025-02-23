@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "5cdee434-dc08-4854-b210-9f0c887538f0")
 	(paper "A2")
 	(title_block
@@ -6582,7 +6582,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 48.26) (xy 20.32 48.26)
+						(xy 17.78 48.26) (xy 17.78 5.08)
 					)
 					(stroke
 						(width 0)
@@ -6594,7 +6594,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 48.26) (xy 17.78 5.08)
+						(xy 17.78 48.26) (xy 20.32 48.26)
 					)
 					(stroke
 						(width 0)
@@ -6962,7 +6962,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 17.78 10.16)
+						(xy 17.78 40.64) (xy 15.24 40.64)
 					)
 					(stroke
 						(width 0)
@@ -6974,7 +6974,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 40.64) (xy 15.24 40.64)
+						(xy 17.78 40.64) (xy 17.78 10.16)
 					)
 					(stroke
 						(width 0)
@@ -14235,12 +14235,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -10.16 3.81) (xy -2.54 3.81)
-					)
+				(circle
+					(center -10.16 3.81)
+					(radius 0.508)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -14259,11 +14258,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -10.16 3.81)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -10.16 3.81) (xy -2.54 3.81)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type solid)
 					)
 					(fill
@@ -16064,7 +16064,7 @@
 			(symbol "root_3_mirrored_DIODE_SCHTKY_0_1_0"
 				(polyline
 					(pts
-						(xy -4.318 -5.08) (xy -0.762 -5.08)
+						(xy -4.318 -5.08) (xy -4.318 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -16076,7 +16076,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 -5.08) (xy -4.318 -6.35)
+						(xy -4.318 -5.08) (xy -0.762 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -16112,18 +16112,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy -2.54 -5.08) (xy -0.762 -2.54) (xy -4.318 -2.54) (xy -2.54 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -5.08) (xy -2.54 -7.62)
 					)
 					(stroke
@@ -16132,6 +16120,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -5.08) (xy -0.762 -2.54) (xy -4.318 -2.54) (xy -2.54 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -19354,7 +19354,6 @@
 	)
 	(label "PMIC_5V"
 		(at 490.22 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19365,7 +19364,6 @@
 	)
 	(label "SD1_DATA1"
 		(at 133.35 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19376,7 +19374,6 @@
 	)
 	(label "SD1_DATA0"
 		(at 133.35 274.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19387,7 +19384,6 @@
 	)
 	(label "SPI_SS1"
 		(at 335.28 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19398,7 +19394,6 @@
 	)
 	(label "BAT_LOW"
 		(at 339.09 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19409,7 +19404,6 @@
 	)
 	(label "4G_W_DIS2"
 		(at 158.75 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19420,7 +19414,6 @@
 	)
 	(label "SAI2_RXD"
 		(at 425.45 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19431,7 +19424,6 @@
 	)
 	(label "I2C1_SCL_1V8"
 		(at 336.55 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19442,7 +19434,6 @@
 	)
 	(label "TCPC_NINT"
 		(at 414.02 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19453,7 +19444,6 @@
 	)
 	(label "SD1_DATA2"
 		(at 133.35 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19464,7 +19454,6 @@
 	)
 	(label "WIFI_REG_ON"
 		(at 336.55 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19475,7 +19464,6 @@
 	)
 	(label "SAI1_RXD4"
 		(at 439.42 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19486,7 +19474,6 @@
 	)
 	(label "SAI1_TXD2"
 		(at 439.42 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19497,7 +19484,6 @@
 	)
 	(label "I2C4_SCL"
 		(at 336.55 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19508,7 +19494,6 @@
 	)
 	(label "I2C3_SDA"
 		(at 429.26 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19519,7 +19504,6 @@
 	)
 	(label "SD2_CMD"
 		(at 212.09 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19530,7 +19514,6 @@
 	)
 	(label "I2C1_SCL_1V8"
 		(at 298.45 350.52 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19541,7 +19524,6 @@
 	)
 	(label "LED_R"
 		(at 337.82 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19552,7 +19534,6 @@
 	)
 	(label "SD2_CLK"
 		(at 219.71 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19563,7 +19544,6 @@
 	)
 	(label "SD1_STROBE"
 		(at 133.35 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19574,7 +19554,6 @@
 	)
 	(label "LED_B"
 		(at 414.02 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19585,7 +19564,6 @@
 	)
 	(label "CHG_OTG_OUT_EN"
 		(at 158.75 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19596,7 +19574,6 @@
 	)
 	(label "FLASH_STROBE"
 		(at 158.75 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19607,7 +19584,6 @@
 	)
 	(label "UART1_TXD"
 		(at 336.55 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19618,7 +19594,6 @@
 	)
 	(label "SAI1_TXD3"
 		(at 439.42 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19629,7 +19604,6 @@
 	)
 	(label "SD2_DATA1"
 		(at 212.09 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19640,7 +19614,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 336.55 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19651,7 +19624,6 @@
 	)
 	(label "RTC_INT"
 		(at 414.02 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19662,7 +19634,6 @@
 	)
 	(label "SAI2_TXC"
 		(at 439.42 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19673,7 +19644,6 @@
 	)
 	(label "INT_M/A/G"
 		(at 337.82 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19684,7 +19654,6 @@
 	)
 	(label "DSI_TE"
 		(at 158.75 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19695,7 +19664,6 @@
 	)
 	(label "I2C4_SDA"
 		(at 336.55 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19706,7 +19674,6 @@
 	)
 	(label "SAI1_RXD6"
 		(at 439.42 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19717,7 +19684,6 @@
 	)
 	(label "UART4_RXD"
 		(at 410.21 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19728,7 +19694,6 @@
 	)
 	(label "SD1_CMD"
 		(at 133.35 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19739,7 +19704,6 @@
 	)
 	(label "SAI1_RXD1"
 		(at 439.42 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19750,7 +19714,6 @@
 	)
 	(label "SAI1_TXD5"
 		(at 439.42 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19761,7 +19724,6 @@
 	)
 	(label "UART4_TXD"
 		(at 410.21 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19772,7 +19734,6 @@
 	)
 	(label "I2C3_SDA"
 		(at 336.55 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19783,7 +19744,6 @@
 	)
 	(label "SD1_DATA3"
 		(at 133.35 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19794,7 +19754,6 @@
 	)
 	(label "SAI3_TXD"
 		(at 336.55 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19805,7 +19764,6 @@
 	)
 	(label "SAI1_RXD7"
 		(at 439.42 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19816,7 +19774,6 @@
 	)
 	(label "HSW_CA_STATE"
 		(at 420.37 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19827,7 +19784,6 @@
 	)
 	(label "VOL+"
 		(at 158.75 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19838,7 +19794,6 @@
 	)
 	(label "TP_NINT"
 		(at 158.75 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19849,7 +19804,6 @@
 	)
 	(label "SD1_DATA6"
 		(at 133.35 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19860,7 +19814,6 @@
 	)
 	(label "CHG_INT"
 		(at 158.75 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19871,7 +19824,6 @@
 	)
 	(label "FLASH_SCK"
 		(at 424.18 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19882,7 +19834,6 @@
 	)
 	(label "4G_WAKE"
 		(at 158.75 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19893,7 +19844,6 @@
 	)
 	(label "SAI1_TXD4"
 		(at 439.42 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19904,7 +19854,6 @@
 	)
 	(label "SMC_BOOT0"
 		(at 336.55 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19915,7 +19864,6 @@
 	)
 	(label "HEADPHONE_DET_1V8"
 		(at 158.75 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19926,7 +19874,6 @@
 	)
 	(label "UART2_RXD"
 		(at 336.55 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19937,7 +19884,6 @@
 	)
 	(label "BT_REG_ON"
 		(at 344.17 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19948,7 +19894,6 @@
 	)
 	(label "SD1_DATA4"
 		(at 133.35 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19959,7 +19904,6 @@
 	)
 	(label "NWDOG"
 		(at 425.45 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19970,7 +19914,6 @@
 	)
 	(label "SAI1_RXD5"
 		(at 439.42 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19981,7 +19924,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 336.55 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19992,7 +19934,6 @@
 	)
 	(label "PWR_KEY"
 		(at 158.75 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20003,7 +19944,6 @@
 	)
 	(label "SD2_NCD"
 		(at 233.68 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20014,7 +19954,6 @@
 	)
 	(label "HUB_PWR_3V3_EN"
 		(at 414.02 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20025,7 +19964,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 429.26 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20036,7 +19974,6 @@
 	)
 	(label "SAI3_RXD"
 		(at 336.55 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20047,7 +19984,6 @@
 	)
 	(label "SAI2_TXFS"
 		(at 439.42 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20058,7 +19994,6 @@
 	)
 	(label "SD1_DATA5"
 		(at 133.35 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20069,7 +20004,6 @@
 	)
 	(label "NFC_EN"
 		(at 339.09 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20080,7 +20014,6 @@
 	)
 	(label "HUB_RESET"
 		(at 415.29 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20091,7 +20024,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 429.26 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20102,7 +20034,6 @@
 	)
 	(label "SD2_NRST"
 		(at 212.09 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20113,7 +20044,6 @@
 	)
 	(label "BT_WAKE"
 		(at 420.37 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20124,7 +20054,6 @@
 	)
 	(label "SD2_DATA2"
 		(at 212.09 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20135,7 +20064,6 @@
 	)
 	(label "DSI_EN_3V3"
 		(at 414.02 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20146,7 +20074,6 @@
 	)
 	(label "SD1_CLK"
 		(at 133.35 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20157,7 +20084,6 @@
 	)
 	(label "SAI2_MCLK"
 		(at 439.42 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20168,7 +20094,6 @@
 	)
 	(label "I2C3_SCL"
 		(at 429.26 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20179,7 +20104,6 @@
 	)
 	(label "I2C1_SDA_1V8"
 		(at 303.53 302.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20190,7 +20114,6 @@
 	)
 	(label "UART3_RXD"
 		(at 336.55 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20201,7 +20124,6 @@
 	)
 	(label "UART4_CTS"
 		(at 410.21 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20212,7 +20134,6 @@
 	)
 	(label "HALL"
 		(at 158.75 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20223,7 +20144,6 @@
 	)
 	(label "GPS_RST"
 		(at 414.02 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20234,7 +20154,6 @@
 	)
 	(label "AUDIO_POWER_EN_3V3"
 		(at 414.02 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20245,7 +20164,6 @@
 	)
 	(label "INT_LIGHT"
 		(at 157.48 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20256,7 +20174,6 @@
 	)
 	(label "CSI2_NRST"
 		(at 158.75 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20267,7 +20184,6 @@
 	)
 	(label "TF_PWR_3V3_EN"
 		(at 414.02 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20278,7 +20194,6 @@
 	)
 	(label "CHG_EN"
 		(at 158.75 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20289,7 +20204,6 @@
 	)
 	(label "I2C1_SDA_1V8"
 		(at 336.55 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20300,7 +20214,6 @@
 	)
 	(label "FLASH_SS"
 		(at 410.21 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20311,7 +20224,6 @@
 	)
 	(label "SAI3_TXFS"
 		(at 336.55 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20322,7 +20234,6 @@
 	)
 	(label "TP_RST"
 		(at 158.75 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20333,7 +20244,6 @@
 	)
 	(label "SD2_DATA0"
 		(at 212.09 274.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20344,7 +20254,6 @@
 	)
 	(label "TF_NCD"
 		(at 167.64 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20355,7 +20264,6 @@
 	)
 	(label "CAMERA_PWR_EN_3V3"
 		(at 408.94 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20366,7 +20274,6 @@
 	)
 	(label "LED_G"
 		(at 336.55 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20377,7 +20284,6 @@
 	)
 	(label "FLASH_MISO"
 		(at 410.21 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20388,7 +20294,6 @@
 	)
 	(label "CSI1_NRST"
 		(at 158.75 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20399,7 +20304,6 @@
 	)
 	(label "SAI1_RXD2"
 		(at 439.42 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20410,7 +20314,6 @@
 	)
 	(label "CHG_USB_DSEL"
 		(at 339.09 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20421,7 +20324,6 @@
 	)
 	(label "DSI_BAIS_EN"
 		(at 158.75 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20432,7 +20334,6 @@
 	)
 	(label "DSI_RST"
 		(at 158.75 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20443,7 +20344,6 @@
 	)
 	(label "HSW_WIFI_STATE"
 		(at 420.37 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20454,7 +20354,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 341.63 302.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20465,7 +20364,6 @@
 	)
 	(label "TYPEC_HRESET"
 		(at 337.82 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20476,7 +20374,6 @@
 	)
 	(label "NFC_IRQ"
 		(at 420.37 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20487,7 +20384,6 @@
 	)
 	(label "BACKLINGE_EN"
 		(at 158.75 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20498,7 +20394,6 @@
 	)
 	(label "I2C4_SDA"
 		(at 429.26 307.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20509,7 +20404,6 @@
 	)
 	(label "SAI1_TXD1"
 		(at 439.42 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20520,7 +20414,6 @@
 	)
 	(label "VOL-"
 		(at 158.75 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20531,7 +20424,6 @@
 	)
 	(label "SD1_DATA7"
 		(at 133.35 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20542,7 +20434,6 @@
 	)
 	(label "4G_W_DISABLE"
 		(at 158.75 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20553,7 +20444,6 @@
 	)
 	(label "PMIC_NINT"
 		(at 415.29 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20564,7 +20454,6 @@
 	)
 	(label "4G_PWR_EN"
 		(at 158.75 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20575,7 +20464,6 @@
 	)
 	(label "UART2_TXD"
 		(at 336.55 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20586,7 +20474,6 @@
 	)
 	(label "SDIO_WAKE"
 		(at 212.09 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20597,7 +20484,6 @@
 	)
 	(label "SAI1_TXD0"
 		(at 439.42 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20608,7 +20494,6 @@
 	)
 	(label "UART4_RTS"
 		(at 410.21 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20619,7 +20504,6 @@
 	)
 	(label "I2C3_SCL"
 		(at 336.55 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20630,7 +20514,6 @@
 	)
 	(label "SAI1_RXD0"
 		(at 439.42 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20641,7 +20524,6 @@
 	)
 	(label "SAI2_TXD"
 		(at 439.42 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20652,7 +20534,6 @@
 	)
 	(label "UART3_TXD"
 		(at 336.55 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20663,7 +20544,6 @@
 	)
 	(label "UART1_RXD"
 		(at 336.55 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20674,7 +20554,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 349.25 350.52 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20685,7 +20564,6 @@
 	)
 	(label "4G_RESET"
 		(at 158.75 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20696,7 +20574,6 @@
 	)
 	(label "CLKO2"
 		(at 427.99 256.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20707,7 +20584,6 @@
 	)
 	(label "SAI1_TXD6"
 		(at 439.42 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20718,7 +20594,6 @@
 	)
 	(label "HSW_4G_STATE"
 		(at 420.37 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20729,7 +20604,6 @@
 	)
 	(label "MOTO"
 		(at 337.82 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20740,7 +20614,6 @@
 	)
 	(label "WIFI3V3_EN"
 		(at 158.75 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20751,7 +20624,6 @@
 	)
 	(label "SMC_PWR_3V3_EN"
 		(at 414.02 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20762,7 +20634,6 @@
 	)
 	(label "TYPEC_MUX_EN"
 		(at 422.91 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20773,7 +20644,6 @@
 	)
 	(label "FLASH_MOSI"
 		(at 410.21 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20784,7 +20654,6 @@
 	)
 	(label "SAI1_RXD3"
 		(at 439.42 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20795,7 +20664,6 @@
 	)
 	(label "SAI1_TXD7"
 		(at 439.42 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20806,7 +20674,6 @@
 	)
 	(label "FLASH_EN"
 		(at 158.75 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20817,7 +20684,6 @@
 	)
 	(label "I2C4_SCL"
 		(at 429.26 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20828,7 +20694,6 @@
 	)
 	(label "SAI3_TXC"
 		(at 328.93 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20839,7 +20704,6 @@
 	)
 	(label "GPS3V3_EN"
 		(at 158.75 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20850,7 +20714,6 @@
 	)
 	(label "SD1_NRST"
 		(at 133.35 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20861,7 +20724,6 @@
 	)
 	(label "SD2_DATA3"
 		(at 212.09 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25945,7 +25807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d13aaa1-bb93-4194-bca9-c6df545a1ded")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0176"
 			(at 262.89 295.91 0)
 			(effects
 				(font
@@ -30313,7 +30175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27d4e883-6af0-4e1f-b64e-4c5d8dc736c0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0180"
 			(at 468.63 207.01 0)
 			(effects
 				(font
@@ -30674,7 +30536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "431d897c-5b86-4226-82d7-385106861ae2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0177"
 			(at 245.11 314.96 0)
 			(effects
 				(font
@@ -30745,7 +30607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51d94f1a-7d02-454d-8762-0cf336e407a8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0181"
 			(at 483.87 234.95 0)
 			(effects
 				(font
@@ -31573,7 +31435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b99fb26-0a82-4814-b859-046385b8e2c6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0174"
 			(at 381 288.29 0)
 			(effects
 				(font
@@ -32372,7 +32234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac56e3f0-617a-45aa-887b-67d17c5b75ff")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0171"
 			(at 303.53 273.05 0)
 			(effects
 				(font
@@ -32443,7 +32305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adabdd9c-5b05-42d7-be36-a8abeb190622")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0172"
 			(at 334.01 303.53 0)
 			(effects
 				(font
@@ -32514,7 +32376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae0ce55d-eac4-4bb2-90f5-a59ad8198e35")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0178"
 			(at 304.8 353.06 0)
 			(effects
 				(font
@@ -32585,7 +32447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0786ce6-8163-4621-9281-071dd6ed32f6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0173"
 			(at 341.63 273.05 0)
 			(effects
 				(font
@@ -33236,7 +33098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da9a9d0d-bb51-4368-bb2c-8237f690adb0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0179"
 			(at 342.9 353.06 0)
 			(effects
 				(font
@@ -37746,7 +37608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9edc634-f217-431a-bb05-3cb64647dc4d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0175"
 			(at 245.11 273.05 0)
 			(effects
 				(font

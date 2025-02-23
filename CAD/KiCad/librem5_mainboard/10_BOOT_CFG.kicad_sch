@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "0ce446f3-6f95-4827-95ce-ca00ebc946e2")
 	(paper "A2")
 	(title_block
@@ -711,7 +711,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.588 2.032)
+						(xy 5.08 2.54) (xy 5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -723,7 +723,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 5.08)
+						(xy 5.08 2.54) (xy 5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -877,6 +877,18 @@
 				)
 				(polyline
 					(pts
+						(xy 10.16 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 10.16 3.81) (xy 10.16 0)
 					)
 					(stroke
@@ -892,18 +904,6 @@
 					(radius 0.508)
 					(stroke
 						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
 						(type solid)
 					)
 					(fill
@@ -1169,7 +1169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.588 2.032)
+						(xy 5.08 2.54) (xy 5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -1181,7 +1181,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 5.08)
+						(xy 5.08 2.54) (xy 5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1333,11 +1333,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 10.16 3.81)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 2.54 3.81)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type solid)
 					)
 					(fill
@@ -1356,12 +1357,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 2.54 3.81)
-					)
+				(circle
+					(center 10.16 3.81)
+					(radius 0.508)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -1912,18 +1912,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -10.16 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center -10.16 3.81)
 					(radius 0.508)
@@ -1938,6 +1926,18 @@
 				(polyline
 					(pts
 						(xy -10.16 3.81) (xy -10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -2057,7 +2057,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 5.08)
+						(xy -5.08 2.54) (xy -5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -2069,7 +2069,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.588 2.032)
+						(xy -5.08 2.54) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -2266,7 +2266,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -5.08 0.762)
+						(xy -5.08 4.318) (xy -6.35 4.318)
 					)
 					(stroke
 						(width 0)
@@ -2278,7 +2278,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.318) (xy -6.35 4.318)
+						(xy -5.08 4.318) (xy -5.08 0.762)
 					)
 					(stroke
 						(width 0)
@@ -2620,7 +2620,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.334 1.27) (xy -5.334 3.81)
+						(xy -5.334 1.27) (xy -5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2632,7 +2632,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.334 1.27) (xy -5.842 0.254)
+						(xy -5.334 1.27) (xy -5.334 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3051,7 +3051,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.334) (xy -0.254 5.842)
+						(xy -1.27 5.334) (xy -3.81 5.334)
 					)
 					(stroke
 						(width 0)
@@ -3063,7 +3063,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.334) (xy -3.81 5.334)
+						(xy -1.27 5.334) (xy -0.254 5.842)
 					)
 					(stroke
 						(width 0)
@@ -3207,7 +3207,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 5.08) (xy -0.762 5.08)
+						(xy -4.318 5.08) (xy -4.318 6.35)
 					)
 					(stroke
 						(width 0)
@@ -3219,7 +3219,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 5.08) (xy -4.318 6.35)
+						(xy -4.318 5.08) (xy -0.762 5.08)
 					)
 					(stroke
 						(width 0)
@@ -3387,18 +3387,6 @@
 			(symbol "root_1_mirrored_TVS_0402_882_1_0"
 				(polyline
 					(pts
-						(xy 1.27 5.334) (xy 3.81 5.334)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 5.334) (xy 0.254 5.842)
 					)
 					(stroke
@@ -3411,7 +3399,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.826) (xy 3.81 4.826)
+						(xy 1.27 5.334) (xy 3.81 5.334)
 					)
 					(stroke
 						(width 0)
@@ -3424,6 +3412,18 @@
 				(polyline
 					(pts
 						(xy 1.27 4.826) (xy 0.254 5.842)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.826) (xy 3.81 4.826)
 					)
 					(stroke
 						(width 0)
@@ -4381,7 +4381,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 8.89) (xy 6.35 5.08)
+						(xy 6.35 8.89) (xy 5.08 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -4393,7 +4393,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 8.89) (xy 5.08 10.16)
+						(xy 6.35 8.89) (xy 6.35 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -4698,7 +4698,7 @@
 			(symbol "root_3_mirrored_ZLLS400_1_0"
 				(polyline
 					(pts
-						(xy -4.318 -5.08) (xy -0.762 -5.08)
+						(xy -4.318 -5.08) (xy -4.318 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -4710,7 +4710,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 -5.08) (xy -4.318 -6.35)
+						(xy -4.318 -5.08) (xy -0.762 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -4746,18 +4746,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy -2.54 -5.08) (xy -0.762 -2.54) (xy -4.318 -2.54) (xy -2.54 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -5.08) (xy -2.54 -7.62)
 					)
 					(stroke
@@ -4766,6 +4754,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -5.08) (xy -0.762 -2.54) (xy -4.318 -2.54) (xy -2.54 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -8149,7 +8149,6 @@
 	)
 	(label "SAI1_RXD1"
 		(at 422.91 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8160,7 +8159,6 @@
 	)
 	(label "CHG_STATUS_B"
 		(at 459.74 303.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8171,7 +8169,6 @@
 	)
 	(label "CHG_QON"
 		(at 236.22 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8182,7 +8179,6 @@
 	)
 	(label "WIFI_POWER_KEY"
 		(at 300.99 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8193,7 +8189,6 @@
 	)
 	(label "HSW_4G_STATE"
 		(at 289.56 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8204,7 +8199,6 @@
 	)
 	(label "VOL-"
 		(at 163.83 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8215,7 +8209,6 @@
 	)
 	(label "PWR_KEY"
 		(at 237.49 92.71 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8226,7 +8219,6 @@
 	)
 	(label "SAI1_RXD4"
 		(at 417.83 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8237,7 +8229,6 @@
 	)
 	(label "NVCC_SNVS_3V3"
 		(at 430.53 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8248,7 +8239,6 @@
 	)
 	(label "PMIC_PWRON_KEY"
 		(at 236.22 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8259,7 +8249,6 @@
 	)
 	(label "SAI1_TXD5"
 		(at 463.55 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8270,7 +8259,6 @@
 	)
 	(label "SAI1_RXD2"
 		(at 420.37 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8281,7 +8269,6 @@
 	)
 	(label "SAI1_TXD2"
 		(at 447.04 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8292,7 +8279,6 @@
 	)
 	(label "ONOFF"
 		(at 236.22 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8303,7 +8289,6 @@
 	)
 	(label "SAI1_RXD7"
 		(at 471.17 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8314,7 +8299,6 @@
 	)
 	(label "SAI1_RXD6"
 		(at 473.71 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8325,7 +8309,6 @@
 	)
 	(label "MOTO"
 		(at 346.71 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8336,7 +8319,6 @@
 	)
 	(label "AUDIO_POWER_KEY"
 		(at 303.53 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8347,7 +8329,6 @@
 	)
 	(label "HSW_WIFI_STATE"
 		(at 298.45 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8358,7 +8339,6 @@
 	)
 	(label "CAMERA_POWER_KEY"
 		(at 303.53 290.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8369,7 +8349,6 @@
 	)
 	(label "SAI1_RXD5"
 		(at 473.71 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8380,7 +8359,6 @@
 	)
 	(label "VOL+"
 		(at 166.37 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8391,7 +8369,6 @@
 	)
 	(label "SAI1_RXD0"
 		(at 425.45 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8402,7 +8379,6 @@
 	)
 	(label "SAI1_TXD6"
 		(at 447.04 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8413,7 +8389,6 @@
 	)
 	(label "HSW_CA_STATE"
 		(at 303.53 280.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8424,7 +8399,6 @@
 	)
 	(label "SAI1_TXD3"
 		(at 447.04 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8435,7 +8409,6 @@
 	)
 	(label "NVCC_SAI1_BOOT"
 		(at 232.41 262.89 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8446,7 +8419,6 @@
 	)
 	(label "SAI1_TXD1"
 		(at 447.04 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8457,7 +8429,6 @@
 	)
 	(label "BOOT_MODE0"
 		(at 238.76 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8468,7 +8439,6 @@
 	)
 	(label "SAI1_RXD3"
 		(at 447.04 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8479,7 +8449,6 @@
 	)
 	(label "LED_G"
 		(at 374.65 339.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8490,7 +8459,6 @@
 	)
 	(label "SAI1_TXD4"
 		(at 447.04 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8501,7 +8469,6 @@
 	)
 	(label "SAI1_TXD7"
 		(at 447.04 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8512,7 +8479,6 @@
 	)
 	(label "SAI1_TXD0"
 		(at 447.04 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8523,7 +8489,6 @@
 	)
 	(label "BOOT_MODE1"
 		(at 184.15 147.32 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8534,7 +8499,6 @@
 	)
 	(label "3SW_KILL"
 		(at 195.58 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8545,7 +8509,6 @@
 	)
 	(label "4G_POWER_KEY"
 		(at 288.29 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8556,7 +8519,6 @@
 	)
 	(label "LED_R"
 		(at 394.97 342.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8567,7 +8529,6 @@
 	)
 	(label "LED_B"
 		(at 355.6 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10316,7 +10277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c6de6c3-6961-4fb8-afda-724112f0e134")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0263"
 			(at 264.16 314.96 0)
 			(effects
 				(font
@@ -10825,7 +10786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1991833e-ad41-4935-bc39-9031855bdc0e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0246"
 			(at 363.22 80.01 0)
 			(effects
 				(font
@@ -11535,7 +11496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c438ae9-82c7-482e-a10b-82f3d5dabb5e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0262"
 			(at 270.51 271.78 0)
 			(effects
 				(font
@@ -12479,7 +12440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cf796d9-3260-44c2-903b-510a3f493a24")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0259"
 			(at 455.93 259.08 0)
 			(effects
 				(font
@@ -13130,7 +13091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d87606b-3df7-4020-9832-a87200372e9c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0250"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -13636,7 +13597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58a93b95-b362-4c29-ba9a-0f94f35f3468")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0254"
 			(at 186.69 106.68 0)
 			(effects
 				(font
@@ -14771,7 +14732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb7180f-2de2-449f-996e-f3b92f71f7d3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0260"
 			(at 471.17 259.08 0)
 			(effects
 				(font
@@ -15728,7 +15689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76ffd7e7-f9f6-47a5-a530-00e9578ef987")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0248"
 			(at 363.22 143.51 0)
 			(effects
 				(font
@@ -16485,7 +16446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85270ed9-61c7-42dd-b8c5-e9dd6c336648")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0253"
 			(at 142.24 182.88 0)
 			(effects
 				(font
@@ -16846,7 +16807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c614754-ef61-444a-86af-1a1bebde288c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0258"
 			(at 266.7 242.57 0)
 			(effects
 				(font
@@ -16917,7 +16878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dedb01c-6c0c-405c-bf91-4f15c745ce52")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0252"
 			(at 195.58 278.13 0)
 			(effects
 				(font
@@ -16988,7 +16949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea59ef1-35cb-4672-80b9-4821cb507dd3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0247"
 			(at 326.39 114.3 0)
 			(effects
 				(font
@@ -17204,7 +17165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9563ed77-9a18-4d90-b21f-5dce1446c4c4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0257"
 			(at 361.95 246.38 0)
 			(effects
 				(font
@@ -17799,7 +17760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f7977e7-b143-46f4-8d4b-52b71da28067")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0255"
 			(at 213.36 132.08 0)
 			(effects
 				(font
@@ -19144,7 +19105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c736e7a3-28dd-4fe0-b97c-1c4dfaf70f13")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0261"
 			(at 455.93 336.55 0)
 			(effects
 				(font
@@ -20523,7 +20484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d78e2c56-4fc3-49cc-a267-fab6e0c330c1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0251"
 			(at 93.98 120.65 0)
 			(effects
 				(font
@@ -21464,7 +21425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e86a438b-fcdb-443f-8ddd-e578dc3383c3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0249"
 			(at 237.49 68.58 0)
 			(effects
 				(font
@@ -21825,7 +21786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec768000-c6a0-4f62-8757-7e77efb0a432")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0256"
 			(at 213.36 173.99 0)
 			(effects
 				(font

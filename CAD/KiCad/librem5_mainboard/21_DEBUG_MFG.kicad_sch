@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "9aa4994c-811c-4e72-b63d-4122ddf7a783")
 	(paper "A2")
 	(title_block
@@ -1080,18 +1080,6 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 2.54) (xy -2.54 0.762) (xy -2.54 4.318) (xy -5.08 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy -5.08 2.54) (xy -7.62 2.54)
 					)
 					(stroke
@@ -1100,6 +1088,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 2.54) (xy -2.54 0.762) (xy -2.54 4.318) (xy -5.08 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -7581,7 +7581,6 @@
 	)
 	(label "UART1_TXD"
 		(at 287.02 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7592,7 +7591,6 @@
 	)
 	(label "JTAG_TDO"
 		(at 375.92 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7603,7 +7601,6 @@
 	)
 	(label "USB1_DN"
 		(at 180.34 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7614,7 +7611,6 @@
 	)
 	(label "JTAG_NTRST"
 		(at 360.68 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7625,7 +7621,6 @@
 	)
 	(label "T_GND"
 		(at 179.07 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7636,7 +7631,6 @@
 	)
 	(label "SMC_STM_SWDIO"
 		(at 292.1 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7647,7 +7641,6 @@
 	)
 	(label "BOOT_MODE1"
 		(at 185.42 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7658,7 +7651,6 @@
 	)
 	(label "JTAG_TDI"
 		(at 373.38 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7669,7 +7661,6 @@
 	)
 	(label "BOOT_MODE0"
 		(at 180.34 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7680,7 +7671,6 @@
 	)
 	(label "UART2_TXD"
 		(at 289.56 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7691,7 +7681,6 @@
 	)
 	(label "T_BAT"
 		(at 179.07 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7702,7 +7691,6 @@
 	)
 	(label "USB1_ID"
 		(at 180.34 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7713,7 +7701,6 @@
 	)
 	(label "POR_B"
 		(at 411.48 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7724,7 +7711,6 @@
 	)
 	(label "JTAG_TMS"
 		(at 375.92 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7735,7 +7721,6 @@
 	)
 	(label "USB1_DP"
 		(at 177.8 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7746,7 +7731,6 @@
 	)
 	(label "UART1_RXD"
 		(at 292.1 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7757,7 +7741,6 @@
 	)
 	(label "SMC_BOOT0"
 		(at 292.1 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7768,7 +7751,6 @@
 	)
 	(label "UART2_RXD"
 		(at 292.1 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7779,7 +7761,6 @@
 	)
 	(label "T_NTC"
 		(at 179.07 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7790,7 +7771,6 @@
 	)
 	(label "SMC_PWR"
 		(at 294.64 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7801,7 +7781,6 @@
 	)
 	(label "USB_VBUS"
 		(at 172.72 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7812,7 +7791,6 @@
 	)
 	(label "SMC_STM_SWCLK"
 		(at 294.64 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7823,7 +7801,6 @@
 	)
 	(label "PMIC_5V"
 		(at 360.68 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7834,7 +7811,6 @@
 	)
 	(label "JTAG_TCK"
 		(at 364.49 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

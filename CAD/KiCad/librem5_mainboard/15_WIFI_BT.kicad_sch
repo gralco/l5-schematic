@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "c26e7c72-9314-455c-817b-b91070ec370c")
 	(paper "A2")
 	(title_block
@@ -524,7 +524,7 @@
 			(symbol "root_0_ANT_CON1_1_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 7.62 0)
+						(xy 0 0) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -536,7 +536,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 2.54 2.54)
+						(xy 0 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1547,7 +1547,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 2.54 10.16)
+						(xy 2.54 7.62) (xy 1.27 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -1559,7 +1559,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 7.62) (xy 1.27 6.35)
+						(xy 2.54 7.62) (xy 2.54 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -2165,7 +2165,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.4 25.4) (xy 27.94 25.4)
+						(xy 25.4 25.4) (xy 25.4 20.32)
 					)
 					(stroke
 						(width 0)
@@ -2177,7 +2177,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.4 25.4) (xy 25.4 20.32)
+						(xy 25.4 25.4) (xy 27.94 25.4)
 					)
 					(stroke
 						(width 0)
@@ -4013,6 +4013,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -10.16 3.81)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -10.16 3.81) (xy -10.16 0)
@@ -4031,17 +4042,6 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -10.16 3.81)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -4158,7 +4158,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 5.08)
+						(xy -5.08 2.54) (xy -5.588 2.032)
 					)
 					(stroke
 						(width 0)
@@ -4170,7 +4170,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.588 2.032)
+						(xy -5.08 2.54) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -4715,7 +4715,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 12.7) (xy -6.096 10.16)
+						(xy -7.62 12.7) (xy -7.62 12.7)
 					)
 					(stroke
 						(width 0)
@@ -4727,7 +4727,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 12.7) (xy -7.62 12.7)
+						(xy -7.62 12.7) (xy -6.096 10.16)
 					)
 					(stroke
 						(width 0)
@@ -5149,18 +5149,6 @@
 			)
 			(symbol "root_1_mirrored_BEAD-0201_1_0"
 				(arc
-					(start 1.27 3.81)
-					(mid 2.168 3.438)
-					(end 2.54 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 0 2.54)
 					(mid 0.372 3.438)
 					(end 1.27 3.81)
@@ -5173,9 +5161,9 @@
 					)
 				)
 				(arc
-					(start 3.81 3.81)
-					(mid 4.708 3.438)
-					(end 5.08 2.54)
+					(start 1.27 3.81)
+					(mid 2.168 3.438)
+					(end 2.54 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5197,9 +5185,9 @@
 					)
 				)
 				(arc
-					(start 6.35 3.81)
-					(mid 7.248 3.438)
-					(end 7.62 2.54)
+					(start 3.81 3.81)
+					(mid 4.708 3.438)
+					(end 5.08 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5221,9 +5209,9 @@
 					)
 				)
 				(arc
-					(start 8.89 3.81)
-					(mid 9.788 3.438)
-					(end 10.16 2.54)
+					(start 6.35 3.81)
+					(mid 7.248 3.438)
+					(end 7.62 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5236,6 +5224,18 @@
 					(start 7.62 2.54)
 					(mid 7.992 3.438)
 					(end 8.89 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 3.81)
+					(mid 9.788 3.438)
+					(end 10.16 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -5342,7 +5342,7 @@
 			(symbol "root_1_mirrored_TEST-POINT_1_0"
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -5353,7 +5353,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -5836,7 +5836,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 2.54 -10.16)
+						(xy 2.54 -7.62) (xy 1.27 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -5848,7 +5848,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 1.27 -6.35)
+						(xy 2.54 -7.62) (xy 2.54 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -6705,18 +6705,6 @@
 			)
 			(symbol "root_3_BEAD-0402_1_0"
 				(arc
-					(start 2.54 -2.54)
-					(mid 2.168 -3.438)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 1.27 -3.81)
 					(mid 0.372 -3.438)
 					(end 0 -2.54)
@@ -6729,9 +6717,9 @@
 					)
 				)
 				(arc
-					(start 5.08 -2.54)
-					(mid 4.708 -3.438)
-					(end 3.81 -3.81)
+					(start 2.54 -2.54)
+					(mid 2.168 -3.438)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6753,9 +6741,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -2.54)
-					(mid 7.248 -3.438)
-					(end 6.35 -3.81)
+					(start 5.08 -2.54)
+					(mid 4.708 -3.438)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6768,6 +6756,18 @@
 					(start 6.35 -3.81)
 					(mid 5.452 -3.438)
 					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -2.54)
+					(mid 7.248 -3.438)
+					(end 6.35 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -9760,7 +9760,6 @@
 	)
 	(label "SD2_DATA1"
 		(at 200.66 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9771,7 +9770,6 @@
 	)
 	(label "WIFI_REG_ON"
 		(at 405.13 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9782,7 +9780,6 @@
 	)
 	(label "UART4_RTS"
 		(at 473.71 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9793,7 +9790,6 @@
 	)
 	(label "UART4_TXD"
 		(at 473.71 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9804,7 +9800,6 @@
 	)
 	(label "USB2_WIFI_DN"
 		(at 107.95 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9815,7 +9810,6 @@
 	)
 	(label "SDIO_WAKE"
 		(at 199.39 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9826,7 +9820,6 @@
 	)
 	(label "UART4_RXD"
 		(at 473.71 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9837,7 +9830,6 @@
 	)
 	(label "SD2_DATA2"
 		(at 201.93 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9848,7 +9840,6 @@
 	)
 	(label "UART4_CTS"
 		(at 473.71 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9859,7 +9850,6 @@
 	)
 	(label "SAI3_RXD"
 		(at 407.67 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9870,7 +9860,6 @@
 	)
 	(label "WIFI_POWER_KEY"
 		(at 207.01 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9881,7 +9870,6 @@
 	)
 	(label "BT_WAKE"
 		(at 361.95 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9892,7 +9880,6 @@
 	)
 	(label "SD2_DATA0"
 		(at 200.66 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9903,7 +9890,6 @@
 	)
 	(label "SAI3_TXFS"
 		(at 407.67 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9914,7 +9900,6 @@
 	)
 	(label "WIFI3V3_EN"
 		(at 194.31 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9925,7 +9910,6 @@
 	)
 	(label "SAI3_TXC"
 		(at 407.67 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,7 +9920,6 @@
 	)
 	(label "SAI3_TXD"
 		(at 407.67 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9947,7 +9930,6 @@
 	)
 	(label "SD2_CLK"
 		(at 200.66 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9958,7 +9940,6 @@
 	)
 	(label "USB2_WIFI_DP"
 		(at 107.95 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9969,7 +9950,6 @@
 	)
 	(label "BT_REG_ON"
 		(at 440.69 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9980,7 +9960,6 @@
 	)
 	(label "SD2_NRST"
 		(at 199.39 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9991,7 +9970,6 @@
 	)
 	(label "SD2_DATA3"
 		(at 201.93 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10002,7 +9980,6 @@
 	)
 	(label "SD2_CMD"
 		(at 200.66 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

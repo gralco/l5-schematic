@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "7c38f03e-22b0-4d86-b1c3-bcc5975411e3")
 	(paper "A2")
 	(title_block
@@ -4176,7 +4176,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.826 1.27) (xy 5.842 0.254)
+						(xy 4.826 1.27) (xy 4.826 3.81)
 					)
 					(stroke
 						(width 0)
@@ -4188,7 +4188,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.826 1.27) (xy 4.826 3.81)
+						(xy 4.826 1.27) (xy 5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -4224,7 +4224,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.334 1.27) (xy 5.842 0.254)
+						(xy 5.334 1.27) (xy 5.334 3.81)
 					)
 					(stroke
 						(width 0)
@@ -4236,7 +4236,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.334 1.27) (xy 5.334 3.81)
+						(xy 5.334 1.27) (xy 5.842 0.254)
 					)
 					(stroke
 						(width 0)
@@ -4368,7 +4368,7 @@
 				)
 				(polyline
 					(pts
-						(xy -15.24 12.7) (xy -5.08 17.78)
+						(xy -15.24 12.7) (xy -15.24 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -4380,7 +4380,7 @@
 				)
 				(polyline
 					(pts
-						(xy -15.24 12.7) (xy -15.24 5.08)
+						(xy -15.24 12.7) (xy -5.08 17.78)
 					)
 					(stroke
 						(width 0.254)
@@ -7336,7 +7336,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -12.7) (xy -6.096 -10.16)
+						(xy -7.62 -12.7) (xy -7.62 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -7348,7 +7348,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -12.7) (xy -7.62 -12.7)
+						(xy -7.62 -12.7) (xy -6.096 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -7921,7 +7921,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -12.7) (xy -11.176 -10.16)
+						(xy -12.7 -12.7) (xy -12.7 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -7933,7 +7933,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -12.7) (xy -12.7 -12.7)
+						(xy -12.7 -12.7) (xy -11.176 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -8018,18 +8018,6 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -6.096) (xy -7.62 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 -6.096) (xy -17.78 -6.096)
 					)
 					(stroke
@@ -8042,7 +8030,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -12.7) (xy -6.096 -10.16)
+						(xy -7.62 -6.096) (xy -7.62 -20.32)
 					)
 					(stroke
 						(width 0)
@@ -8055,6 +8043,18 @@
 				(polyline
 					(pts
 						(xy -7.62 -12.7) (xy -7.62 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -12.7) (xy -6.096 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -8727,18 +8727,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -6.096) (xy 17.78 -6.096)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 -6.096) (xy 7.62 -20.32)
 					)
 					(stroke
@@ -8751,7 +8739,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 7.62 -12.7)
+						(xy 7.62 -6.096) (xy 17.78 -6.096)
 					)
 					(stroke
 						(width 0)
@@ -8764,6 +8752,18 @@
 				(polyline
 					(pts
 						(xy 7.62 -12.7) (xy 6.096 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -9433,18 +9433,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -6.096) (xy 17.78 -6.096)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 -6.096) (xy 7.62 -20.32)
 					)
 					(stroke
@@ -9457,7 +9445,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 7.62 -12.7)
+						(xy 7.62 -6.096) (xy 17.78 -6.096)
 					)
 					(stroke
 						(width 0)
@@ -9470,6 +9458,18 @@
 				(polyline
 					(pts
 						(xy 7.62 -12.7) (xy 6.096 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -9577,7 +9577,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 12.7 -12.7)
+						(xy 12.7 -12.7) (xy 11.176 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -9589,7 +9589,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 11.176 -10.16)
+						(xy 12.7 -12.7) (xy 12.7 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -10296,9 +10296,9 @@
 					)
 				)
 				(arc
-					(start 10.16 -2.54)
-					(mid 9.788 -3.438)
-					(end 8.89 -3.81)
+					(start 8.89 -3.81)
+					(mid 7.992 -3.438)
+					(end 7.62 -2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -10308,9 +10308,9 @@
 					)
 				)
 				(arc
-					(start 8.89 -3.81)
-					(mid 7.992 -3.438)
-					(end 7.62 -2.54)
+					(start 10.16 -2.54)
+					(mid 9.788 -3.438)
+					(end 8.89 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -16855,7 +16855,6 @@
 	)
 	(label "CSI_P1_DP0"
 		(at 97.79 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16866,7 +16865,6 @@
 	)
 	(label "CSI_P2_DN3"
 		(at 494.03 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16877,7 +16875,6 @@
 	)
 	(label "CLKO2"
 		(at 328.93 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16888,7 +16885,6 @@
 	)
 	(label "CSI_P2_DN0"
 		(at 499.11 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16899,7 +16895,6 @@
 	)
 	(label "CAMERA_PWR_EN_3V3"
 		(at 387.35 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16910,7 +16905,6 @@
 	)
 	(label "CSI_P1_DN1"
 		(at 97.79 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16921,7 +16915,6 @@
 	)
 	(label "CSI_P2_CKN"
 		(at 494.03 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16932,7 +16925,6 @@
 	)
 	(label "CSI_P2_DP3"
 		(at 494.03 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16943,7 +16935,6 @@
 	)
 	(label "CAMERA_POWER_KEY"
 		(at 189.23 325.12 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16954,7 +16945,6 @@
 	)
 	(label "I2C4_SDA"
 		(at 379.73 368.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16965,7 +16955,6 @@
 	)
 	(label "CAMERA_POWER_KEY"
 		(at 391.16 113.03 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16976,7 +16965,6 @@
 	)
 	(label "CSI_P1_DN3"
 		(at 97.79 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16987,7 +16975,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 151.13 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16998,7 +16985,6 @@
 	)
 	(label "CSI_P1_DN2"
 		(at 97.79 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17009,7 +16995,6 @@
 	)
 	(label "CSI_P1_DP2"
 		(at 97.79 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17020,7 +17005,6 @@
 	)
 	(label "FLASH_STROBE"
 		(at 146.05 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17031,7 +17015,6 @@
 	)
 	(label "CSI_P2_DP1"
 		(at 494.03 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17042,7 +17025,6 @@
 	)
 	(label "CSI_P2_DP0"
 		(at 499.11 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17053,7 +17035,6 @@
 	)
 	(label "CSI1_NRST"
 		(at 281.94 214.63 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17064,7 +17045,6 @@
 	)
 	(label "CSI_P2_DN1"
 		(at 494.03 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17075,7 +17055,6 @@
 	)
 	(label "CSI_P1_DN0"
 		(at 97.79 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17086,7 +17065,6 @@
 	)
 	(label "I2C3_SDA"
 		(at 285.75 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17097,7 +17075,6 @@
 	)
 	(label "I2C4_SCL"
 		(at 379.73 370.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17108,7 +17085,6 @@
 	)
 	(label "I2C3_SCL"
 		(at 285.75 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17119,7 +17095,6 @@
 	)
 	(label "CSI2_NRST"
 		(at 379.73 359.41 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17130,7 +17105,6 @@
 	)
 	(label "FLASH_EN"
 		(at 95.25 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17141,7 +17115,6 @@
 	)
 	(label "CSI_P1_CKN"
 		(at 97.79 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17152,7 +17125,6 @@
 	)
 	(label "CSI_P1_CKP"
 		(at 97.79 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17163,7 +17135,6 @@
 	)
 	(label "CSI_P1_DP3"
 		(at 97.79 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17174,7 +17145,6 @@
 	)
 	(label "CSI_P2_DP2"
 		(at 499.11 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17185,7 +17155,6 @@
 	)
 	(label "CSI_P2_DN2"
 		(at 499.11 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17196,7 +17165,6 @@
 	)
 	(label "CLKO2"
 		(at 440.69 354.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17207,7 +17175,6 @@
 	)
 	(label "CSI_P1_DP1"
 		(at 97.79 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17218,7 +17185,6 @@
 	)
 	(label "CSI_P2_CKP"
 		(at 494.03 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17229,7 +17195,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 151.13 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

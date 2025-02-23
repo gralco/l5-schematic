@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "868f8dc2-20c2-443b-9124-d8a6516beeca")
 	(paper "A2")
 	(title_block
@@ -6957,7 +6957,7 @@
 				)
 				(polyline
 					(pts
-						(xy 22.86 45.72) (xy 25.4 45.72)
+						(xy 22.86 45.72) (xy 22.86 71.12)
 					)
 					(stroke
 						(width 0)
@@ -6969,7 +6969,7 @@
 				)
 				(polyline
 					(pts
-						(xy 22.86 45.72) (xy 22.86 71.12)
+						(xy 22.86 45.72) (xy 25.4 45.72)
 					)
 					(stroke
 						(width 0)
@@ -14378,7 +14378,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 7.62) (xy 5.08 7.62)
+						(xy 5.08 7.62) (xy 2.54 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14390,7 +14390,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 7.62) (xy 2.54 7.62)
+						(xy 5.08 7.62) (xy 5.08 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14462,7 +14462,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 7.62) (xy 12.7 7.62)
+						(xy 10.16 7.62) (xy 10.16 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14474,7 +14474,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 7.62) (xy 10.16 7.62)
+						(xy 10.16 7.62) (xy 12.7 7.62)
 					)
 					(stroke
 						(width 0)
@@ -14893,7 +14893,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -4.318) (xy -5.08 -0.762)
+						(xy -5.08 -4.318) (xy -6.35 -4.318)
 					)
 					(stroke
 						(width 0)
@@ -14905,7 +14905,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -4.318) (xy -6.35 -4.318)
+						(xy -5.08 -4.318) (xy -5.08 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -16310,7 +16310,6 @@
 	)
 	(label "JTAG_TCK"
 		(at 410.21 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16321,7 +16320,6 @@
 	)
 	(label "BOOT_MODE1"
 		(at 410.21 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16332,7 +16330,6 @@
 	)
 	(label "XTALI_25M"
 		(at 264.16 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16343,7 +16340,6 @@
 	)
 	(label "JTAG_MOD"
 		(at 401.32 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16354,7 +16350,6 @@
 	)
 	(label "BOOT_MODE0"
 		(at 408.94 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16365,7 +16360,6 @@
 	)
 	(label "JTAG_TMS"
 		(at 410.21 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16376,7 +16370,6 @@
 	)
 	(label "VSYS_3V4_4V3"
 		(at 311.15 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16387,7 +16380,6 @@
 	)
 	(label "PMIC_STBY_REQ"
 		(at 309.88 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16398,7 +16390,6 @@
 	)
 	(label "RTC_INT"
 		(at 273.05 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16409,7 +16400,6 @@
 	)
 	(label "JTAG_TDI"
 		(at 410.21 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16420,7 +16410,6 @@
 	)
 	(label "ONOFF"
 		(at 303.53 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16431,7 +16420,6 @@
 	)
 	(label "BATV"
 		(at 311.15 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16442,7 +16430,6 @@
 	)
 	(label "PMIC_ON_REQ"
 		(at 309.88 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16453,7 +16440,6 @@
 	)
 	(label "XTALI_27M"
 		(at 294.64 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16464,7 +16450,6 @@
 	)
 	(label "XTALO_27M"
 		(at 306.07 287.02 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16475,7 +16460,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 209.55 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16486,7 +16470,6 @@
 	)
 	(label "JTAG_TDO"
 		(at 410.21 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16497,7 +16480,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 255.27 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16508,7 +16490,6 @@
 	)
 	(label "XTALO_25M"
 		(at 284.48 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16519,7 +16500,6 @@
 	)
 	(label "RTC_RESET_B"
 		(at 300.99 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16530,7 +16510,6 @@
 	)
 	(label "POR_B"
 		(at 288.29 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16541,7 +16520,6 @@
 	)
 	(label "RTC_CLK_32K768"
 		(at 300.99 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16552,7 +16530,6 @@
 	)
 	(label "JTAG_NTRST"
 		(at 410.21 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
