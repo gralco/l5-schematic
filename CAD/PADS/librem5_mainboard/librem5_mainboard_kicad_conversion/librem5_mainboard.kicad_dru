@@ -1,0 +1,137 @@
+(version 1)
+
+(rule "DiffPair_D1_gap"
+  (condition "A.NetName == '4G_MIPI_SCL' && B.NetName == '4G_MIPI_SDA'")
+  (constraint clearance (min 0.0889mm)))
+
+(rule "DiffPair_D2_gap"
+  (condition "A.NetName == 'USB2_WIFI_DN' && B.NetName == 'USB2_WIFI_DP'")
+  (constraint clearance (min 0.07112mm)))
+
+(rule "DiffPair_D3_gap"
+  (condition "A.NetName == 'USB2_4G_DN' && B.NetName == 'USB2_4G_DP'")
+  (constraint clearance (min 0.07112mm)))
+
+(rule "DiffPair_D4_gap"
+  (condition "A.NetName == 'USB1_DN_CN' && B.NetName == 'USB1_DP_CN'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D5_gap"
+  (condition "A.NetName == 'USB1_DN' && B.NetName == 'USB1_DP'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D6_gap"
+  (condition "A.NetName == 'HDMI_REFCLKP' && B.NetName == 'HDMI_REFCLKN'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D7_gap"
+  (condition "A.NetName == 'HDMI_TXP2' && B.NetName == 'HDMI_TXN2'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D8_gap"
+  (condition "A.NetName == 'HDMI_TXN1' && B.NetName == 'HDMI_TXP1'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D9_gap"
+  (condition "A.NetName == 'HDMI_TXN0' && B.NetName == 'HDMI_TXP0'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D10_gap"
+  (condition "A.NetName == 'HDMI_AUXP' && B.NetName == 'HDMI_AUXN'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D11_gap"
+  (condition "A.NetName == 'HDMI_CLKN' && B.NetName == 'HDMI_CLKP'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D12_gap"
+  (condition "A.NetName == 'DSI_DP3' && B.NetName == 'DSI_DN3'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D13_gap"
+  (condition "A.NetName == 'DSI_DP2' && B.NetName == 'DSI_DN2'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D14_gap"
+  (condition "A.NetName == 'DSI_DN1' && B.NetName == 'DSI_DP1'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D15_gap"
+  (condition "A.NetName == 'DSI_DN0' && B.NetName == 'DSI_DP0'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D16_gap"
+  (condition "A.NetName == 'DSI_CKN' && B.NetName == 'DSI_CKP'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D17_gap"
+  (condition "A.NetName == 'DP_TX3P' && B.NetName == 'DP_TX3N'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D18_gap"
+  (condition "A.NetName == 'DP_TX2P' && B.NetName == 'DP_TX2N'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D19_gap"
+  (condition "A.NetName == 'DP_TX1P' && B.NetName == 'DP_TX1N'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D20_gap"
+  (condition "A.NetName == 'DP_TX0P' && B.NetName == 'DP_TX0N'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D21_gap"
+  (condition "A.NetName == 'DP_AUXN' && B.NetName == 'DP_AUXP'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D22_gap"
+  (condition "A.NetName == 'CSI_P2_DP3' && B.NetName == 'CSI_P2_DN3'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D23_gap"
+  (condition "A.NetName == 'CSI_P2_DP2' && B.NetName == 'CSI_P2_DN2'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D24_gap"
+  (condition "A.NetName == 'CSI_P2_DP1' && B.NetName == 'CSI_P2_DN1'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D25_gap"
+  (condition "A.NetName == 'CSI_P2_DP0' && B.NetName == 'CSI_P2_DN0'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D26_gap"
+  (condition "A.NetName == 'CSI_P2_CKP' && B.NetName == 'CSI_P2_CKN'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D27_gap"
+  (condition "A.NetName == 'CSI_P1_DN3' && B.NetName == 'CSI_P1_DP3'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D28_gap"
+  (condition "A.NetName == 'CSI_P1_DP2' && B.NetName == 'CSI_P1_DN2'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D29_gap"
+  (condition "A.NetName == 'CSI_P1_DP1' && B.NetName == 'CSI_P1_DN1'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D30_gap"
+  (condition "A.NetName == 'CSI_P1_DP0' && B.NetName == 'CSI_P1_DN0'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D31_gap"
+  (condition "A.NetName == 'CSI_P1_CKN' && B.NetName == 'CSI_P1_CKP'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D32_gap"
+  (condition "A.NetName == 'USB1_RXP' && B.NetName == 'USB1_RXN'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D33_gap"
+  (condition "A.NetName == 'USB1_TXN' && B.NetName == 'USB1_TXP'")
+  (constraint clearance (min 0.0762mm)))
+
+(rule "DiffPair_D34_gap"
+  (condition "A.NetName == 'USB2_DP' && B.NetName == 'USB2_DN'")
+  (constraint clearance (min 0.0762mm)))

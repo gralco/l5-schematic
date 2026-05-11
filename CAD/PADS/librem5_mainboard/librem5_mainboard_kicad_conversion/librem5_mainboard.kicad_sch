@@ -1,0 +1,977 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ecd83b71-11d7-42eb-bd34-e96cdd94453a")
+	(paper "A4")
+	(title_block
+		(title "librem5_mainboard.sch")
+	)
+	(lib_symbols)
+	(sheet
+		(at 12.7 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3e82002f-643b-49a6-8a69-9cfb30bd256b")
+		(property "Sheetname" "C-17_4G"
+			(at 12.7 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet16.kicad_sch"
+			(at 12.7 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "589af585-4717-40c8-8830-0c6effee6f7d")
+		(property "Sheetname" "C-10_PMIC"
+			(at 203.2 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet9.kicad_sch"
+			(at 203.2 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "622a497f-6e64-4f18-82b9-77b4e2df53c4")
+		(property "Sheetname" "C-08_CPU_PHY"
+			(at 76.2 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet7.kicad_sch"
+			(at 76.2 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "634a33fb-ce4f-42b2-9495-f1c23663dc33")
+		(property "Sheetname" "C-12_USB_TYPE-C"
+			(at 12.7 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet11.kicad_sch"
+			(at 12.7 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7a04a93c-fa93-4d04-93cc-c217d7144390")
+		(property "Sheetname" "C-18_CAMERA"
+			(at 76.2 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet17.kicad_sch"
+			(at 76.2 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7b0a92ca-1ba2-4643-9a50-09954eb20362")
+		(property "Sheetname" "C-16_WIFI/BT"
+			(at 266.7 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet15.kicad_sch"
+			(at 266.7 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c95ce09-33cd-4bc5-8bd0-ae95cdfaa02b")
+		(property "Sheetname" "C-09_EMMC"
+			(at 139.7 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet8.kicad_sch"
+			(at 139.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7e7e4606-6895-44be-bd72-73f550a0cf89")
+		(property "Sheetname" "C-06_CPU_IO"
+			(at 266.7 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet5.kicad_sch"
+			(at 266.7 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8592b590-c612-4c9d-83df-817d1a944013")
+		(property "Sheetname" "C-20_USB_HUB_SD"
+			(at 203.2 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet19.kicad_sch"
+			(at 203.2 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c18655d-63a7-4cdb-af95-0a6b364d4ea3")
+		(property "Sheetname" "C-19_TFT_TP_MOTO"
+			(at 139.7 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet18.kicad_sch"
+			(at 139.7 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8cbf546b-7bbc-4549-ad11-a80763ffb287")
+		(property "Sheetname" "C-04_CPU_PWR"
+			(at 139.7 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet3.kicad_sch"
+			(at 139.7 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8f74922e-c10c-4d2e-ba2c-c95514a8f837")
+		(property "Sheetname" "C-15_GNSS_EXT_CON"
+			(at 203.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet14.kicad_sch"
+			(at 203.2 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "93c05963-fa4d-41d2-9244-bc023bda5b2d")
+		(property "Sheetname" "C-13_CHARGE_BAT_LED"
+			(at 76.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet12.kicad_sch"
+			(at 76.2 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a0736e38-939f-46f1-8b4d-70efe3676659")
+		(property "Sheetname" "C02_VER_NOTE"
+			(at 12.7 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet1.kicad_sch"
+			(at 12.7 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 215.9)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a7b7d7b0-82bf-48fc-bdf8-8dc849002b04")
+		(property "Sheetname" "C-22_DEBUG_MFG"
+			(at 12.7 215.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet21.kicad_sch"
+			(at 12.7 254.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "acc5c80d-4625-4166-ad88-30a36b70d6ae")
+		(property "Sheetname" "C-03_POWER_TREE"
+			(at 76.2 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet2.kicad_sch"
+			(at 76.2 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c19edc8d-a63f-42cd-abc0-8ae1eae43aaf")
+		(property "Sheetname" "C-14_SENSOR_SMARTCARD"
+			(at 139.7 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet13.kicad_sch"
+			(at 139.7 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cad071fe-b7e0-458d-be76-4c211664c639")
+		(property "Sheetname" "C-21_AUDIO_WM8962"
+			(at 266.7 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet20.kicad_sch"
+			(at 266.7 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cbb5f0bc-6a1c-48cf-ad27-25f0a97c5b40")
+		(property "Sheetname" "C-11_BOOT_CFG"
+			(at 266.7 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet10.kicad_sch"
+			(at 266.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da7e688f-7158-4f32-bf95-8a3916692796")
+		(property "Sheetname" "C-05_LPDDR4"
+			(at 203.2 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet4.kicad_sch"
+			(at 203.2 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e26c2084-7e7d-40fe-ac25-2e8b465f791e")
+		(property "Sheetname" "C-07_CPU_MISC_RTC"
+			(at 12.7 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "librem5_mainboard_sheet6.kicad_sch"
+			(at 12.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "librem5_mainboard"
+				(path "/ecd83b71-11d7-42eb-bd34-e96cdd94453a"
+					(page "6")
+				)
+			)
+		)
+	)
+)

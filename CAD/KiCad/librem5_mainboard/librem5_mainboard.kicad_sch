@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "7ad6bc09-efbe-476e-83f0-a37c375fb717")
 	(paper "A1")
 	(title_block
@@ -2006,11 +2006,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "115a8a8a-d47c-48b2-b28f-d30f142ce1a9")
 		(property "Sheetname" "16_4G"
 			(at 563.88 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,6 +2022,8 @@
 		)
 		(property "Sheetfile" "16_4G.kicad_sch"
 			(at 563.88 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,11 +2052,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "14e5b01a-66c5-474c-9cad-68033e54a445")
 		(property "Sheetname" "14_GNSS_EXT_CON"
 			(at 495.3 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,6 +2068,8 @@
 		)
 		(property "Sheetfile" "14_GNSS_EXT_CON.kicad_sch"
 			(at 495.3 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,11 +2098,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "159f2f9e-0615-47f0-a9de-c4fe4d9084b4")
 		(property "Sheetname" "08_EMMC"
 			(at 287.02 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,6 +2114,8 @@
 		)
 		(property "Sheetfile" "08_EMMC.kicad_sch"
 			(at 287.02 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,11 +2144,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "303380df-9db1-48cc-8368-698bedf49552")
 		(property "Sheetname" "07_CPU_PHY"
 			(at 255.27 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,6 +2160,8 @@
 		)
 		(property "Sheetfile" "07_CPU_PHY.kicad_sch"
 			(at 255.27 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,11 +2190,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "320530a2-a10a-4c91-a13f-cbaa90981e8b")
 		(property "Sheetname" "04_LPDDR4"
 			(at 157.48 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,6 +2206,8 @@
 		)
 		(property "Sheetfile" "04_LPDDR4.kicad_sch"
 			(at 157.48 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,11 +2236,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3258c66e-b059-455a-84c4-b92b355a3b77")
 		(property "Sheetname" "17_CAMERA"
 			(at 589.28 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,6 +2252,8 @@
 		)
 		(property "Sheetfile" "17_CAMERA.kicad_sch"
 			(at 589.28 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,11 +2282,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3406fcc0-6036-444e-9046-c4de03c763a9")
 		(property "Sheetname" "21_DEBUG_MFG"
 			(at 728.98 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,6 +2298,8 @@
 		)
 		(property "Sheetfile" "21_DEBUG_MFG.kicad_sch"
 			(at 728.98 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,11 +2328,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "38f14772-5743-42ee-b41a-9ab2c1b9358d")
 		(property "Sheetname" "13_SENSOR_SMARTCARD"
 			(at 452.12 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,6 +2344,8 @@
 		)
 		(property "Sheetfile" "13_SENSOR_SMARTCARD.kicad_sch"
 			(at 452.12 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,11 +2374,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "39cf0f8a-5588-4d21-b993-d62b6ce8484c")
 		(property "Sheetname" "20_AUDIO_WM8962"
 			(at 690.88 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,6 +2390,8 @@
 		)
 		(property "Sheetfile" "20_AUDIO_WM8962.kicad_sch"
 			(at 690.88 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,11 +2420,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5f14ee0a-518b-4f0b-9cf6-9d0c176a69ad")
 		(property "Sheetname" "10_BOOT_CFG"
 			(at 344.17 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,6 +2436,8 @@
 		)
 		(property "Sheetfile" "10_BOOT_CFG.kicad_sch"
 			(at 344.17 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,11 +2466,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6bad9d96-e562-462b-8cd4-61c3977a0816")
 		(property "Sheetname" "12_CHARGE_BAT_LED"
 			(at 412.75 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,6 +2482,8 @@
 		)
 		(property "Sheetfile" "12_CHARGE_BAT_LED.kicad_sch"
 			(at 412.75 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,11 +2512,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "841151ef-a8a1-45aa-a1b1-c56965e8bcc3")
 		(property "Sheetname" "06_CPU_MISC_RTC"
 			(at 218.44 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,6 +2528,8 @@
 		)
 		(property "Sheetfile" "06_CPU_MISC_RTC.kicad_sch"
 			(at 218.44 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,11 +2558,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "858757d7-a145-4844-b420-827f1680b246")
 		(property "Sheetname" "19_USB_HUB_SD"
 			(at 655.32 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,6 +2574,8 @@
 		)
 		(property "Sheetfile" "19_USB_HUB_SD.kicad_sch"
 			(at 655.32 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,11 +2604,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8e92d5a9-8bdb-4af2-87fe-dd90e3fad73f")
 		(property "Sheetname" "02_POWER_TREE"
 			(at 90.17 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,6 +2620,8 @@
 		)
 		(property "Sheetfile" "02_POWER_TREE.kicad_sch"
 			(at 90.17 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,11 +2650,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a462afca-8ed7-4f36-99b8-36d07aac096b")
 		(property "Sheetname" "09_PMIC"
 			(at 316.23 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,6 +2666,8 @@
 		)
 		(property "Sheetfile" "09_PMIC.kicad_sch"
 			(at 316.23 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,11 +2696,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b243d4ab-c8af-40e9-956e-9db2e2753c6f")
 		(property "Sheetname" "15_WIFI_BT"
 			(at 533.4 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,6 +2712,8 @@
 		)
 		(property "Sheetfile" "15_WIFI_BT.kicad_sch"
 			(at 533.4 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,11 +2742,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ee7fce98-67cd-45bb-bd85-7c028526726f")
 		(property "Sheetname" "18_TFT_TP_MOTO"
 			(at 619.76 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,6 +2758,8 @@
 		)
 		(property "Sheetfile" "18_TFT_TP_MOTO.kicad_sch"
 			(at 619.76 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,11 +2788,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f552c80d-4082-4dd6-a8e1-dcdef3d76357")
 		(property "Sheetname" "11_USB_TYPE-C"
 			(at 377.19 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,6 +2804,8 @@
 		)
 		(property "Sheetfile" "11_USB_TYPE-C.kicad_sch"
 			(at 377.19 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,11 +2834,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f5c5ccf0-ee24-4452-8f4d-514da3aa0ff2")
 		(property "Sheetname" "03_CPU_PWR"
 			(at 125.73 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,6 +2850,8 @@
 		)
 		(property "Sheetfile" "03_CPU_PWR.kicad_sch"
 			(at 125.73 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,11 +2880,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fb3ee888-6ec5-485f-92ba-fa3fa27a58e3")
 		(property "Sheetname" "05_CPU_IO"
 			(at 187.96 507.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,6 +2896,8 @@
 		)
 		(property "Sheetfile" "05_CPU_IO.kicad_sch"
 			(at 187.96 512.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
